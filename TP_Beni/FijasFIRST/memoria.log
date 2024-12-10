@@ -1,0 +1,285 @@
+[DEBUG] 20:44:40:676 Memoria/(16282:16282): Servidor escuchando en el puerto: 8002
+[DEBUG] 20:44:45:884 Memoria/(16282:16586): Se conecto CPU
+[INFO] 20:44:51:283 Memoria/(16282:16892): ## Kernel Conectado - FD del socket: 6
+[DEBUG] 20:44:51:284 Memoria/(16282:16892): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/MEM_FIJA_BASE
+[INFO] 20:44:51:285 Memoria/(16282:16892): ## Proceso Creacion -  PID: 0 - Tamaño: 12
+[DEBUG] 20:44:51:287 Memoria/(16282:16892): Particion de tamaño 32 asignada al proceso 0
+[DEBUG] 20:44:51:287 Memoria/(16282:16892): {[32;0][16;-1][64;-1][128;-1][16;-1]}
+[INFO] 20:44:51:289 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 20:44:51:490 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: PROCESS_CREATE MEM_FIJAS 8 0
+[INFO] 20:44:51:694 Memoria/(16282:16894): ## Kernel Conectado - FD del socket: 7
+[INFO] 20:44:51:694 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: PROCESS_CREATE MEM_FIJAS 48 0
+[DEBUG] 20:44:51:694 Memoria/(16282:16894): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/MEM_FIJAS
+[INFO] 20:44:51:694 Memoria/(16282:16894): ## Proceso Creacion -  PID: 1 - Tamaño: 8
+[DEBUG] 20:44:51:694 Memoria/(16282:16894): Particion de tamaño 16 asignada al proceso 1
+[DEBUG] 20:44:51:694 Memoria/(16282:16894): {[32;0][16;1][64;-1][128;-1][16;-1]}
+[INFO] 20:44:51:900 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 20:44:51:902 Memoria/(16282:16899): ## Kernel Conectado - FD del socket: 6
+[DEBUG] 20:44:51:906 Memoria/(16282:16899): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/MEM_FIJAS
+[INFO] 20:44:51:906 Memoria/(16282:16899): ## Proceso Creacion -  PID: 2 - Tamaño: 48
+[DEBUG] 20:44:51:906 Memoria/(16282:16899): Particion de tamaño 64 asignada al proceso 2
+[DEBUG] 20:44:51:906 Memoria/(16282:16899): {[32;0][16;1][64;2][128;-1][16;-1]}
+[INFO] 20:44:52:103 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (1:0)
+[INFO] 20:44:52:307 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: SET DX 0
+[INFO] 20:44:52:510 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: SET AX 64
+[INFO] 20:44:52:713 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (1:0)
+[INFO] 20:44:52:923 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (2:0)
+[INFO] 20:44:53:126 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (2:0) - Instrucción: SET DX 0
+[INFO] 20:44:53:335 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (2:0) - Instrucción: SET AX 64
+[INFO] 20:44:53:538 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (2:0)
+[INFO] 20:44:53:741 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 20:44:53:942 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: PROCESS_CREATE MEM_FIJAS 96 0
+[INFO] 20:44:54:157 Memoria/(16282:16911): ## Kernel Conectado - FD del socket: 7
+[INFO] 20:44:54:157 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: PROCESS_CREATE MEM_FIJAS 12 0
+[DEBUG] 20:44:54:158 Memoria/(16282:16911): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/MEM_FIJAS
+[INFO] 20:44:54:158 Memoria/(16282:16911): ## Proceso Creacion -  PID: 3 - Tamaño: 96
+[DEBUG] 20:44:54:158 Memoria/(16282:16911): Particion de tamaño 128 asignada al proceso 3
+[DEBUG] 20:44:54:158 Memoria/(16282:16911): {[32;0][16;1][64;2][128;3][16;-1]}
+[INFO] 20:44:54:363 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 20:44:54:365 Memoria/(16282:16912): ## Kernel Conectado - FD del socket: 6
+[DEBUG] 20:44:54:368 Memoria/(16282:16912): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/MEM_FIJAS
+[INFO] 20:44:54:369 Memoria/(16282:16912): ## Proceso Creacion -  PID: 4 - Tamaño: 12
+[DEBUG] 20:44:54:370 Memoria/(16282:16912): Particion de tamaño 16 asignada al proceso 4
+[DEBUG] 20:44:54:372 Memoria/(16282:16912): {[32;0][16;1][64;2][128;3][16;4]}
+[INFO] 20:44:54:569 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (1:0)
+[INFO] 20:44:54:771 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: WRITE_MEM DX AX
+[INFO] 20:44:54:973 Memoria/(16282:16586): ## Escritura - (PID:TID) - (1:0) - Dir. Física: 32 - Tamaño: 4
+[INFO] 20:44:55:175 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (1:0)
+[INFO] 20:44:55:380 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (2:0)
+[INFO] 20:44:55:587 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (2:0) - Instrucción: WRITE_MEM DX AX
+[INFO] 20:44:55:798 Memoria/(16282:16586): ## Escritura - (PID:TID) - (2:0) - Dir. Física: 48 - Tamaño: 4
+[INFO] 20:44:56:002 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (2:0)
+[INFO] 20:44:56:206 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (3:0)
+[INFO] 20:44:56:408 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (3:0) - Instrucción: SET DX 0
+[INFO] 20:44:56:613 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (3:0) - Instrucción: SET AX 64
+[INFO] 20:44:56:818 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (3:0)
+[INFO] 20:44:57:028 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (4:0)
+[INFO] 20:44:57:232 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (4:0) - Instrucción: SET DX 0
+[INFO] 20:44:57:442 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (4:0) - Instrucción: SET AX 64
+[INFO] 20:44:57:644 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (4:0)
+[INFO] 20:44:57:858 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 20:44:58:060 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: PROCESS_CREATE MEM_FIJAS 8 0
+[INFO] 20:44:58:262 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: PROCESS_CREATE MEM_FIJAS 8 0
+[INFO] 20:44:58:263 Memoria/(16282:16930): ## Kernel Conectado - FD del socket: 7
+[DEBUG] 20:44:58:268 Memoria/(16282:16930): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/MEM_FIJAS
+[INFO] 20:44:58:268 Memoria/(16282:16930): ## Proceso Creacion -  PID: 5 - Tamaño: 8
+[DEBUG] 20:44:58:268 Memoria/(16282:16930): {[32;0][16;1][64;2][128;3][16;4]}
+[ERROR] 20:44:58:268 Memoria/(16282:16930): No se pudo asignar memoria para el proceso. Tamaño: 8, PID: 5
+[INFO] 20:44:58:478 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 20:44:58:683 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (1:0)
+[INFO] 20:44:58:886 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: READ_MEM BX DX
+[INFO] 20:44:59:090 Memoria/(16282:16586): ## Lectura - (PID:TID) - (1:0) - Dir. Física: 32 - Tamaño: 4
+[INFO] 20:44:59:294 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (1:0)
+[INFO] 20:44:59:498 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (2:0)
+[INFO] 20:44:59:710 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (2:0) - Instrucción: READ_MEM BX DX
+[INFO] 20:44:59:912 Memoria/(16282:16586): ## Lectura - (PID:TID) - (2:0) - Dir. Física: 48 - Tamaño: 4
+[INFO] 20:45:00:124 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (2:0)
+[INFO] 20:45:00:329 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (3:0)
+[INFO] 20:45:00:533 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (3:0) - Instrucción: WRITE_MEM DX AX
+[INFO] 20:45:00:742 Memoria/(16282:16586): ## Escritura - (PID:TID) - (3:0) - Dir. Física: 112 - Tamaño: 4
+[INFO] 20:45:00:945 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (3:0)
+[INFO] 20:45:01:148 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (4:0)
+[INFO] 20:45:01:349 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (4:0) - Instrucción: WRITE_MEM DX AX
+[INFO] 20:45:01:551 Memoria/(16282:16586): ## Escritura - (PID:TID) - (4:0) - Dir. Física: 240 - Tamaño: 4
+[INFO] 20:45:01:754 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (4:0)
+[INFO] 20:45:01:956 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 20:45:02:158 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: PROCESS_CREATE MEM_FIJAS 8 0
+[INFO] 20:45:02:360 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: PROCESS_CREATE MEM_FIJAS 8 0
+[INFO] 20:45:02:563 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 20:45:02:765 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (1:0)
+[INFO] 20:45:02:970 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: LOG BX
+[INFO] 20:45:03:172 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: IO 120000
+[INFO] 20:45:03:375 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (1:0)
+[INFO] 20:45:03:578 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (2:0)
+[INFO] 20:45:03:780 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (2:0) - Instrucción: LOG BX
+[INFO] 20:45:04:018 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (2:0) - Instrucción: IO 120000
+[INFO] 20:45:04:229 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (2:0)
+[INFO] 20:45:04:436 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (3:0)
+[INFO] 20:45:04:643 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (3:0) - Instrucción: READ_MEM BX DX
+[INFO] 20:45:04:851 Memoria/(16282:16586): ## Lectura - (PID:TID) - (3:0) - Dir. Física: 112 - Tamaño: 4
+[INFO] 20:45:05:052 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (3:0)
+[INFO] 20:45:05:255 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (4:0)
+[INFO] 20:45:05:461 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (4:0) - Instrucción: READ_MEM BX DX
+[INFO] 20:45:05:667 Memoria/(16282:16586): ## Lectura - (PID:TID) - (4:0) - Dir. Física: 240 - Tamaño: 4
+[INFO] 20:45:05:871 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (4:0)
+[INFO] 20:45:06:088 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 20:45:06:290 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: SET DX 0
+[INFO] 20:45:06:492 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: SET AX 64
+[INFO] 20:45:06:694 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 20:45:06:898 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (3:0)
+[INFO] 20:45:07:099 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (3:0) - Instrucción: LOG BX
+[INFO] 20:45:07:301 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (3:0) - Instrucción: IO 120000
+[INFO] 20:45:07:506 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (3:0)
+[INFO] 20:45:07:715 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (4:0)
+[INFO] 20:45:07:938 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (4:0) - Instrucción: LOG BX
+[INFO] 20:45:08:163 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (4:0) - Instrucción: IO 120000
+[INFO] 20:45:08:368 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (4:0)
+[INFO] 20:45:08:582 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 20:45:08:786 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: WRITE_MEM DX AX
+[INFO] 20:45:08:988 Memoria/(16282:16586): ## Escritura - (PID:TID) - (0:0) - Dir. Física: 0 - Tamaño: 4
+[INFO] 20:45:09:189 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 20:45:09:392 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 20:45:09:595 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: READ_MEM BX DX
+[INFO] 20:45:09:797 Memoria/(16282:16586): ## Lectura - (PID:TID) - (0:0) - Dir. Física: 0 - Tamaño: 4
+[INFO] 20:45:09:998 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 20:45:10:221 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 20:45:10:424 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: LOG BX
+[INFO] 20:45:10:651 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: IO 120000
+[INFO] 20:45:10:861 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 20:47:03:376 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (1:0)
+[INFO] 20:47:03:578 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: PROCESS_EXIT
+[INFO] 20:47:03:782 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (1:0)
+[INFO] 20:47:03:984 Memoria/(16282:17025): ## Kernel Conectado - FD del socket: 6
+[INFO] 20:47:03:984 Memoria/(16282:17025): ## Proceso Destruccion -  PID: 1 - Tamaño: 16
+[DEBUG] 20:47:03:985 Memoria/(16282:17025): {[32;0][16;-1][64;2][128;3][16;4]}
+[INFO] 20:47:03:986 Memoria/(16282:17026): ## Kernel Conectado - FD del socket: 7
+[DEBUG] 20:47:03:987 Memoria/(16282:17026): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/MEM_FIJAS
+[INFO] 20:47:03:988 Memoria/(16282:17026): ## Proceso Creacion -  PID: 5 - Tamaño: 8
+[DEBUG] 20:47:03:988 Memoria/(16282:17026): Particion de tamaño 16 asignada al proceso 5
+[DEBUG] 20:47:03:988 Memoria/(16282:17026): {[32;0][16;5][64;2][128;3][16;4]}
+[INFO] 20:47:03:991 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (5:0)
+[INFO] 20:47:03:993 Memoria/(16282:17028): ## Kernel Conectado - FD del socket: 6
+[DEBUG] 20:47:03:994 Memoria/(16282:17028): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/MEM_FIJAS
+[INFO] 20:47:03:994 Memoria/(16282:17028): ## Proceso Creacion -  PID: 6 - Tamaño: 8
+[DEBUG] 20:47:03:994 Memoria/(16282:17028): {[32;0][16;5][64;2][128;3][16;4]}
+[ERROR] 20:47:03:996 Memoria/(16282:17028): No se pudo asignar memoria para el proceso. Tamaño: 8, PID: 6
+[INFO] 20:47:04:195 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (5:0) - Instrucción: SET DX 0
+[INFO] 20:47:04:398 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (5:0) - Instrucción: SET AX 64
+[INFO] 20:47:04:605 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (5:0)
+[INFO] 20:47:04:810 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (2:0)
+[INFO] 20:47:05:015 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (2:0) - Instrucción: PROCESS_EXIT
+[INFO] 20:47:05:223 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (2:0)
+[INFO] 20:47:05:426 Memoria/(16282:17039): ## Kernel Conectado - FD del socket: 7
+[INFO] 20:47:05:427 Memoria/(16282:17039): ## Proceso Destruccion -  PID: 2 - Tamaño: 64
+[DEBUG] 20:47:05:427 Memoria/(16282:17039): {[32;0][16;5][64;-1][128;3][16;4]}
+[INFO] 20:47:05:429 Memoria/(16282:17040): ## Kernel Conectado - FD del socket: 6
+[INFO] 20:47:05:430 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (5:0)
+[DEBUG] 20:47:05:430 Memoria/(16282:17040): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/MEM_FIJAS
+[INFO] 20:47:05:431 Memoria/(16282:17040): ## Proceso Creacion -  PID: 6 - Tamaño: 8
+[DEBUG] 20:47:05:433 Memoria/(16282:17040): Particion de tamaño 64 asignada al proceso 6
+[DEBUG] 20:47:05:434 Memoria/(16282:17040): {[32;0][16;5][64;6][128;3][16;4]}
+[INFO] 20:47:05:436 Memoria/(16282:17042): ## Kernel Conectado - FD del socket: 7
+[DEBUG] 20:47:05:437 Memoria/(16282:17042): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/MEM_FIJAS
+[INFO] 20:47:05:438 Memoria/(16282:17042): ## Proceso Creacion -  PID: 7 - Tamaño: 8
+[DEBUG] 20:47:05:439 Memoria/(16282:17042): {[32;0][16;5][64;6][128;3][16;4]}
+[ERROR] 20:47:05:440 Memoria/(16282:17042): No se pudo asignar memoria para el proceso. Tamaño: 8, PID: 7
+[INFO] 20:47:05:635 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (5:0) - Instrucción: WRITE_MEM DX AX
+[INFO] 20:47:05:841 Memoria/(16282:16586): ## Escritura - (PID:TID) - (5:0) - Dir. Física: 32 - Tamaño: 4
+[INFO] 20:47:06:046 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (5:0)
+[INFO] 20:47:06:251 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (6:0)
+[INFO] 20:47:06:455 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (6:0) - Instrucción: SET DX 0
+[INFO] 20:47:06:658 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (6:0) - Instrucción: SET AX 64
+[INFO] 20:47:06:860 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (6:0)
+[INFO] 20:47:07:062 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (5:0)
+[INFO] 20:47:07:264 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (5:0) - Instrucción: READ_MEM BX DX
+[INFO] 20:47:07:465 Memoria/(16282:16586): ## Lectura - (PID:TID) - (5:0) - Dir. Física: 32 - Tamaño: 4
+[INFO] 20:47:07:668 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (5:0)
+[INFO] 20:47:07:870 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (6:0)
+[INFO] 20:47:08:072 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (6:0) - Instrucción: WRITE_MEM DX AX
+[INFO] 20:47:08:273 Memoria/(16282:16586): ## Escritura - (PID:TID) - (6:0) - Dir. Física: 48 - Tamaño: 4
+[INFO] 20:47:08:475 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (6:0)
+[INFO] 20:47:08:679 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (3:0)
+[INFO] 20:47:08:881 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (3:0) - Instrucción: PROCESS_EXIT
+[INFO] 20:47:09:086 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (3:0)
+[INFO] 20:47:09:294 Memoria/(16282:17052): ## Kernel Conectado - FD del socket: 6
+[INFO] 20:47:09:295 Memoria/(16282:17052): ## Proceso Destruccion -  PID: 3 - Tamaño: 128
+[DEBUG] 20:47:09:296 Memoria/(16282:17052): {[32;0][16;5][64;6][128;-1][16;4]}
+[INFO] 20:47:09:300 Memoria/(16282:17053): ## Kernel Conectado - FD del socket: 7
+[INFO] 20:47:09:300 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (5:0)
+[DEBUG] 20:47:09:301 Memoria/(16282:17053): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/MEM_FIJAS
+[INFO] 20:47:09:302 Memoria/(16282:17053): ## Proceso Creacion -  PID: 7 - Tamaño: 8
+[DEBUG] 20:47:09:303 Memoria/(16282:17053): Particion de tamaño 128 asignada al proceso 7
+[DEBUG] 20:47:09:303 Memoria/(16282:17053): {[32;0][16;5][64;6][128;7][16;4]}
+[INFO] 20:47:09:308 Memoria/(16282:17055): ## Kernel Conectado - FD del socket: 8
+[DEBUG] 20:47:09:308 Memoria/(16282:17055): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/MEM_FIJAS
+[INFO] 20:47:09:308 Memoria/(16282:17055): ## Proceso Creacion -  PID: 8 - Tamaño: 8
+[DEBUG] 20:47:09:308 Memoria/(16282:17055): {[32;0][16;5][64;6][128;7][16;4]}
+[ERROR] 20:47:09:309 Memoria/(16282:17055): No se pudo asignar memoria para el proceso. Tamaño: 8, PID: 8
+[INFO] 20:47:09:504 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (5:0) - Instrucción: LOG BX
+[INFO] 20:47:09:705 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (5:0) - Instrucción: IO 120000
+[INFO] 20:47:09:908 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (5:0)
+[INFO] 20:47:10:113 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (4:0)
+[INFO] 20:47:10:314 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (4:0) - Instrucción: PROCESS_EXIT
+[INFO] 20:47:10:521 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (4:0)
+[INFO] 20:47:10:727 Memoria/(16282:17070): ## Kernel Conectado - FD del socket: 6
+[INFO] 20:47:10:728 Memoria/(16282:17070): ## Proceso Destruccion -  PID: 4 - Tamaño: 16
+[DEBUG] 20:47:10:728 Memoria/(16282:17070): {[32;0][16;5][64;6][128;7][16;-1]}
+[INFO] 20:47:10:729 Memoria/(16282:17071): ## Kernel Conectado - FD del socket: 7
+[INFO] 20:47:10:730 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (6:0)
+[DEBUG] 20:47:10:732 Memoria/(16282:17071): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/MEM_FIJAS
+[INFO] 20:47:10:733 Memoria/(16282:17071): ## Proceso Creacion -  PID: 8 - Tamaño: 8
+[DEBUG] 20:47:10:739 Memoria/(16282:17071): Particion de tamaño 16 asignada al proceso 8
+[DEBUG] 20:47:10:740 Memoria/(16282:17071): {[32;0][16;5][64;6][128;7][16;8]}
+[INFO] 20:47:10:933 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (6:0) - Instrucción: READ_MEM BX DX
+[INFO] 20:47:11:135 Memoria/(16282:16586): ## Lectura - (PID:TID) - (6:0) - Dir. Física: 48 - Tamaño: 4
+[INFO] 20:47:11:338 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (6:0)
+[INFO] 20:47:11:544 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (7:0)
+[INFO] 20:47:11:746 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (7:0) - Instrucción: SET DX 0
+[INFO] 20:47:11:948 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (7:0) - Instrucción: SET AX 64
+[INFO] 20:47:12:151 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (7:0)
+[INFO] 20:47:12:355 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (8:0)
+[INFO] 20:47:12:557 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (8:0) - Instrucción: SET DX 0
+[INFO] 20:47:12:759 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (8:0) - Instrucción: SET AX 64
+[INFO] 20:47:12:966 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (8:0)
+[INFO] 20:47:13:181 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 20:47:13:386 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: PROCESS_EXIT
+[INFO] 20:47:13:594 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 20:47:13:799 Memoria/(16282:17078): ## Kernel Conectado - FD del socket: 6
+[INFO] 20:47:13:801 Memoria/(16282:17078): ## Proceso Destruccion -  PID: 0 - Tamaño: 32
+[DEBUG] 20:47:13:803 Memoria/(16282:17078): {[32;-1][16;5][64;6][128;7][16;8]}
+[INFO] 20:47:13:806 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (6:0)
+[INFO] 20:47:14:008 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (6:0) - Instrucción: LOG BX
+[INFO] 20:47:14:211 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (6:0) - Instrucción: IO 120000
+[INFO] 20:47:14:413 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (6:0)
+[INFO] 20:47:14:619 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (7:0)
+[INFO] 20:47:14:825 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (7:0) - Instrucción: WRITE_MEM DX AX
+[INFO] 20:47:15:030 Memoria/(16282:16586): ## Escritura - (PID:TID) - (7:0) - Dir. Física: 112 - Tamaño: 4
+[INFO] 20:47:15:238 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (7:0)
+[INFO] 20:47:15:445 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (8:0)
+[INFO] 20:47:15:647 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (8:0) - Instrucción: WRITE_MEM DX AX
+[INFO] 20:47:15:851 Memoria/(16282:16586): ## Escritura - (PID:TID) - (8:0) - Dir. Física: 240 - Tamaño: 4
+[INFO] 20:47:16:054 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (8:0)
+[INFO] 20:47:16:258 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (7:0)
+[INFO] 20:47:16:459 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (7:0) - Instrucción: READ_MEM BX DX
+[INFO] 20:47:16:668 Memoria/(16282:16586): ## Lectura - (PID:TID) - (7:0) - Dir. Física: 112 - Tamaño: 4
+[INFO] 20:47:16:869 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (7:0)
+[INFO] 20:47:17:075 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (8:0)
+[INFO] 20:47:17:277 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (8:0) - Instrucción: READ_MEM BX DX
+[INFO] 20:47:17:478 Memoria/(16282:16586): ## Lectura - (PID:TID) - (8:0) - Dir. Física: 240 - Tamaño: 4
+[INFO] 20:47:17:680 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (8:0)
+[INFO] 20:47:17:883 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (7:0)
+[INFO] 20:47:18:086 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (7:0) - Instrucción: LOG BX
+[INFO] 20:47:18:290 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (7:0) - Instrucción: IO 120000
+[INFO] 20:47:18:494 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (7:0)
+[INFO] 20:47:18:699 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (8:0)
+[INFO] 20:47:18:900 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (8:0) - Instrucción: LOG BX
+[INFO] 20:47:19:104 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (8:0) - Instrucción: IO 120000
+[INFO] 20:47:19:308 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (8:0)
+[INFO] 20:49:09:922 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (5:0)
+[INFO] 20:49:10:129 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (5:0) - Instrucción: PROCESS_EXIT
+[INFO] 20:49:10:335 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (5:0)
+[INFO] 20:49:10:543 Memoria/(16282:17148): ## Kernel Conectado - FD del socket: 7
+[INFO] 20:49:10:543 Memoria/(16282:17148): ## Proceso Destruccion -  PID: 5 - Tamaño: 16
+[DEBUG] 20:49:10:544 Memoria/(16282:17148): {[32;-1][16;-1][64;6][128;7][16;8]}
+[INFO] 20:49:14:422 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (6:0)
+[INFO] 20:49:14:624 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (6:0) - Instrucción: PROCESS_EXIT
+[INFO] 20:49:14:835 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (6:0)
+[INFO] 20:49:15:039 Memoria/(16282:17172): ## Kernel Conectado - FD del socket: 6
+[INFO] 20:49:15:039 Memoria/(16282:17172): ## Proceso Destruccion -  PID: 6 - Tamaño: 64
+[DEBUG] 20:49:15:039 Memoria/(16282:17172): {[32;-1][16;-1][64;-1][128;7][16;8]}
+[INFO] 20:49:18:498 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (7:0)
+[INFO] 20:49:18:700 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (7:0) - Instrucción: PROCESS_EXIT
+[INFO] 20:49:18:910 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (7:0)
+[INFO] 20:49:19:117 Memoria/(16282:17192): ## Kernel Conectado - FD del socket: 7
+[INFO] 20:49:19:118 Memoria/(16282:17192): ## Proceso Destruccion -  PID: 7 - Tamaño: 128
+[DEBUG] 20:49:19:118 Memoria/(16282:17192): {[32;-1][16;-1][64;-1][128;-1][16;8]}
+[INFO] 20:49:19:311 Memoria/(16282:16586): ## Contexto Solicitado - (PID:TID) - (8:0)
+[INFO] 20:49:19:514 Memoria/(16282:16586): ## Obtener instrucción - (PID:TID) - (8:0) - Instrucción: PROCESS_EXIT
+[INFO] 20:49:19:729 Memoria/(16282:16586): ## Contexto Actualizado - (PID:TID) - (8:0)
+[INFO] 20:49:19:931 Memoria/(16282:17194): ## Kernel Conectado - FD del socket: 6
+[INFO] 20:49:19:932 Memoria/(16282:17194): ## Proceso Destruccion -  PID: 8 - Tamaño: 16
+[DEBUG] 20:49:19:932 Memoria/(16282:17194): {[32;-1][16;-1][64;-1][128;-1][16;-1]}
+[WARNING] 21:36:26:253 Memoria/(16282:16586): Operación no manejable en CPU. op_code: 0
+[WARNING] 21:36:26:254 Memoria/(16282:16586): Operación no manejable en CPU. op_code: 0
+[WARNING] 21:36:26:254 Memoria/(16282:16586): Operación no manejable en CPU. op_code: 0
+[WARNING] 21:36:26:254 Memoria/(16282:16586): Es probable que el servidor de CPU se haya cerrado. Se aborta el manejo de cliente

@@ -1,0 +1,40 @@
+[DEBUG] 19:39:46:275 [Kernel]/(5173:5173): Conexion con CPU Dispatch creada de forma exitosa.
+[DEBUG] 19:39:46:275 [Kernel]/(5173:5173): Conexion con CPU Interrupt creada de forma exitosa.
+[DEBUG] 19:39:46:275 [Kernel]/(5173:5173): Kernel iniciado de forma exitosa
+[INFO] 19:39:46:275 [Kernel]/(5173:5173): ## (0:0) Se crea el proceso - Estado: NEW
+[DEBUG] 19:39:46:275 [Kernel]/(5173:5173): Planificador FIFO
+[DEBUG] 19:39:46:276 [Kernel]/(5173:5175): ## (0) - Estado: READY
+[DEBUG] 19:39:46:276 [Kernel]/(5173:5178): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:39:46:276 [Kernel]/(5173:5178): ## (0:0) - Estado: EXEC
+[INFO] 19:39:48:351 [Kernel]/(5173:5176): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:39:48:354 [Kernel]/(5173:5176): ## (0:1) Se crea el Hilo - Estado: READY
+[INFO] 19:39:49:359 [Kernel]/(5173:5176): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:39:49:365 [Kernel]/(5173:5176): ## (0:2) Se crea el Hilo - Estado: READY
+[INFO] 19:39:50:397 [Kernel]/(5173:5176): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:39:50:399 [Kernel]/(5173:5176): ## (0:3) Se crea el Hilo - Estado: READY
+[INFO] 19:39:51:404 [Kernel]/(5173:5176): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:39:51:406 [Kernel]/(5173:5176): ## (0:4) Se crea el Hilo - Estado: READY
+[INFO] 19:39:52:418 [Kernel]/(5173:5176): ## (0:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 19:39:52:418 [Kernel]/(5173:5176): ## (0:4) - Bloqueante: PTHREAD_JOIN
+[INFO] 19:39:52:418 [Kernel]/(5173:5176): ## (0:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 19:39:52:922 [Kernel]/(5173:5178): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:39:52:923 [Kernel]/(5173:5178): ## (0:1) - Estado: EXEC
+[INFO] 19:40:00:132 [Kernel]/(5173:5176): ## (0:1) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:40:00:134 [Kernel]/(5173:5176): ## (0:1) Finaliza el hilo
+[DEBUG] 19:40:00:639 [Kernel]/(5173:5178): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:40:00:639 [Kernel]/(5173:5178): ## (0:2) - Estado: EXEC
+[INFO] 19:40:07:706 [Kernel]/(5173:5176): ## (0:2) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:40:07:710 [Kernel]/(5173:5176): ## (0:2) Finaliza el hilo
+[DEBUG] 19:40:08:214 [Kernel]/(5173:5178): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:40:08:214 [Kernel]/(5173:5178): ## (0:3) - Estado: EXEC
+[INFO] 19:40:15:293 [Kernel]/(5173:5176): ## (0:3) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:40:15:294 [Kernel]/(5173:5176): ## (0:3) Finaliza el hilo
+[DEBUG] 19:40:15:799 [Kernel]/(5173:5178): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:40:15:799 [Kernel]/(5173:5178): ## (0:4) - Estado: EXEC
+[INFO] 19:40:22:971 [Kernel]/(5173:5176): ## (0:4) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:40:22:973 [Kernel]/(5173:5176): ## (0:4) Finaliza el hilo
+[DEBUG] 19:40:23:478 [Kernel]/(5173:5178): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:40:23:478 [Kernel]/(5173:5178): ## (0:0) - Estado: EXEC
+[INFO] 19:40:24:484 [Kernel]/(5173:5176): ## (0:0) - Solicitó syscall: PROCESS_EXIT
+[INFO] 19:40:24:484 [Kernel]/(5173:5176): ## Finaliza el proceso 0
+[DEBUG] 19:40:25:003 [Kernel]/(5173:5177): ## (0) - Estado: EXIT

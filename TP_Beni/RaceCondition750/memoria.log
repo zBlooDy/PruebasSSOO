@@ -1,0 +1,1435 @@
+[DEBUG] 19:53:21:311 Memoria/(10723:10723): Servidor escuchando en el puerto: 8002
+[DEBUG] 19:53:27:006 Memoria/(10723:11036): Se conecto CPU
+[INFO] 19:53:32:337 Memoria/(10723:11348): ## Kernel Conectado - FD del socket: 6
+[DEBUG] 19:53:32:338 Memoria/(10723:11348): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/RECURSOS_MUTEX_PROC
+[INFO] 19:53:32:338 Memoria/(10723:11348): ## Proceso Creacion -  PID: 0 - Tamaño: 32
+[DEBUG] 19:53:32:338 Memoria/(10723:11348): Particion de tamaño 32 asignada al proceso 0
+[DEBUG] 19:53:32:338 Memoria/(10723:11348): {[32;0][32;-1][32;-1][32;-1][32;-1][32;-1][32;-1][32;-1]}
+[INFO] 19:53:32:340 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:53:32:543 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: SET DX 0
+[INFO] 19:53:32:746 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: SET AX 14
+[INFO] 19:53:32:949 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:53:33:151 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:0) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:53:33:357 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:53:33:563 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:53:33:771 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: PROCESS_CREATE RECURSOS_RACE_PROC 16 4
+[INFO] 19:53:33:974 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: MUTEX_CREATE MUTEX
+[INFO] 19:53:33:974 Memoria/(10723:11363): ## Kernel Conectado - FD del socket: 7
+[DEBUG] 19:53:33:975 Memoria/(10723:11363): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/RECURSOS_RACE_PROC
+[INFO] 19:53:33:975 Memoria/(10723:11363): ## Proceso Creacion -  PID: 1 - Tamaño: 16
+[DEBUG] 19:53:33:975 Memoria/(10723:11363): Particion de tamaño 32 asignada al proceso 1
+[DEBUG] 19:53:33:975 Memoria/(10723:11363): {[32;0][32;1][32;-1][32;-1][32;-1][32;-1][32;-1][32;-1]}
+[INFO] 19:53:34:178 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_CREATE RECURSOS_MUTEX_THREAD 6
+[INFO] 19:53:34:386 Memoria/(10723:11364): ## Kernel Conectado - FD del socket: 6
+[DEBUG] 19:53:34:387 Memoria/(10723:11364): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/RECURSOS_MUTEX_THREAD
+[INFO] 19:53:34:387 Memoria/(10723:11364): ## Hilo Creacion - (PID:TID) - (0:1)
+[INFO] 19:53:34:389 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:53:34:593 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:53:34:797 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_CREATE RECURSOS_MUTEX_THREAD 6
+[INFO] 19:53:35:007 Memoria/(10723:11366): ## Kernel Conectado - FD del socket: 7
+[DEBUG] 19:53:35:007 Memoria/(10723:11366): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/RECURSOS_MUTEX_THREAD
+[INFO] 19:53:35:007 Memoria/(10723:11366): ## Hilo Creacion - (PID:TID) - (0:2)
+[INFO] 19:53:35:008 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_CREATE RECURSOS_MUTEX_THREAD 6
+[INFO] 19:53:35:216 Memoria/(10723:11367): ## Kernel Conectado - FD del socket: 6
+[DEBUG] 19:53:35:217 Memoria/(10723:11367): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/RECURSOS_MUTEX_THREAD
+[INFO] 19:53:35:218 Memoria/(10723:11367): ## Hilo Creacion - (PID:TID) - (0:3)
+[INFO] 19:53:35:219 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_CREATE RECURSOS_MUTEX_THREAD 6
+[INFO] 19:53:35:443 Memoria/(10723:11368): ## Kernel Conectado - FD del socket: 7
+[DEBUG] 19:53:35:444 Memoria/(10723:11368): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/RECURSOS_MUTEX_THREAD
+[INFO] 19:53:35:444 Memoria/(10723:11368): ## Hilo Creacion - (PID:TID) - (0:4)
+[INFO] 19:53:35:444 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:53:35:647 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:53:35:849 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_JOIN 1
+[INFO] 19:53:36:052 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:53:36:271 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:0)
+[INFO] 19:53:36:481 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: SET DX 0
+[INFO] 19:53:36:706 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: SET AX 14
+[INFO] 19:53:36:944 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:53:37:146 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:0) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:53:37:354 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:0)
+[INFO] 19:53:37:558 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:0)
+[INFO] 19:53:37:760 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: THREAD_CREATE RECURSOS_RACE_THREAD 5
+[INFO] 19:53:37:966 Memoria/(10723:11381): ## Kernel Conectado - FD del socket: 6
+[DEBUG] 19:53:37:967 Memoria/(10723:11381): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/RECURSOS_RACE_THREAD
+[INFO] 19:53:37:967 Memoria/(10723:11381): ## Hilo Creacion - (PID:TID) - (1:1)
+[INFO] 19:53:37:969 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: THREAD_CREATE RECURSOS_RACE_THREAD 5
+[INFO] 19:53:38:171 Memoria/(10723:11382): ## Kernel Conectado - FD del socket: 7
+[DEBUG] 19:53:38:173 Memoria/(10723:11382): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/RECURSOS_RACE_THREAD
+[INFO] 19:53:38:174 Memoria/(10723:11382): ## Hilo Creacion - (PID:TID) - (1:2)
+[INFO] 19:53:38:177 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: THREAD_CREATE RECURSOS_RACE_THREAD 5
+[INFO] 19:53:38:379 Memoria/(10723:11383): ## Kernel Conectado - FD del socket: 6
+[DEBUG] 19:53:38:381 Memoria/(10723:11383): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/RECURSOS_RACE_THREAD
+[INFO] 19:53:38:382 Memoria/(10723:11383): ## Hilo Creacion - (PID:TID) - (1:3)
+[INFO] 19:53:38:384 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:0)
+[INFO] 19:53:38:592 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:0)
+[INFO] 19:53:38:795 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: THREAD_CREATE RECURSOS_RACE_THREAD 5
+[INFO] 19:53:39:009 Memoria/(10723:11388): ## Kernel Conectado - FD del socket: 7
+[DEBUG] 19:53:39:010 Memoria/(10723:11388): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/RECURSOS_RACE_THREAD
+[INFO] 19:53:39:011 Memoria/(10723:11388): ## Hilo Creacion - (PID:TID) - (1:4)
+[INFO] 19:53:39:012 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: THREAD_JOIN 1
+[INFO] 19:53:39:224 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:0)
+[INFO] 19:53:39:427 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:53:39:630 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SET DX 0
+[INFO] 19:53:39:835 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SET AX 14
+[INFO] 19:53:40:040 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SET CX 10
+[INFO] 19:53:40:242 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:53:40:444 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:53:40:645 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SET DX 0
+[INFO] 19:53:40:847 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SET AX 14
+[INFO] 19:53:41:048 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SET CX 10
+[INFO] 19:53:41:250 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:53:41:466 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:53:41:670 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SET DX 0
+[INFO] 19:53:41:876 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SET AX 14
+[INFO] 19:53:42:078 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SET CX 10
+[INFO] 19:53:42:280 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:53:42:487 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:53:42:709 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SET DX 0
+[INFO] 19:53:42:912 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SET AX 14
+[INFO] 19:53:43:116 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SET CX 10
+[INFO] 19:53:43:317 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:53:43:520 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:53:43:722 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SET BX 1
+[INFO] 19:53:43:925 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUB CX BX
+[INFO] 19:53:44:127 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:53:44:329 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:53:44:531 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:53:44:734 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:53:44:939 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SET BX 1
+[INFO] 19:53:45:144 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUB CX BX
+[INFO] 19:53:45:347 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:53:45:548 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:53:45:750 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:53:45:952 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:53:46:162 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SET BX 1
+[INFO] 19:53:46:370 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUB CX BX
+[INFO] 19:53:46:580 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:53:46:781 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:53:46:983 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:53:47:186 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:53:47:388 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SET BX 1
+[INFO] 19:53:47:591 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUB CX BX
+[INFO] 19:53:47:793 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:53:47:997 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:53:48:200 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:53:48:404 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:53:48:606 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUM DX BX
+[INFO] 19:53:48:808 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:53:49:010 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:53:49:212 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:53:49:414 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:53:49:615 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUM DX BX
+[INFO] 19:53:49:832 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:53:50:035 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:53:50:236 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:53:50:442 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:53:50:643 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUM DX BX
+[INFO] 19:53:50:848 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:53:51:072 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:53:51:273 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:53:51:478 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:53:51:680 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUM DX BX
+[INFO] 19:53:51:884 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:53:52:089 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:53:52:291 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:53:52:493 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:53:52:696 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: LOG DX
+[INFO] 19:53:52:900 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: JNZ CX 4
+[INFO] 19:53:53:103 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUB CX BX
+[INFO] 19:53:53:306 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:53:53:510 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:53:53:712 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: LOG DX
+[INFO] 19:53:53:914 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: JNZ CX 4
+[INFO] 19:53:54:129 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUB CX BX
+[INFO] 19:53:54:332 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:53:54:536 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:53:54:743 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: LOG DX
+[INFO] 19:53:54:945 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: JNZ CX 4
+[INFO] 19:53:55:146 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUB CX BX
+[INFO] 19:53:55:351 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:53:55:553 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:53:55:760 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: LOG DX
+[INFO] 19:53:55:964 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: JNZ CX 4
+[INFO] 19:53:56:168 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUB CX BX
+[INFO] 19:53:56:371 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:53:56:575 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:53:56:782 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:53:56:984 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:53:57:185 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUM DX BX
+[INFO] 19:53:57:389 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:53:57:594 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:53:57:798 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:53:58:005 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:53:58:208 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUM DX BX
+[INFO] 19:53:58:410 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:53:58:620 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:53:58:822 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:53:59:027 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:53:59:234 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUM DX BX
+[INFO] 19:53:59:453 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:53:59:656 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:53:59:867 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:00:070 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:00:275 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUM DX BX
+[INFO] 19:54:00:477 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:54:00:680 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:54:00:911 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:01:133 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:01:341 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: LOG DX
+[INFO] 19:54:01:544 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:54:01:757 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:54:01:963 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:02:174 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:02:377 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: LOG DX
+[INFO] 19:54:02:580 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:54:02:784 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:54:02:987 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:03:193 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:03:394 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: LOG DX
+[INFO] 19:54:03:597 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:54:03:803 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:54:04:007 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:04:211 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:04:415 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: LOG DX
+[INFO] 19:54:04:619 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:54:04:821 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:54:05:024 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: JNZ CX 4
+[INFO] 19:54:05:269 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUB CX BX
+[INFO] 19:54:05:476 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:05:678 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:05:891 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:54:06:101 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:54:06:303 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: JNZ CX 4
+[INFO] 19:54:06:510 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUB CX BX
+[INFO] 19:54:06:712 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:06:915 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:07:119 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:54:07:322 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:54:07:528 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: JNZ CX 4
+[INFO] 19:54:07:729 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUB CX BX
+[INFO] 19:54:07:940 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:08:142 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:08:351 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:54:08:555 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:54:08:758 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: JNZ CX 4
+[INFO] 19:54:08:960 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUB CX BX
+[INFO] 19:54:09:168 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:09:372 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:09:575 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:54:09:778 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:54:09:982 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUM DX BX
+[INFO] 19:54:10:191 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:10:394 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:10:596 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:54:10:806 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:54:11:013 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUM DX BX
+[INFO] 19:54:11:218 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:11:445 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:11:655 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:54:11:861 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:54:12:064 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUM DX BX
+[INFO] 19:54:12:269 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:12:471 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:12:673 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:54:12:875 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:54:13:079 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUM DX BX
+[INFO] 19:54:13:319 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:13:521 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:13:723 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:54:13:928 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:54:14:130 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: LOG DX
+[INFO] 19:54:14:340 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: JNZ CX 4
+[INFO] 19:54:14:543 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUB CX BX
+[INFO] 19:54:14:745 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:54:14:948 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:54:15:150 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: LOG DX
+[INFO] 19:54:15:353 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: JNZ CX 4
+[INFO] 19:54:15:555 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUB CX BX
+[INFO] 19:54:15:758 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:54:15:963 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:54:16:171 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: LOG DX
+[INFO] 19:54:16:372 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: JNZ CX 4
+[INFO] 19:54:16:574 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUB CX BX
+[INFO] 19:54:16:778 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:54:16:987 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:54:17:190 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: LOG DX
+[INFO] 19:54:17:394 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: JNZ CX 4
+[INFO] 19:54:17:597 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUB CX BX
+[INFO] 19:54:17:805 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:54:18:008 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:54:18:214 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:18:415 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:18:617 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUM DX BX
+[INFO] 19:54:18:820 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:54:19:023 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:54:19:227 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:19:431 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:19:639 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUM DX BX
+[INFO] 19:54:19:842 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:54:20:048 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:54:20:251 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:20:453 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:20:655 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUM DX BX
+[INFO] 19:54:20:857 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:54:21:061 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:54:21:263 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:21:465 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:21:667 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUM DX BX
+[INFO] 19:54:21:871 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:54:22:076 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:54:22:278 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:22:481 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:22:685 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: LOG DX
+[INFO] 19:54:22:889 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:54:23:093 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:54:23:319 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:23:534 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:23:761 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: LOG DX
+[INFO] 19:54:23:967 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:54:24:174 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:54:24:377 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:24:579 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:24:782 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: LOG DX
+[INFO] 19:54:24:984 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:54:25:191 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:54:25:392 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:25:595 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:25:797 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: LOG DX
+[INFO] 19:54:25:999 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:54:26:202 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:54:26:405 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: JNZ CX 4
+[INFO] 19:54:26:607 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUB CX BX
+[INFO] 19:54:26:810 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:27:011 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:27:212 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:54:27:418 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:54:27:621 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: JNZ CX 4
+[INFO] 19:54:27:824 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUB CX BX
+[INFO] 19:54:28:029 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:28:232 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:28:437 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:54:28:639 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:54:28:844 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: JNZ CX 4
+[INFO] 19:54:29:046 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUB CX BX
+[INFO] 19:54:29:255 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:29:459 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:29:666 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:54:29:871 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:54:30:076 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: JNZ CX 4
+[INFO] 19:54:30:278 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUB CX BX
+[INFO] 19:54:30:500 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:30:703 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:30:905 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:54:31:126 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:54:31:329 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUM DX BX
+[INFO] 19:54:31:531 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:31:733 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:31:935 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:54:32:140 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:54:32:352 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUM DX BX
+[INFO] 19:54:32:555 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:32:761 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:32:963 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:54:33:171 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:54:33:376 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUM DX BX
+[INFO] 19:54:33:579 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:33:792 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:33:995 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:54:34:198 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:54:34:401 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUM DX BX
+[INFO] 19:54:34:603 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:34:806 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:35:007 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:54:35:216 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:54:35:417 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: LOG DX
+[INFO] 19:54:35:619 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: JNZ CX 4
+[INFO] 19:54:35:822 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUB CX BX
+[INFO] 19:54:36:024 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:54:36:227 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:54:36:431 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: LOG DX
+[INFO] 19:54:36:653 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: JNZ CX 4
+[INFO] 19:54:36:862 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUB CX BX
+[INFO] 19:54:37:068 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:54:37:271 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:54:37:483 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: LOG DX
+[INFO] 19:54:37:684 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: JNZ CX 4
+[INFO] 19:54:37:886 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUB CX BX
+[INFO] 19:54:38:088 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:54:38:291 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:54:38:493 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: LOG DX
+[INFO] 19:54:38:699 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: JNZ CX 4
+[INFO] 19:54:38:900 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUB CX BX
+[INFO] 19:54:39:102 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:54:39:305 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:54:39:507 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:39:712 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:39:916 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUM DX BX
+[INFO] 19:54:40:118 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:54:40:333 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:54:40:534 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:40:739 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:40:942 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUM DX BX
+[INFO] 19:54:41:144 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:54:41:358 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:54:41:563 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:41:764 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:41:966 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUM DX BX
+[INFO] 19:54:42:175 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:54:42:378 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:54:42:597 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:42:802 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:43:004 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUM DX BX
+[INFO] 19:54:43:207 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:54:43:409 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:54:43:611 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:43:814 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:44:015 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: LOG DX
+[INFO] 19:54:44:223 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:54:44:435 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:54:44:636 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:44:838 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:45:040 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: LOG DX
+[INFO] 19:54:45:244 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:54:45:447 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:54:45:649 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:45:852 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:46:055 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: LOG DX
+[INFO] 19:54:46:269 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:54:46:474 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:54:46:676 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:46:884 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:47:094 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: LOG DX
+[INFO] 19:54:47:298 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:54:47:501 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:54:47:703 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: JNZ CX 4
+[INFO] 19:54:47:914 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUB CX BX
+[INFO] 19:54:48:115 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:48:317 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:48:518 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:54:48:720 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:54:48:921 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: JNZ CX 4
+[INFO] 19:54:49:126 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUB CX BX
+[INFO] 19:54:49:330 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:49:531 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:49:739 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:54:49:942 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:54:50:144 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: JNZ CX 4
+[INFO] 19:54:50:354 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUB CX BX
+[INFO] 19:54:50:556 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:50:758 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:50:960 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:54:51:164 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:54:51:366 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: JNZ CX 4
+[INFO] 19:54:51:569 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUB CX BX
+[INFO] 19:54:51:772 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:54:51:975 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:52:178 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:54:52:388 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:54:52:591 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUM DX BX
+[INFO] 19:54:52:793 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:52:995 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:53:196 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:54:53:411 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:54:53:614 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUM DX BX
+[INFO] 19:54:53:817 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:54:022 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:54:223 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:54:54:434 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:54:54:648 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUM DX BX
+[INFO] 19:54:54:851 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:55:059 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:55:263 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:54:55:467 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:54:55:687 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUM DX BX
+[INFO] 19:54:55:891 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:54:56:099 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:54:56:301 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:54:56:507 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:54:56:709 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: LOG DX
+[INFO] 19:54:56:914 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: JNZ CX 4
+[INFO] 19:54:57:119 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUB CX BX
+[INFO] 19:54:57:323 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:54:57:525 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:54:57:726 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: LOG DX
+[INFO] 19:54:57:928 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: JNZ CX 4
+[INFO] 19:54:58:130 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUB CX BX
+[INFO] 19:54:58:332 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:54:58:535 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:54:58:737 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: LOG DX
+[INFO] 19:54:58:944 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: JNZ CX 4
+[INFO] 19:54:59:146 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUB CX BX
+[INFO] 19:54:59:351 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:54:59:554 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:54:59:769 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: LOG DX
+[INFO] 19:54:59:976 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: JNZ CX 4
+[INFO] 19:55:00:188 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUB CX BX
+[INFO] 19:55:00:390 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:55:00:600 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:55:00:805 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:01:024 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:01:229 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUM DX BX
+[INFO] 19:55:01:431 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:55:01:634 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:55:01:838 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:02:040 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:02:241 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUM DX BX
+[INFO] 19:55:02:445 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:55:02:649 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:55:02:851 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:03:053 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:03:255 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUM DX BX
+[INFO] 19:55:03:465 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:55:03:669 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:55:03:874 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:04:102 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:04:304 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUM DX BX
+[INFO] 19:55:04:508 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:55:04:713 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:55:04:916 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:55:05:125 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:05:334 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: LOG DX
+[INFO] 19:55:05:538 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:55:05:745 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:55:05:950 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:55:06:192 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:06:397 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: LOG DX
+[INFO] 19:55:06:600 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:55:06:802 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:55:07:004 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:55:07:205 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:07:407 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: LOG DX
+[INFO] 19:55:07:609 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:55:07:811 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:55:08:014 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:55:08:216 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:08:419 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: LOG DX
+[INFO] 19:55:08:620 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:55:08:821 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:55:09:030 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: JNZ CX 4
+[INFO] 19:55:09:231 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUB CX BX
+[INFO] 19:55:09:439 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:09:643 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:09:848 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:55:10:055 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:55:10:259 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: JNZ CX 4
+[INFO] 19:55:10:465 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUB CX BX
+[INFO] 19:55:10:673 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:10:874 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:11:106 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:55:11:308 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:55:11:520 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: JNZ CX 4
+[INFO] 19:55:11:722 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUB CX BX
+[INFO] 19:55:11:931 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:12:133 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:12:339 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:55:12:545 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:55:12:746 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: JNZ CX 4
+[INFO] 19:55:12:948 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUB CX BX
+[INFO] 19:55:13:157 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:13:358 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:13:561 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:55:13:771 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:55:13:972 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUM DX BX
+[INFO] 19:55:14:185 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:55:14:387 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:14:590 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:55:14:794 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:55:14:996 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUM DX BX
+[INFO] 19:55:15:206 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:55:15:434 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:15:636 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:55:15:839 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:55:16:041 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUM DX BX
+[INFO] 19:55:16:243 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:55:16:447 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:16:649 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:55:16:851 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:55:17:054 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUM DX BX
+[INFO] 19:55:17:257 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:55:17:462 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:17:665 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:55:17:867 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:55:18:069 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: LOG DX
+[INFO] 19:55:18:270 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: JNZ CX 4
+[INFO] 19:55:18:472 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUB CX BX
+[INFO] 19:55:18:674 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:55:18:882 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:55:19:087 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: LOG DX
+[INFO] 19:55:19:291 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: JNZ CX 4
+[INFO] 19:55:19:494 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUB CX BX
+[INFO] 19:55:19:696 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:55:19:898 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:55:20:099 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: LOG DX
+[INFO] 19:55:20:303 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: JNZ CX 4
+[INFO] 19:55:20:514 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUB CX BX
+[INFO] 19:55:20:716 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:55:20:925 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:55:21:127 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: LOG DX
+[INFO] 19:55:21:332 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: JNZ CX 4
+[INFO] 19:55:21:535 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUB CX BX
+[INFO] 19:55:21:736 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:55:22:023 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:55:22:235 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:22:438 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:22:647 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: SUM DX BX
+[INFO] 19:55:22:852 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:55:23:064 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:55:23:270 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:23:472 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:23:674 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: SUM DX BX
+[INFO] 19:55:23:878 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:55:24:089 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:55:24:291 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:24:497 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:24:702 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: SUM DX BX
+[INFO] 19:55:24:906 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:55:25:112 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:55:25:315 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:25:524 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:25:728 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: SUM DX BX
+[INFO] 19:55:25:932 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:55:26:136 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:55:26:338 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:55:26:540 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:1) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:26:742 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: LOG DX
+[INFO] 19:55:26:946 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:55:27:148 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:55:27:352 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:55:27:565 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:2) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:27:769 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: LOG DX
+[INFO] 19:55:27:972 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:55:28:174 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:55:28:382 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:55:28:584 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:3) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:28:786 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: LOG DX
+[INFO] 19:55:28:988 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:55:29:194 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:55:29:395 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:55:29:597 Memoria/(10723:11036): ## Escritura - (PID:TID) - (1:4) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:29:802 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: LOG DX
+[INFO] 19:55:30:008 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:55:30:212 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:1)
+[INFO] 19:55:30:413 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: JNZ CX 4
+[INFO] 19:55:30:618 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:1) - Instrucción: THREAD_EXIT
+[INFO] 19:55:30:822 Memoria/(10723:11771): ## Kernel Conectado - FD del socket: 6
+[INFO] 19:55:30:823 Memoria/(10723:11771): ## Hilo Destruccion - (PID:TID) - (1:1)
+[INFO] 19:55:30:823 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:1)
+[INFO] 19:55:31:026 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:0)
+[INFO] 19:55:31:230 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: THREAD_JOIN 2
+[INFO] 19:55:31:432 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:0)
+[INFO] 19:55:31:648 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:2)
+[INFO] 19:55:31:849 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: JNZ CX 4
+[INFO] 19:55:32:051 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:2) - Instrucción: THREAD_EXIT
+[INFO] 19:55:32:256 Memoria/(10723:11774): ## Kernel Conectado - FD del socket: 7
+[INFO] 19:55:32:258 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:2)
+[INFO] 19:55:32:259 Memoria/(10723:11774): ## Hilo Destruccion - (PID:TID) - (1:2)
+[INFO] 19:55:32:462 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:0)
+[INFO] 19:55:32:675 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: THREAD_JOIN 3
+[INFO] 19:55:32:878 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:0)
+[INFO] 19:55:33:082 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:3)
+[INFO] 19:55:33:291 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: JNZ CX 4
+[INFO] 19:55:33:501 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:3) - Instrucción: THREAD_EXIT
+[INFO] 19:55:33:703 Memoria/(10723:11786): ## Kernel Conectado - FD del socket: 6
+[INFO] 19:55:33:704 Memoria/(10723:11786): ## Hilo Destruccion - (PID:TID) - (1:3)
+[INFO] 19:55:33:705 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:3)
+[INFO] 19:55:33:908 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:0)
+[INFO] 19:55:34:124 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: THREAD_JOIN 4
+[INFO] 19:55:34:330 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:0)
+[INFO] 19:55:34:535 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:4)
+[INFO] 19:55:34:737 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: JNZ CX 4
+[INFO] 19:55:34:941 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:4) - Instrucción: THREAD_EXIT
+[INFO] 19:55:35:143 Memoria/(10723:11792): ## Kernel Conectado - FD del socket: 7
+[INFO] 19:55:35:144 Memoria/(10723:11792): ## Hilo Destruccion - (PID:TID) - (1:4)
+[INFO] 19:55:35:145 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:4)
+[INFO] 19:55:35:349 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:0)
+[INFO] 19:55:35:550 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: SET AX 14
+[INFO] 19:55:35:757 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:35:966 Memoria/(10723:11036): ## Lectura - (PID:TID) - (1:0) - Dir. Física: 46 - Tamaño: 4
+[INFO] 19:55:36:167 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:0)
+[INFO] 19:55:36:372 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (1:0)
+[INFO] 19:55:36:578 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: LOG DX
+[INFO] 19:55:36:781 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: PROCESS_EXIT
+[INFO] 19:55:36:984 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (1:0)
+[INFO] 19:55:37:227 Memoria/(10723:11795): ## Kernel Conectado - FD del socket: 6
+[INFO] 19:55:37:229 Memoria/(10723:11795): ## Proceso Destruccion -  PID: 1 - Tamaño: 32
+[DEBUG] 19:55:37:232 Memoria/(10723:11795): {[32;0][32;-1][32;-1][32;-1][32;-1][32;-1][32;-1][32;-1]}
+[INFO] 19:55:37:234 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:55:37:443 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SET DX 0
+[INFO] 19:55:37:648 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SET AX 14
+[INFO] 19:55:37:852 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SET CX 10
+[INFO] 19:55:38:054 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:55:38:260 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:55:38:462 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SET DX 0
+[INFO] 19:55:38:674 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SET AX 14
+[INFO] 19:55:38:880 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SET CX 10
+[INFO] 19:55:39:083 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:55:39:289 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:55:39:491 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SET DX 0
+[INFO] 19:55:39:695 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SET AX 14
+[INFO] 19:55:39:899 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SET CX 10
+[INFO] 19:55:40:101 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:55:40:303 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:55:40:505 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SET DX 0
+[INFO] 19:55:40:706 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SET AX 14
+[INFO] 19:55:40:907 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SET CX 10
+[INFO] 19:55:41:114 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:55:41:330 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:55:41:532 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SET BX 1
+[INFO] 19:55:41:740 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:55:41:945 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:55:42:148 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:55:42:354 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:55:42:558 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SET BX 1
+[INFO] 19:55:42:765 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:55:42:976 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:55:43:180 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:55:43:383 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:55:43:588 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SET BX 1
+[INFO] 19:55:43:820 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:55:44:022 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:55:44:227 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:55:44:431 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:55:44:635 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SET BX 1
+[INFO] 19:55:44:837 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:55:45:073 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:55:45:283 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:55:45:488 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:55:45:698 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:45:910 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:55:46:178 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUM DX BX
+[INFO] 19:55:46:384 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:55:46:587 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:55:46:795 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:55:47:000 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:55:47:202 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:55:47:407 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:55:47:610 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:55:47:811 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:48:035 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:55:48:237 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUM DX BX
+[INFO] 19:55:48:438 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:55:48:645 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:55:48:846 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: LOG DX
+[INFO] 19:55:49:051 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 4
+[INFO] 19:55:49:253 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:55:49:454 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:55:49:663 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:55:49:864 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:55:50:065 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:55:50:267 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:55:50:469 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:55:50:672 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:55:50:874 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:55:51:079 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:55:51:285 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:55:51:497 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:51:700 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:55:51:909 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUM DX BX
+[INFO] 19:55:52:111 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:55:52:314 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:55:52:515 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: LOG DX
+[INFO] 19:55:52:717 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 4
+[INFO] 19:55:52:918 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:55:53:120 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:55:53:326 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:55:53:530 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:55:53:735 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:55:53:936 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:55:54:143 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:55:54:344 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:55:54:547 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:55:54:751 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:55:54:958 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:55:55:169 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:55:371 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:55:55:575 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUM DX BX
+[INFO] 19:55:55:777 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:55:55:982 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:55:56:184 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: LOG DX
+[INFO] 19:55:56:390 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 4
+[INFO] 19:55:56:591 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:55:56:793 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:55:56:995 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:55:57:197 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:55:57:401 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:55:57:614 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:55:57:818 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:55:58:029 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:55:58:239 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:55:58:447 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:55:58:655 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:55:58:857 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:55:59:066 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:55:59:280 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUM DX BX
+[INFO] 19:55:59:484 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:55:59:689 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:55:59:891 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: LOG DX
+[INFO] 19:56:00:096 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 4
+[INFO] 19:56:00:300 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:56:00:502 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:56:00:707 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:56:00:910 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:56:01:112 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:01:317 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:56:01:520 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:56:01:725 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:56:01:931 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:56:02:142 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:56:02:363 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:56:02:566 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:56:02:775 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:02:989 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUM DX BX
+[INFO] 19:56:03:191 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:56:03:400 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:56:03:601 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: LOG DX
+[INFO] 19:56:03:805 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 4
+[INFO] 19:56:04:007 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:56:04:209 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:56:04:413 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:56:04:617 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:56:04:821 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:05:024 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:56:05:235 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:56:05:441 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:56:05:646 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:56:05:891 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:56:06:108 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:56:06:312 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:56:06:519 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:06:721 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUM DX BX
+[INFO] 19:56:06:924 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:56:07:233 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:56:07:436 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: LOG DX
+[INFO] 19:56:07:646 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 4
+[INFO] 19:56:07:889 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:56:08:090 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:56:08:296 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:56:08:503 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:56:08:706 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:08:908 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:56:09:110 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:56:09:313 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:56:09:514 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:56:09:720 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:56:09:923 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:56:10:131 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:56:10:362 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:10:571 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUM DX BX
+[INFO] 19:56:10:773 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:56:10:982 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:56:11:184 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: LOG DX
+[INFO] 19:56:11:387 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 4
+[INFO] 19:56:11:599 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:56:11:800 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:56:12:012 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:56:12:214 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:56:12:417 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:12:621 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:56:12:828 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:56:13:032 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:56:13:238 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:56:13:444 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:56:13:647 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:56:13:850 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:56:14:054 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:14:257 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUM DX BX
+[INFO] 19:56:14:459 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:56:14:661 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:56:14:862 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: LOG DX
+[INFO] 19:56:15:067 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 4
+[INFO] 19:56:15:270 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:56:15:474 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:56:15:685 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:56:15:887 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:56:16:091 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:16:294 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:56:16:497 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:56:16:701 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:56:16:904 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:56:17:107 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:56:17:310 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:56:17:515 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:56:17:719 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:17:922 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUM DX BX
+[INFO] 19:56:18:127 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:56:18:333 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:56:18:535 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: LOG DX
+[INFO] 19:56:18:749 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 4
+[INFO] 19:56:18:951 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:56:19:153 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:56:19:357 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:56:19:559 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:56:19:777 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:19:984 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:56:20:194 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:56:20:399 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:56:20:609 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:56:20:812 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:56:21:016 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:56:21:226 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:56:21:430 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:21:647 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUM DX BX
+[INFO] 19:56:21:849 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:56:22:059 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:56:22:283 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: LOG DX
+[INFO] 19:56:22:490 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 4
+[INFO] 19:56:22:693 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:56:22:895 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:56:23:098 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:56:23:307 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:56:23:525 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:23:726 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:56:23:931 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:56:24:134 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:56:24:339 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:56:24:552 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:56:24:763 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:56:24:966 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:56:25:168 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:25:371 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUM DX BX
+[INFO] 19:56:25:572 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:56:25:776 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:56:25:980 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: LOG DX
+[INFO] 19:56:26:192 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 4
+[INFO] 19:56:26:397 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:56:26:599 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:56:26:804 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:56:27:007 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:56:27:215 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:27:416 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:56:27:620 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:56:27:823 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:56:28:025 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:56:28:230 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:56:28:436 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:56:28:639 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:56:28:842 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:29:045 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUM DX BX
+[INFO] 19:56:29:248 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:56:29:454 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:56:29:660 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: LOG DX
+[INFO] 19:56:29:868 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 4
+[INFO] 19:56:30:071 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:56:30:276 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:56:30:482 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:56:30:686 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:56:30:951 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:31:154 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:56:31:356 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:56:31:559 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:56:31:773 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:56:31:977 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:56:32:275 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:56:32:477 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:56:32:699 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:32:904 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUM DX BX
+[INFO] 19:56:33:107 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:56:33:310 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:56:33:513 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: LOG DX
+[INFO] 19:56:33:714 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 4
+[INFO] 19:56:33:917 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:56:34:119 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:56:34:344 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:56:34:547 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:56:34:751 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:34:975 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:56:35:180 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:56:35:389 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:56:35:595 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:56:35:798 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:56:36:002 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:56:36:204 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:56:36:407 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:36:610 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUM DX BX
+[INFO] 19:56:36:812 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:56:37:016 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:56:37:218 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: LOG DX
+[INFO] 19:56:37:420 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 4
+[INFO] 19:56:37:641 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:56:37:844 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:56:38:048 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:56:38:267 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:56:38:472 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:38:679 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:56:38:883 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:56:39:087 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:56:39:289 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:56:39:492 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:56:39:695 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:56:39:897 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:56:40:103 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:40:308 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUM DX BX
+[INFO] 19:56:40:510 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:56:40:715 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:56:40:918 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: LOG DX
+[INFO] 19:56:41:122 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 4
+[INFO] 19:56:41:328 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:56:41:530 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:56:41:743 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:56:41:946 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:56:42:152 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:42:368 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:56:42:574 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:56:42:782 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:56:42:983 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:56:43:184 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:56:43:386 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:56:43:597 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:56:43:798 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:44:000 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUM DX BX
+[INFO] 19:56:44:207 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:56:44:411 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:56:44:616 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: LOG DX
+[INFO] 19:56:44:830 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 4
+[INFO] 19:56:45:055 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:56:45:258 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:56:45:465 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:56:45:666 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:56:45:867 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:46:070 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:56:46:279 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:56:46:481 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:56:46:683 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:56:46:891 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:56:47:095 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:56:47:298 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:56:47:502 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:47:706 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUM DX BX
+[INFO] 19:56:47:911 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:56:48:115 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:56:48:318 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: LOG DX
+[INFO] 19:56:48:526 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 4
+[INFO] 19:56:48:728 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:56:48:929 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:56:49:132 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:56:49:338 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:56:49:539 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:49:742 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:56:49:947 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:56:50:153 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:56:50:355 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:56:50:558 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:56:50:764 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:56:50:970 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:56:51:207 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:51:412 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUM DX BX
+[INFO] 19:56:51:616 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:56:51:819 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:56:52:022 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: LOG DX
+[INFO] 19:56:52:229 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 4
+[INFO] 19:56:52:431 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:56:52:634 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:56:52:836 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:56:53:038 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:56:53:240 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:53:443 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:56:53:647 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:56:53:850 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:56:54:057 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:56:54:266 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:56:54:473 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:56:54:679 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:56:54:882 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:55:097 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUM DX BX
+[INFO] 19:56:55:298 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:56:55:502 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:56:55:703 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: LOG DX
+[INFO] 19:56:55:906 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 4
+[INFO] 19:56:56:108 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:56:56:314 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:56:56:519 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:56:56:722 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:56:56:924 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:57:136 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:56:57:340 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:56:57:543 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:56:57:744 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:56:57:948 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:56:58:158 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:56:58:360 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:56:58:561 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:56:58:764 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUM DX BX
+[INFO] 19:56:58:973 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:56:59:177 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:56:59:380 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: LOG DX
+[INFO] 19:56:59:584 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 4
+[INFO] 19:56:59:797 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:56:59:999 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:00:208 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:00:409 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:57:00:611 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:00:813 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:57:01:019 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:57:01:223 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:57:01:425 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:57:01:628 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:01:837 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:57:02:038 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:57:02:242 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:02:444 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUM DX BX
+[INFO] 19:57:02:647 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:57:02:855 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:03:058 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: LOG DX
+[INFO] 19:57:03:379 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 4
+[INFO] 19:57:03:591 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:57:03:793 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:57:03:995 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:57:04:214 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:57:04:415 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:04:627 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:57:04:830 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:57:05:036 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:05:238 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:57:05:442 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:57:05:646 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:57:05:848 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:57:06:050 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:06:252 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUM DX BX
+[INFO] 19:57:06:454 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:57:06:669 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:57:06:870 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: LOG DX
+[INFO] 19:57:07:075 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 4
+[INFO] 19:57:07:289 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:57:07:495 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:57:07:707 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:57:07:910 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:57:08:114 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:08:330 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:57:08:535 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:57:08:740 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:57:08:942 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:57:09:151 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:57:09:354 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:57:09:559 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:57:09:770 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:09:972 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUM DX BX
+[INFO] 19:57:10:176 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:10:386 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:57:10:594 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: LOG DX
+[INFO] 19:57:10:795 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 4
+[INFO] 19:57:11:000 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:57:11:201 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:57:11:407 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:57:11:608 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:57:11:810 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:12:025 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:57:12:228 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:12:433 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:57:12:634 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:57:12:837 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:57:13:041 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:13:248 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:57:13:451 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:13:654 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUM DX BX
+[INFO] 19:57:13:855 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:57:14:059 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:57:14:272 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: LOG DX
+[INFO] 19:57:14:476 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 4
+[INFO] 19:57:14:686 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:57:14:894 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:15:097 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:15:299 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:57:15:501 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:15:703 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:57:15:904 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:57:16:129 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:57:16:331 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:57:16:536 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:16:741 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:57:16:945 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:57:17:150 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:17:352 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUM DX BX
+[INFO] 19:57:17:553 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:57:17:756 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:17:959 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: LOG DX
+[INFO] 19:57:18:168 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 4
+[INFO] 19:57:18:371 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:57:18:573 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:57:18:775 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:57:18:977 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:57:19:179 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:19:382 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:57:19:584 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:57:19:796 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:20:000 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:57:20:204 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:57:20:411 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:57:20:612 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:57:20:817 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:21:023 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUM DX BX
+[INFO] 19:57:21:225 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:57:21:427 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:57:21:629 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: LOG DX
+[INFO] 19:57:21:830 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 4
+[INFO] 19:57:22:032 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:57:22:235 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:57:22:438 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:57:22:640 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:57:22:842 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:23:048 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:57:23:252 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:57:23:476 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:57:23:686 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:57:23:889 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:57:24:091 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:57:24:293 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:57:24:499 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:24:752 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUM DX BX
+[INFO] 19:57:24:953 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:25:173 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:57:25:380 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: LOG DX
+[INFO] 19:57:25:583 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 4
+[INFO] 19:57:25:785 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:57:25:986 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:57:26:189 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:57:26:416 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:57:26:618 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:26:820 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:57:27:023 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:27:226 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:57:27:428 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:57:27:633 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:57:27:835 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:28:043 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:57:28:257 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:28:459 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUM DX BX
+[INFO] 19:57:28:663 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:57:28:867 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:57:29:072 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: LOG DX
+[INFO] 19:57:29:284 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 4
+[INFO] 19:57:29:503 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:57:29:706 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:29:910 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:30:114 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:57:30:320 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:30:527 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:57:30:732 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:57:30:936 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:57:31:141 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:57:31:351 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:31:593 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:57:31:823 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:57:32:025 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:32:227 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUM DX BX
+[INFO] 19:57:32:428 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:57:32:630 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:32:834 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: LOG DX
+[INFO] 19:57:33:047 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 4
+[INFO] 19:57:33:256 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:57:33:461 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:57:33:666 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:57:33:869 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:57:34:087 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:34:290 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:57:34:494 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:57:34:697 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:34:899 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:57:35:103 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:57:35:322 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:57:35:535 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:57:35:744 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:35:949 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUM DX BX
+[INFO] 19:57:36:156 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:57:36:370 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:57:36:611 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: LOG DX
+[INFO] 19:57:36:813 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 4
+[INFO] 19:57:37:031 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:57:37:237 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:57:37:441 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:57:37:646 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:57:37:847 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:38:054 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:57:38:256 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:57:38:466 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:57:38:666 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:57:38:870 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:57:39:072 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:57:39:275 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:57:39:483 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:39:687 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUM DX BX
+[INFO] 19:57:39:889 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:40:092 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:57:40:295 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: LOG DX
+[INFO] 19:57:40:499 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 4
+[INFO] 19:57:40:703 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:57:40:904 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:57:41:117 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:57:41:328 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:57:41:529 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:41:732 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:57:41:936 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:42:141 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:57:42:345 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:57:42:550 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:57:42:754 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:42:955 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:57:43:156 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:43:358 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUM DX BX
+[INFO] 19:57:43:560 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:57:43:788 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:57:43:989 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: LOG DX
+[INFO] 19:57:44:196 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 4
+[INFO] 19:57:44:398 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:57:44:600 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:44:803 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:45:005 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:57:45:225 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:45:429 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:57:45:632 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:57:45:835 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:57:46:051 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:57:46:258 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:46:462 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:57:46:673 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:57:46:876 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:47:078 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUM DX BX
+[INFO] 19:57:47:282 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:57:47:493 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:47:707 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: LOG DX
+[INFO] 19:57:47:911 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 4
+[INFO] 19:57:48:114 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:57:48:318 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:57:48:525 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:57:48:734 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:57:48:936 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:49:137 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:57:49:343 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:57:49:586 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:49:790 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:57:49:994 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:57:50:197 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:57:50:398 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:57:50:636 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:50:846 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUM DX BX
+[INFO] 19:57:51:050 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:57:51:274 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:57:51:486 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: LOG DX
+[INFO] 19:57:51:692 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 4
+[INFO] 19:57:51:895 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:57:52:099 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:57:52:305 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:57:52:507 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:57:52:711 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:52:914 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:57:53:119 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:57:53:325 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:57:53:527 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:57:53:734 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:57:53:939 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:57:54:143 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:57:54:352 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:54:559 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUM DX BX
+[INFO] 19:57:54:762 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:54:965 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:57:55:167 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: LOG DX
+[INFO] 19:57:55:371 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 4
+[INFO] 19:57:55:578 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:57:55:781 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:57:55:993 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:57:56:195 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:57:56:397 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:56:606 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:57:56:808 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:57:018 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:57:57:220 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:57:57:423 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:57:57:625 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:57:828 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: READ_MEM DX AX
+[INFO] 19:57:58:030 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:57:58:233 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUM DX BX
+[INFO] 19:57:58:435 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:57:58:644 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:57:58:855 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: LOG DX
+[INFO] 19:57:59:059 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 4
+[INFO] 19:57:59:260 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:57:59:461 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:57:59:664 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:57:59:878 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:58:00:083 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:1) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:58:00:299 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:58:00:505 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:58:00:708 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:58:00:912 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_LOCK MUTEX
+[INFO] 19:58:01:117 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:58:01:321 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:58:01:525 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: READ_MEM DX AX
+[INFO] 19:58:01:735 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:58:01:946 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUM DX BX
+[INFO] 19:58:02:152 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:58:02:356 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:58:02:558 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: LOG DX
+[INFO] 19:58:02:760 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 4
+[INFO] 19:58:02:974 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: THREAD_EXIT
+[INFO] 19:58:03:177 Memoria/(10723:12322): ## Kernel Conectado - FD del socket: 7
+[INFO] 19:58:03:180 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:58:03:180 Memoria/(10723:12322): ## Hilo Destruccion - (PID:TID) - (0:1)
+[INFO] 19:58:03:385 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:58:03:586 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_JOIN 2
+[INFO] 19:58:03:790 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:58:03:993 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:58:04:198 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:58:04:401 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:2) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:58:04:607 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:58:04:810 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:58:05:014 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:58:05:217 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: READ_MEM DX AX
+[INFO] 19:58:05:430 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:58:05:632 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUM DX BX
+[INFO] 19:58:05:879 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:58:06:084 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:58:06:290 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: LOG DX
+[INFO] 19:58:06:494 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 4
+[INFO] 19:58:06:695 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: THREAD_EXIT
+[INFO] 19:58:06:898 Memoria/(10723:12332): ## Kernel Conectado - FD del socket: 6
+[INFO] 19:58:06:899 Memoria/(10723:12332): ## Hilo Destruccion - (PID:TID) - (0:2)
+[INFO] 19:58:06:900 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:58:07:103 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:58:07:310 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_JOIN 3
+[INFO] 19:58:07:519 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:58:07:726 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:58:07:928 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:58:08:130 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:3) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:58:08:333 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:58:08:538 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:58:08:742 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:58:08:943 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: READ_MEM DX AX
+[INFO] 19:58:09:161 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:58:09:410 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUM DX BX
+[INFO] 19:58:09:613 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:58:09:815 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:58:10:028 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: LOG DX
+[INFO] 19:58:10:236 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 4
+[INFO] 19:58:10:442 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: THREAD_EXIT
+[INFO] 19:58:10:644 Memoria/(10723:12349): ## Kernel Conectado - FD del socket: 7
+[INFO] 19:58:10:645 Memoria/(10723:12349): ## Hilo Destruccion - (PID:TID) - (0:3)
+[INFO] 19:58:10:646 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:58:10:849 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:58:11:055 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_JOIN 4
+[INFO] 19:58:11:277 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:58:11:485 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:58:11:686 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: WRITE_MEM AX DX
+[INFO] 19:58:11:888 Memoria/(10723:11036): ## Escritura - (PID:TID) - (0:4) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:58:12:091 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: MUTEX_UNLOCK MUTEX
+[INFO] 19:58:12:296 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:58:12:501 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:58:12:703 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: LOG DX
+[INFO] 19:58:12:906 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 4
+[INFO] 19:58:13:109 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: THREAD_EXIT
+[INFO] 19:58:13:311 Memoria/(10723:12362): ## Kernel Conectado - FD del socket: 6
+[INFO] 19:58:13:312 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:58:13:318 Memoria/(10723:12362): ## Hilo Destruccion - (PID:TID) - (0:4)
+[INFO] 19:58:13:530 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:58:13:735 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: READ_MEM DX AX
+[INFO] 19:58:13:937 Memoria/(10723:11036): ## Lectura - (PID:TID) - (0:0) - Dir. Física: 14 - Tamaño: 4
+[INFO] 19:58:14:139 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: LOG DX
+[INFO] 19:58:14:341 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:58:14:549 Memoria/(10723:11036): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:58:14:751 Memoria/(10723:11036): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: PROCESS_EXIT
+[INFO] 19:58:14:955 Memoria/(10723:11036): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:58:15:178 Memoria/(10723:12368): ## Kernel Conectado - FD del socket: 7
+[INFO] 19:58:15:179 Memoria/(10723:12368): ## Proceso Destruccion -  PID: 0 - Tamaño: 32
+[DEBUG] 19:58:15:179 Memoria/(10723:12368): {[32;-1][32;-1][32;-1][32;-1][32;-1][32;-1][32;-1][32;-1]}
+[WARNING] 19:59:16:878 Memoria/(10723:11036): Operación no manejable en CPU. op_code: 0
+[WARNING] 19:59:16:882 Memoria/(10723:11036): Operación no manejable en CPU. op_code: 0
+[WARNING] 19:59:16:882 Memoria/(10723:11036): Operación no manejable en CPU. op_code: 0
+[WARNING] 19:59:16:882 Memoria/(10723:11036): Es probable que el servidor de CPU se haya cerrado. Se aborta el manejo de cliente

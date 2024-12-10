@@ -1,0 +1,1001 @@
+[DEBUG] 19:53:32:319 [Kernel]/(11340:11340): Conexion con CPU Dispatch creada de forma exitosa.
+[DEBUG] 19:53:32:325 [Kernel]/(11340:11340): Conexion con CPU Interrupt creada de forma exitosa.
+[DEBUG] 19:53:32:329 [Kernel]/(11340:11340): Kernel iniciado de forma exitosa
+[INFO] 19:53:32:336 [Kernel]/(11340:11340): ## (0:0) Se crea el proceso - Estado: NEW
+[DEBUG] 19:53:32:336 [Kernel]/(11340:11340): Planificador de colas multinivel
+[DEBUG] 19:53:32:338 [Kernel]/(11340:11342): ## (0) - Estado: READY
+[DEBUG] 19:53:32:339 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:32:339 [Kernel]/(11340:11347): ## (0:0) - Estado: EXEC
+[INFO] 19:53:33:558 [Kernel]/(11340:11344): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:53:33:561 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:33:562 [Kernel]/(11340:11347): ## (0:0) - Estado: EXEC
+[INFO] 19:53:33:972 [Kernel]/(11340:11343): ## (0:0) - Solicitó syscall: PROCESS_CREATE
+[INFO] 19:53:33:973 [Kernel]/(11340:11343): ## (1:0) Se crea el proceso - Estado: NEW
+[DEBUG] 19:53:33:976 [Kernel]/(11340:11342): ## (1) - Estado: READY
+[INFO] 19:53:34:176 [Kernel]/(11340:11343): ## (0:0) - Solicitó syscall: MUTEX_CREATE
+[INFO] 19:53:34:379 [Kernel]/(11340:11343): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:53:34:388 [Kernel]/(11340:11343): ## (0:1) Se crea el Hilo - Estado: READY
+[INFO] 19:53:34:591 [Kernel]/(11340:11344): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:53:34:591 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:34:591 [Kernel]/(11340:11347): ## (0:0) - Estado: EXEC
+[INFO] 19:53:35:006 [Kernel]/(11340:11343): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:53:35:008 [Kernel]/(11340:11343): ## (0:2) Se crea el Hilo - Estado: READY
+[INFO] 19:53:35:214 [Kernel]/(11340:11343): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:53:35:219 [Kernel]/(11340:11343): ## (0:3) Se crea el Hilo - Estado: READY
+[INFO] 19:53:35:426 [Kernel]/(11340:11343): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:53:35:444 [Kernel]/(11340:11343): ## (0:4) Se crea el Hilo - Estado: READY
+[INFO] 19:53:35:646 [Kernel]/(11340:11344): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:53:35:646 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:35:646 [Kernel]/(11340:11347): ## (0:0) - Estado: EXEC
+[INFO] 19:53:36:052 [Kernel]/(11340:11343): ## (0:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 19:53:36:052 [Kernel]/(11340:11343): ## (0:1) - Bloqueante: PTHREAD_JOIN
+[INFO] 19:53:36:052 [Kernel]/(11340:11343): ## (0:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 19:53:36:270 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:36:270 [Kernel]/(11340:11347): ## (1:0) - Estado: EXEC
+[INFO] 19:53:37:557 [Kernel]/(11340:11344): ## (1:0) - Desalojado por fin de Quantum
+[DEBUG] 19:53:37:558 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:37:558 [Kernel]/(11340:11347): ## (1:0) - Estado: EXEC
+[INFO] 19:53:37:965 [Kernel]/(11340:11343): ## (1:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:53:37:967 [Kernel]/(11340:11343): ## (1:1) Se crea el Hilo - Estado: READY
+[INFO] 19:53:38:171 [Kernel]/(11340:11343): ## (1:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:53:38:175 [Kernel]/(11340:11343): ## (1:2) Se crea el Hilo - Estado: READY
+[INFO] 19:53:38:378 [Kernel]/(11340:11343): ## (1:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:53:38:383 [Kernel]/(11340:11343): ## (1:3) Se crea el Hilo - Estado: READY
+[INFO] 19:53:38:591 [Kernel]/(11340:11344): ## (1:0) - Desalojado por fin de Quantum
+[DEBUG] 19:53:38:591 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:38:591 [Kernel]/(11340:11347): ## (1:0) - Estado: EXEC
+[INFO] 19:53:39:008 [Kernel]/(11340:11343): ## (1:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:53:39:011 [Kernel]/(11340:11343): ## (1:4) Se crea el Hilo - Estado: READY
+[INFO] 19:53:39:221 [Kernel]/(11340:11343): ## (1:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 19:53:39:221 [Kernel]/(11340:11343): ## (1:1) - Bloqueante: PTHREAD_JOIN
+[INFO] 19:53:39:222 [Kernel]/(11340:11343): ## (1:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 19:53:39:426 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:39:426 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:53:40:443 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:53:40:443 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:40:443 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:53:41:465 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:53:41:466 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:41:466 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:53:42:485 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:53:42:486 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:42:486 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:53:43:519 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:53:43:519 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:43:519 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:53:44:733 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:53:44:733 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:44:733 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:53:45:951 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:53:45:951 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:45:951 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:53:47:185 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:53:47:186 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:47:186 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:53:48:403 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:53:48:403 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:48:403 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:53:49:412 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:53:49:413 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:49:414 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:53:50:441 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:53:50:441 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:50:442 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:53:51:477 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:53:51:478 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:51:478 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:53:52:492 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:53:52:493 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:52:493 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:53:53:509 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:53:53:510 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:53:510 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:53:54:534 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:53:54:535 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:54:535 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:53:55:552 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:53:55:553 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:55:553 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:53:56:573 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:53:56:575 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:56:575 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:53:57:593 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:53:57:593 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:57:593 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:53:58:618 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:53:58:618 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:58:618 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:53:59:654 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:53:59:655 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:53:59:656 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:54:00:679 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:54:00:680 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:00:680 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:54:01:756 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:54:01:756 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:01:756 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:54:02:783 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:54:02:784 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:02:784 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:54:03:801 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:54:03:802 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:03:802 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:54:04:820 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:54:04:820 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:04:821 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:54:06:100 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:54:06:101 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:06:101 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:54:07:320 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:54:07:321 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:07:321 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:54:08:552 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:54:08:553 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:08:553 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:54:09:776 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:54:09:777 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:09:777 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:54:10:804 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:54:10:805 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:10:805 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:54:11:858 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:54:11:859 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:11:861 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:54:12:874 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:54:12:874 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:12:874 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:54:13:926 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:54:13:927 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:13:928 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:54:14:947 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:54:14:947 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:14:948 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:54:15:961 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:54:15:963 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:15:964 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:54:16:983 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:54:16:986 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:16:986 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:54:18:006 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:54:18:007 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:18:007 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:54:19:021 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:54:19:022 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:19:022 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:54:20:047 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:54:20:047 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:20:048 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:54:21:059 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:54:21:061 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:21:061 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:54:22:076 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:54:22:076 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:22:076 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:54:23:091 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:54:23:092 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:23:092 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:54:24:172 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:54:24:173 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:24:174 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:54:25:188 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:54:25:190 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:25:190 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:54:26:200 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:54:26:201 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:26:201 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:54:27:414 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:54:27:415 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:27:415 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:54:28:638 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:54:28:639 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:28:640 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:54:29:869 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:54:29:870 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:29:870 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:54:31:124 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:54:31:124 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:31:125 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:54:32:138 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:54:32:139 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:32:139 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:54:33:169 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:54:33:170 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:33:170 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:54:34:196 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:54:34:197 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:34:197 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:54:35:214 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:54:35:215 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:35:215 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:54:36:226 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:54:36:226 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:36:226 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:54:37:269 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:54:37:270 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:37:270 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:54:38:290 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:54:38:290 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:38:290 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:54:39:304 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:54:39:304 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:39:304 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:54:40:332 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:54:40:332 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:40:332 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:54:41:356 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:54:41:357 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:41:357 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:54:42:376 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:54:42:377 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:42:377 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:54:43:407 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:54:43:408 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:43:408 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:54:44:434 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:54:44:434 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:44:434 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:54:45:446 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:54:45:446 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:45:446 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:54:46:472 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:54:46:472 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:46:473 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:54:47:499 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:54:47:500 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:47:500 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:54:48:719 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:54:48:719 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:48:719 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:54:49:941 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:54:49:941 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:49:941 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:54:51:162 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:54:51:163 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:51:163 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:54:52:387 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:54:52:387 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:52:387 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:54:53:408 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:54:53:409 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:53:410 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:54:54:432 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:54:54:433 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:54:433 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:54:55:466 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:54:55:466 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:55:467 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:54:56:506 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:54:56:506 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:56:507 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:54:57:524 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:54:57:524 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:57:524 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:54:58:534 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:54:58:535 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:58:535 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:54:59:553 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:54:59:553 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:54:59:553 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:55:00:599 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:55:00:599 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:00:599 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:55:01:633 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:55:01:633 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:01:634 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:55:02:646 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:55:02:646 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:02:647 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:55:03:667 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:55:03:668 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:03:668 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:55:04:711 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:55:04:711 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:04:712 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:55:05:743 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:55:05:744 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:05:744 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:55:06:801 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:55:06:801 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:06:801 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:55:07:809 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:55:07:810 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:07:810 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:55:08:821 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:55:08:821 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:08:821 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:55:10:053 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:55:10:054 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:10:054 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:55:11:307 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:55:11:307 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:11:307 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:55:12:542 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:55:12:544 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:12:544 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:55:13:768 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:55:13:769 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:13:769 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:55:14:792 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:55:14:793 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:14:793 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:55:15:837 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:55:15:838 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:15:839 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:55:16:850 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:55:16:851 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:16:852 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:55:17:866 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:55:17:867 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:17:867 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:55:18:879 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:55:18:880 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:18:881 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:55:19:897 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:55:19:897 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:19:897 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:55:20:923 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:55:20:924 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:20:925 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:55:22:022 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:55:22:023 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:22:023 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:55:23:062 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:55:23:063 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:23:063 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:55:24:088 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:55:24:088 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:24:088 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:55:25:108 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:55:25:110 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:25:111 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:55:26:134 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:55:26:135 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:26:135 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:55:27:147 [Kernel]/(11340:11344): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:55:27:147 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:27:147 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:55:28:173 [Kernel]/(11340:11344): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:55:28:173 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:28:173 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:55:29:192 [Kernel]/(11340:11344): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:55:29:193 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:29:193 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:55:30:210 [Kernel]/(11340:11344): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:55:30:211 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:30:211 [Kernel]/(11340:11347): ## (1:1) - Estado: EXEC
+[INFO] 19:55:30:822 [Kernel]/(11340:11343): ## (1:1) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:55:30:823 [Kernel]/(11340:11343): ## (1:1) Finaliza el hilo
+[DEBUG] 19:55:31:025 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:31:025 [Kernel]/(11340:11347): ## (1:0) - Estado: EXEC
+[INFO] 19:55:31:431 [Kernel]/(11340:11343): ## (1:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 19:55:31:431 [Kernel]/(11340:11343): ## (1:2) - Bloqueante: PTHREAD_JOIN
+[INFO] 19:55:31:431 [Kernel]/(11340:11343): ## (1:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 19:55:31:647 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:31:647 [Kernel]/(11340:11347): ## (1:2) - Estado: EXEC
+[INFO] 19:55:32:254 [Kernel]/(11340:11343): ## (1:2) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:55:32:257 [Kernel]/(11340:11343): ## (1:2) Finaliza el hilo
+[DEBUG] 19:55:32:461 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:32:461 [Kernel]/(11340:11347): ## (1:0) - Estado: EXEC
+[INFO] 19:55:32:876 [Kernel]/(11340:11343): ## (1:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 19:55:32:876 [Kernel]/(11340:11343): ## (1:3) - Bloqueante: PTHREAD_JOIN
+[INFO] 19:55:32:876 [Kernel]/(11340:11343): ## (1:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 19:55:33:081 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:33:081 [Kernel]/(11340:11347): ## (1:3) - Estado: EXEC
+[INFO] 19:55:33:702 [Kernel]/(11340:11343): ## (1:3) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:55:33:704 [Kernel]/(11340:11343): ## (1:3) Finaliza el hilo
+[DEBUG] 19:55:33:907 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:33:907 [Kernel]/(11340:11347): ## (1:0) - Estado: EXEC
+[INFO] 19:55:34:328 [Kernel]/(11340:11343): ## (1:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 19:55:34:328 [Kernel]/(11340:11343): ## (1:4) - Bloqueante: PTHREAD_JOIN
+[INFO] 19:55:34:328 [Kernel]/(11340:11343): ## (1:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 19:55:34:534 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:34:534 [Kernel]/(11340:11347): ## (1:4) - Estado: EXEC
+[INFO] 19:55:35:142 [Kernel]/(11340:11343): ## (1:4) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:55:35:144 [Kernel]/(11340:11343): ## (1:4) Finaliza el hilo
+[DEBUG] 19:55:35:346 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:35:348 [Kernel]/(11340:11347): ## (1:0) - Estado: EXEC
+[INFO] 19:55:36:371 [Kernel]/(11340:11344): ## (1:0) - Desalojado por fin de Quantum
+[DEBUG] 19:55:36:371 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:36:371 [Kernel]/(11340:11347): ## (1:0) - Estado: EXEC
+[INFO] 19:55:36:983 [Kernel]/(11340:11343): ## (1:0) - Solicitó syscall: PROCESS_EXIT
+[INFO] 19:55:36:983 [Kernel]/(11340:11343): ## Finaliza el proceso 1
+[DEBUG] 19:55:37:232 [Kernel]/(11340:11344): ## (1) - Estado: EXIT
+[DEBUG] 19:55:37:233 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:37:233 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:55:38:257 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:55:38:258 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:38:259 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:55:39:286 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:55:39:287 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:39:288 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:55:40:302 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:55:40:303 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:40:303 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:55:41:328 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:55:41:329 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:41:329 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:55:42:146 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:55:42:351 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:55:42:352 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:42:352 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:55:43:177 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:55:43:178 [Kernel]/(11340:11343): ## (0:2) bloqueado por MUTEX
+[DEBUG] 19:55:43:382 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:43:382 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:55:44:225 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:55:44:226 [Kernel]/(11340:11343): ## (0:3) bloqueado por MUTEX
+[DEBUG] 19:55:44:429 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:44:430 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:55:45:281 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:55:45:281 [Kernel]/(11340:11343): ## (0:4) bloqueado por MUTEX
+[DEBUG] 19:55:45:487 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:45:487 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:55:46:585 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:55:46:586 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:46:586 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:55:47:403 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:55:47:608 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:55:47:610 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:47:610 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:55:48:644 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:55:48:644 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:48:644 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:55:49:662 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:55:49:662 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:49:662 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:55:50:468 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:55:50:671 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:55:50:671 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:50:671 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:55:51:076 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:55:51:077 [Kernel]/(11340:11343): ## (0:1) bloqueado por MUTEX
+[DEBUG] 19:55:51:283 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:51:283 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:55:52:313 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:55:52:313 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:52:313 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:55:53:325 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:55:53:326 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:53:326 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:55:54:140 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:55:54:343 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:55:54:344 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:54:344 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:55:54:749 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:55:54:750 [Kernel]/(11340:11343): ## (0:2) bloqueado por MUTEX
+[DEBUG] 19:55:54:955 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:54:955 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:55:55:980 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:55:55:981 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:55:981 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:55:56:994 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:55:56:994 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:56:994 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:55:57:817 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:55:58:027 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:55:58:028 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:58:028 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:55:58:446 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:55:58:446 [Kernel]/(11340:11343): ## (0:3) bloqueado por MUTEX
+[DEBUG] 19:55:58:654 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:58:654 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:55:59:687 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:55:59:688 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:55:59:688 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:56:00:704 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:56:00:705 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:00:708 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:56:01:519 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:56:01:723 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:56:01:724 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:01:724 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:56:02:140 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:56:02:140 [Kernel]/(11340:11343): ## (0:4) bloqueado por MUTEX
+[DEBUG] 19:56:02:362 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:02:362 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:56:03:398 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:56:03:399 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:03:399 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:56:04:410 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:56:04:412 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:04:412 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:56:05:233 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:56:05:438 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:56:05:438 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:05:438 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:56:05:889 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:56:05:890 [Kernel]/(11340:11343): ## (0:1) bloqueado por MUTEX
+[DEBUG] 19:56:06:107 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:06:107 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:56:07:232 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:56:07:232 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:07:232 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:56:08:294 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:56:08:295 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:08:295 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:56:09:109 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:56:09:311 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:56:09:312 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:09:312 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:56:09:719 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:56:09:719 [Kernel]/(11340:11343): ## (0:2) bloqueado por MUTEX
+[DEBUG] 19:56:09:922 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:09:922 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:56:10:980 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:56:10:982 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:10:982 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:56:12:009 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:56:12:010 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:12:010 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:56:12:826 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:56:13:029 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:56:13:030 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:13:030 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:56:13:443 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:56:13:443 [Kernel]/(11340:11343): ## (0:3) bloqueado por MUTEX
+[DEBUG] 19:56:13:646 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:13:647 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:56:14:660 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:56:14:661 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:14:661 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:56:15:681 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:56:15:684 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:15:685 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:56:16:496 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:56:16:699 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:56:16:700 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:16:700 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:56:17:106 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:56:17:107 [Kernel]/(11340:11343): ## (0:4) bloqueado por MUTEX
+[DEBUG] 19:56:17:309 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:17:309 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:56:18:330 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:56:18:331 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:18:331 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:56:19:355 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:56:19:356 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:19:358 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:56:20:193 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:56:20:397 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:56:20:398 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:20:398 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:56:20:811 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:56:20:811 [Kernel]/(11340:11343): ## (0:1) bloqueado por MUTEX
+[DEBUG] 19:56:21:015 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:21:015 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:56:22:056 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:56:22:057 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:22:057 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:56:23:097 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:56:23:097 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:23:097 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:56:23:929 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:56:24:133 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:56:24:133 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:24:133 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:56:24:551 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:56:24:551 [Kernel]/(11340:11343): ## (0:2) bloqueado por MUTEX
+[DEBUG] 19:56:24:763 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:24:763 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:56:25:773 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:56:25:774 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:25:774 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:56:26:802 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:56:26:802 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:26:803 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:56:27:618 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:56:27:822 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:56:27:822 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:27:822 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:56:28:228 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:56:28:229 [Kernel]/(11340:11343): ## (0:3) bloqueado por MUTEX
+[DEBUG] 19:56:28:435 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:28:435 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:56:29:450 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:56:29:451 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:29:451 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:56:30:478 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:56:30:481 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:30:481 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:56:31:355 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:56:31:557 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:56:31:558 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:31:558 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:56:31:975 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:56:31:975 [Kernel]/(11340:11343): ## (0:4) bloqueado por MUTEX
+[DEBUG] 19:56:32:274 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:32:274 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:56:33:309 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:56:33:310 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:33:310 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:56:34:343 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:56:34:343 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:34:343 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:56:35:178 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:56:35:388 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:56:35:388 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:35:388 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:56:35:797 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:56:35:798 [Kernel]/(11340:11343): ## (0:1) bloqueado por MUTEX
+[DEBUG] 19:56:36:000 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:36:001 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:56:37:013 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:56:37:015 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:37:015 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:56:38:047 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:56:38:047 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:38:047 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:56:38:881 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:56:39:084 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:56:39:086 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:39:086 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:56:39:491 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:56:39:491 [Kernel]/(11340:11343): ## (0:2) bloqueado por MUTEX
+[DEBUG] 19:56:39:694 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:39:694 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:56:40:712 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:56:40:713 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:40:714 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:56:41:739 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:56:41:740 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:41:741 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:56:42:572 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:56:42:781 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:56:42:781 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:42:781 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:56:43:184 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:56:43:184 [Kernel]/(11340:11343): ## (0:3) bloqueado por MUTEX
+[DEBUG] 19:56:43:385 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:43:385 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:56:44:408 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:56:44:409 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:44:410 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:56:45:462 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:56:45:463 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:45:463 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:56:46:276 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:56:46:480 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:56:46:480 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:46:480 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:56:46:885 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:56:46:887 [Kernel]/(11340:11343): ## (0:4) bloqueado por MUTEX
+[DEBUG] 19:56:47:094 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:47:094 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:56:48:114 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:56:48:114 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:48:114 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:56:49:130 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:56:49:131 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:49:131 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:56:49:946 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:56:50:151 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:56:50:152 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:50:152 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:56:50:557 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:56:50:557 [Kernel]/(11340:11343): ## (0:1) bloqueado por MUTEX
+[DEBUG] 19:56:50:763 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:50:764 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:56:51:818 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:56:51:818 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:51:818 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:56:52:835 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:56:52:835 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:52:836 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:56:53:646 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:56:53:849 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:56:53:849 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:53:849 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:56:54:264 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:56:54:265 [Kernel]/(11340:11343): ## (0:2) bloqueado por MUTEX
+[DEBUG] 19:56:54:472 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:54:472 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:56:55:500 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:56:55:501 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:55:501 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:56:56:516 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:56:56:518 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:56:518 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:56:57:339 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:56:57:540 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:56:57:542 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:57:542 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:56:57:946 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:56:57:946 [Kernel]/(11340:11343): ## (0:3) bloqueado por MUTEX
+[DEBUG] 19:56:58:155 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:58:156 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:56:59:174 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:56:59:175 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:56:59:175 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:00:206 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:57:00:207 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:00:207 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:57:01:018 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:57:01:221 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:57:01:222 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:01:222 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:01:627 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:57:01:627 [Kernel]/(11340:11343): ## (0:4) bloqueado por MUTEX
+[DEBUG] 19:57:01:835 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:01:835 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:57:02:854 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:57:02:854 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:02:854 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:57:03:994 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:57:03:994 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:03:995 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:57:04:829 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:57:05:034 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:57:05:035 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:05:035 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:57:05:441 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:57:05:441 [Kernel]/(11340:11343): ## (0:1) bloqueado por MUTEX
+[DEBUG] 19:57:05:644 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:05:644 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:57:06:667 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:57:06:668 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:06:668 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:57:07:704 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:57:07:705 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:07:705 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:57:08:533 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:57:08:739 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:57:08:739 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:08:740 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:57:09:149 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:57:09:149 [Kernel]/(11340:11343): ## (0:2) bloqueado por MUTEX
+[DEBUG] 19:57:09:352 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:09:352 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:10:382 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:57:10:383 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:10:385 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:57:11:406 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:57:11:407 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:11:407 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:12:226 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:57:12:430 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:57:12:432 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:12:433 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:57:12:835 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:57:12:836 [Kernel]/(11340:11343): ## (0:3) bloqueado por MUTEX
+[DEBUG] 19:57:13:040 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:13:040 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:57:14:057 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:57:14:058 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:14:059 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:15:096 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:57:15:096 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:15:097 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:57:15:904 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:57:16:128 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:57:16:128 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:16:128 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:16:533 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:57:16:535 [Kernel]/(11340:11343): ## (0:4) bloqueado por MUTEX
+[DEBUG] 19:57:16:740 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:16:740 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:57:17:755 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:57:17:755 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:17:755 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:57:18:774 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:57:18:774 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:18:775 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:57:19:583 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:57:19:794 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:57:19:794 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:19:794 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:57:20:202 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:57:20:203 [Kernel]/(11340:11343): ## (0:1) bloqueado por MUTEX
+[DEBUG] 19:57:20:410 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:20:410 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:57:21:426 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:57:21:426 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:21:426 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:57:22:436 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:57:22:436 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:22:436 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:57:23:250 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:57:23:474 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:57:23:475 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:23:476 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:57:23:887 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:57:23:887 [Kernel]/(11340:11343): ## (0:2) bloqueado por MUTEX
+[DEBUG] 19:57:24:090 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:24:090 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:25:170 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:57:25:172 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:25:172 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:57:26:188 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:57:26:188 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:26:188 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:27:021 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:57:27:225 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:57:27:225 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:27:225 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:57:27:631 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:57:27:631 [Kernel]/(11340:11343): ## (0:3) bloqueado por MUTEX
+[DEBUG] 19:57:27:835 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:27:835 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:57:28:866 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:57:28:866 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:28:866 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:29:909 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:57:29:909 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:29:910 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:57:30:730 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:57:30:934 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:57:30:935 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:30:935 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:31:349 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:57:31:350 [Kernel]/(11340:11343): ## (0:4) bloqueado por MUTEX
+[DEBUG] 19:57:31:592 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:31:592 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:57:32:629 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:57:32:630 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:32:631 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:57:33:663 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:57:33:665 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:33:665 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:57:34:492 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:57:34:695 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:57:34:696 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:34:696 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:57:35:101 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:57:35:102 [Kernel]/(11340:11343): ## (0:1) bloqueado por MUTEX
+[DEBUG] 19:57:35:321 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:35:321 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:57:36:369 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:57:36:370 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:36:370 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:57:37:439 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:57:37:439 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:37:440 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:57:38:255 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:57:38:462 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:57:38:464 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:38:465 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:57:38:868 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:57:38:869 [Kernel]/(11340:11343): ## (0:2) bloqueado por MUTEX
+[DEBUG] 19:57:39:072 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:39:072 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:40:090 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:57:40:091 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:40:091 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:57:41:116 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:57:41:116 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:41:117 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:41:935 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:57:42:138 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:57:42:139 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:42:140 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:57:42:548 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:57:42:548 [Kernel]/(11340:11343): ## (0:3) bloqueado por MUTEX
+[DEBUG] 19:57:42:752 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:42:753 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:57:43:786 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:57:43:787 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:43:787 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:44:802 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:57:44:802 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:44:803 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:57:45:631 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:57:45:833 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:57:45:834 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:45:834 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:46:256 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:57:46:257 [Kernel]/(11340:11343): ## (0:4) bloqueado por MUTEX
+[DEBUG] 19:57:46:460 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:46:461 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:57:47:490 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:57:47:491 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:47:491 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:57:48:523 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:57:48:523 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:48:524 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:57:49:341 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:57:49:584 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:57:49:585 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:49:585 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:57:49:993 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:57:49:993 [Kernel]/(11340:11343): ## (0:1) bloqueado por MUTEX
+[DEBUG] 19:57:50:196 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:50:196 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:57:51:272 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:57:51:273 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:51:273 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:57:52:303 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:57:52:304 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:52:305 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:57:53:118 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:57:53:323 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:57:53:324 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:53:324 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:57:53:730 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:57:53:732 [Kernel]/(11340:11343): ## (0:2) bloqueado por MUTEX
+[DEBUG] 19:57:53:937 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:53:937 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:54:963 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:57:54:964 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:54:965 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:57:55:989 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:57:55:991 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:55:991 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:56:808 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:57:57:015 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:57:57:016 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:57:016 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:57:57:422 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:57:57:422 [Kernel]/(11340:11343): ## (0:3) bloqueado por MUTEX
+[DEBUG] 19:57:57:624 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:57:625 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:57:58:641 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:57:58:642 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:58:643 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:57:59:662 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:57:59:663 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:57:59:663 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:58:00:504 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:58:00:707 [Kernel]/(11340:11344): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:58:00:707 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:58:00:708 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:58:01:115 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 19:58:01:115 [Kernel]/(11340:11343): ## (0:4) bloqueado por MUTEX
+[DEBUG] 19:58:01:320 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:58:01:320 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:58:02:354 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:58:02:354 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:58:02:355 [Kernel]/(11340:11347): ## (0:1) - Estado: EXEC
+[INFO] 19:58:03:176 [Kernel]/(11340:11343): ## (0:1) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:58:03:178 [Kernel]/(11340:11343): ## (0:1) Finaliza el hilo
+[DEBUG] 19:58:03:384 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:58:03:384 [Kernel]/(11340:11347): ## (0:0) - Estado: EXEC
+[INFO] 19:58:03:788 [Kernel]/(11340:11343): ## (0:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 19:58:03:789 [Kernel]/(11340:11343): ## (0:2) - Bloqueante: PTHREAD_JOIN
+[INFO] 19:58:03:789 [Kernel]/(11340:11343): ## (0:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 19:58:03:992 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:58:03:992 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:58:04:809 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:58:05:011 [Kernel]/(11340:11344): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:58:05:012 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:58:05:012 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:58:06:080 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:58:06:081 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:58:06:081 [Kernel]/(11340:11347): ## (0:2) - Estado: EXEC
+[INFO] 19:58:06:897 [Kernel]/(11340:11343): ## (0:2) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:58:06:899 [Kernel]/(11340:11343): ## (0:2) Finaliza el hilo
+[DEBUG] 19:58:07:102 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:58:07:102 [Kernel]/(11340:11347): ## (0:0) - Estado: EXEC
+[INFO] 19:58:07:518 [Kernel]/(11340:11343): ## (0:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 19:58:07:518 [Kernel]/(11340:11343): ## (0:3) - Bloqueante: PTHREAD_JOIN
+[INFO] 19:58:07:518 [Kernel]/(11340:11343): ## (0:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 19:58:07:725 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:58:07:726 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:58:08:536 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:58:08:740 [Kernel]/(11340:11344): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:58:08:741 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:58:08:741 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:58:09:814 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:58:09:815 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:58:09:815 [Kernel]/(11340:11347): ## (0:3) - Estado: EXEC
+[INFO] 19:58:10:643 [Kernel]/(11340:11343): ## (0:3) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:58:10:645 [Kernel]/(11340:11343): ## (0:3) Finaliza el hilo
+[DEBUG] 19:58:10:849 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:58:10:849 [Kernel]/(11340:11347): ## (0:0) - Estado: EXEC
+[INFO] 19:58:11:275 [Kernel]/(11340:11343): ## (0:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 19:58:11:276 [Kernel]/(11340:11343): ## (0:4) - Bloqueante: PTHREAD_JOIN
+[INFO] 19:58:11:276 [Kernel]/(11340:11343): ## (0:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 19:58:11:483 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:58:11:484 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:58:12:294 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 19:58:12:498 [Kernel]/(11340:11344): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:58:12:500 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:58:12:500 [Kernel]/(11340:11347): ## (0:4) - Estado: EXEC
+[INFO] 19:58:13:310 [Kernel]/(11340:11343): ## (0:4) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:58:13:312 [Kernel]/(11340:11343): ## (0:4) Finaliza el hilo
+[DEBUG] 19:58:13:529 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:58:13:530 [Kernel]/(11340:11347): ## (0:0) - Estado: EXEC
+[INFO] 19:58:14:547 [Kernel]/(11340:11344): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:58:14:548 [Kernel]/(11340:11347): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:58:14:548 [Kernel]/(11340:11347): ## (0:0) - Estado: EXEC
+[INFO] 19:58:14:953 [Kernel]/(11340:11343): ## (0:0) - Solicitó syscall: PROCESS_EXIT
+[INFO] 19:58:14:954 [Kernel]/(11340:11343): ## Finaliza el proceso 0
+[DEBUG] 19:58:15:179 [Kernel]/(11340:11344): ## (0) - Estado: EXIT

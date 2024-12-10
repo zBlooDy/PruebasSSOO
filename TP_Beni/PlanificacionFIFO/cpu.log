@@ -1,0 +1,291 @@
+[DEBUG] 19:39:41:631 CPU/(4875:4875): Conexion con MEMORIA creada y establecida con exito
+[DEBUG] 19:39:41:633 CPU/(4875:4875): Servidor listo para recibir Kernel dispatch
+[DEBUG] 19:39:46:275 CPU/(4875:4875): Conexion con DISPATCH establecida con exito
+[DEBUG] 19:39:46:275 CPU/(4875:4875): Servidor listo para recibir Kernel interrupt
+[DEBUG] 19:39:46:275 CPU/(4875:4875): Conexion con INTERRUPT establecida con exito
+[DEBUG] 19:39:46:276 CPU/(4875:4875): Se recibio el hilo a ejecutar. PID: 0 - TID: 0
+[INFO] 19:39:46:276 CPU/(4875:4875): ## TID: 0 - Solicito Contexto Ejecución
+[DEBUG] 19:39:46:844 CPU/(4875:4875): Iniciando ejecucion del hilo
+[INFO] 19:39:46:844 CPU/(4875:4875): ## TID: 0 - FETCH - Program Counter: 0
+[INFO] 19:39:47:346 CPU/(4875:4875): ## TID: 0 - Ejecutando: SET - Registro: DX, Valor: 0
+[DEBUG] 19:39:47:346 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:47:346 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:47:346 CPU/(4875:4875): ## TID: 0 - FETCH - Program Counter: 1
+[INFO] 19:39:47:849 CPU/(4875:4875): ## TID: 0 - Ejecutando: SET - Registro: AX, Valor: 1
+[DEBUG] 19:39:47:849 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:47:850 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:47:850 CPU/(4875:4875): ## TID: 0 - FETCH - Program Counter: 2
+[INFO] 19:39:48:351 CPU/(4875:4875): ## TID: 0 - Ejecutando: THREAD_CREATE - Archivo: PLANI_THREAD, Prioridad: 6
+[DEBUG] 19:39:48:355 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:48:355 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:48:355 CPU/(4875:4875): ## TID: 0 - FETCH - Program Counter: 3
+[INFO] 19:39:48:856 CPU/(4875:4875): ## TID: 0 - Ejecutando: SUM - Registro: DX, Registro: AX
+[DEBUG] 19:39:48:856 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:48:856 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:48:856 CPU/(4875:4875): ## TID: 0 - FETCH - Program Counter: 4
+[INFO] 19:39:49:359 CPU/(4875:4875): ## TID: 0 - Ejecutando: THREAD_CREATE - Archivo: PLANI_THREAD, Prioridad: 5
+[DEBUG] 19:39:49:366 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:49:366 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:49:366 CPU/(4875:4875): ## TID: 0 - FETCH - Program Counter: 5
+[INFO] 19:39:49:868 CPU/(4875:4875): ## TID: 0 - Ejecutando: SUM - Registro: DX, Registro: AX
+[DEBUG] 19:39:49:868 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:49:868 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:49:868 CPU/(4875:4875): ## TID: 0 - FETCH - Program Counter: 6
+[INFO] 19:39:50:396 CPU/(4875:4875): ## TID: 0 - Ejecutando: THREAD_CREATE - Archivo: PLANI_THREAD, Prioridad: 5
+[DEBUG] 19:39:50:399 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:50:399 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:50:399 CPU/(4875:4875): ## TID: 0 - FETCH - Program Counter: 7
+[INFO] 19:39:50:900 CPU/(4875:4875): ## TID: 0 - Ejecutando: SUM - Registro: DX, Registro: AX
+[DEBUG] 19:39:50:901 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:50:901 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:50:901 CPU/(4875:4875): ## TID: 0 - FETCH - Program Counter: 8
+[INFO] 19:39:51:403 CPU/(4875:4875): ## TID: 0 - Ejecutando: THREAD_CREATE - Archivo: PLANI_THREAD, Prioridad: 6
+[DEBUG] 19:39:51:408 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:51:408 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:51:408 CPU/(4875:4875): ## TID: 0 - FETCH - Program Counter: 9
+[INFO] 19:39:51:914 CPU/(4875:4875): ## TID: 0 - Ejecutando: SUM - Registro: DX, Registro: AX
+[DEBUG] 19:39:51:914 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:51:914 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:51:914 CPU/(4875:4875): ## TID: 0 - FETCH - Program Counter: 10
+[INFO] 19:39:52:417 CPU/(4875:4875): ## TID: 0 - Ejecutando: THREAD_JOIN - TID: 4
+[DEBUG] 19:39:52:418 CPU/(4875:5174): ## Llega syscall bloquante
+[DEBUG] 19:39:52:418 CPU/(4875:4875): Iniciando check_interrupt
+[INFO] 19:39:52:418 CPU/(4875:4875): ## TID: 0 - Actualizo Contexto Ejecución
+[DEBUG] 19:39:52:921 CPU/(4875:4875): ## Confirmando interrupcion => 1
+[DEBUG] 19:39:52:922 CPU/(4875:4875): Se recibio el hilo a ejecutar. PID: 0 - TID: 1
+[INFO] 19:39:52:923 CPU/(4875:4875): ## TID: 1 - Solicito Contexto Ejecución
+[DEBUG] 19:39:53:430 CPU/(4875:4875): Iniciando ejecucion del hilo
+[INFO] 19:39:53:431 CPU/(4875:4875): ## TID: 1 - FETCH - Program Counter: 0
+[INFO] 19:39:53:939 CPU/(4875:4875): ## TID: 1 - Ejecutando: SET - Registro: CX, Valor: 5
+[DEBUG] 19:39:53:939 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:53:939 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:53:939 CPU/(4875:4875): ## TID: 1 - FETCH - Program Counter: 1
+[INFO] 19:39:54:448 CPU/(4875:4875): ## TID: 1 - Ejecutando: SET - Registro: BX, Valor: 1
+[DEBUG] 19:39:54:448 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:54:448 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:54:448 CPU/(4875:4875): ## TID: 1 - FETCH - Program Counter: 2
+[INFO] 19:39:54:950 CPU/(4875:4875): ## TID: 1 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:39:54:951 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:54:951 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:54:951 CPU/(4875:4875): ## TID: 1 - FETCH - Program Counter: 3
+[INFO] 19:39:55:453 CPU/(4875:4875): ## TID: 1 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:39:55:453 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:55:453 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:55:453 CPU/(4875:4875): ## TID: 1 - FETCH - Program Counter: 2
+[INFO] 19:39:56:043 CPU/(4875:4875): ## TID: 1 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:39:56:043 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:56:044 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:56:045 CPU/(4875:4875): ## TID: 1 - FETCH - Program Counter: 3
+[INFO] 19:39:56:555 CPU/(4875:4875): ## TID: 1 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:39:56:556 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:56:556 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:56:557 CPU/(4875:4875): ## TID: 1 - FETCH - Program Counter: 2
+[INFO] 19:39:57:060 CPU/(4875:4875): ## TID: 1 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:39:57:061 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:57:061 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:57:061 CPU/(4875:4875): ## TID: 1 - FETCH - Program Counter: 3
+[INFO] 19:39:57:567 CPU/(4875:4875): ## TID: 1 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:39:57:568 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:57:568 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:57:568 CPU/(4875:4875): ## TID: 1 - FETCH - Program Counter: 2
+[INFO] 19:39:58:071 CPU/(4875:4875): ## TID: 1 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:39:58:071 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:58:072 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:58:072 CPU/(4875:4875): ## TID: 1 - FETCH - Program Counter: 3
+[INFO] 19:39:58:574 CPU/(4875:4875): ## TID: 1 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:39:58:575 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:58:575 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:58:575 CPU/(4875:4875): ## TID: 1 - FETCH - Program Counter: 2
+[INFO] 19:39:59:080 CPU/(4875:4875): ## TID: 1 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:39:59:080 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:59:080 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:59:081 CPU/(4875:4875): ## TID: 1 - FETCH - Program Counter: 3
+[INFO] 19:39:59:621 CPU/(4875:4875): ## TID: 1 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:39:59:621 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:39:59:621 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:39:59:621 CPU/(4875:4875): ## TID: 1 - FETCH - Program Counter: 4
+[INFO] 19:40:00:131 CPU/(4875:4875): ## TID: 1 - Ejecutando: THREAD_EXIT
+[DEBUG] 19:40:00:133 CPU/(4875:5174): ## Llega syscall bloquante
+[DEBUG] 19:40:00:134 CPU/(4875:4875): Iniciando check_interrupt
+[INFO] 19:40:00:134 CPU/(4875:4875): ## TID: 1 - Actualizo Contexto Ejecución
+[DEBUG] 19:40:00:638 CPU/(4875:4875): ## Confirmando interrupcion => 6
+[DEBUG] 19:40:00:639 CPU/(4875:4875): Se recibio el hilo a ejecutar. PID: 0 - TID: 2
+[INFO] 19:40:00:639 CPU/(4875:4875): ## TID: 2 - Solicito Contexto Ejecución
+[DEBUG] 19:40:01:140 CPU/(4875:4875): Iniciando ejecucion del hilo
+[INFO] 19:40:01:141 CPU/(4875:4875): ## TID: 2 - FETCH - Program Counter: 0
+[INFO] 19:40:01:642 CPU/(4875:4875): ## TID: 2 - Ejecutando: SET - Registro: CX, Valor: 5
+[DEBUG] 19:40:01:643 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:01:643 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:01:643 CPU/(4875:4875): ## TID: 2 - FETCH - Program Counter: 1
+[INFO] 19:40:02:146 CPU/(4875:4875): ## TID: 2 - Ejecutando: SET - Registro: BX, Valor: 1
+[DEBUG] 19:40:02:146 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:02:146 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:02:146 CPU/(4875:4875): ## TID: 2 - FETCH - Program Counter: 2
+[INFO] 19:40:02:648 CPU/(4875:4875): ## TID: 2 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:40:02:648 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:02:648 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:02:649 CPU/(4875:4875): ## TID: 2 - FETCH - Program Counter: 3
+[INFO] 19:40:03:150 CPU/(4875:4875): ## TID: 2 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:40:03:150 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:03:150 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:03:150 CPU/(4875:4875): ## TID: 2 - FETCH - Program Counter: 2
+[INFO] 19:40:03:656 CPU/(4875:4875): ## TID: 2 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:40:03:656 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:03:656 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:03:656 CPU/(4875:4875): ## TID: 2 - FETCH - Program Counter: 3
+[INFO] 19:40:04:158 CPU/(4875:4875): ## TID: 2 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:40:04:158 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:04:159 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:04:159 CPU/(4875:4875): ## TID: 2 - FETCH - Program Counter: 2
+[INFO] 19:40:04:662 CPU/(4875:4875): ## TID: 2 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:40:04:662 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:04:662 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:04:662 CPU/(4875:4875): ## TID: 2 - FETCH - Program Counter: 3
+[INFO] 19:40:05:164 CPU/(4875:4875): ## TID: 2 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:40:05:164 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:05:164 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:05:164 CPU/(4875:4875): ## TID: 2 - FETCH - Program Counter: 2
+[INFO] 19:40:05:666 CPU/(4875:4875): ## TID: 2 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:40:05:667 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:05:667 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:05:668 CPU/(4875:4875): ## TID: 2 - FETCH - Program Counter: 3
+[INFO] 19:40:06:176 CPU/(4875:4875): ## TID: 2 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:40:06:177 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:06:177 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:06:177 CPU/(4875:4875): ## TID: 2 - FETCH - Program Counter: 2
+[INFO] 19:40:06:682 CPU/(4875:4875): ## TID: 2 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:40:06:682 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:06:682 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:06:682 CPU/(4875:4875): ## TID: 2 - FETCH - Program Counter: 3
+[INFO] 19:40:07:188 CPU/(4875:4875): ## TID: 2 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:40:07:188 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:07:188 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:07:188 CPU/(4875:4875): ## TID: 2 - FETCH - Program Counter: 4
+[INFO] 19:40:07:704 CPU/(4875:4875): ## TID: 2 - Ejecutando: THREAD_EXIT
+[DEBUG] 19:40:07:707 CPU/(4875:5174): ## Llega syscall bloquante
+[DEBUG] 19:40:07:711 CPU/(4875:4875): Iniciando check_interrupt
+[INFO] 19:40:07:711 CPU/(4875:4875): ## TID: 2 - Actualizo Contexto Ejecución
+[DEBUG] 19:40:08:213 CPU/(4875:4875): ## Confirmando interrupcion => 6
+[DEBUG] 19:40:08:214 CPU/(4875:4875): Se recibio el hilo a ejecutar. PID: 0 - TID: 3
+[INFO] 19:40:08:214 CPU/(4875:4875): ## TID: 3 - Solicito Contexto Ejecución
+[DEBUG] 19:40:08:716 CPU/(4875:4875): Iniciando ejecucion del hilo
+[INFO] 19:40:08:718 CPU/(4875:4875): ## TID: 3 - FETCH - Program Counter: 0
+[INFO] 19:40:09:219 CPU/(4875:4875): ## TID: 3 - Ejecutando: SET - Registro: CX, Valor: 5
+[DEBUG] 19:40:09:219 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:09:219 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:09:219 CPU/(4875:4875): ## TID: 3 - FETCH - Program Counter: 1
+[INFO] 19:40:09:731 CPU/(4875:4875): ## TID: 3 - Ejecutando: SET - Registro: BX, Valor: 1
+[DEBUG] 19:40:09:732 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:09:732 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:09:732 CPU/(4875:4875): ## TID: 3 - FETCH - Program Counter: 2
+[INFO] 19:40:10:233 CPU/(4875:4875): ## TID: 3 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:40:10:233 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:10:233 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:10:233 CPU/(4875:4875): ## TID: 3 - FETCH - Program Counter: 3
+[INFO] 19:40:10:740 CPU/(4875:4875): ## TID: 3 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:40:10:740 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:10:741 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:10:741 CPU/(4875:4875): ## TID: 3 - FETCH - Program Counter: 2
+[INFO] 19:40:11:243 CPU/(4875:4875): ## TID: 3 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:40:11:244 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:11:244 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:11:244 CPU/(4875:4875): ## TID: 3 - FETCH - Program Counter: 3
+[INFO] 19:40:11:747 CPU/(4875:4875): ## TID: 3 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:40:11:747 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:11:747 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:11:747 CPU/(4875:4875): ## TID: 3 - FETCH - Program Counter: 2
+[INFO] 19:40:12:251 CPU/(4875:4875): ## TID: 3 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:40:12:251 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:12:251 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:12:251 CPU/(4875:4875): ## TID: 3 - FETCH - Program Counter: 3
+[INFO] 19:40:12:762 CPU/(4875:4875): ## TID: 3 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:40:12:762 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:12:762 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:12:762 CPU/(4875:4875): ## TID: 3 - FETCH - Program Counter: 2
+[INFO] 19:40:13:266 CPU/(4875:4875): ## TID: 3 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:40:13:266 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:13:266 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:13:266 CPU/(4875:4875): ## TID: 3 - FETCH - Program Counter: 3
+[INFO] 19:40:13:768 CPU/(4875:4875): ## TID: 3 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:40:13:768 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:13:768 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:13:768 CPU/(4875:4875): ## TID: 3 - FETCH - Program Counter: 2
+[INFO] 19:40:14:270 CPU/(4875:4875): ## TID: 3 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:40:14:271 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:14:271 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:14:271 CPU/(4875:4875): ## TID: 3 - FETCH - Program Counter: 3
+[INFO] 19:40:14:789 CPU/(4875:4875): ## TID: 3 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:40:14:789 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:14:789 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:14:789 CPU/(4875:4875): ## TID: 3 - FETCH - Program Counter: 4
+[INFO] 19:40:15:292 CPU/(4875:4875): ## TID: 3 - Ejecutando: THREAD_EXIT
+[DEBUG] 19:40:15:293 CPU/(4875:5174): ## Llega syscall bloquante
+[DEBUG] 19:40:15:294 CPU/(4875:4875): Iniciando check_interrupt
+[INFO] 19:40:15:294 CPU/(4875:4875): ## TID: 3 - Actualizo Contexto Ejecución
+[DEBUG] 19:40:15:798 CPU/(4875:4875): ## Confirmando interrupcion => 6
+[DEBUG] 19:40:15:799 CPU/(4875:4875): Se recibio el hilo a ejecutar. PID: 0 - TID: 4
+[INFO] 19:40:15:799 CPU/(4875:4875): ## TID: 4 - Solicito Contexto Ejecución
+[DEBUG] 19:40:16:307 CPU/(4875:4875): Iniciando ejecucion del hilo
+[INFO] 19:40:16:308 CPU/(4875:4875): ## TID: 4 - FETCH - Program Counter: 0
+[INFO] 19:40:16:810 CPU/(4875:4875): ## TID: 4 - Ejecutando: SET - Registro: CX, Valor: 5
+[DEBUG] 19:40:16:810 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:16:810 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:16:812 CPU/(4875:4875): ## TID: 4 - FETCH - Program Counter: 1
+[INFO] 19:40:17:316 CPU/(4875:4875): ## TID: 4 - Ejecutando: SET - Registro: BX, Valor: 1
+[DEBUG] 19:40:17:316 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:17:317 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:17:317 CPU/(4875:4875): ## TID: 4 - FETCH - Program Counter: 2
+[INFO] 19:40:17:838 CPU/(4875:4875): ## TID: 4 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:40:17:838 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:17:838 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:17:838 CPU/(4875:4875): ## TID: 4 - FETCH - Program Counter: 3
+[INFO] 19:40:18:359 CPU/(4875:4875): ## TID: 4 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:40:18:359 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:18:359 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:18:359 CPU/(4875:4875): ## TID: 4 - FETCH - Program Counter: 2
+[INFO] 19:40:18:864 CPU/(4875:4875): ## TID: 4 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:40:18:865 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:18:865 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:18:865 CPU/(4875:4875): ## TID: 4 - FETCH - Program Counter: 3
+[INFO] 19:40:19:406 CPU/(4875:4875): ## TID: 4 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:40:19:407 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:19:407 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:19:407 CPU/(4875:4875): ## TID: 4 - FETCH - Program Counter: 2
+[INFO] 19:40:19:916 CPU/(4875:4875): ## TID: 4 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:40:19:916 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:19:916 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:19:916 CPU/(4875:4875): ## TID: 4 - FETCH - Program Counter: 3
+[INFO] 19:40:20:418 CPU/(4875:4875): ## TID: 4 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:40:20:418 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:20:419 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:20:419 CPU/(4875:4875): ## TID: 4 - FETCH - Program Counter: 2
+[INFO] 19:40:20:922 CPU/(4875:4875): ## TID: 4 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:40:20:922 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:20:922 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:20:922 CPU/(4875:4875): ## TID: 4 - FETCH - Program Counter: 3
+[INFO] 19:40:21:426 CPU/(4875:4875): ## TID: 4 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:40:21:428 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:21:428 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:21:429 CPU/(4875:4875): ## TID: 4 - FETCH - Program Counter: 2
+[INFO] 19:40:21:966 CPU/(4875:4875): ## TID: 4 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:40:21:966 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:21:967 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:21:967 CPU/(4875:4875): ## TID: 4 - FETCH - Program Counter: 3
+[INFO] 19:40:22:469 CPU/(4875:4875): ## TID: 4 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:40:22:469 CPU/(4875:4875): Iniciando check_interrupt
+[DEBUG] 19:40:22:469 CPU/(4875:4875): Fin de check_interrupt
+[INFO] 19:40:22:469 CPU/(4875:4875): ## TID: 4 - FETCH - Program Counter: 4
+[INFO] 19:40:22:971 CPU/(4875:4875): ## TID: 4 - Ejecutando: THREAD_EXIT
+[DEBUG] 19:40:22:971 CPU/(4875:5174): ## Llega syscall bloquante
+[DEBUG] 19:40:22:974 CPU/(4875:4875): Iniciando check_interrupt
+[INFO] 19:40:22:974 CPU/(4875:4875): ## TID: 4 - Actualizo Contexto Ejecución
+[DEBUG] 19:40:23:476 CPU/(4875:4875): ## Confirmando interrupcion => 6
+[DEBUG] 19:40:23:478 CPU/(4875:4875): Se recibio el hilo a ejecutar. PID: 0 - TID: 0
+[INFO] 19:40:23:478 CPU/(4875:4875): ## TID: 0 - Solicito Contexto Ejecución
+[DEBUG] 19:40:23:979 CPU/(4875:4875): Iniciando ejecucion del hilo
+[INFO] 19:40:23:979 CPU/(4875:4875): ## TID: 0 - FETCH - Program Counter: 11
+[INFO] 19:40:24:482 CPU/(4875:4875): ## TID: 0 - Ejecutando: PROCESS_EXIT
+[DEBUG] 19:40:24:484 CPU/(4875:5174): ## Llega syscall bloquante
+[DEBUG] 19:40:24:485 CPU/(4875:4875): Iniciando check_interrupt
+[INFO] 19:40:24:485 CPU/(4875:4875): ## TID: 0 - Actualizo Contexto Ejecución
+[DEBUG] 19:40:25:001 CPU/(4875:4875): ## Confirmando interrupcion => 7

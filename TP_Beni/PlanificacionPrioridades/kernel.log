@@ -1,0 +1,40 @@
+[DEBUG] 19:44:33:100 [Kernel]/(8004:8004): Conexion con CPU Dispatch creada de forma exitosa.
+[DEBUG] 19:44:33:101 [Kernel]/(8004:8004): Conexion con CPU Interrupt creada de forma exitosa.
+[DEBUG] 19:44:33:101 [Kernel]/(8004:8004): Kernel iniciado de forma exitosa
+[INFO] 19:44:33:101 [Kernel]/(8004:8004): ## (0:0) Se crea el proceso - Estado: NEW
+[DEBUG] 19:44:33:101 [Kernel]/(8004:8004): Planificador por prioridades
+[DEBUG] 19:44:33:108 [Kernel]/(8004:8006): ## (0) - Estado: READY
+[DEBUG] 19:44:33:109 [Kernel]/(8004:8010): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:44:33:109 [Kernel]/(8004:8010): ## (0:0) - Estado: EXEC
+[INFO] 19:44:35:118 [Kernel]/(8004:8007): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:44:35:121 [Kernel]/(8004:8007): ## (0:1) Se crea el Hilo - Estado: READY
+[INFO] 19:44:36:127 [Kernel]/(8004:8007): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:44:36:131 [Kernel]/(8004:8007): ## (0:2) Se crea el Hilo - Estado: READY
+[INFO] 19:44:37:137 [Kernel]/(8004:8007): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:44:37:138 [Kernel]/(8004:8007): ## (0:3) Se crea el Hilo - Estado: READY
+[INFO] 19:44:38:144 [Kernel]/(8004:8007): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:44:38:146 [Kernel]/(8004:8007): ## (0:4) Se crea el Hilo - Estado: READY
+[INFO] 19:44:39:165 [Kernel]/(8004:8007): ## (0:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 19:44:39:165 [Kernel]/(8004:8007): ## (0:4) - Bloqueante: PTHREAD_JOIN
+[INFO] 19:44:39:166 [Kernel]/(8004:8007): ## (0:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 19:44:39:670 [Kernel]/(8004:8010): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:44:39:670 [Kernel]/(8004:8010): ## (0:2) - Estado: EXEC
+[INFO] 19:44:46:764 [Kernel]/(8004:8007): ## (0:2) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:44:46:765 [Kernel]/(8004:8007): ## (0:2) Finaliza el hilo
+[DEBUG] 19:44:47:268 [Kernel]/(8004:8010): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:44:47:268 [Kernel]/(8004:8010): ## (0:3) - Estado: EXEC
+[INFO] 19:44:54:317 [Kernel]/(8004:8007): ## (0:3) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:44:54:319 [Kernel]/(8004:8007): ## (0:3) Finaliza el hilo
+[DEBUG] 19:44:54:822 [Kernel]/(8004:8010): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:44:54:822 [Kernel]/(8004:8010): ## (0:1) - Estado: EXEC
+[INFO] 19:45:01:877 [Kernel]/(8004:8007): ## (0:1) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:45:01:878 [Kernel]/(8004:8007): ## (0:1) Finaliza el hilo
+[DEBUG] 19:45:02:381 [Kernel]/(8004:8010): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:45:02:381 [Kernel]/(8004:8010): ## (0:4) - Estado: EXEC
+[INFO] 19:45:09:436 [Kernel]/(8004:8007): ## (0:4) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:45:09:440 [Kernel]/(8004:8007): ## (0:4) Finaliza el hilo
+[DEBUG] 19:45:09:943 [Kernel]/(8004:8010): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:45:09:944 [Kernel]/(8004:8010): ## (0:0) - Estado: EXEC
+[INFO] 19:45:10:949 [Kernel]/(8004:8007): ## (0:0) - Solicitó syscall: PROCESS_EXIT
+[INFO] 19:45:10:949 [Kernel]/(8004:8007): ## Finaliza el proceso 0
+[DEBUG] 19:45:11:455 [Kernel]/(8004:8008): ## (0) - Estado: EXIT

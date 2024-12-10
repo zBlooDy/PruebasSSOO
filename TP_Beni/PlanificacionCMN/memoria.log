@@ -1,0 +1,226 @@
+[DEBUG] 19:47:50:355 Memoria/(8843:8843): Servidor escuchando en el puerto: 8002
+[DEBUG] 19:47:55:810 Memoria/(8843:9157): Se conecto CPU
+[INFO] 19:48:01:325 Memoria/(8843:9465): ## Kernel Conectado - FD del socket: 6
+[DEBUG] 19:48:01:326 Memoria/(8843:9465): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/PLANI_PROC
+[INFO] 19:48:01:326 Memoria/(8843:9465): ## Proceso Creacion -  PID: 0 - Tamaño: 32
+[DEBUG] 19:48:01:326 Memoria/(8843:9465): Particion de tamaño 32 asignada al proceso 0
+[DEBUG] 19:48:01:326 Memoria/(8843:9465): {[32;0][32;-1][32;-1][32;-1][32;-1][32;-1][32;-1][32;-1]}
+[INFO] 19:48:01:327 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:48:01:829 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: SET DX 0
+[INFO] 19:48:02:336 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:48:02:838 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:48:03:343 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: SET AX 1
+[INFO] 19:48:03:846 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:48:04:351 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:48:04:856 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_CREATE PLANI_THREAD 6
+[INFO] 19:48:05:358 Memoria/(8843:9483): ## Kernel Conectado - FD del socket: 7
+[DEBUG] 19:48:05:360 Memoria/(8843:9483): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/PLANI_THREAD
+[INFO] 19:48:05:361 Memoria/(8843:9483): ## Hilo Creacion - (PID:TID) - (0:1)
+[INFO] 19:48:05:365 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:48:05:870 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:48:06:377 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: SUM DX AX
+[INFO] 19:48:06:887 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:48:07:390 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:48:07:904 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_CREATE PLANI_THREAD 5
+[INFO] 19:48:08:406 Memoria/(8843:9486): ## Kernel Conectado - FD del socket: 6
+[DEBUG] 19:48:08:407 Memoria/(8843:9486): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/PLANI_THREAD
+[INFO] 19:48:08:407 Memoria/(8843:9486): ## Hilo Creacion - (PID:TID) - (0:2)
+[INFO] 19:48:08:408 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:48:08:913 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:48:09:415 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: SUM DX AX
+[INFO] 19:48:09:918 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:48:10:421 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:48:10:923 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_CREATE PLANI_THREAD 5
+[INFO] 19:48:11:426 Memoria/(8843:9501): ## Kernel Conectado - FD del socket: 7
+[DEBUG] 19:48:11:427 Memoria/(8843:9501): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/PLANI_THREAD
+[INFO] 19:48:11:428 Memoria/(8843:9501): ## Hilo Creacion - (PID:TID) - (0:3)
+[INFO] 19:48:11:431 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:48:11:937 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:48:12:440 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: SUM DX AX
+[INFO] 19:48:12:958 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:48:13:461 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:48:13:963 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_CREATE PLANI_THREAD 6
+[INFO] 19:48:14:468 Memoria/(8843:9513): ## Kernel Conectado - FD del socket: 6
+[DEBUG] 19:48:14:469 Memoria/(8843:9513): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/PLANI_THREAD
+[INFO] 19:48:14:470 Memoria/(8843:9513): ## Hilo Creacion - (PID:TID) - (0:4)
+[INFO] 19:48:14:472 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:48:14:975 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:48:15:483 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: SUM DX AX
+[INFO] 19:48:15:987 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:48:16:490 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:48:16:992 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_JOIN 4
+[INFO] 19:48:17:496 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:48:18:002 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:48:18:506 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SET CX 5
+[INFO] 19:48:19:007 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:48:19:510 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:48:20:014 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SET CX 5
+[INFO] 19:48:20:522 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:48:21:040 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:48:21:544 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SET BX 1
+[INFO] 19:48:22:051 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:48:22:560 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:48:23:062 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SET BX 1
+[INFO] 19:48:23:566 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:48:24:073 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:48:24:587 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:48:25:090 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:48:25:594 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:48:26:095 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:48:26:597 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:48:27:106 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:48:27:607 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 2
+[INFO] 19:48:28:109 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:48:28:612 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:48:29:115 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 2
+[INFO] 19:48:29:617 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:48:30:121 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:48:30:623 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:48:31:125 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:48:31:629 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:48:32:131 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:48:32:633 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:48:33:137 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:48:33:639 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 2
+[INFO] 19:48:34:140 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:48:34:652 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:48:35:153 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 2
+[INFO] 19:48:35:655 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:48:36:159 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:48:36:661 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:48:37:167 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:48:37:671 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:48:38:178 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:48:38:680 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:48:39:185 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:48:39:686 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 2
+[INFO] 19:48:40:191 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:48:40:694 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:48:41:196 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 2
+[INFO] 19:48:41:699 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:48:42:207 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:48:42:709 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:48:43:219 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:48:43:722 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:48:44:223 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:48:44:726 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:48:45:229 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:48:45:732 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 2
+[INFO] 19:48:46:246 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:48:46:753 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:48:47:255 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 2
+[INFO] 19:48:47:793 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:48:48:304 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:48:48:814 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:48:49:318 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:48:49:828 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:48:50:330 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:48:50:834 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:48:51:338 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:48:51:888 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 2
+[INFO] 19:48:52:395 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:48:52:899 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:48:53:403 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 2
+[INFO] 19:48:53:906 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:48:54:409 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:48:54:910 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: THREAD_EXIT
+[INFO] 19:48:55:412 Memoria/(8843:9645): ## Kernel Conectado - FD del socket: 7
+[INFO] 19:48:55:412 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:48:55:412 Memoria/(8843:9645): ## Hilo Destruccion - (PID:TID) - (0:2)
+[INFO] 19:48:55:916 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:48:56:418 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: THREAD_EXIT
+[INFO] 19:48:56:921 Memoria/(8843:9647): ## Kernel Conectado - FD del socket: 6
+[INFO] 19:48:56:923 Memoria/(8843:9647): ## Hilo Destruccion - (PID:TID) - (0:3)
+[INFO] 19:48:56:923 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:48:57:434 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:48:57:936 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SET CX 5
+[INFO] 19:48:58:438 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:48:58:942 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:48:59:443 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SET CX 5
+[INFO] 19:48:59:946 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:49:00:452 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:49:00:954 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SET BX 1
+[INFO] 19:49:01:459 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:49:01:965 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:49:02:482 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SET BX 1
+[INFO] 19:49:02:989 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:49:03:495 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:49:03:999 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:49:04:504 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:49:05:008 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:49:05:511 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:49:06:020 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:49:06:526 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:49:07:028 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 2
+[INFO] 19:49:07:530 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:49:08:035 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:49:08:537 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 2
+[INFO] 19:49:09:044 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:49:09:548 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:49:10:051 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:49:10:553 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:49:11:057 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:49:11:565 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:49:12:067 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:49:12:581 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:49:13:088 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 2
+[INFO] 19:49:13:590 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:49:14:094 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:49:14:596 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 2
+[INFO] 19:49:15:099 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:49:15:603 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:49:16:104 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:49:16:607 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:49:17:110 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:49:17:612 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:49:18:114 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:49:18:617 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:49:19:121 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 2
+[INFO] 19:49:19:633 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:49:20:136 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:49:20:638 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 2
+[INFO] 19:49:21:140 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:49:21:646 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:49:22:160 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:49:22:664 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:49:23:172 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:49:23:692 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:49:24:196 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:49:24:702 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:49:25:204 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 2
+[INFO] 19:49:25:706 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:49:26:211 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:49:26:715 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 2
+[INFO] 19:49:27:220 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:49:27:725 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:49:28:227 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:49:28:728 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:49:29:254 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:49:29:757 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:49:30:258 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:49:30:761 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:49:31:269 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 2
+[INFO] 19:49:31:771 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:49:32:275 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:49:32:777 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 2
+[INFO] 19:49:33:279 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:49:33:783 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:49:34:290 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: THREAD_EXIT
+[INFO] 19:49:34:795 Memoria/(8843:9770): ## Kernel Conectado - FD del socket: 7
+[INFO] 19:49:34:798 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:49:34:799 Memoria/(8843:9770): ## Hilo Destruccion - (PID:TID) - (0:1)
+[INFO] 19:49:35:310 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:49:35:832 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: THREAD_EXIT
+[INFO] 19:49:36:335 Memoria/(8843:9775): ## Kernel Conectado - FD del socket: 6
+[INFO] 19:49:36:336 Memoria/(8843:9775): ## Hilo Destruccion - (PID:TID) - (0:4)
+[INFO] 19:49:36:337 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:49:36:840 Memoria/(8843:9157): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:49:37:400 Memoria/(8843:9157): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: PROCESS_EXIT
+[INFO] 19:49:37:916 Memoria/(8843:9157): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:49:38:419 Memoria/(8843:9777): ## Kernel Conectado - FD del socket: 7
+[INFO] 19:49:38:420 Memoria/(8843:9777): ## Proceso Destruccion -  PID: 0 - Tamaño: 32
+[DEBUG] 19:49:38:420 Memoria/(8843:9777): {[32;-1][32;-1][32;-1][32;-1][32;-1][32;-1][32;-1][32;-1]}
+[WARNING] 19:53:10:728 Memoria/(8843:9157): Operación no manejable en CPU. op_code: 0
+[WARNING] 19:53:10:729 Memoria/(8843:9157): Operación no manejable en CPU. op_code: 0
+[WARNING] 19:53:10:729 Memoria/(8843:9157): Operación no manejable en CPU. op_code: 0
+[WARNING] 19:53:10:729 Memoria/(8843:9157): Es probable que el servidor de CPU se haya cerrado. Se aborta el manejo de cliente

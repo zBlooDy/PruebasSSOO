@@ -1,0 +1,587 @@
+[DEBUG] 19:47:55:811 CPU/(9155:9155): Conexion con MEMORIA creada y establecida con exito
+[DEBUG] 19:47:55:814 CPU/(9155:9155): Servidor listo para recibir Kernel dispatch
+[DEBUG] 19:48:01:318 CPU/(9155:9155): Conexion con DISPATCH establecida con exito
+[DEBUG] 19:48:01:319 CPU/(9155:9155): Servidor listo para recibir Kernel interrupt
+[DEBUG] 19:48:01:320 CPU/(9155:9155): Conexion con INTERRUPT establecida con exito
+[DEBUG] 19:48:01:327 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 0
+[INFO] 19:48:01:327 CPU/(9155:9155): ## TID: 0 - Solicito Contexto Ejecución
+[DEBUG] 19:48:01:828 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:01:828 CPU/(9155:9155): ## TID: 0 - FETCH - Program Counter: 0
+[INFO] 19:48:02:209 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:02:335 CPU/(9155:9155): ## TID: 0 - Ejecutando: SET - Registro: DX, Valor: 0
+[DEBUG] 19:48:02:335 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:02:335 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:02:335 CPU/(9155:9155): ## TID: 0 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:02:838 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 0
+[INFO] 19:48:02:838 CPU/(9155:9155): ## TID: 0 - Solicito Contexto Ejecución
+[DEBUG] 19:48:03:342 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:03:342 CPU/(9155:9155): ## TID: 0 - FETCH - Program Counter: 1
+[INFO] 19:48:03:720 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:03:845 CPU/(9155:9155): ## TID: 0 - Ejecutando: SET - Registro: AX, Valor: 1
+[DEBUG] 19:48:03:845 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:03:845 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:03:845 CPU/(9155:9155): ## TID: 0 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:04:350 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 0
+[INFO] 19:48:04:350 CPU/(9155:9155): ## TID: 0 - Solicito Contexto Ejecución
+[DEBUG] 19:48:04:855 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:04:855 CPU/(9155:9155): ## TID: 0 - FETCH - Program Counter: 2
+[INFO] 19:48:05:227 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:05:356 CPU/(9155:9155): ## TID: 0 - Ejecutando: THREAD_CREATE - Archivo: PLANI_THREAD, Prioridad: 6
+[DEBUG] 19:48:05:364 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:05:364 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:05:365 CPU/(9155:9155): ## TID: 0 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:05:869 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 0
+[INFO] 19:48:05:869 CPU/(9155:9155): ## TID: 0 - Solicito Contexto Ejecución
+[DEBUG] 19:48:06:376 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:06:377 CPU/(9155:9155): ## TID: 0 - FETCH - Program Counter: 3
+[INFO] 19:48:06:747 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:06:886 CPU/(9155:9155): ## TID: 0 - Ejecutando: SUM - Registro: DX, Registro: AX
+[DEBUG] 19:48:06:886 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:06:886 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:06:887 CPU/(9155:9155): ## TID: 0 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:07:389 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 0
+[INFO] 19:48:07:390 CPU/(9155:9155): ## TID: 0 - Solicito Contexto Ejecución
+[DEBUG] 19:48:07:904 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:07:904 CPU/(9155:9155): ## TID: 0 - FETCH - Program Counter: 4
+[INFO] 19:48:08:267 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:08:405 CPU/(9155:9155): ## TID: 0 - Ejecutando: THREAD_CREATE - Archivo: PLANI_THREAD, Prioridad: 5
+[DEBUG] 19:48:08:407 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:08:407 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:08:408 CPU/(9155:9155): ## TID: 0 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:08:912 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 0
+[INFO] 19:48:08:912 CPU/(9155:9155): ## TID: 0 - Solicito Contexto Ejecución
+[DEBUG] 19:48:09:414 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:09:414 CPU/(9155:9155): ## TID: 0 - FETCH - Program Counter: 5
+[INFO] 19:48:09:790 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:09:916 CPU/(9155:9155): ## TID: 0 - Ejecutando: SUM - Registro: DX, Registro: AX
+[DEBUG] 19:48:09:917 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:09:917 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:09:918 CPU/(9155:9155): ## TID: 0 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:10:421 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 0
+[INFO] 19:48:10:421 CPU/(9155:9155): ## TID: 0 - Solicito Contexto Ejecución
+[DEBUG] 19:48:10:922 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:10:923 CPU/(9155:9155): ## TID: 0 - FETCH - Program Counter: 6
+[INFO] 19:48:11:297 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:11:424 CPU/(9155:9155): ## TID: 0 - Ejecutando: THREAD_CREATE - Archivo: PLANI_THREAD, Prioridad: 5
+[DEBUG] 19:48:11:429 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:11:429 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:11:431 CPU/(9155:9155): ## TID: 0 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:11:935 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 0
+[INFO] 19:48:11:936 CPU/(9155:9155): ## TID: 0 - Solicito Contexto Ejecución
+[DEBUG] 19:48:12:438 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:12:438 CPU/(9155:9155): ## TID: 0 - FETCH - Program Counter: 7
+[INFO] 19:48:12:813 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:12:956 CPU/(9155:9155): ## TID: 0 - Ejecutando: SUM - Registro: DX, Registro: AX
+[DEBUG] 19:48:12:958 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:12:958 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:12:958 CPU/(9155:9155): ## TID: 0 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:13:461 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 0
+[INFO] 19:48:13:461 CPU/(9155:9155): ## TID: 0 - Solicito Contexto Ejecución
+[DEBUG] 19:48:13:963 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:13:963 CPU/(9155:9155): ## TID: 0 - FETCH - Program Counter: 8
+[INFO] 19:48:14:337 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:14:466 CPU/(9155:9155): ## TID: 0 - Ejecutando: THREAD_CREATE - Archivo: PLANI_THREAD, Prioridad: 6
+[DEBUG] 19:48:14:471 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:14:471 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:14:471 CPU/(9155:9155): ## TID: 0 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:14:974 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 0
+[INFO] 19:48:14:975 CPU/(9155:9155): ## TID: 0 - Solicito Contexto Ejecución
+[DEBUG] 19:48:15:483 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:15:483 CPU/(9155:9155): ## TID: 0 - FETCH - Program Counter: 9
+[INFO] 19:48:15:852 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:15:986 CPU/(9155:9155): ## TID: 0 - Ejecutando: SUM - Registro: DX, Registro: AX
+[DEBUG] 19:48:15:987 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:15:987 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:15:987 CPU/(9155:9155): ## TID: 0 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:16:490 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 0
+[INFO] 19:48:16:490 CPU/(9155:9155): ## TID: 0 - Solicito Contexto Ejecución
+[DEBUG] 19:48:16:991 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:16:992 CPU/(9155:9155): ## TID: 0 - FETCH - Program Counter: 10
+[INFO] 19:48:17:382 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:17:493 CPU/(9155:9155): ## TID: 0 - Ejecutando: THREAD_JOIN - TID: 4
+[DEBUG] 19:48:17:495 CPU/(9155:9460): ## Llega syscall bloquante
+[DEBUG] 19:48:17:495 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:17:495 CPU/(9155:9155): ## TID: 0 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:18:001 CPU/(9155:9155): ## Confirmando interrupcion => 1
+[DEBUG] 19:48:18:002 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 2
+[INFO] 19:48:18:002 CPU/(9155:9155): ## TID: 2 - Solicito Contexto Ejecución
+[DEBUG] 19:48:18:505 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:18:506 CPU/(9155:9155): ## TID: 2 - FETCH - Program Counter: 0
+[INFO] 19:48:18:893 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:19:007 CPU/(9155:9155): ## TID: 2 - Ejecutando: SET - Registro: CX, Valor: 5
+[DEBUG] 19:48:19:007 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:19:007 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:19:007 CPU/(9155:9155): ## TID: 2 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:19:509 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 3
+[INFO] 19:48:19:510 CPU/(9155:9155): ## TID: 3 - Solicito Contexto Ejecución
+[DEBUG] 19:48:20:013 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:20:013 CPU/(9155:9155): ## TID: 3 - FETCH - Program Counter: 0
+[INFO] 19:48:20:396 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:20:520 CPU/(9155:9155): ## TID: 3 - Ejecutando: SET - Registro: CX, Valor: 5
+[DEBUG] 19:48:20:521 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:20:521 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:20:521 CPU/(9155:9155): ## TID: 3 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:21:038 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 2
+[INFO] 19:48:21:039 CPU/(9155:9155): ## TID: 2 - Solicito Contexto Ejecución
+[DEBUG] 19:48:21:543 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:21:543 CPU/(9155:9155): ## TID: 2 - FETCH - Program Counter: 1
+[INFO] 19:48:21:919 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:22:049 CPU/(9155:9155): ## TID: 2 - Ejecutando: SET - Registro: BX, Valor: 1
+[DEBUG] 19:48:22:050 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:22:051 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:22:051 CPU/(9155:9155): ## TID: 2 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:22:560 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 3
+[INFO] 19:48:22:560 CPU/(9155:9155): ## TID: 3 - Solicito Contexto Ejecución
+[DEBUG] 19:48:23:061 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:23:061 CPU/(9155:9155): ## TID: 3 - FETCH - Program Counter: 1
+[INFO] 19:48:23:452 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:23:564 CPU/(9155:9155): ## TID: 3 - Ejecutando: SET - Registro: BX, Valor: 1
+[DEBUG] 19:48:23:565 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:23:565 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:23:565 CPU/(9155:9155): ## TID: 3 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:24:072 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 2
+[INFO] 19:48:24:072 CPU/(9155:9155): ## TID: 2 - Solicito Contexto Ejecución
+[DEBUG] 19:48:24:586 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:24:586 CPU/(9155:9155): ## TID: 2 - FETCH - Program Counter: 2
+[INFO] 19:48:24:950 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:25:088 CPU/(9155:9155): ## TID: 2 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:48:25:088 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:25:088 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:25:089 CPU/(9155:9155): ## TID: 2 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:25:594 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 3
+[INFO] 19:48:25:594 CPU/(9155:9155): ## TID: 3 - Solicito Contexto Ejecución
+[DEBUG] 19:48:26:095 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:26:095 CPU/(9155:9155): ## TID: 3 - FETCH - Program Counter: 2
+[INFO] 19:48:26:471 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:26:596 CPU/(9155:9155): ## TID: 3 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:48:26:596 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:26:596 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:26:596 CPU/(9155:9155): ## TID: 3 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:27:106 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 2
+[INFO] 19:48:27:106 CPU/(9155:9155): ## TID: 2 - Solicito Contexto Ejecución
+[DEBUG] 19:48:27:607 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:27:607 CPU/(9155:9155): ## TID: 2 - FETCH - Program Counter: 3
+[INFO] 19:48:27:983 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:28:108 CPU/(9155:9155): ## TID: 2 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:48:28:109 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:28:109 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:28:109 CPU/(9155:9155): ## TID: 2 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:28:611 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 3
+[INFO] 19:48:28:611 CPU/(9155:9155): ## TID: 3 - Solicito Contexto Ejecución
+[DEBUG] 19:48:29:114 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:29:114 CPU/(9155:9155): ## TID: 3 - FETCH - Program Counter: 3
+[INFO] 19:48:29:499 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:29:615 CPU/(9155:9155): ## TID: 3 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:48:29:617 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:29:617 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:29:617 CPU/(9155:9155): ## TID: 3 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:30:120 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 2
+[INFO] 19:48:30:120 CPU/(9155:9155): ## TID: 2 - Solicito Contexto Ejecución
+[DEBUG] 19:48:30:622 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:30:622 CPU/(9155:9155): ## TID: 2 - FETCH - Program Counter: 2
+[INFO] 19:48:30:996 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:31:123 CPU/(9155:9155): ## TID: 2 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:48:31:124 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:31:125 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:31:125 CPU/(9155:9155): ## TID: 2 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:31:628 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 3
+[INFO] 19:48:31:628 CPU/(9155:9155): ## TID: 3 - Solicito Contexto Ejecución
+[DEBUG] 19:48:32:131 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:32:131 CPU/(9155:9155): ## TID: 3 - FETCH - Program Counter: 2
+[INFO] 19:48:32:507 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:32:632 CPU/(9155:9155): ## TID: 3 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:48:32:633 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:32:633 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:32:633 CPU/(9155:9155): ## TID: 3 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:33:136 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 2
+[INFO] 19:48:33:137 CPU/(9155:9155): ## TID: 2 - Solicito Contexto Ejecución
+[DEBUG] 19:48:33:638 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:33:639 CPU/(9155:9155): ## TID: 2 - FETCH - Program Counter: 3
+[INFO] 19:48:34:015 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:34:140 CPU/(9155:9155): ## TID: 2 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:48:34:140 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:34:140 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:34:140 CPU/(9155:9155): ## TID: 2 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:34:651 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 3
+[INFO] 19:48:34:652 CPU/(9155:9155): ## TID: 3 - Solicito Contexto Ejecución
+[DEBUG] 19:48:35:152 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:35:153 CPU/(9155:9155): ## TID: 3 - FETCH - Program Counter: 3
+[INFO] 19:48:35:540 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:35:654 CPU/(9155:9155): ## TID: 3 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:48:35:654 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:35:654 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:35:654 CPU/(9155:9155): ## TID: 3 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:36:156 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 2
+[INFO] 19:48:36:158 CPU/(9155:9155): ## TID: 2 - Solicito Contexto Ejecución
+[DEBUG] 19:48:36:660 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:36:660 CPU/(9155:9155): ## TID: 2 - FETCH - Program Counter: 2
+[INFO] 19:48:37:064 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:37:164 CPU/(9155:9155): ## TID: 2 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:48:37:165 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:37:166 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:37:166 CPU/(9155:9155): ## TID: 2 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:37:671 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 3
+[INFO] 19:48:37:671 CPU/(9155:9155): ## TID: 3 - Solicito Contexto Ejecución
+[DEBUG] 19:48:38:176 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:38:178 CPU/(9155:9155): ## TID: 3 - FETCH - Program Counter: 2
+[INFO] 19:48:38:547 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:38:679 CPU/(9155:9155): ## TID: 3 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:48:38:680 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:38:680 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:38:680 CPU/(9155:9155): ## TID: 3 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:39:184 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 2
+[INFO] 19:48:39:185 CPU/(9155:9155): ## TID: 2 - Solicito Contexto Ejecución
+[DEBUG] 19:48:39:686 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:39:686 CPU/(9155:9155): ## TID: 2 - FETCH - Program Counter: 3
+[INFO] 19:48:40:079 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:40:187 CPU/(9155:9155): ## TID: 2 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:48:40:187 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:40:188 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:40:191 CPU/(9155:9155): ## TID: 2 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:40:693 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 3
+[INFO] 19:48:40:694 CPU/(9155:9155): ## TID: 3 - Solicito Contexto Ejecución
+[DEBUG] 19:48:41:195 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:41:196 CPU/(9155:9155): ## TID: 3 - FETCH - Program Counter: 3
+[INFO] 19:48:41:572 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:41:698 CPU/(9155:9155): ## TID: 3 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:48:41:698 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:41:698 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:41:699 CPU/(9155:9155): ## TID: 3 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:42:206 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 2
+[INFO] 19:48:42:207 CPU/(9155:9155): ## TID: 2 - Solicito Contexto Ejecución
+[DEBUG] 19:48:42:708 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:42:709 CPU/(9155:9155): ## TID: 2 - FETCH - Program Counter: 2
+[INFO] 19:48:43:083 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:43:217 CPU/(9155:9155): ## TID: 2 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:48:43:218 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:43:218 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:43:218 CPU/(9155:9155): ## TID: 2 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:43:721 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 3
+[INFO] 19:48:43:721 CPU/(9155:9155): ## TID: 3 - Solicito Contexto Ejecución
+[DEBUG] 19:48:44:223 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:44:223 CPU/(9155:9155): ## TID: 3 - FETCH - Program Counter: 2
+[INFO] 19:48:44:598 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:44:724 CPU/(9155:9155): ## TID: 3 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:48:44:725 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:44:725 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:44:726 CPU/(9155:9155): ## TID: 3 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:45:228 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 2
+[INFO] 19:48:45:228 CPU/(9155:9155): ## TID: 2 - Solicito Contexto Ejecución
+[DEBUG] 19:48:45:731 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:45:732 CPU/(9155:9155): ## TID: 2 - FETCH - Program Counter: 3
+[INFO] 19:48:46:107 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:46:244 CPU/(9155:9155): ## TID: 2 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:48:46:245 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:46:246 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:46:246 CPU/(9155:9155): ## TID: 2 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:46:751 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 3
+[INFO] 19:48:46:752 CPU/(9155:9155): ## TID: 3 - Solicito Contexto Ejecución
+[DEBUG] 19:48:47:254 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:47:254 CPU/(9155:9155): ## TID: 3 - FETCH - Program Counter: 3
+[INFO] 19:48:47:638 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:47:792 CPU/(9155:9155): ## TID: 3 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:48:47:792 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:47:792 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:47:793 CPU/(9155:9155): ## TID: 3 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:48:304 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 2
+[INFO] 19:48:48:304 CPU/(9155:9155): ## TID: 2 - Solicito Contexto Ejecución
+[DEBUG] 19:48:48:812 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:48:813 CPU/(9155:9155): ## TID: 2 - FETCH - Program Counter: 2
+[INFO] 19:48:49:185 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:49:316 CPU/(9155:9155): ## TID: 2 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:48:49:317 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:49:317 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:49:318 CPU/(9155:9155): ## TID: 2 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:49:827 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 3
+[INFO] 19:48:49:828 CPU/(9155:9155): ## TID: 3 - Solicito Contexto Ejecución
+[DEBUG] 19:48:50:329 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:50:329 CPU/(9155:9155): ## TID: 3 - FETCH - Program Counter: 2
+[INFO] 19:48:50:741 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:50:831 CPU/(9155:9155): ## TID: 3 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:48:50:833 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:50:833 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:50:834 CPU/(9155:9155): ## TID: 3 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:51:338 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 2
+[INFO] 19:48:51:338 CPU/(9155:9155): ## TID: 2 - Solicito Contexto Ejecución
+[DEBUG] 19:48:51:888 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:51:888 CPU/(9155:9155): ## TID: 2 - FETCH - Program Counter: 3
+[INFO] 19:48:52:214 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:52:390 CPU/(9155:9155): ## TID: 2 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:48:52:391 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:52:392 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:52:392 CPU/(9155:9155): ## TID: 2 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:52:898 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 3
+[INFO] 19:48:52:898 CPU/(9155:9155): ## TID: 3 - Solicito Contexto Ejecución
+[DEBUG] 19:48:53:402 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:53:402 CPU/(9155:9155): ## TID: 3 - FETCH - Program Counter: 3
+[INFO] 19:48:53:774 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:53:903 CPU/(9155:9155): ## TID: 3 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:48:53:904 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:53:905 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:53:905 CPU/(9155:9155): ## TID: 3 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:54:408 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 2
+[INFO] 19:48:54:409 CPU/(9155:9155): ## TID: 2 - Solicito Contexto Ejecución
+[DEBUG] 19:48:54:909 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:54:910 CPU/(9155:9155): ## TID: 2 - FETCH - Program Counter: 4
+[INFO] 19:48:55:290 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:55:410 CPU/(9155:9155): ## TID: 2 - Ejecutando: THREAD_EXIT
+[DEBUG] 19:48:55:411 CPU/(9155:9460): ## Llega syscall bloquante
+[DEBUG] 19:48:55:412 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:55:412 CPU/(9155:9155): ## TID: 2 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:55:913 CPU/(9155:9155): ## Confirmando interrupcion => 6
+[DEBUG] 19:48:55:914 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 3
+[INFO] 19:48:55:914 CPU/(9155:9155): ## TID: 3 - Solicito Contexto Ejecución
+[DEBUG] 19:48:56:417 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:56:417 CPU/(9155:9155): ## TID: 3 - FETCH - Program Counter: 4
+[INFO] 19:48:56:791 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:56:919 CPU/(9155:9155): ## TID: 3 - Ejecutando: THREAD_EXIT
+[DEBUG] 19:48:56:920 CPU/(9155:9460): ## Llega syscall bloquante
+[DEBUG] 19:48:56:922 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:56:922 CPU/(9155:9155): ## TID: 3 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:57:432 CPU/(9155:9155): ## Confirmando interrupcion => 6
+[DEBUG] 19:48:57:433 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 1
+[INFO] 19:48:57:433 CPU/(9155:9155): ## TID: 1 - Solicito Contexto Ejecución
+[DEBUG] 19:48:57:935 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:57:935 CPU/(9155:9155): ## TID: 1 - FETCH - Program Counter: 0
+[INFO] 19:48:58:311 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:58:438 CPU/(9155:9155): ## TID: 1 - Ejecutando: SET - Registro: CX, Valor: 5
+[DEBUG] 19:48:58:438 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:58:438 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:58:438 CPU/(9155:9155): ## TID: 1 - Actualizo Contexto Ejecución
+[DEBUG] 19:48:58:942 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 4
+[INFO] 19:48:58:942 CPU/(9155:9155): ## TID: 4 - Solicito Contexto Ejecución
+[DEBUG] 19:48:59:443 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:48:59:443 CPU/(9155:9155): ## TID: 4 - FETCH - Program Counter: 0
+[INFO] 19:48:59:819 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:59:944 CPU/(9155:9155): ## TID: 4 - Ejecutando: SET - Registro: CX, Valor: 5
+[DEBUG] 19:48:59:945 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:48:59:945 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:48:59:945 CPU/(9155:9155): ## TID: 4 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:00:452 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 1
+[INFO] 19:49:00:452 CPU/(9155:9155): ## TID: 1 - Solicito Contexto Ejecución
+[DEBUG] 19:49:00:954 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:00:954 CPU/(9155:9155): ## TID: 1 - FETCH - Program Counter: 1
+[INFO] 19:49:01:331 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:01:458 CPU/(9155:9155): ## TID: 1 - Ejecutando: SET - Registro: BX, Valor: 1
+[DEBUG] 19:49:01:458 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:01:458 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:01:458 CPU/(9155:9155): ## TID: 1 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:01:965 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 4
+[INFO] 19:49:01:965 CPU/(9155:9155): ## TID: 4 - Solicito Contexto Ejecución
+[DEBUG] 19:49:02:480 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:02:481 CPU/(9155:9155): ## TID: 4 - FETCH - Program Counter: 1
+[INFO] 19:49:02:842 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:02:988 CPU/(9155:9155): ## TID: 4 - Ejecutando: SET - Registro: BX, Valor: 1
+[DEBUG] 19:49:02:988 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:02:989 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:02:989 CPU/(9155:9155): ## TID: 4 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:03:494 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 1
+[INFO] 19:49:03:495 CPU/(9155:9155): ## TID: 1 - Solicito Contexto Ejecución
+[DEBUG] 19:49:03:997 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:03:997 CPU/(9155:9155): ## TID: 1 - FETCH - Program Counter: 2
+[INFO] 19:49:04:374 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:04:503 CPU/(9155:9155): ## TID: 1 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:49:04:503 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:04:503 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:04:503 CPU/(9155:9155): ## TID: 1 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:05:007 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 4
+[INFO] 19:49:05:008 CPU/(9155:9155): ## TID: 4 - Solicito Contexto Ejecución
+[DEBUG] 19:49:05:510 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:05:511 CPU/(9155:9155): ## TID: 4 - FETCH - Program Counter: 2
+[INFO] 19:49:05:885 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:06:018 CPU/(9155:9155): ## TID: 4 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:49:06:019 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:06:019 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:06:019 CPU/(9155:9155): ## TID: 4 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:06:523 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 1
+[INFO] 19:49:06:525 CPU/(9155:9155): ## TID: 1 - Solicito Contexto Ejecución
+[DEBUG] 19:49:07:027 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:07:027 CPU/(9155:9155): ## TID: 1 - FETCH - Program Counter: 3
+[INFO] 19:49:07:400 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:07:530 CPU/(9155:9155): ## TID: 1 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:49:07:530 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:07:530 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:07:530 CPU/(9155:9155): ## TID: 1 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:08:033 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 4
+[INFO] 19:49:08:034 CPU/(9155:9155): ## TID: 4 - Solicito Contexto Ejecución
+[DEBUG] 19:49:08:537 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:08:537 CPU/(9155:9155): ## TID: 4 - FETCH - Program Counter: 3
+[INFO] 19:49:08:910 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:09:044 CPU/(9155:9155): ## TID: 4 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:49:09:044 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:09:044 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:09:044 CPU/(9155:9155): ## TID: 4 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:09:547 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 1
+[INFO] 19:49:09:548 CPU/(9155:9155): ## TID: 1 - Solicito Contexto Ejecución
+[DEBUG] 19:49:10:050 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:10:050 CPU/(9155:9155): ## TID: 1 - FETCH - Program Counter: 2
+[INFO] 19:49:10:441 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:10:552 CPU/(9155:9155): ## TID: 1 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:49:10:552 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:10:553 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:10:553 CPU/(9155:9155): ## TID: 1 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:11:056 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 4
+[INFO] 19:49:11:057 CPU/(9155:9155): ## TID: 4 - Solicito Contexto Ejecución
+[DEBUG] 19:49:11:564 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:11:564 CPU/(9155:9155): ## TID: 4 - FETCH - Program Counter: 2
+[INFO] 19:49:11:934 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:12:066 CPU/(9155:9155): ## TID: 4 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:49:12:066 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:12:066 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:12:066 CPU/(9155:9155): ## TID: 4 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:12:580 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 1
+[INFO] 19:49:12:580 CPU/(9155:9155): ## TID: 1 - Solicito Contexto Ejecución
+[DEBUG] 19:49:13:088 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:13:088 CPU/(9155:9155): ## TID: 1 - FETCH - Program Counter: 3
+[INFO] 19:49:13:466 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:13:589 CPU/(9155:9155): ## TID: 1 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:49:13:590 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:13:590 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:13:590 CPU/(9155:9155): ## TID: 1 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:14:094 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 4
+[INFO] 19:49:14:094 CPU/(9155:9155): ## TID: 4 - Solicito Contexto Ejecución
+[DEBUG] 19:49:14:595 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:14:595 CPU/(9155:9155): ## TID: 4 - FETCH - Program Counter: 3
+[INFO] 19:49:14:989 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:15:097 CPU/(9155:9155): ## TID: 4 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:49:15:098 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:15:098 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:15:098 CPU/(9155:9155): ## TID: 4 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:15:602 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 1
+[INFO] 19:49:15:602 CPU/(9155:9155): ## TID: 1 - Solicito Contexto Ejecución
+[DEBUG] 19:49:16:103 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:16:104 CPU/(9155:9155): ## TID: 1 - FETCH - Program Counter: 2
+[INFO] 19:49:16:479 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:16:605 CPU/(9155:9155): ## TID: 1 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:49:16:606 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:16:607 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:16:607 CPU/(9155:9155): ## TID: 1 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:17:109 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 4
+[INFO] 19:49:17:110 CPU/(9155:9155): ## TID: 4 - Solicito Contexto Ejecución
+[DEBUG] 19:49:17:611 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:17:611 CPU/(9155:9155): ## TID: 4 - FETCH - Program Counter: 2
+[INFO] 19:49:17:987 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:18:113 CPU/(9155:9155): ## TID: 4 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:49:18:113 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:18:113 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:18:114 CPU/(9155:9155): ## TID: 4 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:18:617 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 1
+[INFO] 19:49:18:617 CPU/(9155:9155): ## TID: 1 - Solicito Contexto Ejecución
+[DEBUG] 19:49:19:119 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:19:120 CPU/(9155:9155): ## TID: 1 - FETCH - Program Counter: 3
+[INFO] 19:49:19:494 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:19:632 CPU/(9155:9155): ## TID: 1 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:49:19:632 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:19:632 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:19:632 CPU/(9155:9155): ## TID: 1 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:20:136 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 4
+[INFO] 19:49:20:136 CPU/(9155:9155): ## TID: 4 - Solicito Contexto Ejecución
+[DEBUG] 19:49:20:638 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:20:638 CPU/(9155:9155): ## TID: 4 - FETCH - Program Counter: 3
+[INFO] 19:49:21:013 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:21:139 CPU/(9155:9155): ## TID: 4 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:49:21:139 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:21:139 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:21:140 CPU/(9155:9155): ## TID: 4 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:21:645 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 1
+[INFO] 19:49:21:646 CPU/(9155:9155): ## TID: 1 - Solicito Contexto Ejecución
+[DEBUG] 19:49:22:159 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:22:159 CPU/(9155:9155): ## TID: 1 - FETCH - Program Counter: 2
+[INFO] 19:49:22:522 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:22:663 CPU/(9155:9155): ## TID: 1 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:49:22:663 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:22:663 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:22:664 CPU/(9155:9155): ## TID: 1 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:23:171 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 4
+[INFO] 19:49:23:172 CPU/(9155:9155): ## TID: 4 - Solicito Contexto Ejecución
+[DEBUG] 19:49:23:691 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:23:691 CPU/(9155:9155): ## TID: 4 - FETCH - Program Counter: 2
+[INFO] 19:49:24:070 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:24:193 CPU/(9155:9155): ## TID: 4 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:49:24:195 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:24:195 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:24:196 CPU/(9155:9155): ## TID: 4 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:24:702 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 1
+[INFO] 19:49:24:702 CPU/(9155:9155): ## TID: 1 - Solicito Contexto Ejecución
+[DEBUG] 19:49:25:204 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:25:204 CPU/(9155:9155): ## TID: 1 - FETCH - Program Counter: 3
+[INFO] 19:49:25:579 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:25:705 CPU/(9155:9155): ## TID: 1 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:49:25:706 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:25:706 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:25:706 CPU/(9155:9155): ## TID: 1 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:26:210 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 4
+[INFO] 19:49:26:211 CPU/(9155:9155): ## TID: 4 - Solicito Contexto Ejecución
+[DEBUG] 19:49:26:714 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:26:715 CPU/(9155:9155): ## TID: 4 - FETCH - Program Counter: 3
+[INFO] 19:49:27:154 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:27:216 CPU/(9155:9155): ## TID: 4 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:49:27:219 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:27:219 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:27:219 CPU/(9155:9155): ## TID: 4 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:27:724 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 1
+[INFO] 19:49:27:724 CPU/(9155:9155): ## TID: 1 - Solicito Contexto Ejecución
+[DEBUG] 19:49:28:226 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:28:226 CPU/(9155:9155): ## TID: 1 - FETCH - Program Counter: 2
+[INFO] 19:49:28:600 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:28:728 CPU/(9155:9155): ## TID: 1 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:49:28:728 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:28:728 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:28:728 CPU/(9155:9155): ## TID: 1 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:29:251 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 4
+[INFO] 19:49:29:252 CPU/(9155:9155): ## TID: 4 - Solicito Contexto Ejecución
+[DEBUG] 19:49:29:756 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:29:756 CPU/(9155:9155): ## TID: 4 - FETCH - Program Counter: 2
+[INFO] 19:49:30:129 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:30:257 CPU/(9155:9155): ## TID: 4 - Ejecutando: SUB - Registro: CX, Registro: BX
+[DEBUG] 19:49:30:258 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:30:258 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:30:258 CPU/(9155:9155): ## TID: 4 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:30:760 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 1
+[INFO] 19:49:30:760 CPU/(9155:9155): ## TID: 1 - Solicito Contexto Ejecución
+[DEBUG] 19:49:31:268 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:31:269 CPU/(9155:9155): ## TID: 1 - FETCH - Program Counter: 3
+[INFO] 19:49:31:665 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:31:770 CPU/(9155:9155): ## TID: 1 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:49:31:770 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:31:770 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:31:771 CPU/(9155:9155): ## TID: 1 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:32:273 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 4
+[INFO] 19:49:32:274 CPU/(9155:9155): ## TID: 4 - Solicito Contexto Ejecución
+[DEBUG] 19:49:32:776 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:32:777 CPU/(9155:9155): ## TID: 4 - FETCH - Program Counter: 3
+[INFO] 19:49:33:174 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:33:278 CPU/(9155:9155): ## TID: 4 - Ejecutando: JNZ - Registro: CX, Valor: 2
+[DEBUG] 19:49:33:279 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:33:279 CPU/(9155:9155): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:33:279 CPU/(9155:9155): ## TID: 4 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:33:781 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 1
+[INFO] 19:49:33:783 CPU/(9155:9155): ## TID: 1 - Solicito Contexto Ejecución
+[DEBUG] 19:49:34:289 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:34:290 CPU/(9155:9155): ## TID: 1 - FETCH - Program Counter: 4
+[INFO] 19:49:34:659 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:34:794 CPU/(9155:9155): ## TID: 1 - Ejecutando: THREAD_EXIT
+[DEBUG] 19:49:34:796 CPU/(9155:9460): ## Llega syscall bloquante
+[DEBUG] 19:49:34:798 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:34:798 CPU/(9155:9155): ## TID: 1 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:35:307 CPU/(9155:9155): ## Confirmando interrupcion => 6
+[DEBUG] 19:49:35:309 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 4
+[INFO] 19:49:35:309 CPU/(9155:9155): ## TID: 4 - Solicito Contexto Ejecución
+[DEBUG] 19:49:35:832 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:35:832 CPU/(9155:9155): ## TID: 4 - FETCH - Program Counter: 4
+[INFO] 19:49:36:194 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:36:333 CPU/(9155:9155): ## TID: 4 - Ejecutando: THREAD_EXIT
+[DEBUG] 19:49:36:334 CPU/(9155:9460): ## Llega syscall bloquante
+[DEBUG] 19:49:36:336 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:36:336 CPU/(9155:9155): ## TID: 4 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:36:839 CPU/(9155:9155): ## Confirmando interrupcion => 6
+[DEBUG] 19:49:36:840 CPU/(9155:9155): Se recibio el hilo a ejecutar. PID: 0 - TID: 0
+[INFO] 19:49:36:840 CPU/(9155:9155): ## TID: 0 - Solicito Contexto Ejecución
+[DEBUG] 19:49:37:399 CPU/(9155:9155): Iniciando ejecucion del hilo
+[INFO] 19:49:37:400 CPU/(9155:9155): ## TID: 0 - FETCH - Program Counter: 11
+[INFO] 19:49:37:734 CPU/(9155:9460): ## Llega interrupción al puerto Interrupt
+[INFO] 19:49:37:914 CPU/(9155:9155): ## TID: 0 - Ejecutando: PROCESS_EXIT
+[DEBUG] 19:49:37:915 CPU/(9155:9460): ## Llega syscall bloquante
+[DEBUG] 19:49:37:915 CPU/(9155:9155): Iniciando check_interrupt
+[INFO] 19:49:37:916 CPU/(9155:9155): ## TID: 0 - Actualizo Contexto Ejecución
+[DEBUG] 19:49:38:417 CPU/(9155:9155): ## Confirmando interrupcion => 7

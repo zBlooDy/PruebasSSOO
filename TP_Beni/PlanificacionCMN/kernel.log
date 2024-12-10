@@ -1,0 +1,214 @@
+[DEBUG] 19:48:01:318 [Kernel]/(9459:9459): Conexion con CPU Dispatch creada de forma exitosa.
+[DEBUG] 19:48:01:320 [Kernel]/(9459:9459): Conexion con CPU Interrupt creada de forma exitosa.
+[DEBUG] 19:48:01:320 [Kernel]/(9459:9459): Kernel iniciado de forma exitosa
+[INFO] 19:48:01:320 [Kernel]/(9459:9459): ## (0:0) Se crea el proceso - Estado: NEW
+[DEBUG] 19:48:01:321 [Kernel]/(9459:9459): Planificador de colas multinivel
+[DEBUG] 19:48:01:326 [Kernel]/(9459:9461): ## (0) - Estado: READY
+[DEBUG] 19:48:01:328 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:01:328 [Kernel]/(9459:9467): ## (0:0) - Estado: EXEC
+[INFO] 19:48:02:837 [Kernel]/(9459:9463): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:48:02:837 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:02:838 [Kernel]/(9459:9467): ## (0:0) - Estado: EXEC
+[INFO] 19:48:04:349 [Kernel]/(9459:9463): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:48:04:350 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:04:350 [Kernel]/(9459:9467): ## (0:0) - Estado: EXEC
+[INFO] 19:48:05:357 [Kernel]/(9459:9462): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:48:05:364 [Kernel]/(9459:9462): ## (0:1) Se crea el Hilo - Estado: READY
+[INFO] 19:48:05:867 [Kernel]/(9459:9463): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:48:05:868 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:05:868 [Kernel]/(9459:9467): ## (0:0) - Estado: EXEC
+[INFO] 19:48:07:389 [Kernel]/(9459:9463): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:48:07:389 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:07:390 [Kernel]/(9459:9467): ## (0:0) - Estado: EXEC
+[INFO] 19:48:08:406 [Kernel]/(9459:9462): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:48:08:407 [Kernel]/(9459:9462): ## (0:2) Se crea el Hilo - Estado: READY
+[INFO] 19:48:08:910 [Kernel]/(9459:9463): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:48:08:910 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:08:912 [Kernel]/(9459:9467): ## (0:0) - Estado: EXEC
+[INFO] 19:48:10:419 [Kernel]/(9459:9463): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:48:10:420 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:10:420 [Kernel]/(9459:9467): ## (0:0) - Estado: EXEC
+[INFO] 19:48:11:425 [Kernel]/(9459:9462): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:48:11:429 [Kernel]/(9459:9462): ## (0:3) Se crea el Hilo - Estado: READY
+[INFO] 19:48:11:933 [Kernel]/(9459:9463): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:48:11:935 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:11:935 [Kernel]/(9459:9467): ## (0:0) - Estado: EXEC
+[INFO] 19:48:13:459 [Kernel]/(9459:9463): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:48:13:460 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:13:460 [Kernel]/(9459:9467): ## (0:0) - Estado: EXEC
+[INFO] 19:48:14:467 [Kernel]/(9459:9462): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:48:14:471 [Kernel]/(9459:9462): ## (0:4) Se crea el Hilo - Estado: READY
+[INFO] 19:48:14:973 [Kernel]/(9459:9463): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:48:14:974 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:14:974 [Kernel]/(9459:9467): ## (0:0) - Estado: EXEC
+[INFO] 19:48:16:489 [Kernel]/(9459:9463): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:48:16:490 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:16:490 [Kernel]/(9459:9467): ## (0:0) - Estado: EXEC
+[INFO] 19:48:17:494 [Kernel]/(9459:9462): ## (0:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 19:48:17:494 [Kernel]/(9459:9462): ## (0:4) - Bloqueante: PTHREAD_JOIN
+[INFO] 19:48:17:494 [Kernel]/(9459:9462): ## (0:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 19:48:18:002 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:18:003 [Kernel]/(9459:9467): ## (0:2) - Estado: EXEC
+[INFO] 19:48:19:509 [Kernel]/(9459:9463): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:48:19:509 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:19:510 [Kernel]/(9459:9467): ## (0:3) - Estado: EXEC
+[INFO] 19:48:21:036 [Kernel]/(9459:9463): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:48:21:037 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:21:039 [Kernel]/(9459:9467): ## (0:2) - Estado: EXEC
+[INFO] 19:48:22:558 [Kernel]/(9459:9463): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:48:22:559 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:22:559 [Kernel]/(9459:9467): ## (0:3) - Estado: EXEC
+[INFO] 19:48:24:071 [Kernel]/(9459:9463): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:48:24:072 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:24:072 [Kernel]/(9459:9467): ## (0:2) - Estado: EXEC
+[INFO] 19:48:25:593 [Kernel]/(9459:9463): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:48:25:594 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:25:594 [Kernel]/(9459:9467): ## (0:3) - Estado: EXEC
+[INFO] 19:48:27:104 [Kernel]/(9459:9463): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:48:27:105 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:27:105 [Kernel]/(9459:9467): ## (0:2) - Estado: EXEC
+[INFO] 19:48:28:611 [Kernel]/(9459:9463): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:48:28:611 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:28:611 [Kernel]/(9459:9467): ## (0:3) - Estado: EXEC
+[INFO] 19:48:30:118 [Kernel]/(9459:9463): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:48:30:119 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:30:120 [Kernel]/(9459:9467): ## (0:2) - Estado: EXEC
+[INFO] 19:48:31:627 [Kernel]/(9459:9463): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:48:31:628 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:31:628 [Kernel]/(9459:9467): ## (0:3) - Estado: EXEC
+[INFO] 19:48:33:135 [Kernel]/(9459:9463): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:48:33:135 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:33:137 [Kernel]/(9459:9467): ## (0:2) - Estado: EXEC
+[INFO] 19:48:34:650 [Kernel]/(9459:9463): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:48:34:651 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:34:652 [Kernel]/(9459:9467): ## (0:3) - Estado: EXEC
+[INFO] 19:48:36:155 [Kernel]/(9459:9463): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:48:36:156 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:36:158 [Kernel]/(9459:9467): ## (0:2) - Estado: EXEC
+[INFO] 19:48:37:670 [Kernel]/(9459:9463): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:48:37:670 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:37:671 [Kernel]/(9459:9467): ## (0:3) - Estado: EXEC
+[INFO] 19:48:39:184 [Kernel]/(9459:9463): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:48:39:184 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:39:184 [Kernel]/(9459:9467): ## (0:2) - Estado: EXEC
+[INFO] 19:48:40:692 [Kernel]/(9459:9463): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:48:40:693 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:40:693 [Kernel]/(9459:9467): ## (0:3) - Estado: EXEC
+[INFO] 19:48:42:206 [Kernel]/(9459:9463): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:48:42:206 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:42:207 [Kernel]/(9459:9467): ## (0:2) - Estado: EXEC
+[INFO] 19:48:43:720 [Kernel]/(9459:9463): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:48:43:721 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:43:722 [Kernel]/(9459:9467): ## (0:3) - Estado: EXEC
+[INFO] 19:48:45:228 [Kernel]/(9459:9463): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:48:45:228 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:45:228 [Kernel]/(9459:9467): ## (0:2) - Estado: EXEC
+[INFO] 19:48:46:749 [Kernel]/(9459:9463): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:48:46:751 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:46:751 [Kernel]/(9459:9467): ## (0:3) - Estado: EXEC
+[INFO] 19:48:48:303 [Kernel]/(9459:9463): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:48:48:304 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:48:304 [Kernel]/(9459:9467): ## (0:2) - Estado: EXEC
+[INFO] 19:48:49:827 [Kernel]/(9459:9463): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:48:49:827 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:49:827 [Kernel]/(9459:9467): ## (0:3) - Estado: EXEC
+[INFO] 19:48:51:337 [Kernel]/(9459:9463): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:48:51:338 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:51:338 [Kernel]/(9459:9467): ## (0:2) - Estado: EXEC
+[INFO] 19:48:52:897 [Kernel]/(9459:9463): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 19:48:52:898 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:52:898 [Kernel]/(9459:9467): ## (0:3) - Estado: EXEC
+[INFO] 19:48:54:408 [Kernel]/(9459:9463): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 19:48:54:408 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:54:408 [Kernel]/(9459:9467): ## (0:2) - Estado: EXEC
+[INFO] 19:48:55:411 [Kernel]/(9459:9462): ## (0:2) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:48:55:412 [Kernel]/(9459:9462): ## (0:2) Finaliza el hilo
+[DEBUG] 19:48:55:914 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:55:914 [Kernel]/(9459:9467): ## (0:3) - Estado: EXEC
+[INFO] 19:48:56:920 [Kernel]/(9459:9462): ## (0:3) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:48:56:922 [Kernel]/(9459:9462): ## (0:3) Finaliza el hilo
+[DEBUG] 19:48:57:433 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:57:433 [Kernel]/(9459:9467): ## (0:1) - Estado: EXEC
+[INFO] 19:48:58:940 [Kernel]/(9459:9463): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:48:58:941 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:48:58:942 [Kernel]/(9459:9467): ## (0:4) - Estado: EXEC
+[INFO] 19:49:00:450 [Kernel]/(9459:9463): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:49:00:451 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:00:451 [Kernel]/(9459:9467): ## (0:1) - Estado: EXEC
+[INFO] 19:49:01:964 [Kernel]/(9459:9463): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:49:01:964 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:01:966 [Kernel]/(9459:9467): ## (0:4) - Estado: EXEC
+[INFO] 19:49:03:494 [Kernel]/(9459:9463): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:49:03:494 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:03:495 [Kernel]/(9459:9467): ## (0:1) - Estado: EXEC
+[INFO] 19:49:05:007 [Kernel]/(9459:9463): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:49:05:007 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:05:007 [Kernel]/(9459:9467): ## (0:4) - Estado: EXEC
+[INFO] 19:49:06:522 [Kernel]/(9459:9463): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:49:06:523 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:06:523 [Kernel]/(9459:9467): ## (0:1) - Estado: EXEC
+[INFO] 19:49:08:033 [Kernel]/(9459:9463): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:49:08:034 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:08:034 [Kernel]/(9459:9467): ## (0:4) - Estado: EXEC
+[INFO] 19:49:09:546 [Kernel]/(9459:9463): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:49:09:547 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:09:547 [Kernel]/(9459:9467): ## (0:1) - Estado: EXEC
+[INFO] 19:49:11:055 [Kernel]/(9459:9463): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:49:11:056 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:11:057 [Kernel]/(9459:9467): ## (0:4) - Estado: EXEC
+[INFO] 19:49:12:579 [Kernel]/(9459:9463): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:49:12:579 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:12:580 [Kernel]/(9459:9467): ## (0:1) - Estado: EXEC
+[INFO] 19:49:14:092 [Kernel]/(9459:9463): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:49:14:093 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:14:094 [Kernel]/(9459:9467): ## (0:4) - Estado: EXEC
+[INFO] 19:49:15:601 [Kernel]/(9459:9463): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:49:15:602 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:15:603 [Kernel]/(9459:9467): ## (0:1) - Estado: EXEC
+[INFO] 19:49:17:108 [Kernel]/(9459:9463): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:49:17:109 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:17:109 [Kernel]/(9459:9467): ## (0:4) - Estado: EXEC
+[INFO] 19:49:18:615 [Kernel]/(9459:9463): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:49:18:616 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:18:617 [Kernel]/(9459:9467): ## (0:1) - Estado: EXEC
+[INFO] 19:49:20:134 [Kernel]/(9459:9463): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:49:20:135 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:20:136 [Kernel]/(9459:9467): ## (0:4) - Estado: EXEC
+[INFO] 19:49:21:644 [Kernel]/(9459:9463): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:49:21:645 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:21:645 [Kernel]/(9459:9467): ## (0:1) - Estado: EXEC
+[INFO] 19:49:23:170 [Kernel]/(9459:9463): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:49:23:171 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:23:172 [Kernel]/(9459:9467): ## (0:4) - Estado: EXEC
+[INFO] 19:49:24:700 [Kernel]/(9459:9463): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:49:24:701 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:24:701 [Kernel]/(9459:9467): ## (0:1) - Estado: EXEC
+[INFO] 19:49:26:209 [Kernel]/(9459:9463): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:49:26:210 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:26:210 [Kernel]/(9459:9467): ## (0:4) - Estado: EXEC
+[INFO] 19:49:27:722 [Kernel]/(9459:9463): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:49:27:723 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:27:724 [Kernel]/(9459:9467): ## (0:1) - Estado: EXEC
+[INFO] 19:49:29:250 [Kernel]/(9459:9463): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:49:29:251 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:29:252 [Kernel]/(9459:9467): ## (0:4) - Estado: EXEC
+[INFO] 19:49:30:759 [Kernel]/(9459:9463): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:49:30:759 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:30:760 [Kernel]/(9459:9467): ## (0:1) - Estado: EXEC
+[INFO] 19:49:32:272 [Kernel]/(9459:9463): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 19:49:32:273 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:32:274 [Kernel]/(9459:9467): ## (0:4) - Estado: EXEC
+[INFO] 19:49:33:781 [Kernel]/(9459:9463): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 19:49:33:781 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:33:782 [Kernel]/(9459:9467): ## (0:1) - Estado: EXEC
+[INFO] 19:49:34:794 [Kernel]/(9459:9462): ## (0:1) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:49:34:796 [Kernel]/(9459:9462): ## (0:1) Finaliza el hilo
+[DEBUG] 19:49:35:309 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:35:309 [Kernel]/(9459:9467): ## (0:4) - Estado: EXEC
+[INFO] 19:49:36:334 [Kernel]/(9459:9462): ## (0:4) - Solicitó syscall: THREAD_EXIT
+[INFO] 19:49:36:336 [Kernel]/(9459:9462): ## (0:4) Finaliza el hilo
+[DEBUG] 19:49:36:839 [Kernel]/(9459:9467): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:49:36:840 [Kernel]/(9459:9467): ## (0:0) - Estado: EXEC
+[INFO] 19:49:37:915 [Kernel]/(9459:9462): ## (0:0) - Solicitó syscall: PROCESS_EXIT
+[INFO] 19:49:37:915 [Kernel]/(9459:9462): ## Finaliza el proceso 0
+[DEBUG] 19:49:38:420 [Kernel]/(9459:9463): ## (0) - Estado: EXIT

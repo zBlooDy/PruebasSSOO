@@ -1,0 +1,465 @@
+[INFO] 21:59:10:581 Filesystem/(27900:27900): ## Archivo Creado: bloques.dat - Tamaño: 6400
+[INFO] 21:59:10:581 Filesystem/(27900:27900): ## Archivo Creado: bitmap.dat - Tamaño: 200
+[DEBUG] 21:59:10:581 Filesystem/(27900:27900): Servidor escuchando en el puerto: 8003
+[DEBUG] 21:59:29:124 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 21:59:29:125 Filesystem/(27900:28863): Se conecto Memoria
+[INFO] 21:59:29:125 Filesystem/(27900:28863): ## Bloque asignado: 0 - Archivo: 1-0-21:59:29:124.dmp - Bloques Libres: 199
+[INFO] 21:59:29:125 Filesystem/(27900:28863): ## Bloque asignado: 1 - Archivo: 1-0-21:59:29:124.dmp - Bloques Libres: 198
+[INFO] 21:59:29:125 Filesystem/(27900:28863): ## Bloque asignado: 2 - Archivo: 1-0-21:59:29:124.dmp - Bloques Libres: 197
+[INFO] 21:59:29:125 Filesystem/(27900:28863): ## Bloque asignado: 3 - Archivo: 1-0-21:59:29:124.dmp - Bloques Libres: 196
+[INFO] 21:59:29:135 Filesystem/(27900:28863): ## Archivo Creado: 1-0-21:59:29:124.dmp - Tamaño: 96
+[INFO] 21:59:29:142 Filesystem/(27900:28863): ## Acceso Bloque - Archivo: 1-0-21:59:29:124.dmp - Tipo Bloque: Índice - Bloque File System 0
+[INFO] 21:59:29:170 Filesystem/(27900:28863): ## Acceso Bloque - Archivo: 1-0-21:59:29:124.dmp - Tipo Bloque: Datos - Bloque File System 1
+[INFO] 21:59:29:198 Filesystem/(27900:28863): ## Acceso Bloque - Archivo: 1-0-21:59:29:124.dmp - Tipo Bloque: Datos - Bloque File System 2
+[INFO] 21:59:29:231 Filesystem/(27900:28863): ## Acceso Bloque - Archivo: 1-0-21:59:29:124.dmp - Tipo Bloque: Datos - Bloque File System 3
+[INFO] 21:59:29:256 Filesystem/(27900:28863): ## Fin de solicitud - Archivo: 1-0-21:59:29:124.dmp
+[DEBUG] 21:59:37:168 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 21:59:37:169 Filesystem/(27900:29049): Se conecto Memoria
+[INFO] 21:59:37:169 Filesystem/(27900:29049): ## Bloque asignado: 4 - Archivo: 2-0-21:59:37:168.dmp - Bloques Libres: 195
+[INFO] 21:59:37:169 Filesystem/(27900:29049): ## Bloque asignado: 5 - Archivo: 2-0-21:59:37:168.dmp - Bloques Libres: 194
+[INFO] 21:59:37:169 Filesystem/(27900:29049): ## Bloque asignado: 6 - Archivo: 2-0-21:59:37:168.dmp - Bloques Libres: 193
+[INFO] 21:59:37:200 Filesystem/(27900:29049): ## Archivo Creado: 2-0-21:59:37:168.dmp - Tamaño: 64
+[INFO] 21:59:37:203 Filesystem/(27900:29049): ## Acceso Bloque - Archivo: 2-0-21:59:37:168.dmp - Tipo Bloque: Índice - Bloque File System 4
+[INFO] 21:59:37:233 Filesystem/(27900:29049): ## Acceso Bloque - Archivo: 2-0-21:59:37:168.dmp - Tipo Bloque: Datos - Bloque File System 5
+[INFO] 21:59:37:261 Filesystem/(27900:29049): ## Acceso Bloque - Archivo: 2-0-21:59:37:168.dmp - Tipo Bloque: Datos - Bloque File System 6
+[INFO] 21:59:37:287 Filesystem/(27900:29049): ## Fin de solicitud - Archivo: 2-0-21:59:37:168.dmp
+[DEBUG] 21:59:47:272 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 21:59:47:272 Filesystem/(27900:29289): Se conecto Memoria
+[INFO] 21:59:47:273 Filesystem/(27900:29289): ## Bloque asignado: 7 - Archivo: 3-0-21:59:47:272.dmp - Bloques Libres: 192
+[INFO] 21:59:47:273 Filesystem/(27900:29289): ## Bloque asignado: 8 - Archivo: 3-0-21:59:47:272.dmp - Bloques Libres: 191
+[INFO] 21:59:47:273 Filesystem/(27900:29289): ## Bloque asignado: 9 - Archivo: 3-0-21:59:47:272.dmp - Bloques Libres: 190
+[INFO] 21:59:47:273 Filesystem/(27900:29289): ## Bloque asignado: 10 - Archivo: 3-0-21:59:47:272.dmp - Bloques Libres: 189
+[INFO] 21:59:47:273 Filesystem/(27900:29289): ## Bloque asignado: 11 - Archivo: 3-0-21:59:47:272.dmp - Bloques Libres: 188
+[INFO] 21:59:47:282 Filesystem/(27900:29289): ## Archivo Creado: 3-0-21:59:47:272.dmp - Tamaño: 128
+[INFO] 21:59:47:288 Filesystem/(27900:29289): ## Acceso Bloque - Archivo: 3-0-21:59:47:272.dmp - Tipo Bloque: Índice - Bloque File System 7
+[INFO] 21:59:47:319 Filesystem/(27900:29289): ## Acceso Bloque - Archivo: 3-0-21:59:47:272.dmp - Tipo Bloque: Datos - Bloque File System 8
+[INFO] 21:59:47:351 Filesystem/(27900:29289): ## Acceso Bloque - Archivo: 3-0-21:59:47:272.dmp - Tipo Bloque: Datos - Bloque File System 9
+[INFO] 21:59:47:382 Filesystem/(27900:29289): ## Acceso Bloque - Archivo: 3-0-21:59:47:272.dmp - Tipo Bloque: Datos - Bloque File System 10
+[INFO] 21:59:47:412 Filesystem/(27900:29289): ## Acceso Bloque - Archivo: 3-0-21:59:47:272.dmp - Tipo Bloque: Datos - Bloque File System 11
+[INFO] 21:59:47:438 Filesystem/(27900:29289): ## Fin de solicitud - Archivo: 3-0-21:59:47:272.dmp
+[DEBUG] 21:59:52:150 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 21:59:52:155 Filesystem/(27900:29402): Se conecto Memoria
+[INFO] 21:59:52:156 Filesystem/(27900:29402): ## Bloque asignado: 12 - Archivo: 7-0-21:59:52:149.dmp - Bloques Libres: 187
+[INFO] 21:59:52:156 Filesystem/(27900:29402): ## Bloque asignado: 13 - Archivo: 7-0-21:59:52:149.dmp - Bloques Libres: 186
+[INFO] 21:59:52:156 Filesystem/(27900:29402): ## Bloque asignado: 14 - Archivo: 7-0-21:59:52:149.dmp - Bloques Libres: 185
+[INFO] 21:59:52:191 Filesystem/(27900:29402): ## Archivo Creado: 7-0-21:59:52:149.dmp - Tamaño: 64
+[INFO] 21:59:52:195 Filesystem/(27900:29402): ## Acceso Bloque - Archivo: 7-0-21:59:52:149.dmp - Tipo Bloque: Índice - Bloque File System 12
+[INFO] 21:59:52:225 Filesystem/(27900:29402): ## Acceso Bloque - Archivo: 7-0-21:59:52:149.dmp - Tipo Bloque: Datos - Bloque File System 13
+[INFO] 21:59:52:259 Filesystem/(27900:29402): ## Acceso Bloque - Archivo: 7-0-21:59:52:149.dmp - Tipo Bloque: Datos - Bloque File System 14
+[INFO] 21:59:52:288 Filesystem/(27900:29402): ## Fin de solicitud - Archivo: 7-0-21:59:52:149.dmp
+[DEBUG] 22:00:01:496 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:00:01:498 Filesystem/(27900:29617): Se conecto Memoria
+[INFO] 22:00:01:499 Filesystem/(27900:29617): ## Bloque asignado: 15 - Archivo: 4-0-22:00:01:496.dmp - Bloques Libres: 184
+[INFO] 22:00:01:499 Filesystem/(27900:29617): ## Bloque asignado: 16 - Archivo: 4-0-22:00:01:496.dmp - Bloques Libres: 183
+[INFO] 22:00:01:500 Filesystem/(27900:29617): ## Bloque asignado: 17 - Archivo: 4-0-22:00:01:496.dmp - Bloques Libres: 182
+[INFO] 22:00:01:501 Filesystem/(27900:29617): ## Bloque asignado: 18 - Archivo: 4-0-22:00:01:496.dmp - Bloques Libres: 181
+[INFO] 22:00:01:501 Filesystem/(27900:29617): ## Bloque asignado: 19 - Archivo: 4-0-22:00:01:496.dmp - Bloques Libres: 180
+[INFO] 22:00:01:502 Filesystem/(27900:29617): ## Bloque asignado: 20 - Archivo: 4-0-22:00:01:496.dmp - Bloques Libres: 179
+[INFO] 22:00:01:502 Filesystem/(27900:29617): ## Bloque asignado: 21 - Archivo: 4-0-22:00:01:496.dmp - Bloques Libres: 178
+[INFO] 22:00:01:502 Filesystem/(27900:29617): ## Bloque asignado: 22 - Archivo: 4-0-22:00:01:496.dmp - Bloques Libres: 177
+[INFO] 22:00:01:502 Filesystem/(27900:29617): ## Bloque asignado: 23 - Archivo: 4-0-22:00:01:496.dmp - Bloques Libres: 176
+[INFO] 22:00:01:512 Filesystem/(27900:29617): ## Archivo Creado: 4-0-22:00:01:496.dmp - Tamaño: 256
+[INFO] 22:00:01:520 Filesystem/(27900:29617): ## Acceso Bloque - Archivo: 4-0-22:00:01:496.dmp - Tipo Bloque: Índice - Bloque File System 15
+[INFO] 22:00:01:550 Filesystem/(27900:29617): ## Acceso Bloque - Archivo: 4-0-22:00:01:496.dmp - Tipo Bloque: Datos - Bloque File System 16
+[INFO] 22:00:01:579 Filesystem/(27900:29617): ## Acceso Bloque - Archivo: 4-0-22:00:01:496.dmp - Tipo Bloque: Datos - Bloque File System 17
+[INFO] 22:00:01:608 Filesystem/(27900:29617): ## Acceso Bloque - Archivo: 4-0-22:00:01:496.dmp - Tipo Bloque: Datos - Bloque File System 18
+[INFO] 22:00:01:639 Filesystem/(27900:29617): ## Acceso Bloque - Archivo: 4-0-22:00:01:496.dmp - Tipo Bloque: Datos - Bloque File System 19
+[INFO] 22:00:01:667 Filesystem/(27900:29617): ## Acceso Bloque - Archivo: 4-0-22:00:01:496.dmp - Tipo Bloque: Datos - Bloque File System 20
+[INFO] 22:00:01:697 Filesystem/(27900:29617): ## Acceso Bloque - Archivo: 4-0-22:00:01:496.dmp - Tipo Bloque: Datos - Bloque File System 21
+[INFO] 22:00:01:726 Filesystem/(27900:29617): ## Acceso Bloque - Archivo: 4-0-22:00:01:496.dmp - Tipo Bloque: Datos - Bloque File System 22
+[INFO] 22:00:01:754 Filesystem/(27900:29617): ## Acceso Bloque - Archivo: 4-0-22:00:01:496.dmp - Tipo Bloque: Datos - Bloque File System 23
+[INFO] 22:00:01:780 Filesystem/(27900:29617): ## Fin de solicitud - Archivo: 4-0-22:00:01:496.dmp
+[DEBUG] 22:00:02:062 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:00:02:064 Filesystem/(27900:29631): Se conecto Memoria
+[INFO] 22:00:02:065 Filesystem/(27900:29631): ## Bloque asignado: 24 - Archivo: 12-0-22:00:02:062.dmp - Bloques Libres: 175
+[INFO] 22:00:02:065 Filesystem/(27900:29631): ## Bloque asignado: 25 - Archivo: 12-0-22:00:02:062.dmp - Bloques Libres: 174
+[INFO] 22:00:02:065 Filesystem/(27900:29631): ## Bloque asignado: 26 - Archivo: 12-0-22:00:02:062.dmp - Bloques Libres: 173
+[INFO] 22:00:02:071 Filesystem/(27900:29631): ## Archivo Creado: 12-0-22:00:02:062.dmp - Tamaño: 64
+[INFO] 22:00:02:074 Filesystem/(27900:29631): ## Acceso Bloque - Archivo: 12-0-22:00:02:062.dmp - Tipo Bloque: Índice - Bloque File System 24
+[INFO] 22:00:02:108 Filesystem/(27900:29631): ## Acceso Bloque - Archivo: 12-0-22:00:02:062.dmp - Tipo Bloque: Datos - Bloque File System 25
+[INFO] 22:00:02:139 Filesystem/(27900:29631): ## Acceso Bloque - Archivo: 12-0-22:00:02:062.dmp - Tipo Bloque: Datos - Bloque File System 26
+[INFO] 22:00:02:164 Filesystem/(27900:29631): ## Fin de solicitud - Archivo: 12-0-22:00:02:062.dmp
+[DEBUG] 22:00:03:809 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:00:03:813 Filesystem/(27900:29685): Se conecto Memoria
+[INFO] 22:00:03:819 Filesystem/(27900:29685): ## Bloque asignado: 27 - Archivo: 8-0-22:00:03:809.dmp - Bloques Libres: 172
+[INFO] 22:00:03:819 Filesystem/(27900:29685): ## Bloque asignado: 28 - Archivo: 8-0-22:00:03:809.dmp - Bloques Libres: 171
+[INFO] 22:00:03:819 Filesystem/(27900:29685): ## Bloque asignado: 29 - Archivo: 8-0-22:00:03:809.dmp - Bloques Libres: 170
+[INFO] 22:00:03:819 Filesystem/(27900:29685): ## Bloque asignado: 30 - Archivo: 8-0-22:00:03:809.dmp - Bloques Libres: 169
+[INFO] 22:00:03:819 Filesystem/(27900:29685): ## Bloque asignado: 31 - Archivo: 8-0-22:00:03:809.dmp - Bloques Libres: 168
+[INFO] 22:00:03:825 Filesystem/(27900:29685): ## Archivo Creado: 8-0-22:00:03:809.dmp - Tamaño: 128
+[INFO] 22:00:03:828 Filesystem/(27900:29685): ## Acceso Bloque - Archivo: 8-0-22:00:03:809.dmp - Tipo Bloque: Índice - Bloque File System 27
+[INFO] 22:00:03:858 Filesystem/(27900:29685): ## Acceso Bloque - Archivo: 8-0-22:00:03:809.dmp - Tipo Bloque: Datos - Bloque File System 28
+[INFO] 22:00:03:887 Filesystem/(27900:29685): ## Acceso Bloque - Archivo: 8-0-22:00:03:809.dmp - Tipo Bloque: Datos - Bloque File System 29
+[INFO] 22:00:03:915 Filesystem/(27900:29685): ## Acceso Bloque - Archivo: 8-0-22:00:03:809.dmp - Tipo Bloque: Datos - Bloque File System 30
+[INFO] 22:00:03:944 Filesystem/(27900:29685): ## Acceso Bloque - Archivo: 8-0-22:00:03:809.dmp - Tipo Bloque: Datos - Bloque File System 31
+[INFO] 22:00:03:970 Filesystem/(27900:29685): ## Fin de solicitud - Archivo: 8-0-22:00:03:809.dmp
+[DEBUG] 22:00:11:870 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:00:11:870 Filesystem/(27900:29862): Se conecto Memoria
+[INFO] 22:00:11:870 Filesystem/(27900:29862): ## Bloque asignado: 32 - Archivo: 5-0-22:00:11:869.dmp - Bloques Libres: 167
+[INFO] 22:00:11:870 Filesystem/(27900:29862): ## Bloque asignado: 33 - Archivo: 5-0-22:00:11:869.dmp - Bloques Libres: 166
+[INFO] 22:00:11:870 Filesystem/(27900:29862): ## Bloque asignado: 34 - Archivo: 5-0-22:00:11:869.dmp - Bloques Libres: 165
+[INFO] 22:00:11:870 Filesystem/(27900:29862): ## Bloque asignado: 35 - Archivo: 5-0-22:00:11:869.dmp - Bloques Libres: 164
+[INFO] 22:00:11:870 Filesystem/(27900:29862): ## Bloque asignado: 36 - Archivo: 5-0-22:00:11:869.dmp - Bloques Libres: 163
+[INFO] 22:00:11:870 Filesystem/(27900:29862): ## Bloque asignado: 37 - Archivo: 5-0-22:00:11:869.dmp - Bloques Libres: 162
+[INFO] 22:00:11:870 Filesystem/(27900:29862): ## Bloque asignado: 38 - Archivo: 5-0-22:00:11:869.dmp - Bloques Libres: 161
+[INFO] 22:00:11:871 Filesystem/(27900:29862): ## Bloque asignado: 39 - Archivo: 5-0-22:00:11:869.dmp - Bloques Libres: 160
+[INFO] 22:00:11:874 Filesystem/(27900:29862): ## Bloque asignado: 40 - Archivo: 5-0-22:00:11:869.dmp - Bloques Libres: 159
+[INFO] 22:00:11:906 Filesystem/(27900:29862): ## Archivo Creado: 5-0-22:00:11:869.dmp - Tamaño: 256
+[INFO] 22:00:11:909 Filesystem/(27900:29862): ## Acceso Bloque - Archivo: 5-0-22:00:11:869.dmp - Tipo Bloque: Índice - Bloque File System 32
+[INFO] 22:00:11:938 Filesystem/(27900:29862): ## Acceso Bloque - Archivo: 5-0-22:00:11:869.dmp - Tipo Bloque: Datos - Bloque File System 33
+[INFO] 22:00:11:968 Filesystem/(27900:29862): ## Acceso Bloque - Archivo: 5-0-22:00:11:869.dmp - Tipo Bloque: Datos - Bloque File System 34
+[INFO] 22:00:11:996 Filesystem/(27900:29862): ## Acceso Bloque - Archivo: 5-0-22:00:11:869.dmp - Tipo Bloque: Datos - Bloque File System 35
+[INFO] 22:00:12:026 Filesystem/(27900:29862): ## Acceso Bloque - Archivo: 5-0-22:00:11:869.dmp - Tipo Bloque: Datos - Bloque File System 36
+[INFO] 22:00:12:054 Filesystem/(27900:29862): ## Acceso Bloque - Archivo: 5-0-22:00:11:869.dmp - Tipo Bloque: Datos - Bloque File System 37
+[INFO] 22:00:12:082 Filesystem/(27900:29862): ## Acceso Bloque - Archivo: 5-0-22:00:11:869.dmp - Tipo Bloque: Datos - Bloque File System 38
+[INFO] 22:00:12:113 Filesystem/(27900:29862): ## Acceso Bloque - Archivo: 5-0-22:00:11:869.dmp - Tipo Bloque: Datos - Bloque File System 39
+[INFO] 22:00:12:141 Filesystem/(27900:29862): ## Acceso Bloque - Archivo: 5-0-22:00:11:869.dmp - Tipo Bloque: Datos - Bloque File System 40
+[INFO] 22:00:12:166 Filesystem/(27900:29862): ## Fin de solicitud - Archivo: 5-0-22:00:11:869.dmp
+[DEBUG] 22:00:13:420 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:00:13:420 Filesystem/(27900:29910): Se conecto Memoria
+[INFO] 22:00:13:422 Filesystem/(27900:29910): ## Bloque asignado: 41 - Archivo: 13-0-22:00:13:419.dmp - Bloques Libres: 158
+[INFO] 22:00:13:422 Filesystem/(27900:29910): ## Bloque asignado: 42 - Archivo: 13-0-22:00:13:419.dmp - Bloques Libres: 157
+[INFO] 22:00:13:422 Filesystem/(27900:29910): ## Bloque asignado: 43 - Archivo: 13-0-22:00:13:419.dmp - Bloques Libres: 156
+[INFO] 22:00:13:422 Filesystem/(27900:29910): ## Bloque asignado: 44 - Archivo: 13-0-22:00:13:419.dmp - Bloques Libres: 155
+[INFO] 22:00:13:422 Filesystem/(27900:29910): ## Bloque asignado: 45 - Archivo: 13-0-22:00:13:419.dmp - Bloques Libres: 154
+[INFO] 22:00:13:433 Filesystem/(27900:29910): ## Archivo Creado: 13-0-22:00:13:419.dmp - Tamaño: 128
+[INFO] 22:00:13:436 Filesystem/(27900:29910): ## Acceso Bloque - Archivo: 13-0-22:00:13:419.dmp - Tipo Bloque: Índice - Bloque File System 41
+[INFO] 22:00:13:468 Filesystem/(27900:29910): ## Acceso Bloque - Archivo: 13-0-22:00:13:419.dmp - Tipo Bloque: Datos - Bloque File System 42
+[INFO] 22:00:13:498 Filesystem/(27900:29910): ## Acceso Bloque - Archivo: 13-0-22:00:13:419.dmp - Tipo Bloque: Datos - Bloque File System 43
+[INFO] 22:00:13:527 Filesystem/(27900:29910): ## Acceso Bloque - Archivo: 13-0-22:00:13:419.dmp - Tipo Bloque: Datos - Bloque File System 44
+[INFO] 22:00:13:556 Filesystem/(27900:29910): ## Acceso Bloque - Archivo: 13-0-22:00:13:419.dmp - Tipo Bloque: Datos - Bloque File System 45
+[INFO] 22:00:13:581 Filesystem/(27900:29910): ## Fin de solicitud - Archivo: 13-0-22:00:13:419.dmp
+[DEBUG] 22:00:13:829 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:00:13:834 Filesystem/(27900:29920): Se conecto Memoria
+[INFO] 22:00:13:835 Filesystem/(27900:29920): ## Bloque asignado: 46 - Archivo: 9-0-22:00:13:829.dmp - Bloques Libres: 153
+[INFO] 22:00:13:835 Filesystem/(27900:29920): ## Bloque asignado: 47 - Archivo: 9-0-22:00:13:829.dmp - Bloques Libres: 152
+[INFO] 22:00:13:835 Filesystem/(27900:29920): ## Bloque asignado: 48 - Archivo: 9-0-22:00:13:829.dmp - Bloques Libres: 151
+[INFO] 22:00:13:835 Filesystem/(27900:29920): ## Bloque asignado: 49 - Archivo: 9-0-22:00:13:829.dmp - Bloques Libres: 150
+[INFO] 22:00:13:835 Filesystem/(27900:29920): ## Bloque asignado: 50 - Archivo: 9-0-22:00:13:829.dmp - Bloques Libres: 149
+[INFO] 22:00:13:835 Filesystem/(27900:29920): ## Bloque asignado: 51 - Archivo: 9-0-22:00:13:829.dmp - Bloques Libres: 148
+[INFO] 22:00:13:835 Filesystem/(27900:29920): ## Bloque asignado: 52 - Archivo: 9-0-22:00:13:829.dmp - Bloques Libres: 147
+[INFO] 22:00:13:835 Filesystem/(27900:29920): ## Bloque asignado: 53 - Archivo: 9-0-22:00:13:829.dmp - Bloques Libres: 146
+[INFO] 22:00:13:835 Filesystem/(27900:29920): ## Bloque asignado: 54 - Archivo: 9-0-22:00:13:829.dmp - Bloques Libres: 145
+[INFO] 22:00:13:844 Filesystem/(27900:29920): ## Archivo Creado: 9-0-22:00:13:829.dmp - Tamaño: 256
+[INFO] 22:00:13:847 Filesystem/(27900:29920): ## Acceso Bloque - Archivo: 9-0-22:00:13:829.dmp - Tipo Bloque: Índice - Bloque File System 46
+[INFO] 22:00:13:876 Filesystem/(27900:29920): ## Acceso Bloque - Archivo: 9-0-22:00:13:829.dmp - Tipo Bloque: Datos - Bloque File System 47
+[INFO] 22:00:13:910 Filesystem/(27900:29920): ## Acceso Bloque - Archivo: 9-0-22:00:13:829.dmp - Tipo Bloque: Datos - Bloque File System 48
+[INFO] 22:00:13:939 Filesystem/(27900:29920): ## Acceso Bloque - Archivo: 9-0-22:00:13:829.dmp - Tipo Bloque: Datos - Bloque File System 49
+[INFO] 22:00:13:970 Filesystem/(27900:29920): ## Acceso Bloque - Archivo: 9-0-22:00:13:829.dmp - Tipo Bloque: Datos - Bloque File System 50
+[INFO] 22:00:13:999 Filesystem/(27900:29920): ## Acceso Bloque - Archivo: 9-0-22:00:13:829.dmp - Tipo Bloque: Datos - Bloque File System 51
+[INFO] 22:00:14:030 Filesystem/(27900:29920): ## Acceso Bloque - Archivo: 9-0-22:00:13:829.dmp - Tipo Bloque: Datos - Bloque File System 52
+[INFO] 22:00:14:059 Filesystem/(27900:29920): ## Acceso Bloque - Archivo: 9-0-22:00:13:829.dmp - Tipo Bloque: Datos - Bloque File System 53
+[INFO] 22:00:14:088 Filesystem/(27900:29920): ## Acceso Bloque - Archivo: 9-0-22:00:13:829.dmp - Tipo Bloque: Datos - Bloque File System 54
+[INFO] 22:00:14:115 Filesystem/(27900:29920): ## Fin de solicitud - Archivo: 9-0-22:00:13:829.dmp
+[DEBUG] 22:00:17:537 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:00:17:537 Filesystem/(27900:30011): Se conecto Memoria
+[INFO] 22:00:17:538 Filesystem/(27900:30011): ## Bloque asignado: 55 - Archivo: 6-0-22:00:17:537.dmp - Bloques Libres: 144
+[INFO] 22:00:17:538 Filesystem/(27900:30011): ## Bloque asignado: 56 - Archivo: 6-0-22:00:17:537.dmp - Bloques Libres: 143
+[INFO] 22:00:17:538 Filesystem/(27900:30011): ## Bloque asignado: 57 - Archivo: 6-0-22:00:17:537.dmp - Bloques Libres: 142
+[INFO] 22:00:17:538 Filesystem/(27900:30011): ## Bloque asignado: 58 - Archivo: 6-0-22:00:17:537.dmp - Bloques Libres: 141
+[INFO] 22:00:17:539 Filesystem/(27900:30011): ## Bloque asignado: 59 - Archivo: 6-0-22:00:17:537.dmp - Bloques Libres: 140
+[INFO] 22:00:17:539 Filesystem/(27900:30011): ## Bloque asignado: 60 - Archivo: 6-0-22:00:17:537.dmp - Bloques Libres: 139
+[INFO] 22:00:17:539 Filesystem/(27900:30011): ## Bloque asignado: 61 - Archivo: 6-0-22:00:17:537.dmp - Bloques Libres: 138
+[INFO] 22:00:17:539 Filesystem/(27900:30011): ## Bloque asignado: 62 - Archivo: 6-0-22:00:17:537.dmp - Bloques Libres: 137
+[INFO] 22:00:17:540 Filesystem/(27900:30011): ## Bloque asignado: 63 - Archivo: 6-0-22:00:17:537.dmp - Bloques Libres: 136
+[INFO] 22:00:17:571 Filesystem/(27900:30011): ## Archivo Creado: 6-0-22:00:17:537.dmp - Tamaño: 256
+[INFO] 22:00:17:574 Filesystem/(27900:30011): ## Acceso Bloque - Archivo: 6-0-22:00:17:537.dmp - Tipo Bloque: Índice - Bloque File System 55
+[INFO] 22:00:17:604 Filesystem/(27900:30011): ## Acceso Bloque - Archivo: 6-0-22:00:17:537.dmp - Tipo Bloque: Datos - Bloque File System 56
+[INFO] 22:00:17:632 Filesystem/(27900:30011): ## Acceso Bloque - Archivo: 6-0-22:00:17:537.dmp - Tipo Bloque: Datos - Bloque File System 57
+[INFO] 22:00:17:662 Filesystem/(27900:30011): ## Acceso Bloque - Archivo: 6-0-22:00:17:537.dmp - Tipo Bloque: Datos - Bloque File System 58
+[INFO] 22:00:17:696 Filesystem/(27900:30011): ## Acceso Bloque - Archivo: 6-0-22:00:17:537.dmp - Tipo Bloque: Datos - Bloque File System 59
+[INFO] 22:00:17:728 Filesystem/(27900:30011): ## Acceso Bloque - Archivo: 6-0-22:00:17:537.dmp - Tipo Bloque: Datos - Bloque File System 60
+[INFO] 22:00:17:758 Filesystem/(27900:30011): ## Acceso Bloque - Archivo: 6-0-22:00:17:537.dmp - Tipo Bloque: Datos - Bloque File System 61
+[INFO] 22:00:17:786 Filesystem/(27900:30011): ## Acceso Bloque - Archivo: 6-0-22:00:17:537.dmp - Tipo Bloque: Datos - Bloque File System 62
+[INFO] 22:00:17:815 Filesystem/(27900:30011): ## Acceso Bloque - Archivo: 6-0-22:00:17:537.dmp - Tipo Bloque: Datos - Bloque File System 63
+[INFO] 22:00:17:840 Filesystem/(27900:30011): ## Fin de solicitud - Archivo: 6-0-22:00:17:537.dmp
+[DEBUG] 22:00:24:754 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:00:24:754 Filesystem/(27900:30179): Se conecto Memoria
+[INFO] 22:00:24:754 Filesystem/(27900:30179): ## Bloque asignado: 64 - Archivo: 10-0-22:00:24:753.dmp - Bloques Libres: 135
+[INFO] 22:00:24:754 Filesystem/(27900:30179): ## Bloque asignado: 65 - Archivo: 10-0-22:00:24:753.dmp - Bloques Libres: 134
+[INFO] 22:00:24:754 Filesystem/(27900:30179): ## Bloque asignado: 66 - Archivo: 10-0-22:00:24:753.dmp - Bloques Libres: 133
+[INFO] 22:00:24:754 Filesystem/(27900:30179): ## Bloque asignado: 67 - Archivo: 10-0-22:00:24:753.dmp - Bloques Libres: 132
+[INFO] 22:00:24:755 Filesystem/(27900:30179): ## Bloque asignado: 68 - Archivo: 10-0-22:00:24:753.dmp - Bloques Libres: 131
+[INFO] 22:00:24:755 Filesystem/(27900:30179): ## Bloque asignado: 69 - Archivo: 10-0-22:00:24:753.dmp - Bloques Libres: 130
+[INFO] 22:00:24:755 Filesystem/(27900:30179): ## Bloque asignado: 70 - Archivo: 10-0-22:00:24:753.dmp - Bloques Libres: 129
+[INFO] 22:00:24:755 Filesystem/(27900:30179): ## Bloque asignado: 71 - Archivo: 10-0-22:00:24:753.dmp - Bloques Libres: 128
+[INFO] 22:00:24:755 Filesystem/(27900:30179): ## Bloque asignado: 72 - Archivo: 10-0-22:00:24:753.dmp - Bloques Libres: 127
+[INFO] 22:00:24:761 Filesystem/(27900:30179): ## Archivo Creado: 10-0-22:00:24:753.dmp - Tamaño: 256
+[INFO] 22:00:24:767 Filesystem/(27900:30179): ## Acceso Bloque - Archivo: 10-0-22:00:24:753.dmp - Tipo Bloque: Índice - Bloque File System 64
+[INFO] 22:00:24:797 Filesystem/(27900:30179): ## Acceso Bloque - Archivo: 10-0-22:00:24:753.dmp - Tipo Bloque: Datos - Bloque File System 65
+[INFO] 22:00:24:826 Filesystem/(27900:30179): ## Acceso Bloque - Archivo: 10-0-22:00:24:753.dmp - Tipo Bloque: Datos - Bloque File System 66
+[INFO] 22:00:24:855 Filesystem/(27900:30179): ## Acceso Bloque - Archivo: 10-0-22:00:24:753.dmp - Tipo Bloque: Datos - Bloque File System 67
+[INFO] 22:00:24:884 Filesystem/(27900:30179): ## Acceso Bloque - Archivo: 10-0-22:00:24:753.dmp - Tipo Bloque: Datos - Bloque File System 68
+[INFO] 22:00:24:912 Filesystem/(27900:30179): ## Acceso Bloque - Archivo: 10-0-22:00:24:753.dmp - Tipo Bloque: Datos - Bloque File System 69
+[INFO] 22:00:24:941 Filesystem/(27900:30179): ## Acceso Bloque - Archivo: 10-0-22:00:24:753.dmp - Tipo Bloque: Datos - Bloque File System 70
+[INFO] 22:00:24:970 Filesystem/(27900:30179): ## Acceso Bloque - Archivo: 10-0-22:00:24:753.dmp - Tipo Bloque: Datos - Bloque File System 71
+[INFO] 22:00:25:001 Filesystem/(27900:30179): ## Acceso Bloque - Archivo: 10-0-22:00:24:753.dmp - Tipo Bloque: Datos - Bloque File System 72
+[INFO] 22:00:25:027 Filesystem/(27900:30179): ## Fin de solicitud - Archivo: 10-0-22:00:24:753.dmp
+[DEBUG] 22:00:26:841 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:00:26:842 Filesystem/(27900:30227): Se conecto Memoria
+[INFO] 22:00:26:842 Filesystem/(27900:30227): ## Bloque asignado: 73 - Archivo: 17-0-22:00:26:841.dmp - Bloques Libres: 126
+[INFO] 22:00:26:842 Filesystem/(27900:30227): ## Bloque asignado: 74 - Archivo: 17-0-22:00:26:841.dmp - Bloques Libres: 125
+[INFO] 22:00:26:842 Filesystem/(27900:30227): ## Bloque asignado: 75 - Archivo: 17-0-22:00:26:841.dmp - Bloques Libres: 124
+[INFO] 22:00:26:849 Filesystem/(27900:30227): ## Archivo Creado: 17-0-22:00:26:841.dmp - Tamaño: 64
+[INFO] 22:00:26:852 Filesystem/(27900:30227): ## Acceso Bloque - Archivo: 17-0-22:00:26:841.dmp - Tipo Bloque: Índice - Bloque File System 73
+[INFO] 22:00:26:880 Filesystem/(27900:30227): ## Acceso Bloque - Archivo: 17-0-22:00:26:841.dmp - Tipo Bloque: Datos - Bloque File System 74
+[INFO] 22:00:26:911 Filesystem/(27900:30227): ## Acceso Bloque - Archivo: 17-0-22:00:26:841.dmp - Tipo Bloque: Datos - Bloque File System 75
+[INFO] 22:00:26:938 Filesystem/(27900:30227): ## Fin de solicitud - Archivo: 17-0-22:00:26:841.dmp
+[DEBUG] 22:00:30:383 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:00:30:383 Filesystem/(27900:30314): Se conecto Memoria
+[INFO] 22:00:30:384 Filesystem/(27900:30314): ## Bloque asignado: 76 - Archivo: 11-0-22:00:30:383.dmp - Bloques Libres: 123
+[INFO] 22:00:30:385 Filesystem/(27900:30314): ## Bloque asignado: 77 - Archivo: 11-0-22:00:30:383.dmp - Bloques Libres: 122
+[INFO] 22:00:30:385 Filesystem/(27900:30314): ## Bloque asignado: 78 - Archivo: 11-0-22:00:30:383.dmp - Bloques Libres: 121
+[INFO] 22:00:30:386 Filesystem/(27900:30314): ## Bloque asignado: 79 - Archivo: 11-0-22:00:30:383.dmp - Bloques Libres: 120
+[INFO] 22:00:30:387 Filesystem/(27900:30314): ## Bloque asignado: 80 - Archivo: 11-0-22:00:30:383.dmp - Bloques Libres: 119
+[INFO] 22:00:30:387 Filesystem/(27900:30314): ## Bloque asignado: 81 - Archivo: 11-0-22:00:30:383.dmp - Bloques Libres: 118
+[INFO] 22:00:30:387 Filesystem/(27900:30314): ## Bloque asignado: 82 - Archivo: 11-0-22:00:30:383.dmp - Bloques Libres: 117
+[INFO] 22:00:30:388 Filesystem/(27900:30314): ## Bloque asignado: 83 - Archivo: 11-0-22:00:30:383.dmp - Bloques Libres: 116
+[INFO] 22:00:30:388 Filesystem/(27900:30314): ## Bloque asignado: 84 - Archivo: 11-0-22:00:30:383.dmp - Bloques Libres: 115
+[INFO] 22:00:30:398 Filesystem/(27900:30314): ## Archivo Creado: 11-0-22:00:30:383.dmp - Tamaño: 256
+[INFO] 22:00:30:403 Filesystem/(27900:30314): ## Acceso Bloque - Archivo: 11-0-22:00:30:383.dmp - Tipo Bloque: Índice - Bloque File System 76
+[INFO] 22:00:30:432 Filesystem/(27900:30314): ## Acceso Bloque - Archivo: 11-0-22:00:30:383.dmp - Tipo Bloque: Datos - Bloque File System 77
+[INFO] 22:00:30:461 Filesystem/(27900:30314): ## Acceso Bloque - Archivo: 11-0-22:00:30:383.dmp - Tipo Bloque: Datos - Bloque File System 78
+[INFO] 22:00:30:490 Filesystem/(27900:30314): ## Acceso Bloque - Archivo: 11-0-22:00:30:383.dmp - Tipo Bloque: Datos - Bloque File System 79
+[INFO] 22:00:30:518 Filesystem/(27900:30314): ## Acceso Bloque - Archivo: 11-0-22:00:30:383.dmp - Tipo Bloque: Datos - Bloque File System 80
+[INFO] 22:00:30:546 Filesystem/(27900:30314): ## Acceso Bloque - Archivo: 11-0-22:00:30:383.dmp - Tipo Bloque: Datos - Bloque File System 81
+[INFO] 22:00:30:574 Filesystem/(27900:30314): ## Acceso Bloque - Archivo: 11-0-22:00:30:383.dmp - Tipo Bloque: Datos - Bloque File System 82
+[INFO] 22:00:30:603 Filesystem/(27900:30314): ## Acceso Bloque - Archivo: 11-0-22:00:30:383.dmp - Tipo Bloque: Datos - Bloque File System 83
+[INFO] 22:00:30:631 Filesystem/(27900:30314): ## Acceso Bloque - Archivo: 11-0-22:00:30:383.dmp - Tipo Bloque: Datos - Bloque File System 84
+[INFO] 22:00:30:657 Filesystem/(27900:30314): ## Fin de solicitud - Archivo: 11-0-22:00:30:383.dmp
+[DEBUG] 22:00:33:437 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:00:33:437 Filesystem/(27900:30395): Se conecto Memoria
+[INFO] 22:00:33:437 Filesystem/(27900:30395): ## Bloque asignado: 85 - Archivo: 14-0-22:00:33:437.dmp - Bloques Libres: 114
+[INFO] 22:00:33:438 Filesystem/(27900:30395): ## Bloque asignado: 86 - Archivo: 14-0-22:00:33:437.dmp - Bloques Libres: 113
+[INFO] 22:00:33:438 Filesystem/(27900:30395): ## Bloque asignado: 87 - Archivo: 14-0-22:00:33:437.dmp - Bloques Libres: 112
+[INFO] 22:00:33:438 Filesystem/(27900:30395): ## Bloque asignado: 88 - Archivo: 14-0-22:00:33:437.dmp - Bloques Libres: 111
+[INFO] 22:00:33:438 Filesystem/(27900:30395): ## Bloque asignado: 89 - Archivo: 14-0-22:00:33:437.dmp - Bloques Libres: 110
+[INFO] 22:00:33:438 Filesystem/(27900:30395): ## Bloque asignado: 90 - Archivo: 14-0-22:00:33:437.dmp - Bloques Libres: 109
+[INFO] 22:00:33:438 Filesystem/(27900:30395): ## Bloque asignado: 91 - Archivo: 14-0-22:00:33:437.dmp - Bloques Libres: 108
+[INFO] 22:00:33:438 Filesystem/(27900:30395): ## Bloque asignado: 92 - Archivo: 14-0-22:00:33:437.dmp - Bloques Libres: 107
+[INFO] 22:00:33:438 Filesystem/(27900:30395): ## Bloque asignado: 93 - Archivo: 14-0-22:00:33:437.dmp - Bloques Libres: 106
+[INFO] 22:00:33:446 Filesystem/(27900:30395): ## Archivo Creado: 14-0-22:00:33:437.dmp - Tamaño: 256
+[INFO] 22:00:33:449 Filesystem/(27900:30395): ## Acceso Bloque - Archivo: 14-0-22:00:33:437.dmp - Tipo Bloque: Índice - Bloque File System 85
+[INFO] 22:00:33:478 Filesystem/(27900:30395): ## Acceso Bloque - Archivo: 14-0-22:00:33:437.dmp - Tipo Bloque: Datos - Bloque File System 86
+[INFO] 22:00:33:508 Filesystem/(27900:30395): ## Acceso Bloque - Archivo: 14-0-22:00:33:437.dmp - Tipo Bloque: Datos - Bloque File System 87
+[INFO] 22:00:33:537 Filesystem/(27900:30395): ## Acceso Bloque - Archivo: 14-0-22:00:33:437.dmp - Tipo Bloque: Datos - Bloque File System 88
+[INFO] 22:00:33:566 Filesystem/(27900:30395): ## Acceso Bloque - Archivo: 14-0-22:00:33:437.dmp - Tipo Bloque: Datos - Bloque File System 89
+[INFO] 22:00:33:595 Filesystem/(27900:30395): ## Acceso Bloque - Archivo: 14-0-22:00:33:437.dmp - Tipo Bloque: Datos - Bloque File System 90
+[INFO] 22:00:33:625 Filesystem/(27900:30395): ## Acceso Bloque - Archivo: 14-0-22:00:33:437.dmp - Tipo Bloque: Datos - Bloque File System 91
+[INFO] 22:00:33:655 Filesystem/(27900:30395): ## Acceso Bloque - Archivo: 14-0-22:00:33:437.dmp - Tipo Bloque: Datos - Bloque File System 92
+[INFO] 22:00:33:688 Filesystem/(27900:30395): ## Acceso Bloque - Archivo: 14-0-22:00:33:437.dmp - Tipo Bloque: Datos - Bloque File System 93
+[INFO] 22:00:33:713 Filesystem/(27900:30395): ## Fin de solicitud - Archivo: 14-0-22:00:33:437.dmp
+[DEBUG] 22:00:35:559 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:00:35:560 Filesystem/(27900:30445): Se conecto Memoria
+[INFO] 22:00:35:560 Filesystem/(27900:30445): ## Bloque asignado: 94 - Archivo: 18-0-22:00:35:559.dmp - Bloques Libres: 105
+[INFO] 22:00:35:560 Filesystem/(27900:30445): ## Bloque asignado: 95 - Archivo: 18-0-22:00:35:559.dmp - Bloques Libres: 104
+[INFO] 22:00:35:560 Filesystem/(27900:30445): ## Bloque asignado: 96 - Archivo: 18-0-22:00:35:559.dmp - Bloques Libres: 103
+[INFO] 22:00:35:560 Filesystem/(27900:30445): ## Bloque asignado: 97 - Archivo: 18-0-22:00:35:559.dmp - Bloques Libres: 102
+[INFO] 22:00:35:560 Filesystem/(27900:30445): ## Bloque asignado: 98 - Archivo: 18-0-22:00:35:559.dmp - Bloques Libres: 101
+[INFO] 22:00:35:567 Filesystem/(27900:30445): ## Archivo Creado: 18-0-22:00:35:559.dmp - Tamaño: 128
+[INFO] 22:00:35:569 Filesystem/(27900:30445): ## Acceso Bloque - Archivo: 18-0-22:00:35:559.dmp - Tipo Bloque: Índice - Bloque File System 94
+[INFO] 22:00:35:598 Filesystem/(27900:30445): ## Acceso Bloque - Archivo: 18-0-22:00:35:559.dmp - Tipo Bloque: Datos - Bloque File System 95
+[INFO] 22:00:35:627 Filesystem/(27900:30445): ## Acceso Bloque - Archivo: 18-0-22:00:35:559.dmp - Tipo Bloque: Datos - Bloque File System 96
+[INFO] 22:00:35:659 Filesystem/(27900:30445): ## Acceso Bloque - Archivo: 18-0-22:00:35:559.dmp - Tipo Bloque: Datos - Bloque File System 97
+[INFO] 22:00:35:687 Filesystem/(27900:30445): ## Acceso Bloque - Archivo: 18-0-22:00:35:559.dmp - Tipo Bloque: Datos - Bloque File System 98
+[INFO] 22:00:35:713 Filesystem/(27900:30445): ## Fin de solicitud - Archivo: 18-0-22:00:35:559.dmp
+[DEBUG] 22:00:43:177 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:00:43:177 Filesystem/(27900:30622): Se conecto Memoria
+[INFO] 22:00:43:178 Filesystem/(27900:30622): ## Bloque asignado: 99 - Archivo: 22-0-22:00:43:177.dmp - Bloques Libres: 100
+[INFO] 22:00:43:178 Filesystem/(27900:30622): ## Bloque asignado: 100 - Archivo: 22-0-22:00:43:177.dmp - Bloques Libres: 99
+[INFO] 22:00:43:178 Filesystem/(27900:30622): ## Bloque asignado: 101 - Archivo: 22-0-22:00:43:177.dmp - Bloques Libres: 98
+[INFO] 22:00:43:188 Filesystem/(27900:30622): ## Archivo Creado: 22-0-22:00:43:177.dmp - Tamaño: 64
+[INFO] 22:00:43:192 Filesystem/(27900:30622): ## Acceso Bloque - Archivo: 22-0-22:00:43:177.dmp - Tipo Bloque: Índice - Bloque File System 99
+[INFO] 22:00:43:224 Filesystem/(27900:30622): ## Acceso Bloque - Archivo: 22-0-22:00:43:177.dmp - Tipo Bloque: Datos - Bloque File System 100
+[INFO] 22:00:43:255 Filesystem/(27900:30622): ## Acceso Bloque - Archivo: 22-0-22:00:43:177.dmp - Tipo Bloque: Datos - Bloque File System 101
+[INFO] 22:00:43:280 Filesystem/(27900:30622): ## Fin de solicitud - Archivo: 22-0-22:00:43:177.dmp
+[DEBUG] 22:00:50:162 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:00:50:163 Filesystem/(27900:30782): Se conecto Memoria
+[INFO] 22:00:50:164 Filesystem/(27900:30782): ## Bloque asignado: 102 - Archivo: 19-0-22:00:50:162.dmp - Bloques Libres: 97
+[INFO] 22:00:50:164 Filesystem/(27900:30782): ## Bloque asignado: 103 - Archivo: 19-0-22:00:50:162.dmp - Bloques Libres: 96
+[INFO] 22:00:50:168 Filesystem/(27900:30782): ## Bloque asignado: 104 - Archivo: 19-0-22:00:50:162.dmp - Bloques Libres: 95
+[INFO] 22:00:50:169 Filesystem/(27900:30782): ## Bloque asignado: 105 - Archivo: 19-0-22:00:50:162.dmp - Bloques Libres: 94
+[INFO] 22:00:50:169 Filesystem/(27900:30782): ## Bloque asignado: 106 - Archivo: 19-0-22:00:50:162.dmp - Bloques Libres: 93
+[INFO] 22:00:50:169 Filesystem/(27900:30782): ## Bloque asignado: 107 - Archivo: 19-0-22:00:50:162.dmp - Bloques Libres: 92
+[INFO] 22:00:50:169 Filesystem/(27900:30782): ## Bloque asignado: 108 - Archivo: 19-0-22:00:50:162.dmp - Bloques Libres: 91
+[INFO] 22:00:50:169 Filesystem/(27900:30782): ## Bloque asignado: 109 - Archivo: 19-0-22:00:50:162.dmp - Bloques Libres: 90
+[INFO] 22:00:50:169 Filesystem/(27900:30782): ## Bloque asignado: 110 - Archivo: 19-0-22:00:50:162.dmp - Bloques Libres: 89
+[INFO] 22:00:50:175 Filesystem/(27900:30782): ## Archivo Creado: 19-0-22:00:50:162.dmp - Tamaño: 256
+[INFO] 22:00:50:178 Filesystem/(27900:30782): ## Acceso Bloque - Archivo: 19-0-22:00:50:162.dmp - Tipo Bloque: Índice - Bloque File System 102
+[INFO] 22:00:50:207 Filesystem/(27900:30782): ## Acceso Bloque - Archivo: 19-0-22:00:50:162.dmp - Tipo Bloque: Datos - Bloque File System 103
+[INFO] 22:00:50:236 Filesystem/(27900:30782): ## Acceso Bloque - Archivo: 19-0-22:00:50:162.dmp - Tipo Bloque: Datos - Bloque File System 104
+[INFO] 22:00:50:266 Filesystem/(27900:30782): ## Acceso Bloque - Archivo: 19-0-22:00:50:162.dmp - Tipo Bloque: Datos - Bloque File System 105
+[INFO] 22:00:50:296 Filesystem/(27900:30782): ## Acceso Bloque - Archivo: 19-0-22:00:50:162.dmp - Tipo Bloque: Datos - Bloque File System 106
+[INFO] 22:00:50:325 Filesystem/(27900:30782): ## Acceso Bloque - Archivo: 19-0-22:00:50:162.dmp - Tipo Bloque: Datos - Bloque File System 107
+[INFO] 22:00:50:355 Filesystem/(27900:30782): ## Acceso Bloque - Archivo: 19-0-22:00:50:162.dmp - Tipo Bloque: Datos - Bloque File System 108
+[INFO] 22:00:50:385 Filesystem/(27900:30782): ## Acceso Bloque - Archivo: 19-0-22:00:50:162.dmp - Tipo Bloque: Datos - Bloque File System 109
+[INFO] 22:00:50:413 Filesystem/(27900:30782): ## Acceso Bloque - Archivo: 19-0-22:00:50:162.dmp - Tipo Bloque: Datos - Bloque File System 110
+[INFO] 22:00:50:439 Filesystem/(27900:30782): ## Fin de solicitud - Archivo: 19-0-22:00:50:162.dmp
+[DEBUG] 22:00:52:404 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:00:52:405 Filesystem/(27900:30841): Se conecto Memoria
+[INFO] 22:00:52:406 Filesystem/(27900:30841): ## Bloque asignado: 111 - Archivo: 23-0-22:00:52:403.dmp - Bloques Libres: 88
+[INFO] 22:00:52:406 Filesystem/(27900:30841): ## Bloque asignado: 112 - Archivo: 23-0-22:00:52:403.dmp - Bloques Libres: 87
+[INFO] 22:00:52:408 Filesystem/(27900:30841): ## Bloque asignado: 113 - Archivo: 23-0-22:00:52:403.dmp - Bloques Libres: 86
+[INFO] 22:00:52:408 Filesystem/(27900:30841): ## Bloque asignado: 114 - Archivo: 23-0-22:00:52:403.dmp - Bloques Libres: 85
+[INFO] 22:00:52:408 Filesystem/(27900:30841): ## Bloque asignado: 115 - Archivo: 23-0-22:00:52:403.dmp - Bloques Libres: 84
+[INFO] 22:00:52:416 Filesystem/(27900:30841): ## Archivo Creado: 23-0-22:00:52:403.dmp - Tamaño: 128
+[INFO] 22:00:52:420 Filesystem/(27900:30841): ## Acceso Bloque - Archivo: 23-0-22:00:52:403.dmp - Tipo Bloque: Índice - Bloque File System 111
+[INFO] 22:00:52:451 Filesystem/(27900:30841): ## Acceso Bloque - Archivo: 23-0-22:00:52:403.dmp - Tipo Bloque: Datos - Bloque File System 112
+[INFO] 22:00:52:481 Filesystem/(27900:30841): ## Acceso Bloque - Archivo: 23-0-22:00:52:403.dmp - Tipo Bloque: Datos - Bloque File System 113
+[INFO] 22:00:52:512 Filesystem/(27900:30841): ## Acceso Bloque - Archivo: 23-0-22:00:52:403.dmp - Tipo Bloque: Datos - Bloque File System 114
+[INFO] 22:00:52:541 Filesystem/(27900:30841): ## Acceso Bloque - Archivo: 23-0-22:00:52:403.dmp - Tipo Bloque: Datos - Bloque File System 115
+[INFO] 22:00:52:567 Filesystem/(27900:30841): ## Fin de solicitud - Archivo: 23-0-22:00:52:403.dmp
+[DEBUG] 22:00:53:728 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:00:53:729 Filesystem/(27900:30875): Se conecto Memoria
+[INFO] 22:00:53:730 Filesystem/(27900:30875): ## Bloque asignado: 116 - Archivo: 15-0-22:00:53:728.dmp - Bloques Libres: 83
+[INFO] 22:00:53:730 Filesystem/(27900:30875): ## Bloque asignado: 117 - Archivo: 15-0-22:00:53:728.dmp - Bloques Libres: 82
+[INFO] 22:00:53:730 Filesystem/(27900:30875): ## Bloque asignado: 118 - Archivo: 15-0-22:00:53:728.dmp - Bloques Libres: 81
+[INFO] 22:00:53:730 Filesystem/(27900:30875): ## Bloque asignado: 119 - Archivo: 15-0-22:00:53:728.dmp - Bloques Libres: 80
+[INFO] 22:00:53:730 Filesystem/(27900:30875): ## Bloque asignado: 120 - Archivo: 15-0-22:00:53:728.dmp - Bloques Libres: 79
+[INFO] 22:00:53:730 Filesystem/(27900:30875): ## Bloque asignado: 121 - Archivo: 15-0-22:00:53:728.dmp - Bloques Libres: 78
+[INFO] 22:00:53:730 Filesystem/(27900:30875): ## Bloque asignado: 122 - Archivo: 15-0-22:00:53:728.dmp - Bloques Libres: 77
+[INFO] 22:00:53:730 Filesystem/(27900:30875): ## Bloque asignado: 123 - Archivo: 15-0-22:00:53:728.dmp - Bloques Libres: 76
+[INFO] 22:00:53:730 Filesystem/(27900:30875): ## Bloque asignado: 124 - Archivo: 15-0-22:00:53:728.dmp - Bloques Libres: 75
+[INFO] 22:00:53:736 Filesystem/(27900:30875): ## Archivo Creado: 15-0-22:00:53:728.dmp - Tamaño: 256
+[INFO] 22:00:53:739 Filesystem/(27900:30875): ## Acceso Bloque - Archivo: 15-0-22:00:53:728.dmp - Tipo Bloque: Índice - Bloque File System 116
+[INFO] 22:00:53:767 Filesystem/(27900:30875): ## Acceso Bloque - Archivo: 15-0-22:00:53:728.dmp - Tipo Bloque: Datos - Bloque File System 117
+[INFO] 22:00:53:796 Filesystem/(27900:30875): ## Acceso Bloque - Archivo: 15-0-22:00:53:728.dmp - Tipo Bloque: Datos - Bloque File System 118
+[INFO] 22:00:53:824 Filesystem/(27900:30875): ## Acceso Bloque - Archivo: 15-0-22:00:53:728.dmp - Tipo Bloque: Datos - Bloque File System 119
+[INFO] 22:00:53:852 Filesystem/(27900:30875): ## Acceso Bloque - Archivo: 15-0-22:00:53:728.dmp - Tipo Bloque: Datos - Bloque File System 120
+[INFO] 22:00:53:880 Filesystem/(27900:30875): ## Acceso Bloque - Archivo: 15-0-22:00:53:728.dmp - Tipo Bloque: Datos - Bloque File System 121
+[INFO] 22:00:53:908 Filesystem/(27900:30875): ## Acceso Bloque - Archivo: 15-0-22:00:53:728.dmp - Tipo Bloque: Datos - Bloque File System 122
+[INFO] 22:00:53:937 Filesystem/(27900:30875): ## Acceso Bloque - Archivo: 15-0-22:00:53:728.dmp - Tipo Bloque: Datos - Bloque File System 123
+[INFO] 22:00:53:965 Filesystem/(27900:30875): ## Acceso Bloque - Archivo: 15-0-22:00:53:728.dmp - Tipo Bloque: Datos - Bloque File System 124
+[INFO] 22:00:53:991 Filesystem/(27900:30875): ## Fin de solicitud - Archivo: 15-0-22:00:53:728.dmp
+[DEBUG] 22:01:00:364 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:01:00:364 Filesystem/(27900:31027): Se conecto Memoria
+[INFO] 22:01:00:365 Filesystem/(27900:31027): ## Bloque asignado: 125 - Archivo: 16-0-22:01:00:364.dmp - Bloques Libres: 74
+[INFO] 22:01:00:365 Filesystem/(27900:31027): ## Bloque asignado: 126 - Archivo: 16-0-22:01:00:364.dmp - Bloques Libres: 73
+[INFO] 22:01:00:365 Filesystem/(27900:31027): ## Bloque asignado: 127 - Archivo: 16-0-22:01:00:364.dmp - Bloques Libres: 72
+[INFO] 22:01:00:368 Filesystem/(27900:31027): ## Bloque asignado: 128 - Archivo: 16-0-22:01:00:364.dmp - Bloques Libres: 71
+[INFO] 22:01:00:368 Filesystem/(27900:31027): ## Bloque asignado: 129 - Archivo: 16-0-22:01:00:364.dmp - Bloques Libres: 70
+[INFO] 22:01:00:368 Filesystem/(27900:31027): ## Bloque asignado: 130 - Archivo: 16-0-22:01:00:364.dmp - Bloques Libres: 69
+[INFO] 22:01:00:368 Filesystem/(27900:31027): ## Bloque asignado: 131 - Archivo: 16-0-22:01:00:364.dmp - Bloques Libres: 68
+[INFO] 22:01:00:368 Filesystem/(27900:31027): ## Bloque asignado: 132 - Archivo: 16-0-22:01:00:364.dmp - Bloques Libres: 67
+[INFO] 22:01:00:368 Filesystem/(27900:31027): ## Bloque asignado: 133 - Archivo: 16-0-22:01:00:364.dmp - Bloques Libres: 66
+[INFO] 22:01:00:375 Filesystem/(27900:31027): ## Archivo Creado: 16-0-22:01:00:364.dmp - Tamaño: 256
+[INFO] 22:01:00:378 Filesystem/(27900:31027): ## Acceso Bloque - Archivo: 16-0-22:01:00:364.dmp - Tipo Bloque: Índice - Bloque File System 125
+[INFO] 22:01:00:406 Filesystem/(27900:31027): ## Acceso Bloque - Archivo: 16-0-22:01:00:364.dmp - Tipo Bloque: Datos - Bloque File System 126
+[INFO] 22:01:00:435 Filesystem/(27900:31027): ## Acceso Bloque - Archivo: 16-0-22:01:00:364.dmp - Tipo Bloque: Datos - Bloque File System 127
+[INFO] 22:01:00:474 Filesystem/(27900:31027): ## Acceso Bloque - Archivo: 16-0-22:01:00:364.dmp - Tipo Bloque: Datos - Bloque File System 128
+[INFO] 22:01:00:502 Filesystem/(27900:31027): ## Acceso Bloque - Archivo: 16-0-22:01:00:364.dmp - Tipo Bloque: Datos - Bloque File System 129
+[INFO] 22:01:00:531 Filesystem/(27900:31027): ## Acceso Bloque - Archivo: 16-0-22:01:00:364.dmp - Tipo Bloque: Datos - Bloque File System 130
+[INFO] 22:01:00:560 Filesystem/(27900:31027): ## Acceso Bloque - Archivo: 16-0-22:01:00:364.dmp - Tipo Bloque: Datos - Bloque File System 131
+[INFO] 22:01:00:588 Filesystem/(27900:31027): ## Acceso Bloque - Archivo: 16-0-22:01:00:364.dmp - Tipo Bloque: Datos - Bloque File System 132
+[INFO] 22:01:00:618 Filesystem/(27900:31027): ## Acceso Bloque - Archivo: 16-0-22:01:00:364.dmp - Tipo Bloque: Datos - Bloque File System 133
+[INFO] 22:01:00:644 Filesystem/(27900:31027): ## Fin de solicitud - Archivo: 16-0-22:01:00:364.dmp
+[DEBUG] 22:01:02:884 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:01:02:887 Filesystem/(27900:31090): Se conecto Memoria
+[INFO] 22:01:02:887 Filesystem/(27900:31090): ## Bloque asignado: 134 - Archivo: 24-0-22:01:02:884.dmp - Bloques Libres: 65
+[INFO] 22:01:02:887 Filesystem/(27900:31090): ## Bloque asignado: 135 - Archivo: 24-0-22:01:02:884.dmp - Bloques Libres: 64
+[INFO] 22:01:02:887 Filesystem/(27900:31090): ## Bloque asignado: 136 - Archivo: 24-0-22:01:02:884.dmp - Bloques Libres: 63
+[INFO] 22:01:02:887 Filesystem/(27900:31090): ## Bloque asignado: 137 - Archivo: 24-0-22:01:02:884.dmp - Bloques Libres: 62
+[INFO] 22:01:02:888 Filesystem/(27900:31090): ## Bloque asignado: 138 - Archivo: 24-0-22:01:02:884.dmp - Bloques Libres: 61
+[INFO] 22:01:02:888 Filesystem/(27900:31090): ## Bloque asignado: 139 - Archivo: 24-0-22:01:02:884.dmp - Bloques Libres: 60
+[INFO] 22:01:02:888 Filesystem/(27900:31090): ## Bloque asignado: 140 - Archivo: 24-0-22:01:02:884.dmp - Bloques Libres: 59
+[INFO] 22:01:02:888 Filesystem/(27900:31090): ## Bloque asignado: 141 - Archivo: 24-0-22:01:02:884.dmp - Bloques Libres: 58
+[INFO] 22:01:02:888 Filesystem/(27900:31090): ## Bloque asignado: 142 - Archivo: 24-0-22:01:02:884.dmp - Bloques Libres: 57
+[INFO] 22:01:02:895 Filesystem/(27900:31090): ## Archivo Creado: 24-0-22:01:02:884.dmp - Tamaño: 256
+[INFO] 22:01:02:898 Filesystem/(27900:31090): ## Acceso Bloque - Archivo: 24-0-22:01:02:884.dmp - Tipo Bloque: Índice - Bloque File System 134
+[INFO] 22:01:02:929 Filesystem/(27900:31090): ## Acceso Bloque - Archivo: 24-0-22:01:02:884.dmp - Tipo Bloque: Datos - Bloque File System 135
+[INFO] 22:01:02:957 Filesystem/(27900:31090): ## Acceso Bloque - Archivo: 24-0-22:01:02:884.dmp - Tipo Bloque: Datos - Bloque File System 136
+[INFO] 22:01:02:988 Filesystem/(27900:31090): ## Acceso Bloque - Archivo: 24-0-22:01:02:884.dmp - Tipo Bloque: Datos - Bloque File System 137
+[INFO] 22:01:03:017 Filesystem/(27900:31090): ## Acceso Bloque - Archivo: 24-0-22:01:02:884.dmp - Tipo Bloque: Datos - Bloque File System 138
+[INFO] 22:01:03:046 Filesystem/(27900:31090): ## Acceso Bloque - Archivo: 24-0-22:01:02:884.dmp - Tipo Bloque: Datos - Bloque File System 139
+[INFO] 22:01:03:075 Filesystem/(27900:31090): ## Acceso Bloque - Archivo: 24-0-22:01:02:884.dmp - Tipo Bloque: Datos - Bloque File System 140
+[INFO] 22:01:03:104 Filesystem/(27900:31090): ## Acceso Bloque - Archivo: 24-0-22:01:02:884.dmp - Tipo Bloque: Datos - Bloque File System 141
+[INFO] 22:01:03:132 Filesystem/(27900:31090): ## Acceso Bloque - Archivo: 24-0-22:01:02:884.dmp - Tipo Bloque: Datos - Bloque File System 142
+[INFO] 22:01:03:157 Filesystem/(27900:31090): ## Fin de solicitud - Archivo: 24-0-22:01:02:884.dmp
+[DEBUG] 22:01:04:116 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:01:04:121 Filesystem/(27900:31120): Se conecto Memoria
+[INFO] 22:01:04:121 Filesystem/(27900:31120): ## Bloque asignado: 143 - Archivo: 20-0-22:01:04:115.dmp - Bloques Libres: 56
+[INFO] 22:01:04:122 Filesystem/(27900:31120): ## Bloque asignado: 144 - Archivo: 20-0-22:01:04:115.dmp - Bloques Libres: 55
+[INFO] 22:01:04:122 Filesystem/(27900:31120): ## Bloque asignado: 145 - Archivo: 20-0-22:01:04:115.dmp - Bloques Libres: 54
+[INFO] 22:01:04:122 Filesystem/(27900:31120): ## Bloque asignado: 146 - Archivo: 20-0-22:01:04:115.dmp - Bloques Libres: 53
+[INFO] 22:01:04:122 Filesystem/(27900:31120): ## Bloque asignado: 147 - Archivo: 20-0-22:01:04:115.dmp - Bloques Libres: 52
+[INFO] 22:01:04:122 Filesystem/(27900:31120): ## Bloque asignado: 148 - Archivo: 20-0-22:01:04:115.dmp - Bloques Libres: 51
+[INFO] 22:01:04:122 Filesystem/(27900:31120): ## Bloque asignado: 149 - Archivo: 20-0-22:01:04:115.dmp - Bloques Libres: 50
+[INFO] 22:01:04:122 Filesystem/(27900:31120): ## Bloque asignado: 150 - Archivo: 20-0-22:01:04:115.dmp - Bloques Libres: 49
+[INFO] 22:01:04:122 Filesystem/(27900:31120): ## Bloque asignado: 151 - Archivo: 20-0-22:01:04:115.dmp - Bloques Libres: 48
+[INFO] 22:01:04:128 Filesystem/(27900:31120): ## Archivo Creado: 20-0-22:01:04:115.dmp - Tamaño: 256
+[INFO] 22:01:04:131 Filesystem/(27900:31120): ## Acceso Bloque - Archivo: 20-0-22:01:04:115.dmp - Tipo Bloque: Índice - Bloque File System 143
+[INFO] 22:01:04:160 Filesystem/(27900:31120): ## Acceso Bloque - Archivo: 20-0-22:01:04:115.dmp - Tipo Bloque: Datos - Bloque File System 144
+[INFO] 22:01:04:190 Filesystem/(27900:31120): ## Acceso Bloque - Archivo: 20-0-22:01:04:115.dmp - Tipo Bloque: Datos - Bloque File System 145
+[INFO] 22:01:04:218 Filesystem/(27900:31120): ## Acceso Bloque - Archivo: 20-0-22:01:04:115.dmp - Tipo Bloque: Datos - Bloque File System 146
+[INFO] 22:01:04:247 Filesystem/(27900:31120): ## Acceso Bloque - Archivo: 20-0-22:01:04:115.dmp - Tipo Bloque: Datos - Bloque File System 147
+[INFO] 22:01:04:276 Filesystem/(27900:31120): ## Acceso Bloque - Archivo: 20-0-22:01:04:115.dmp - Tipo Bloque: Datos - Bloque File System 148
+[INFO] 22:01:04:306 Filesystem/(27900:31120): ## Acceso Bloque - Archivo: 20-0-22:01:04:115.dmp - Tipo Bloque: Datos - Bloque File System 149
+[INFO] 22:01:04:336 Filesystem/(27900:31120): ## Acceso Bloque - Archivo: 20-0-22:01:04:115.dmp - Tipo Bloque: Datos - Bloque File System 150
+[INFO] 22:01:04:366 Filesystem/(27900:31120): ## Acceso Bloque - Archivo: 20-0-22:01:04:115.dmp - Tipo Bloque: Datos - Bloque File System 151
+[INFO] 22:01:04:393 Filesystem/(27900:31120): ## Fin de solicitud - Archivo: 20-0-22:01:04:115.dmp
+[DEBUG] 22:01:08:586 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:01:08:586 Filesystem/(27900:31225): Se conecto Memoria
+[INFO] 22:01:08:587 Filesystem/(27900:31225): ## Bloque asignado: 152 - Archivo: 21-0-22:01:08:586.dmp - Bloques Libres: 47
+[INFO] 22:01:08:587 Filesystem/(27900:31225): ## Bloque asignado: 153 - Archivo: 21-0-22:01:08:586.dmp - Bloques Libres: 46
+[INFO] 22:01:08:587 Filesystem/(27900:31225): ## Bloque asignado: 154 - Archivo: 21-0-22:01:08:586.dmp - Bloques Libres: 45
+[INFO] 22:01:08:587 Filesystem/(27900:31225): ## Bloque asignado: 155 - Archivo: 21-0-22:01:08:586.dmp - Bloques Libres: 44
+[INFO] 22:01:08:587 Filesystem/(27900:31225): ## Bloque asignado: 156 - Archivo: 21-0-22:01:08:586.dmp - Bloques Libres: 43
+[INFO] 22:01:08:587 Filesystem/(27900:31225): ## Bloque asignado: 157 - Archivo: 21-0-22:01:08:586.dmp - Bloques Libres: 42
+[INFO] 22:01:08:588 Filesystem/(27900:31225): ## Bloque asignado: 158 - Archivo: 21-0-22:01:08:586.dmp - Bloques Libres: 41
+[INFO] 22:01:08:590 Filesystem/(27900:31225): ## Bloque asignado: 159 - Archivo: 21-0-22:01:08:586.dmp - Bloques Libres: 40
+[INFO] 22:01:08:590 Filesystem/(27900:31225): ## Bloque asignado: 160 - Archivo: 21-0-22:01:08:586.dmp - Bloques Libres: 39
+[INFO] 22:01:08:600 Filesystem/(27900:31225): ## Archivo Creado: 21-0-22:01:08:586.dmp - Tamaño: 256
+[INFO] 22:01:08:604 Filesystem/(27900:31225): ## Acceso Bloque - Archivo: 21-0-22:01:08:586.dmp - Tipo Bloque: Índice - Bloque File System 152
+[INFO] 22:01:08:633 Filesystem/(27900:31225): ## Acceso Bloque - Archivo: 21-0-22:01:08:586.dmp - Tipo Bloque: Datos - Bloque File System 153
+[INFO] 22:01:08:663 Filesystem/(27900:31225): ## Acceso Bloque - Archivo: 21-0-22:01:08:586.dmp - Tipo Bloque: Datos - Bloque File System 154
+[INFO] 22:01:08:692 Filesystem/(27900:31225): ## Acceso Bloque - Archivo: 21-0-22:01:08:586.dmp - Tipo Bloque: Datos - Bloque File System 155
+[INFO] 22:01:08:721 Filesystem/(27900:31225): ## Acceso Bloque - Archivo: 21-0-22:01:08:586.dmp - Tipo Bloque: Datos - Bloque File System 156
+[INFO] 22:01:08:751 Filesystem/(27900:31225): ## Acceso Bloque - Archivo: 21-0-22:01:08:586.dmp - Tipo Bloque: Datos - Bloque File System 157
+[INFO] 22:01:08:780 Filesystem/(27900:31225): ## Acceso Bloque - Archivo: 21-0-22:01:08:586.dmp - Tipo Bloque: Datos - Bloque File System 158
+[INFO] 22:01:08:809 Filesystem/(27900:31225): ## Acceso Bloque - Archivo: 21-0-22:01:08:586.dmp - Tipo Bloque: Datos - Bloque File System 159
+[INFO] 22:01:08:838 Filesystem/(27900:31225): ## Acceso Bloque - Archivo: 21-0-22:01:08:586.dmp - Tipo Bloque: Datos - Bloque File System 160
+[INFO] 22:01:08:864 Filesystem/(27900:31225): ## Fin de solicitud - Archivo: 21-0-22:01:08:586.dmp
+[DEBUG] 22:01:11:801 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:01:11:802 Filesystem/(27900:31292): Se conecto Memoria
+[INFO] 22:01:11:802 Filesystem/(27900:31292): ## Bloque asignado: 161 - Archivo: 25-0-22:01:11:801.dmp - Bloques Libres: 38
+[INFO] 22:01:11:804 Filesystem/(27900:31292): ## Bloque asignado: 162 - Archivo: 25-0-22:01:11:801.dmp - Bloques Libres: 37
+[INFO] 22:01:11:805 Filesystem/(27900:31292): ## Bloque asignado: 163 - Archivo: 25-0-22:01:11:801.dmp - Bloques Libres: 36
+[INFO] 22:01:11:805 Filesystem/(27900:31292): ## Bloque asignado: 164 - Archivo: 25-0-22:01:11:801.dmp - Bloques Libres: 35
+[INFO] 22:01:11:805 Filesystem/(27900:31292): ## Bloque asignado: 165 - Archivo: 25-0-22:01:11:801.dmp - Bloques Libres: 34
+[INFO] 22:01:11:805 Filesystem/(27900:31292): ## Bloque asignado: 166 - Archivo: 25-0-22:01:11:801.dmp - Bloques Libres: 33
+[INFO] 22:01:11:805 Filesystem/(27900:31292): ## Bloque asignado: 167 - Archivo: 25-0-22:01:11:801.dmp - Bloques Libres: 32
+[INFO] 22:01:11:805 Filesystem/(27900:31292): ## Bloque asignado: 168 - Archivo: 25-0-22:01:11:801.dmp - Bloques Libres: 31
+[INFO] 22:01:11:805 Filesystem/(27900:31292): ## Bloque asignado: 169 - Archivo: 25-0-22:01:11:801.dmp - Bloques Libres: 30
+[INFO] 22:01:11:812 Filesystem/(27900:31292): ## Archivo Creado: 25-0-22:01:11:801.dmp - Tamaño: 256
+[INFO] 22:01:11:816 Filesystem/(27900:31292): ## Acceso Bloque - Archivo: 25-0-22:01:11:801.dmp - Tipo Bloque: Índice - Bloque File System 161
+[INFO] 22:01:11:846 Filesystem/(27900:31292): ## Acceso Bloque - Archivo: 25-0-22:01:11:801.dmp - Tipo Bloque: Datos - Bloque File System 162
+[INFO] 22:01:11:877 Filesystem/(27900:31292): ## Acceso Bloque - Archivo: 25-0-22:01:11:801.dmp - Tipo Bloque: Datos - Bloque File System 163
+[INFO] 22:01:11:905 Filesystem/(27900:31292): ## Acceso Bloque - Archivo: 25-0-22:01:11:801.dmp - Tipo Bloque: Datos - Bloque File System 164
+[INFO] 22:01:11:934 Filesystem/(27900:31292): ## Acceso Bloque - Archivo: 25-0-22:01:11:801.dmp - Tipo Bloque: Datos - Bloque File System 165
+[INFO] 22:01:11:962 Filesystem/(27900:31292): ## Acceso Bloque - Archivo: 25-0-22:01:11:801.dmp - Tipo Bloque: Datos - Bloque File System 166
+[INFO] 22:01:11:992 Filesystem/(27900:31292): ## Acceso Bloque - Archivo: 25-0-22:01:11:801.dmp - Tipo Bloque: Datos - Bloque File System 167
+[INFO] 22:01:12:022 Filesystem/(27900:31292): ## Acceso Bloque - Archivo: 25-0-22:01:11:801.dmp - Tipo Bloque: Datos - Bloque File System 168
+[INFO] 22:01:12:051 Filesystem/(27900:31292): ## Acceso Bloque - Archivo: 25-0-22:01:11:801.dmp - Tipo Bloque: Datos - Bloque File System 169
+[INFO] 22:01:12:076 Filesystem/(27900:31292): ## Fin de solicitud - Archivo: 25-0-22:01:11:801.dmp
+[DEBUG] 22:01:13:441 Filesystem/(27900:27900): Nueva conexión recibida, esperando a que se identifique el cliente
+[DEBUG] 22:01:13:442 Filesystem/(27900:31340): Se conecto Memoria
+[INFO] 22:01:13:444 Filesystem/(27900:31340): ## Bloque asignado: 170 - Archivo: 26-0-22:01:13:441.dmp - Bloques Libres: 29
+[INFO] 22:01:13:444 Filesystem/(27900:31340): ## Bloque asignado: 171 - Archivo: 26-0-22:01:13:441.dmp - Bloques Libres: 28
+[INFO] 22:01:13:445 Filesystem/(27900:31340): ## Bloque asignado: 172 - Archivo: 26-0-22:01:13:441.dmp - Bloques Libres: 27
+[INFO] 22:01:13:446 Filesystem/(27900:31340): ## Bloque asignado: 173 - Archivo: 26-0-22:01:13:441.dmp - Bloques Libres: 26
+[INFO] 22:01:13:447 Filesystem/(27900:31340): ## Bloque asignado: 174 - Archivo: 26-0-22:01:13:441.dmp - Bloques Libres: 25
+[INFO] 22:01:13:448 Filesystem/(27900:31340): ## Bloque asignado: 175 - Archivo: 26-0-22:01:13:441.dmp - Bloques Libres: 24
+[INFO] 22:01:13:449 Filesystem/(27900:31340): ## Bloque asignado: 176 - Archivo: 26-0-22:01:13:441.dmp - Bloques Libres: 23
+[INFO] 22:01:13:450 Filesystem/(27900:31340): ## Bloque asignado: 177 - Archivo: 26-0-22:01:13:441.dmp - Bloques Libres: 22
+[INFO] 22:01:13:450 Filesystem/(27900:31340): ## Bloque asignado: 178 - Archivo: 26-0-22:01:13:441.dmp - Bloques Libres: 21
+[INFO] 22:01:13:458 Filesystem/(27900:31340): ## Archivo Creado: 26-0-22:01:13:441.dmp - Tamaño: 256
+[INFO] 22:01:13:461 Filesystem/(27900:31340): ## Acceso Bloque - Archivo: 26-0-22:01:13:441.dmp - Tipo Bloque: Índice - Bloque File System 170
+[INFO] 22:01:13:490 Filesystem/(27900:31340): ## Acceso Bloque - Archivo: 26-0-22:01:13:441.dmp - Tipo Bloque: Datos - Bloque File System 171
+[INFO] 22:01:13:521 Filesystem/(27900:31340): ## Acceso Bloque - Archivo: 26-0-22:01:13:441.dmp - Tipo Bloque: Datos - Bloque File System 172
+[INFO] 22:01:13:550 Filesystem/(27900:31340): ## Acceso Bloque - Archivo: 26-0-22:01:13:441.dmp - Tipo Bloque: Datos - Bloque File System 173
+[INFO] 22:01:13:581 Filesystem/(27900:31340): ## Acceso Bloque - Archivo: 26-0-22:01:13:441.dmp - Tipo Bloque: Datos - Bloque File System 174
+[INFO] 22:01:13:610 Filesystem/(27900:31340): ## Acceso Bloque - Archivo: 26-0-22:01:13:441.dmp - Tipo Bloque: Datos - Bloque File System 175
+[INFO] 22:01:13:639 Filesystem/(27900:31340): ## Acceso Bloque - Archivo: 26-0-22:01:13:441.dmp - Tipo Bloque: Datos - Bloque File System 176
+[INFO] 22:01:13:668 Filesystem/(27900:31340): ## Acceso Bloque - Archivo: 26-0-22:01:13:441.dmp - Tipo Bloque: Datos - Bloque File System 177
+[INFO] 22:01:13:696 Filesystem/(27900:31340): ## Acceso Bloque - Archivo: 26-0-22:01:13:441.dmp - Tipo Bloque: Datos - Bloque File System 178
+[INFO] 22:01:13:722 Filesystem/(27900:31340): ## Fin de solicitud - Archivo: 26-0-22:01:13:441.dmp

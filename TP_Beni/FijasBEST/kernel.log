@@ -1,0 +1,226 @@
+[DEBUG] 21:38:07:732 [Kernel]/(20269:20269): Conexion con CPU Dispatch creada de forma exitosa.
+[DEBUG] 21:38:07:733 [Kernel]/(20269:20269): Conexion con CPU Interrupt creada de forma exitosa.
+[DEBUG] 21:38:07:733 [Kernel]/(20269:20269): Kernel iniciado de forma exitosa
+[INFO] 21:38:07:733 [Kernel]/(20269:20269): ## (0:0) Se crea el proceso - Estado: NEW
+[DEBUG] 21:38:07:733 [Kernel]/(20269:20269): Planificador de colas multinivel
+[DEBUG] 21:38:07:741 [Kernel]/(20269:20271): ## (0) - Estado: READY
+[DEBUG] 21:38:07:742 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:07:742 [Kernel]/(20269:20276): ## (0:0) - Estado: EXEC
+[INFO] 21:38:08:148 [Kernel]/(20269:20272): ## (0:0) - Solicitó syscall: PROCESS_CREATE
+[INFO] 21:38:08:148 [Kernel]/(20269:20272): ## (1:0) Se crea el proceso - Estado: NEW
+[DEBUG] 21:38:08:152 [Kernel]/(20269:20271): ## (1) - Estado: READY
+[INFO] 21:38:08:351 [Kernel]/(20269:20272): ## (0:0) - Solicitó syscall: PROCESS_CREATE
+[INFO] 21:38:08:351 [Kernel]/(20269:20272): ## (2:0) Se crea el proceso - Estado: NEW
+[DEBUG] 21:38:08:362 [Kernel]/(20269:20271): ## (2) - Estado: READY
+[INFO] 21:38:08:554 [Kernel]/(20269:20273): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:08:554 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:08:555 [Kernel]/(20269:20276): ## (1:0) - Estado: EXEC
+[INFO] 21:38:09:365 [Kernel]/(20269:20273): ## (1:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:09:366 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:09:368 [Kernel]/(20269:20276): ## (2:0) - Estado: EXEC
+[INFO] 21:38:10:185 [Kernel]/(20269:20273): ## (2:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:10:186 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:10:186 [Kernel]/(20269:20276): ## (0:0) - Estado: EXEC
+[INFO] 21:38:10:592 [Kernel]/(20269:20272): ## (0:0) - Solicitó syscall: PROCESS_CREATE
+[INFO] 21:38:10:592 [Kernel]/(20269:20272): ## (3:0) Se crea el proceso - Estado: NEW
+[DEBUG] 21:38:10:596 [Kernel]/(20269:20271): ## (3) - Estado: READY
+[INFO] 21:38:10:799 [Kernel]/(20269:20272): ## (0:0) - Solicitó syscall: PROCESS_CREATE
+[INFO] 21:38:10:801 [Kernel]/(20269:20272): ## (4:0) Se crea el proceso - Estado: NEW
+[DEBUG] 21:38:10:805 [Kernel]/(20269:20271): ## (4) - Estado: READY
+[INFO] 21:38:11:003 [Kernel]/(20269:20273): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:11:004 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:11:004 [Kernel]/(20269:20276): ## (1:0) - Estado: EXEC
+[INFO] 21:38:11:832 [Kernel]/(20269:20273): ## (1:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:11:832 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:11:832 [Kernel]/(20269:20276): ## (2:0) - Estado: EXEC
+[INFO] 21:38:12:641 [Kernel]/(20269:20273): ## (2:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:12:642 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:12:642 [Kernel]/(20269:20276): ## (3:0) - Estado: EXEC
+[INFO] 21:38:13:451 [Kernel]/(20269:20273): ## (3:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:13:452 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:13:453 [Kernel]/(20269:20276): ## (4:0) - Estado: EXEC
+[INFO] 21:38:14:260 [Kernel]/(20269:20273): ## (4:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:14:260 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:14:260 [Kernel]/(20269:20276): ## (0:0) - Estado: EXEC
+[INFO] 21:38:14:664 [Kernel]/(20269:20272): ## (0:0) - Solicitó syscall: PROCESS_CREATE
+[INFO] 21:38:14:664 [Kernel]/(20269:20272): ## (5:0) Se crea el proceso - Estado: NEW
+[WARNING] 21:38:14:667 [Kernel]/(20269:20271): Memoria insuficiente para el proceso PID: 5
+[INFO] 21:38:14:867 [Kernel]/(20269:20272): ## (0:0) - Solicitó syscall: PROCESS_CREATE
+[INFO] 21:38:14:867 [Kernel]/(20269:20272): ## (6:0) Se crea el proceso - Estado: NEW
+[INFO] 21:38:15:070 [Kernel]/(20269:20273): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:15:070 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:15:070 [Kernel]/(20269:20276): ## (1:0) - Estado: EXEC
+[INFO] 21:38:15:880 [Kernel]/(20269:20273): ## (1:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:15:880 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:15:880 [Kernel]/(20269:20276): ## (2:0) - Estado: EXEC
+[INFO] 21:38:16:688 [Kernel]/(20269:20273): ## (2:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:16:689 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:16:689 [Kernel]/(20269:20276): ## (3:0) - Estado: EXEC
+[INFO] 21:38:17:516 [Kernel]/(20269:20273): ## (3:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:17:516 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:17:516 [Kernel]/(20269:20276): ## (4:0) - Estado: EXEC
+[INFO] 21:38:18:343 [Kernel]/(20269:20273): ## (4:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:18:344 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:18:344 [Kernel]/(20269:20276): ## (0:0) - Estado: EXEC
+[INFO] 21:38:18:754 [Kernel]/(20269:20272): ## (0:0) - Solicitó syscall: PROCESS_CREATE
+[INFO] 21:38:18:754 [Kernel]/(20269:20272): ## (7:0) Se crea el proceso - Estado: NEW
+[INFO] 21:38:18:956 [Kernel]/(20269:20272): ## (0:0) - Solicitó syscall: PROCESS_CREATE
+[INFO] 21:38:18:957 [Kernel]/(20269:20272): ## (8:0) Se crea el proceso - Estado: NEW
+[INFO] 21:38:19:160 [Kernel]/(20269:20273): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:19:161 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:19:161 [Kernel]/(20269:20276): ## (1:0) - Estado: EXEC
+[INFO] 21:38:19:778 [Kernel]/(20269:20272): ## (1:0) - Solicitó syscall: IO
+[INFO] 21:38:19:778 [Kernel]/(20269:20272): ## (1:0) bloqueado por IO
+[DEBUG] 21:38:19:779 [Kernel]/(20269:20324): ## (1:0) - Inició IO
+[DEBUG] 21:38:19:985 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:19:985 [Kernel]/(20269:20276): ## (2:0) - Estado: EXEC
+[INFO] 21:38:20:616 [Kernel]/(20269:20272): ## (2:0) - Solicitó syscall: IO
+[INFO] 21:38:20:617 [Kernel]/(20269:20272): ## (2:0) bloqueado por IO
+[DEBUG] 21:38:20:617 [Kernel]/(20269:20326): ## (2:0) - Inició IO
+[DEBUG] 21:38:20:839 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:20:840 [Kernel]/(20269:20276): ## (3:0) - Estado: EXEC
+[INFO] 21:38:21:653 [Kernel]/(20269:20273): ## (3:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:21:654 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:21:654 [Kernel]/(20269:20276): ## (4:0) - Estado: EXEC
+[INFO] 21:38:22:484 [Kernel]/(20269:20273): ## (4:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:22:485 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:22:485 [Kernel]/(20269:20276): ## (0:0) - Estado: EXEC
+[INFO] 21:38:23:304 [Kernel]/(20269:20273): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:23:305 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:23:305 [Kernel]/(20269:20276): ## (3:0) - Estado: EXEC
+[INFO] 21:38:23:916 [Kernel]/(20269:20272): ## (3:0) - Solicitó syscall: IO
+[INFO] 21:38:23:916 [Kernel]/(20269:20272): ## (3:0) bloqueado por IO
+[DEBUG] 21:38:23:917 [Kernel]/(20269:20345): ## (3:0) - Inició IO
+[DEBUG] 21:38:24:120 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:24:121 [Kernel]/(20269:20276): ## (4:0) - Estado: EXEC
+[INFO] 21:38:24:731 [Kernel]/(20269:20272): ## (4:0) - Solicitó syscall: IO
+[INFO] 21:38:24:731 [Kernel]/(20269:20272): ## (4:0) bloqueado por IO
+[DEBUG] 21:38:24:734 [Kernel]/(20269:20347): ## (4:0) - Inició IO
+[DEBUG] 21:38:24:937 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:24:937 [Kernel]/(20269:20276): ## (0:0) - Estado: EXEC
+[INFO] 21:38:25:816 [Kernel]/(20269:20273): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:25:817 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:25:817 [Kernel]/(20269:20276): ## (0:0) - Estado: EXEC
+[INFO] 21:38:26:673 [Kernel]/(20269:20273): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 21:38:26:674 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:38:26:674 [Kernel]/(20269:20276): ## (0:0) - Estado: EXEC
+[INFO] 21:38:27:291 [Kernel]/(20269:20272): ## (0:0) - Solicitó syscall: IO
+[INFO] 21:38:27:291 [Kernel]/(20269:20272): ## (0:0) bloqueado por IO
+[DEBUG] 21:38:27:291 [Kernel]/(20269:20360): ## (0:0) - Inició IO
+[INFO] 21:40:19:783 [Kernel]/(20269:20324): ## (1:0) finalizó IO y pasa a READY
+[DEBUG] 21:40:19:784 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:19:784 [Kernel]/(20269:20276): ## (1:0) - Estado: EXEC
+[INFO] 21:40:20:192 [Kernel]/(20269:20272): ## (1:0) - Solicitó syscall: PROCESS_EXIT
+[INFO] 21:40:20:192 [Kernel]/(20269:20272): ## Finaliza el proceso 1
+[DEBUG] 21:40:20:398 [Kernel]/(20269:20273): ## (1) - Estado: EXIT
+[DEBUG] 21:40:20:401 [Kernel]/(20269:20271): ## (5) - Estado: READY
+[DEBUG] 21:40:20:401 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:20:402 [Kernel]/(20269:20276): ## (5:0) - Estado: EXEC
+[WARNING] 21:40:20:403 [Kernel]/(20269:20271): Memoria insuficiente para el proceso PID: 6
+[INFO] 21:40:20:619 [Kernel]/(20269:20326): ## (2:0) finalizó IO y pasa a READY
+[INFO] 21:40:21:207 [Kernel]/(20269:20273): ## (5:0) - Desalojado por fin de Quantum
+[DEBUG] 21:40:21:208 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:21:208 [Kernel]/(20269:20276): ## (2:0) - Estado: EXEC
+[INFO] 21:40:21:623 [Kernel]/(20269:20272): ## (2:0) - Solicitó syscall: PROCESS_EXIT
+[INFO] 21:40:21:624 [Kernel]/(20269:20272): ## Finaliza el proceso 2
+[DEBUG] 21:40:21:829 [Kernel]/(20269:20273): ## (2) - Estado: EXIT
+[DEBUG] 21:40:21:829 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:21:830 [Kernel]/(20269:20276): ## (5:0) - Estado: EXEC
+[DEBUG] 21:40:21:832 [Kernel]/(20269:20271): ## (6) - Estado: READY
+[WARNING] 21:40:21:835 [Kernel]/(20269:20271): Memoria insuficiente para el proceso PID: 7
+[INFO] 21:40:22:639 [Kernel]/(20269:20273): ## (5:0) - Desalojado por fin de Quantum
+[DEBUG] 21:40:22:639 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:22:640 [Kernel]/(20269:20276): ## (6:0) - Estado: EXEC
+[INFO] 21:40:23:463 [Kernel]/(20269:20273): ## (6:0) - Desalojado por fin de Quantum
+[DEBUG] 21:40:23:464 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:23:464 [Kernel]/(20269:20276): ## (5:0) - Estado: EXEC
+[INFO] 21:40:23:918 [Kernel]/(20269:20345): ## (3:0) finalizó IO y pasa a READY
+[INFO] 21:40:24:273 [Kernel]/(20269:20273): ## (5:0) - Desalojado por fin de Quantum
+[DEBUG] 21:40:24:274 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:24:274 [Kernel]/(20269:20276): ## (6:0) - Estado: EXEC
+[INFO] 21:40:24:740 [Kernel]/(20269:20347): ## (4:0) finalizó IO y pasa a READY
+[INFO] 21:40:25:152 [Kernel]/(20269:20273): ## (6:0) - Desalojado por fin de Quantum
+[DEBUG] 21:40:25:153 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:25:154 [Kernel]/(20269:20276): ## (3:0) - Estado: EXEC
+[INFO] 21:40:25:571 [Kernel]/(20269:20272): ## (3:0) - Solicitó syscall: PROCESS_EXIT
+[INFO] 21:40:25:572 [Kernel]/(20269:20272): ## Finaliza el proceso 3
+[DEBUG] 21:40:25:778 [Kernel]/(20269:20273): ## (3) - Estado: EXIT
+[DEBUG] 21:40:25:778 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:25:778 [Kernel]/(20269:20276): ## (5:0) - Estado: EXEC
+[DEBUG] 21:40:25:782 [Kernel]/(20269:20271): ## (7) - Estado: READY
+[WARNING] 21:40:25:785 [Kernel]/(20269:20271): Memoria insuficiente para el proceso PID: 8
+[INFO] 21:40:26:388 [Kernel]/(20269:20272): ## (5:0) - Solicitó syscall: IO
+[INFO] 21:40:26:388 [Kernel]/(20269:20272): ## (5:0) bloqueado por IO
+[DEBUG] 21:40:26:389 [Kernel]/(20269:20441): ## (5:0) - Inició IO
+[DEBUG] 21:40:26:591 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:26:591 [Kernel]/(20269:20276): ## (4:0) - Estado: EXEC
+[INFO] 21:40:26:996 [Kernel]/(20269:20272): ## (4:0) - Solicitó syscall: PROCESS_EXIT
+[INFO] 21:40:26:996 [Kernel]/(20269:20272): ## Finaliza el proceso 4
+[DEBUG] 21:40:27:202 [Kernel]/(20269:20273): ## (4) - Estado: EXIT
+[DEBUG] 21:40:27:202 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:27:202 [Kernel]/(20269:20276): ## (6:0) - Estado: EXEC
+[DEBUG] 21:40:27:206 [Kernel]/(20269:20271): ## (8) - Estado: READY
+[INFO] 21:40:27:292 [Kernel]/(20269:20360): ## (0:0) finalizó IO y pasa a READY
+[INFO] 21:40:28:021 [Kernel]/(20269:20273): ## (6:0) - Desalojado por fin de Quantum
+[DEBUG] 21:40:28:022 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:28:022 [Kernel]/(20269:20276): ## (7:0) - Estado: EXEC
+[INFO] 21:40:28:836 [Kernel]/(20269:20273): ## (7:0) - Desalojado por fin de Quantum
+[DEBUG] 21:40:28:837 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:28:837 [Kernel]/(20269:20276): ## (8:0) - Estado: EXEC
+[INFO] 21:40:29:656 [Kernel]/(20269:20273): ## (8:0) - Desalojado por fin de Quantum
+[DEBUG] 21:40:29:656 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:29:656 [Kernel]/(20269:20276): ## (0:0) - Estado: EXEC
+[INFO] 21:40:30:061 [Kernel]/(20269:20272): ## (0:0) - Solicitó syscall: PROCESS_EXIT
+[INFO] 21:40:30:062 [Kernel]/(20269:20272): ## Finaliza el proceso 0
+[DEBUG] 21:40:30:266 [Kernel]/(20269:20273): ## (0) - Estado: EXIT
+[DEBUG] 21:40:30:266 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:30:267 [Kernel]/(20269:20276): ## (6:0) - Estado: EXEC
+[INFO] 21:40:30:878 [Kernel]/(20269:20272): ## (6:0) - Solicitó syscall: IO
+[INFO] 21:40:30:879 [Kernel]/(20269:20272): ## (6:0) bloqueado por IO
+[DEBUG] 21:40:30:880 [Kernel]/(20269:20459): ## (6:0) - Inició IO
+[DEBUG] 21:40:31:081 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:31:081 [Kernel]/(20269:20276): ## (7:0) - Estado: EXEC
+[INFO] 21:40:31:909 [Kernel]/(20269:20273): ## (7:0) - Desalojado por fin de Quantum
+[DEBUG] 21:40:31:909 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:31:910 [Kernel]/(20269:20276): ## (8:0) - Estado: EXEC
+[INFO] 21:40:32:722 [Kernel]/(20269:20273): ## (8:0) - Desalojado por fin de Quantum
+[DEBUG] 21:40:32:723 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:32:723 [Kernel]/(20269:20276): ## (7:0) - Estado: EXEC
+[INFO] 21:40:33:534 [Kernel]/(20269:20273): ## (7:0) - Desalojado por fin de Quantum
+[DEBUG] 21:40:33:535 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:33:535 [Kernel]/(20269:20276): ## (8:0) - Estado: EXEC
+[INFO] 21:40:34:348 [Kernel]/(20269:20273): ## (8:0) - Desalojado por fin de Quantum
+[DEBUG] 21:40:34:349 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:34:349 [Kernel]/(20269:20276): ## (7:0) - Estado: EXEC
+[INFO] 21:40:34:959 [Kernel]/(20269:20272): ## (7:0) - Solicitó syscall: IO
+[INFO] 21:40:34:961 [Kernel]/(20269:20272): ## (7:0) bloqueado por IO
+[DEBUG] 21:40:34:963 [Kernel]/(20269:20474): ## (7:0) - Inició IO
+[DEBUG] 21:40:35:166 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:40:35:166 [Kernel]/(20269:20276): ## (8:0) - Estado: EXEC
+[INFO] 21:40:35:777 [Kernel]/(20269:20272): ## (8:0) - Solicitó syscall: IO
+[INFO] 21:40:35:777 [Kernel]/(20269:20272): ## (8:0) bloqueado por IO
+[DEBUG] 21:40:35:780 [Kernel]/(20269:20476): ## (8:0) - Inició IO
+[INFO] 21:42:26:392 [Kernel]/(20269:20441): ## (5:0) finalizó IO y pasa a READY
+[DEBUG] 21:42:26:393 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:42:26:393 [Kernel]/(20269:20276): ## (5:0) - Estado: EXEC
+[INFO] 21:42:26:796 [Kernel]/(20269:20272): ## (5:0) - Solicitó syscall: PROCESS_EXIT
+[INFO] 21:42:26:796 [Kernel]/(20269:20272): ## Finaliza el proceso 5
+[DEBUG] 21:42:27:005 [Kernel]/(20269:20273): ## (5) - Estado: EXIT
+[INFO] 21:42:30:882 [Kernel]/(20269:20459): ## (6:0) finalizó IO y pasa a READY
+[DEBUG] 21:42:30:882 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:42:30:883 [Kernel]/(20269:20276): ## (6:0) - Estado: EXEC
+[INFO] 21:42:31:290 [Kernel]/(20269:20272): ## (6:0) - Solicitó syscall: PROCESS_EXIT
+[INFO] 21:42:31:291 [Kernel]/(20269:20272): ## Finaliza el proceso 6
+[DEBUG] 21:42:31:497 [Kernel]/(20269:20273): ## (6) - Estado: EXIT
+[INFO] 21:42:34:964 [Kernel]/(20269:20474): ## (7:0) finalizó IO y pasa a READY
+[DEBUG] 21:42:34:965 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:42:34:965 [Kernel]/(20269:20276): ## (7:0) - Estado: EXEC
+[INFO] 21:42:35:380 [Kernel]/(20269:20272): ## (7:0) - Solicitó syscall: PROCESS_EXIT
+[INFO] 21:42:35:381 [Kernel]/(20269:20272): ## Finaliza el proceso 7
+[DEBUG] 21:42:35:593 [Kernel]/(20269:20273): ## (7) - Estado: EXIT
+[INFO] 21:42:35:781 [Kernel]/(20269:20476): ## (8:0) finalizó IO y pasa a READY
+[DEBUG] 21:42:35:782 [Kernel]/(20269:20276): Hilo enviado a CPU para ejecucion
+[DEBUG] 21:42:35:782 [Kernel]/(20269:20276): ## (8:0) - Estado: EXEC
+[INFO] 21:42:36:205 [Kernel]/(20269:20272): ## (8:0) - Solicitó syscall: PROCESS_EXIT
+[INFO] 21:42:36:205 [Kernel]/(20269:20272): ## Finaliza el proceso 8
+[DEBUG] 21:42:36:422 [Kernel]/(20269:20273): ## (8) - Estado: EXIT

@@ -1,0 +1,2027 @@
+[DEBUG] 19:59:36:664 [Kernel]/(13748:13748): Conexion con CPU Dispatch creada de forma exitosa.
+[DEBUG] 19:59:36:665 [Kernel]/(13748:13748): Conexion con CPU Interrupt creada de forma exitosa.
+[DEBUG] 19:59:36:665 [Kernel]/(13748:13748): Kernel iniciado de forma exitosa
+[INFO] 19:59:36:665 [Kernel]/(13748:13748): ## (0:0) Se crea el proceso - Estado: NEW
+[DEBUG] 19:59:36:666 [Kernel]/(13748:13748): Planificador de colas multinivel
+[DEBUG] 19:59:36:668 [Kernel]/(13748:13750): ## (0) - Estado: READY
+[DEBUG] 19:59:36:670 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:36:671 [Kernel]/(13748:13756): ## (0:0) - Estado: EXEC
+[INFO] 19:59:37:277 [Kernel]/(13748:13752): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:59:37:277 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:37:277 [Kernel]/(13748:13756): ## (0:0) - Estado: EXEC
+[INFO] 19:59:37:885 [Kernel]/(13748:13752): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:59:37:885 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:37:885 [Kernel]/(13748:13756): ## (0:0) - Estado: EXEC
+[INFO] 19:59:38:698 [Kernel]/(13748:13752): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:59:38:699 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:38:699 [Kernel]/(13748:13756): ## (0:0) - Estado: EXEC
+[INFO] 19:59:39:102 [Kernel]/(13748:13751): ## (0:0) - Solicitó syscall: PROCESS_CREATE
+[INFO] 19:59:39:103 [Kernel]/(13748:13751): ## (1:0) Se crea el proceso - Estado: NEW
+[DEBUG] 19:59:39:104 [Kernel]/(13748:13750): ## (1) - Estado: READY
+[INFO] 19:59:39:305 [Kernel]/(13748:13752): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:59:39:306 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:39:306 [Kernel]/(13748:13756): ## (0:0) - Estado: EXEC
+[INFO] 19:59:39:709 [Kernel]/(13748:13751): ## (0:0) - Solicitó syscall: MUTEX_CREATE
+[INFO] 19:59:39:915 [Kernel]/(13748:13752): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:59:39:918 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:39:919 [Kernel]/(13748:13756): ## (0:0) - Estado: EXEC
+[INFO] 19:59:40:324 [Kernel]/(13748:13751): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:59:40:332 [Kernel]/(13748:13751): ## (0:1) Se crea el Hilo - Estado: READY
+[INFO] 19:59:40:533 [Kernel]/(13748:13752): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:59:40:535 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:40:535 [Kernel]/(13748:13756): ## (0:0) - Estado: EXEC
+[INFO] 19:59:40:943 [Kernel]/(13748:13751): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:59:40:946 [Kernel]/(13748:13751): ## (0:2) Se crea el Hilo - Estado: READY
+[INFO] 19:59:41:148 [Kernel]/(13748:13752): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:59:41:148 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:41:148 [Kernel]/(13748:13756): ## (0:0) - Estado: EXEC
+[INFO] 19:59:41:554 [Kernel]/(13748:13751): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:59:41:559 [Kernel]/(13748:13751): ## (0:3) Se crea el Hilo - Estado: READY
+[INFO] 19:59:41:769 [Kernel]/(13748:13752): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:59:41:769 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:41:772 [Kernel]/(13748:13756): ## (0:0) - Estado: EXEC
+[INFO] 19:59:42:179 [Kernel]/(13748:13751): ## (0:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:59:42:184 [Kernel]/(13748:13751): ## (0:4) Se crea el Hilo - Estado: READY
+[INFO] 19:59:42:387 [Kernel]/(13748:13752): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 19:59:42:387 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:42:388 [Kernel]/(13748:13756): ## (0:0) - Estado: EXEC
+[INFO] 19:59:42:795 [Kernel]/(13748:13751): ## (0:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 19:59:42:795 [Kernel]/(13748:13751): ## (0:1) - Bloqueante: PTHREAD_JOIN
+[INFO] 19:59:42:795 [Kernel]/(13748:13751): ## (0:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 19:59:42:999 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:42:999 [Kernel]/(13748:13756): ## (1:0) - Estado: EXEC
+[INFO] 19:59:43:627 [Kernel]/(13748:13752): ## (1:0) - Desalojado por fin de Quantum
+[DEBUG] 19:59:43:629 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:43:629 [Kernel]/(13748:13756): ## (1:0) - Estado: EXEC
+[INFO] 19:59:44:237 [Kernel]/(13748:13752): ## (1:0) - Desalojado por fin de Quantum
+[DEBUG] 19:59:44:238 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:44:238 [Kernel]/(13748:13756): ## (1:0) - Estado: EXEC
+[INFO] 19:59:45:071 [Kernel]/(13748:13752): ## (1:0) - Desalojado por fin de Quantum
+[DEBUG] 19:59:45:072 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:45:072 [Kernel]/(13748:13756): ## (1:0) - Estado: EXEC
+[INFO] 19:59:45:477 [Kernel]/(13748:13751): ## (1:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:59:45:488 [Kernel]/(13748:13751): ## (1:1) Se crea el Hilo - Estado: READY
+[INFO] 19:59:45:689 [Kernel]/(13748:13752): ## (1:0) - Desalojado por fin de Quantum
+[DEBUG] 19:59:45:691 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:45:692 [Kernel]/(13748:13756): ## (1:0) - Estado: EXEC
+[INFO] 19:59:46:097 [Kernel]/(13748:13751): ## (1:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:59:46:105 [Kernel]/(13748:13751): ## (1:2) Se crea el Hilo - Estado: READY
+[INFO] 19:59:46:311 [Kernel]/(13748:13752): ## (1:0) - Desalojado por fin de Quantum
+[DEBUG] 19:59:46:312 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:46:312 [Kernel]/(13748:13756): ## (1:0) - Estado: EXEC
+[INFO] 19:59:46:720 [Kernel]/(13748:13751): ## (1:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:59:46:722 [Kernel]/(13748:13751): ## (1:3) Se crea el Hilo - Estado: READY
+[INFO] 19:59:46:927 [Kernel]/(13748:13752): ## (1:0) - Desalojado por fin de Quantum
+[DEBUG] 19:59:46:928 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:46:928 [Kernel]/(13748:13756): ## (1:0) - Estado: EXEC
+[INFO] 19:59:47:342 [Kernel]/(13748:13751): ## (1:0) - Solicitó syscall: THREAD_CREATE
+[INFO] 19:59:47:347 [Kernel]/(13748:13751): ## (1:4) Se crea el Hilo - Estado: READY
+[INFO] 19:59:47:548 [Kernel]/(13748:13752): ## (1:0) - Desalojado por fin de Quantum
+[DEBUG] 19:59:47:548 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:47:549 [Kernel]/(13748:13756): ## (1:0) - Estado: EXEC
+[INFO] 19:59:47:953 [Kernel]/(13748:13751): ## (1:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 19:59:47:953 [Kernel]/(13748:13751): ## (1:1) - Bloqueante: PTHREAD_JOIN
+[INFO] 19:59:47:954 [Kernel]/(13748:13751): ## (1:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 19:59:48:157 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:48:157 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 19:59:48:766 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:59:48:767 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:48:767 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 19:59:49:383 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:59:49:383 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:49:384 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 19:59:49:997 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:59:49:998 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:49:998 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 19:59:50:610 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:59:50:611 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:50:611 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 19:59:51:217 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:59:51:218 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:51:218 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 19:59:51:827 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:59:51:828 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:51:828 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 19:59:52:443 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:59:52:444 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:52:444 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 19:59:53:054 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:59:53:055 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:53:055 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 19:59:53:667 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:59:53:668 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:53:668 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 19:59:54:274 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:59:54:275 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:54:275 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 19:59:54:883 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:59:54:884 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:54:884 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 19:59:55:494 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:59:55:495 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:55:495 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 19:59:56:106 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:59:56:106 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:56:106 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 19:59:56:713 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:59:56:713 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:56:714 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 19:59:57:333 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:59:57:334 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:57:334 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 19:59:57:948 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 19:59:57:948 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:57:948 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 19:59:58:607 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 19:59:58:607 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:58:608 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 19:59:59:217 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 19:59:59:217 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:59:217 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 19:59:59:972 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 19:59:59:973 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 19:59:59:973 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:00:581 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:00:582 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:00:582 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:01:411 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:01:411 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:01:411 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:02:232 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:02:232 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:02:233 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:03:051 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:03:052 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:03:052 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:03:884 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:03:885 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:03:885 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:04:493 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:04:494 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:04:494 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:05:108 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:05:108 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:05:108 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:05:714 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:05:714 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:05:714 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:06:330 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:06:331 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:06:331 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:07:158 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:07:158 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:07:159 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:07:974 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:07:975 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:07:975 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:08:789 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:08:790 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:08:790 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:09:610 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:09:611 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:09:612 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:10:237 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:10:238 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:10:238 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:10:849 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:10:849 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:10:850 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:11:493 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:11:493 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:11:493 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:12:108 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:12:109 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:12:109 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:12:775 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:12:776 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:12:776 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:13:390 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:13:390 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:13:390 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:14:007 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:14:007 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:14:007 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:14:615 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:14:615 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:14:615 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:15:246 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:15:246 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:15:246 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:15:867 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:15:868 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:15:868 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:16:494 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:16:495 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:16:495 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:17:105 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:17:106 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:17:107 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:17:918 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:17:919 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:17:920 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:18:736 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:18:737 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:18:737 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:19:550 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:19:551 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:19:551 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:20:365 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:20:366 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:20:368 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:20:976 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:20:976 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:20:977 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:21:584 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:21:585 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:21:586 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:22:198 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:22:199 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:22:199 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:22:809 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:22:810 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:22:810 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:23:616 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:23:617 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:23:618 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:24:452 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:24:453 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:24:453 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:25:285 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:25:285 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:25:286 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:26:113 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:26:114 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:26:115 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:26:722 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:26:722 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:26:723 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:27:330 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:27:330 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:27:331 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:27:963 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:27:964 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:27:965 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:28:574 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:28:575 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:28:575 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:29:198 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:29:199 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:29:199 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:29:807 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:29:808 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:29:808 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:30:431 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:30:432 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:30:432 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:31:054 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:31:055 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:31:055 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:31:668 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:31:668 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:31:669 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:32:278 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:32:278 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:32:279 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:32:888 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:32:889 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:32:890 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:33:498 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:33:499 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:33:499 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:34:306 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:34:307 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:34:308 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:35:116 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:35:117 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:35:117 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:35:935 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:35:936 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:35:936 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:36:746 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:36:747 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:36:747 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:37:370 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:37:371 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:37:372 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:38:022 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:38:023 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:38:023 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:38:653 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:38:653 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:38:653 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:39:258 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:39:259 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:39:259 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:40:081 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:40:082 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:40:083 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:40:916 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:40:918 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:40:919 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:41:765 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:41:766 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:41:767 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:42:606 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:42:607 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:42:607 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:43:303 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:43:304 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:43:304 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:43:915 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:43:915 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:43:917 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:44:523 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:44:524 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:44:524 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:45:129 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:45:129 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:45:129 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:45:747 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:45:748 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:45:748 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:46:354 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:46:355 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:46:355 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:46:966 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:46:966 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:46:966 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:47:572 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:47:572 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:47:572 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:48:180 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:48:180 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:48:180 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:48:807 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:48:808 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:48:808 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:49:415 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:49:416 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:49:416 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:50:026 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:50:027 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:50:027 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:50:836 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:50:837 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:50:837 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:51:644 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:51:644 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:51:645 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:52:452 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:52:452 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:52:453 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:53:285 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:53:285 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:53:286 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:53:916 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:53:917 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:53:917 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:54:533 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:54:535 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:54:535 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:55:144 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:55:145 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:55:145 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:55:757 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:55:758 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:55:758 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:56:607 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:56:607 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:56:607 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:00:57:480 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:00:57:481 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:57:481 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:00:58:292 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:00:58:293 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:58:293 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:00:59:120 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:00:59:121 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:59:121 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:00:59:734 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:00:59:735 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:00:59:735 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:00:342 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:00:343 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:00:343 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:00:952 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:00:954 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:00:954 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:01:564 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:01:565 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:01:565 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:02:174 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:02:175 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:02:175 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:02:794 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:02:795 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:02:795 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:03:408 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:03:409 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:03:409 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:04:083 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:04:084 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:04:084 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:04:695 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:04:696 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:04:696 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:05:303 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:05:304 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:05:305 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:05:910 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:05:911 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:05:911 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:06:517 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:06:517 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:06:518 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:07:335 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:07:335 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:07:336 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:08:143 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:08:145 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:08:145 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:08:952 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:08:953 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:08:953 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:09:773 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:09:773 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:09:773 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:10:393 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:10:393 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:10:394 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:11:002 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:11:003 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:11:004 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:11:614 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:11:614 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:11:614 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:12:221 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:12:222 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:12:222 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:13:036 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:13:038 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:13:038 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:13:855 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:13:856 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:13:856 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:14:675 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:14:675 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:14:676 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:15:526 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:15:527 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:15:527 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:16:165 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:16:165 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:16:165 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:16:773 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:16:773 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:16:773 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:17:397 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:17:398 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:17:398 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:18:011 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:18:011 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:18:011 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:18:619 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:18:620 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:18:620 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:19:237 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:19:238 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:19:238 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:19:850 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:19:850 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:19:851 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:20:458 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:20:459 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:20:459 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:21:070 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:21:071 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:21:071 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:21:684 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:21:685 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:21:686 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:22:296 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:22:297 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:22:297 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:22:906 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:22:906 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:22:908 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:23:720 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:23:720 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:23:720 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:24:551 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:24:552 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:24:552 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:25:374 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:25:374 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:25:375 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:26:183 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:26:184 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:26:185 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:26:796 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:26:796 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:26:797 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:27:405 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:27:405 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:27:406 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:28:031 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:28:032 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:28:033 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:28:639 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:28:640 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:28:640 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:29:481 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:29:482 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:29:482 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:30:306 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:30:306 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:30:306 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:31:116 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:31:117 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:31:118 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:31:949 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:31:950 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:31:950 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:32:559 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:32:559 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:32:559 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:33:166 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:33:167 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:33:167 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:33:784 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:33:784 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:33:785 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:34:393 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:34:395 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:34:396 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:35:002 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:35:003 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:35:003 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:35:610 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:35:611 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:35:611 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:36:238 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:36:238 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:36:239 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:36:861 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:36:862 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:36:862 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:37:473 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:37:473 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:37:474 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:38:092 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:38:092 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:38:093 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:38:704 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:38:704 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:38:705 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:39:310 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:39:311 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:39:311 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:40:120 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:40:120 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:40:120 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:40:930 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:40:931 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:40:931 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:41:749 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:41:749 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:41:749 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:42:563 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:42:563 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:42:563 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:43:173 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:43:175 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:43:175 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:43:783 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:43:783 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:43:783 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:44:393 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:44:394 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:44:394 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:45:010 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:45:011 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:45:011 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:45:826 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:45:826 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:45:826 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:46:642 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:46:643 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:46:643 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:47:517 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:47:518 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:47:518 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:48:331 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:48:331 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:48:333 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:48:943 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:48:944 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:48:944 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:49:558 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:49:559 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:49:559 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:50:168 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:50:168 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:50:169 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:50:774 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:50:775 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:50:775 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:51:382 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:51:382 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:51:382 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:51:988 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:51:989 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:51:989 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:52:605 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:52:606 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:52:606 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:53:308 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:53:309 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:53:309 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:53:935 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:53:936 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:53:937 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:54:547 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:54:547 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:54:548 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:55:156 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:55:158 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:55:158 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:55:766 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:55:767 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:55:767 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:56:585 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:56:586 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:56:587 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:01:57:422 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:01:57:423 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:57:423 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:01:58:288 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:01:58:288 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:58:289 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:01:59:103 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:01:59:103 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:59:103 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:01:59:710 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:01:59:711 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:01:59:712 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:00:322 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:00:323 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:00:323 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:00:928 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:00:929 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:00:930 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:01:541 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:01:542 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:01:543 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:02:02:357 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:02:358 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:02:359 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:03:170 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:03:171 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:03:171 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:03:990 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:03:991 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:03:992 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:04:802 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:04:803 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:04:803 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:02:05:421 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:05:422 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:05:423 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:06:032 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:06:033 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:06:033 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:06:647 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:06:647 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:06:648 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:07:272 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:07:272 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:07:272 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:02:07:886 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:07:886 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:07:886 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:08:511 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:08:512 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:08:512 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:09:120 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:09:120 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:09:120 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:09:742 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:09:743 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:09:743 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:02:10:348 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:10:348 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:10:348 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:10:957 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:10:958 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:10:958 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:11:585 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:11:585 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:11:586 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:12:200 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:12:200 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:12:200 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:02:13:028 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:13:028 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:13:029 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:13:885 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:13:887 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:13:888 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:14:696 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:14:696 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:14:696 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:15:522 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:15:525 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:15:525 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:02:16:136 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:16:136 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:16:136 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:16:743 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:16:744 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:16:744 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:17:350 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:17:350 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:17:350 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:17:964 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:17:965 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:17:965 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:02:18:779 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:18:779 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:18:779 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:19:593 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:19:595 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:19:595 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:20:409 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:20:409 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:20:409 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:21:224 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:21:225 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:21:225 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:02:21:833 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:21:833 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:21:834 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:22:442 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:22:442 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:22:442 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:23:053 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:23:053 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:23:054 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:23:664 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:23:664 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:23:665 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:02:24:279 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:24:280 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:24:280 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:24:891 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:24:891 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:24:891 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:25:517 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:25:517 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:25:517 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:26:132 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:26:132 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:26:133 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:02:26:747 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:26:748 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:26:748 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:27:372 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:27:372 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:27:372 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:27:987 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:27:987 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:27:988 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:28:601 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:28:601 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:28:603 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:02:29:430 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:29:431 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:29:431 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:30:255 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:30:256 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:30:258 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:31:067 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:31:068 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:31:068 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:31:880 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:31:880 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:31:881 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:02:32:493 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:32:494 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:32:494 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:33:100 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:33:100 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:33:100 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:33:727 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:33:727 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:33:727 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:34:347 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:34:349 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:34:349 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:02:35:159 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:35:159 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:35:160 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:35:971 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:35:972 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:35:972 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:36:780 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:36:782 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:36:782 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:37:603 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:37:604 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:37:604 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:02:38:211 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:38:212 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:38:212 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:38:818 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:38:818 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:38:819 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:39:429 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:39:431 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:39:431 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:40:038 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:40:039 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:40:039 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:02:40:651 [Kernel]/(13748:13752): ## (1:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:40:652 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:40:652 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:41:407 [Kernel]/(13748:13752): ## (1:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:41:408 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:41:408 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:42:016 [Kernel]/(13748:13752): ## (1:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:42:016 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:42:017 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:42:689 [Kernel]/(13748:13752): ## (1:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:42:690 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:42:690 [Kernel]/(13748:13756): ## (1:1) - Estado: EXEC
+[INFO] 20:02:43:093 [Kernel]/(13748:13751): ## (1:1) - Solicitó syscall: THREAD_EXIT
+[INFO] 20:02:43:096 [Kernel]/(13748:13751): ## (1:1) Finaliza el hilo
+[DEBUG] 20:02:43:298 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:43:299 [Kernel]/(13748:13756): ## (1:0) - Estado: EXEC
+[INFO] 20:02:43:710 [Kernel]/(13748:13751): ## (1:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 20:02:43:711 [Kernel]/(13748:13751): ## (1:2) - Bloqueante: PTHREAD_JOIN
+[INFO] 20:02:43:711 [Kernel]/(13748:13751): ## (1:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 20:02:43:914 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:43:914 [Kernel]/(13748:13756): ## (1:2) - Estado: EXEC
+[INFO] 20:02:44:320 [Kernel]/(13748:13751): ## (1:2) - Solicitó syscall: THREAD_EXIT
+[INFO] 20:02:44:324 [Kernel]/(13748:13751): ## (1:2) Finaliza el hilo
+[DEBUG] 20:02:44:528 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:44:529 [Kernel]/(13748:13756): ## (1:0) - Estado: EXEC
+[INFO] 20:02:44:933 [Kernel]/(13748:13751): ## (1:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 20:02:44:934 [Kernel]/(13748:13751): ## (1:3) - Bloqueante: PTHREAD_JOIN
+[INFO] 20:02:44:934 [Kernel]/(13748:13751): ## (1:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 20:02:45:140 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:45:141 [Kernel]/(13748:13756): ## (1:3) - Estado: EXEC
+[INFO] 20:02:45:546 [Kernel]/(13748:13751): ## (1:3) - Solicitó syscall: THREAD_EXIT
+[INFO] 20:02:45:547 [Kernel]/(13748:13751): ## (1:3) Finaliza el hilo
+[DEBUG] 20:02:45:750 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:45:750 [Kernel]/(13748:13756): ## (1:0) - Estado: EXEC
+[INFO] 20:02:46:156 [Kernel]/(13748:13751): ## (1:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 20:02:46:156 [Kernel]/(13748:13751): ## (1:4) - Bloqueante: PTHREAD_JOIN
+[INFO] 20:02:46:156 [Kernel]/(13748:13751): ## (1:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 20:02:46:359 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:46:359 [Kernel]/(13748:13756): ## (1:4) - Estado: EXEC
+[INFO] 20:02:46:768 [Kernel]/(13748:13751): ## (1:4) - Solicitó syscall: THREAD_EXIT
+[INFO] 20:02:46:769 [Kernel]/(13748:13751): ## (1:4) Finaliza el hilo
+[DEBUG] 20:02:46:974 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:46:974 [Kernel]/(13748:13756): ## (1:0) - Estado: EXEC
+[INFO] 20:02:47:580 [Kernel]/(13748:13752): ## (1:0) - Desalojado por fin de Quantum
+[DEBUG] 20:02:47:580 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:47:581 [Kernel]/(13748:13756): ## (1:0) - Estado: EXEC
+[INFO] 20:02:48:392 [Kernel]/(13748:13752): ## (1:0) - Desalojado por fin de Quantum
+[DEBUG] 20:02:48:393 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:48:393 [Kernel]/(13748:13756): ## (1:0) - Estado: EXEC
+[INFO] 20:02:49:008 [Kernel]/(13748:13752): ## (1:0) - Desalojado por fin de Quantum
+[DEBUG] 20:02:49:008 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:49:009 [Kernel]/(13748:13756): ## (1:0) - Estado: EXEC
+[INFO] 20:02:49:413 [Kernel]/(13748:13751): ## (1:0) - Solicitó syscall: PROCESS_EXIT
+[INFO] 20:02:49:413 [Kernel]/(13748:13751): ## Finaliza el proceso 1
+[DEBUG] 20:02:49:620 [Kernel]/(13748:13752): ## (1) - Estado: EXIT
+[DEBUG] 20:02:49:620 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:49:621 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:02:50:225 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:50:225 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:50:226 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:02:50:847 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:50:847 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:50:847 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:02:51:536 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:51:537 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:51:537 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:02:52:146 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:52:146 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:52:147 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:02:52:753 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:52:754 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:52:754 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:02:53:408 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:53:408 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:53:408 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:02:54:025 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:54:026 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:54:027 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:02:54:640 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:54:640 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:54:642 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:02:55:250 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:55:250 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:55:250 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:02:55:859 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:55:859 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:55:859 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:02:56:477 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:56:478 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:56:478 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:02:57:096 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:57:096 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:57:096 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:02:57:702 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:02:57:702 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:57:702 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:02:58:322 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:02:58:323 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:58:323 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:02:58:950 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:02:58:950 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:58:951 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:02:59:578 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:02:59:578 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:02:59:579 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:00:187 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:00:187 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:00:187 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:00:793 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:00:793 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:00:793 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:01:492 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:01:493 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:01:494 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:02:106 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:03:02:106 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:02:107 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:02:517 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:03:02:723 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:02:723 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:02:724 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:03:129 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:03:03:129 [Kernel]/(13748:13751): ## (0:2) bloqueado por MUTEX
+[DEBUG] 20:03:03:332 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:03:333 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:03:747 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:03:03:747 [Kernel]/(13748:13751): ## (0:3) bloqueado por MUTEX
+[DEBUG] 20:03:03:952 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:03:953 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:04:357 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:03:04:358 [Kernel]/(13748:13751): ## (0:4) bloqueado por MUTEX
+[DEBUG] 20:03:04:580 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:04:580 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:05:407 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:05:408 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:05:409 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:06:023 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:06:023 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:06:026 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:06:839 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:06:840 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:06:840 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:07:245 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:03:07:451 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:07:452 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:07:453 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:08:277 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:08:278 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:08:278 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:09:105 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:09:105 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:09:105 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:09:719 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:09:719 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:09:720 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:10:326 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:10:327 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:10:327 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:11:137 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:11:139 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:11:139 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:11:746 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:11:747 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:11:747 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:12:153 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:03:12:355 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:12:356 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:12:356 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:12:762 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:03:12:762 [Kernel]/(13748:13751): ## (0:1) bloqueado por MUTEX
+[DEBUG] 20:03:12:995 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:12:995 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:13:807 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:13:808 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:13:808 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:14:423 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:14:425 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:14:425 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:15:034 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:15:036 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:15:037 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:15:645 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:15:646 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:15:646 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:16:461 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:16:462 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:16:462 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:17:080 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:17:081 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:17:081 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:17:488 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:03:17:691 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:17:692 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:17:692 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:18:097 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:03:18:098 [Kernel]/(13748:13751): ## (0:2) bloqueado por MUTEX
+[DEBUG] 20:03:18:304 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:18:304 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:19:114 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:03:19:114 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:19:115 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:19:720 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:19:721 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:19:721 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:20:328 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:03:20:328 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:20:328 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:20:933 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:20:934 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:20:934 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:21:744 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:03:21:744 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:21:744 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:22:351 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:22:351 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:22:351 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:22:756 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:03:22:959 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:03:22:960 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:22:960 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:23:366 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:03:23:366 [Kernel]/(13748:13751): ## (0:3) bloqueado por MUTEX
+[DEBUG] 20:03:23:581 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:23:581 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:24:398 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:24:399 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:24:399 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:25:005 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:03:25:006 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:25:006 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:25:612 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:25:612 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:25:612 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:26:218 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:03:26:218 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:26:219 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:27:055 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:27:056 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:27:057 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:27:664 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:03:27:665 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:27:665 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:28:068 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:03:28:271 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:28:271 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:28:271 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:28:686 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:03:28:686 [Kernel]/(13748:13751): ## (0:4) bloqueado por MUTEX
+[DEBUG] 20:03:28:890 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:28:891 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:29:712 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:29:713 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:29:713 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:30:323 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:30:324 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:30:325 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:31:023 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:31:026 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:31:026 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:31:646 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:31:647 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:31:647 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:32:473 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:32:474 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:32:475 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:33:081 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:33:083 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:33:083 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:33:487 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:03:33:690 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:33:690 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:33:690 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:34:098 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:03:34:099 [Kernel]/(13748:13751): ## (0:1) bloqueado por MUTEX
+[DEBUG] 20:03:34:302 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:34:302 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:35:113 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:35:115 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:35:115 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:35:728 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:35:729 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:35:729 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:36:348 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:36:349 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:36:349 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:36:959 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:36:960 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:36:960 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:37:771 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:37:772 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:37:773 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:38:400 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:38:401 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:38:401 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:38:806 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:03:39:013 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:39:014 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:39:014 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:39:423 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:03:39:424 [Kernel]/(13748:13751): ## (0:2) bloqueado por MUTEX
+[DEBUG] 20:03:39:627 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:39:627 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:40:439 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:03:40:440 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:40:442 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:41:051 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:41:052 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:41:052 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:41:659 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:03:41:660 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:41:662 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:42:273 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:42:274 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:42:274 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:43:097 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:03:43:097 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:43:097 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:43:706 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:43:706 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:43:707 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:44:126 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:03:44:331 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:03:44:331 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:44:331 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:44:748 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:03:44:748 [Kernel]/(13748:13751): ## (0:3) bloqueado por MUTEX
+[DEBUG] 20:03:44:951 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:44:951 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:45:764 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:45:765 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:45:765 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:46:375 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:03:46:377 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:46:377 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:46:985 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:46:986 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:46:986 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:47:597 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:03:47:598 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:47:599 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:48:418 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:48:418 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:48:419 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:49:025 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:03:49:026 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:49:026 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:49:432 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:03:49:635 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:49:636 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:49:636 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:03:50:042 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:03:50:043 [Kernel]/(13748:13751): ## (0:4) bloqueado por MUTEX
+[DEBUG] 20:03:50:250 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:50:250 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:51:061 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:51:061 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:51:061 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:51:666 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:51:666 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:51:667 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:52:277 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:52:277 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:52:277 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:52:885 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:52:885 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:52:885 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:53:700 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:53:701 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:53:701 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:54:310 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:03:54:310 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:54:310 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:54:717 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:03:54:920 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:54:920 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:54:920 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:03:55:331 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:03:55:331 [Kernel]/(13748:13751): ## (0:1) bloqueado por MUTEX
+[DEBUG] 20:03:55:533 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:55:534 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:56:350 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:56:350 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:56:350 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:57:002 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:57:003 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:57:003 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:57:611 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:57:612 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:57:612 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:58:231 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:58:232 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:58:232 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:03:59:051 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:03:59:054 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:59:054 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:03:59:676 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:03:59:676 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:03:59:677 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:00:082 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:04:00:286 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:00:287 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:00:287 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:00:691 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:04:00:691 [Kernel]/(13748:13751): ## (0:2) bloqueado por MUTEX
+[DEBUG] 20:04:00:895 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:00:896 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:01:714 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:01:716 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:01:717 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:02:330 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:02:330 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:02:331 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:02:939 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:02:940 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:02:940 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:03:572 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:03:573 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:03:573 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:04:381 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:04:381 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:04:381 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:04:989 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:04:990 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:04:990 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:05:395 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:04:05:602 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:05:603 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:05:603 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:06:008 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:04:06:008 [Kernel]/(13748:13751): ## (0:3) bloqueado por MUTEX
+[DEBUG] 20:04:06:211 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:06:212 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:07:050 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:07:050 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:07:050 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:07:666 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:07:666 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:07:666 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:08:286 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:08:286 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:08:286 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:08:914 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:08:916 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:08:916 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:09:723 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:09:723 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:09:723 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:10:331 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:10:331 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:10:332 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:10:735 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:04:10:939 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:10:943 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:10:943 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:11:359 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:04:11:359 [Kernel]/(13748:13751): ## (0:4) bloqueado por MUTEX
+[DEBUG] 20:04:11:562 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:11:562 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:12:408 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:12:408 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:12:408 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:13:097 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:13:097 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:13:098 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:13:725 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:13:726 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:13:726 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:14:332 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:14:333 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:14:333 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:15:143 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:15:144 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:15:144 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:15:753 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:15:754 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:15:754 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:16:163 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:04:16:366 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:16:367 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:16:368 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:16:772 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:04:16:772 [Kernel]/(13748:13751): ## (0:1) bloqueado por MUTEX
+[DEBUG] 20:04:16:976 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:16:977 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:17:822 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:17:822 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:17:822 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:18:427 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:18:427 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:18:428 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:19:034 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:19:034 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:19:034 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:19:638 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:19:639 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:19:639 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:20:451 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:20:452 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:20:452 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:21:088 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:21:088 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:21:088 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:21:493 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:04:21:694 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:21:695 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:21:695 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:22:100 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:04:22:100 [Kernel]/(13748:13751): ## (0:2) bloqueado por MUTEX
+[DEBUG] 20:04:22:305 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:22:308 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:23:122 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:23:122 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:23:122 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:23:752 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:23:752 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:23:752 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:24:367 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:24:368 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:24:368 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:24:978 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:24:979 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:24:979 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:25:791 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:25:791 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:25:791 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:26:406 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:26:407 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:26:407 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:26:813 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:04:27:018 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:27:019 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:27:019 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:27:434 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:04:27:434 [Kernel]/(13748:13751): ## (0:3) bloqueado por MUTEX
+[DEBUG] 20:04:27:638 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:27:638 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:28:505 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:28:506 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:28:506 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:29:141 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:29:141 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:29:141 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:29:748 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:29:749 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:29:749 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:30:357 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:30:357 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:30:357 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:31:169 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:31:169 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:31:169 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:31:777 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:31:777 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:31:777 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:32:182 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:04:32:385 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:32:386 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:32:386 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:32:790 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:04:32:790 [Kernel]/(13748:13751): ## (0:4) bloqueado por MUTEX
+[DEBUG] 20:04:32:994 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:32:994 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:33:802 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:33:803 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:33:803 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:34:433 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:34:434 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:34:434 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:35:044 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:35:044 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:35:045 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:35:664 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:35:667 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:35:668 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:36:481 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:36:482 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:36:482 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:37:089 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:37:089 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:37:089 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:37:497 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:04:37:708 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:37:708 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:37:708 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:38:130 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:04:38:130 [Kernel]/(13748:13751): ## (0:1) bloqueado por MUTEX
+[DEBUG] 20:04:38:332 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:38:332 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:39:144 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:39:144 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:39:144 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:39:807 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:39:808 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:39:808 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:40:416 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:40:416 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:40:417 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:41:030 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:41:031 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:41:031 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:41:866 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:41:868 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:41:868 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:42:489 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:42:489 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:42:489 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:42:893 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:04:43:097 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:43:098 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:43:099 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:43:506 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:04:43:507 [Kernel]/(13748:13751): ## (0:2) bloqueado por MUTEX
+[DEBUG] 20:04:43:723 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:43:723 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:44:532 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:44:533 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:44:533 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:45:145 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:45:145 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:45:145 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:45:759 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:45:760 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:45:760 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:46:372 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:46:373 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:46:373 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:47:186 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:47:186 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:47:186 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:47:797 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:04:47:798 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:47:798 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:48:206 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:04:48:409 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:48:410 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:48:410 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:04:48:815 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:04:48:815 [Kernel]/(13748:13751): ## (0:3) bloqueado por MUTEX
+[DEBUG] 20:04:49:022 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:49:022 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:49:851 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:49:852 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:49:853 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:50:460 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:50:461 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:50:461 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:51:136 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:51:138 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:51:139 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:51:753 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:51:754 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:51:754 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:52:587 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:52:587 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:52:587 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:53:220 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:04:53:220 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:53:220 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:53:629 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:04:53:831 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:53:832 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:53:832 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:04:54:237 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:04:54:237 [Kernel]/(13748:13751): ## (0:4) bloqueado por MUTEX
+[DEBUG] 20:04:54:447 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:54:447 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:55:258 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:55:259 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:55:259 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:55:883 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:55:884 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:55:884 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:56:492 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:56:492 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:56:492 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:57:104 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:57:104 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:57:104 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:57:940 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:57:941 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:57:942 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:58:547 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:04:58:547 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:58:548 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:04:58:955 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:04:59:159 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:04:59:160 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:59:160 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:04:59:564 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:04:59:564 [Kernel]/(13748:13751): ## (0:1) bloqueado por MUTEX
+[DEBUG] 20:04:59:796 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:04:59:796 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:00:604 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:00:605 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:00:605 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:01:215 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:01:215 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:01:216 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:01:823 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:01:824 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:01:824 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:02:435 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:02:435 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:02:436 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:03:279 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:03:280 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:03:280 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:03:926 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:03:927 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:03:928 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:04:332 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:05:04:535 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:04:535 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:04:536 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:04:941 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:05:04:941 [Kernel]/(13748:13751): ## (0:2) bloqueado por MUTEX
+[DEBUG] 20:05:05:144 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:05:144 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:05:969 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:05:969 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:05:970 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:06:600 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:06:603 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:06:604 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:07:214 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:07:214 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:07:214 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:07:823 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:07:824 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:07:824 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:08:639 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:08:640 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:08:640 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:09:255 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:09:255 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:09:256 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:09:663 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:05:09:874 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:09:874 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:09:874 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:10:280 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:05:10:280 [Kernel]/(13748:13751): ## (0:3) bloqueado por MUTEX
+[DEBUG] 20:05:10:483 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:10:484 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:11:365 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:11:365 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:11:366 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:11:983 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:11:983 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:11:983 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:12:589 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:12:590 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:12:591 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:13:198 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:13:199 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:13:199 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:14:027 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:14:028 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:14:028 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:14:634 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:14:635 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:14:635 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:15:048 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:05:15:251 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:15:251 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:15:251 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:15:663 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:05:15:664 [Kernel]/(13748:13751): ## (0:4) bloqueado por MUTEX
+[DEBUG] 20:05:15:871 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:15:871 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:16:684 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:16:684 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:16:686 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:17:310 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:17:310 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:17:310 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:17:916 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:17:917 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:17:918 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:18:523 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:18:523 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:18:525 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:19:337 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:19:337 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:19:338 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:19:951 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:19:952 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:19:952 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:20:359 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:05:20:562 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:20:563 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:20:564 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:20:968 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:05:20:968 [Kernel]/(13748:13751): ## (0:1) bloqueado por MUTEX
+[DEBUG] 20:05:21:171 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:21:171 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:21:999 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:22:000 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:22:000 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:22:611 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:22:612 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:22:612 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:23:220 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:23:220 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:23:221 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:23:828 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:23:829 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:23:830 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:24:644 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:24:645 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:24:645 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:25:253 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:25:254 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:25:254 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:25:657 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:05:25:860 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:25:860 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:25:860 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:26:275 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:05:26:277 [Kernel]/(13748:13751): ## (0:2) bloqueado por MUTEX
+[DEBUG] 20:05:26:485 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:26:486 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:27:295 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:27:295 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:27:295 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:27:910 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:27:910 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:27:911 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:28:525 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:28:526 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:28:526 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:29:150 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:29:150 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:29:150 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:29:971 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:29:972 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:29:973 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:30:578 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:30:579 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:30:579 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:30:990 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:05:31:193 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:31:194 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:31:194 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:31:600 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:05:31:600 [Kernel]/(13748:13751): ## (0:3) bloqueado por MUTEX
+[DEBUG] 20:05:31:802 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:31:802 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:32:625 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:32:625 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:32:625 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:33:236 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:33:237 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:33:237 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:33:850 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:33:851 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:33:851 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:34:499 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:34:501 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:34:501 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:35:314 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:35:314 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:35:314 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:35:930 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:35:931 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:35:931 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:36:345 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:05:36:550 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:36:550 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:36:550 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:36:956 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:05:36:956 [Kernel]/(13748:13751): ## (0:4) bloqueado por MUTEX
+[DEBUG] 20:05:37:169 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:37:170 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:37:986 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:37:986 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:37:986 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:38:595 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:38:596 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:38:596 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:39:206 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:39:207 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:39:207 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:39:817 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:39:818 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:39:818 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:40:635 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:40:636 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:40:636 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:41:252 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:41:253 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:41:253 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:41:662 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:05:41:865 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:41:865 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:41:865 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:42:272 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:05:42:272 [Kernel]/(13748:13751): ## (0:1) bloqueado por MUTEX
+[DEBUG] 20:05:42:476 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:42:477 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:43:293 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:43:294 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:43:294 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:43:908 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:43:909 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:43:910 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:44:522 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:44:525 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:44:525 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:45:158 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:45:159 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:45:159 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:45:985 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:45:986 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:45:986 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:46:601 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:46:602 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:46:603 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:47:017 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:05:47:223 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:47:224 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:47:224 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:47:644 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:05:47:644 [Kernel]/(13748:13751): ## (0:2) bloqueado por MUTEX
+[DEBUG] 20:05:47:859 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:47:859 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:48:726 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:48:726 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:48:729 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:49:350 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:49:351 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:49:352 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:50:000 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:50:002 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:50:002 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:50:608 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:50:609 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:50:609 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:51:454 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:51:455 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:51:455 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:52:061 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:05:52:062 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:52:062 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:52:469 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:05:52:671 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:52:671 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:52:672 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:05:53:136 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:05:53:136 [Kernel]/(13748:13751): ## (0:3) bloqueado por MUTEX
+[DEBUG] 20:05:53:346 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:53:346 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:54:161 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:54:161 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:54:162 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:54:777 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:54:778 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:54:779 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:55:389 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:55:390 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:55:390 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:56:000 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:56:000 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:56:001 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:56:820 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:56:821 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:56:821 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:57:453 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:05:57:454 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:57:454 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:05:57:860 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:05:58:064 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:05:58:065 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:58:065 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:05:58:472 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:05:58:472 [Kernel]/(13748:13751): ## (0:4) bloqueado por MUTEX
+[DEBUG] 20:05:58:685 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:58:685 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:05:59:539 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:05:59:540 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:05:59:540 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:06:00:168 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:06:00:168 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:00:168 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:06:00:783 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:06:00:783 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:00:783 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:06:01:394 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:06:01:395 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:01:395 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:06:02:208 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:06:02:209 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:02:209 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:06:02:816 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:06:02:817 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:02:817 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:06:03:227 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:06:03:429 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:06:03:430 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:03:430 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:06:03:836 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:06:03:837 [Kernel]/(13748:13751): ## (0:1) bloqueado por MUTEX
+[DEBUG] 20:06:04:040 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:04:040 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:06:04:856 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:06:04:856 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:04:857 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:06:05:465 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:06:05:465 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:05:466 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:06:06:114 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:06:06:114 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:06:115 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:06:06:843 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:06:06:845 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:06:845 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:06:07:706 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:06:07:707 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:07:708 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:06:08:323 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:06:08:323 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:08:323 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:06:08:726 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:06:08:928 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:06:08:929 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:08:929 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:06:09:334 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:06:09:334 [Kernel]/(13748:13751): ## (0:2) bloqueado por MUTEX
+[DEBUG] 20:06:09:537 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:09:537 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:06:10:356 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:06:10:357 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:10:358 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:06:10:964 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:06:10:965 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:10:965 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:06:11:573 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:06:11:574 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:11:574 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:06:12:184 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:06:12:185 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:12:185 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:06:13:006 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:06:13:006 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:13:007 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:06:13:620 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:06:13:620 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:13:621 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:06:14:024 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:06:14:230 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:06:14:232 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:14:232 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:06:14:636 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:06:14:636 [Kernel]/(13748:13751): ## (0:3) bloqueado por MUTEX
+[DEBUG] 20:06:14:850 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:14:850 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:06:15:732 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:06:15:733 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:15:733 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:06:16:389 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:06:16:390 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:16:391 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:06:17:040 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:06:17:041 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:17:041 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:06:17:680 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:06:17:680 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:17:680 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:06:18:488 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:06:18:488 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:18:489 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:06:19:109 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:06:19:109 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:19:109 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:06:19:526 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:06:19:730 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:06:19:730 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:19:730 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:06:20:136 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_LOCK
+[INFO] 20:06:20:137 [Kernel]/(13748:13751): ## (0:4) bloqueado por MUTEX
+[DEBUG] 20:06:20:348 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:20:348 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:06:21:174 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:06:21:174 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:21:174 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:06:21:786 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:06:21:786 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:21:786 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:06:22:396 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:06:22:396 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:22:396 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:06:23:024 [Kernel]/(13748:13752): ## (0:1) - Desalojado por fin de Quantum
+[DEBUG] 20:06:23:026 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:23:026 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:06:23:851 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:06:23:851 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:23:851 [Kernel]/(13748:13756): ## (0:1) - Estado: EXEC
+[INFO] 20:06:24:263 [Kernel]/(13748:13751): ## (0:1) - Solicitó syscall: THREAD_EXIT
+[INFO] 20:06:24:266 [Kernel]/(13748:13751): ## (0:1) Finaliza el hilo
+[DEBUG] 20:06:24:472 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:24:472 [Kernel]/(13748:13756): ## (0:0) - Estado: EXEC
+[INFO] 20:06:24:879 [Kernel]/(13748:13751): ## (0:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 20:06:24:880 [Kernel]/(13748:13751): ## (0:2) - Bloqueante: PTHREAD_JOIN
+[INFO] 20:06:24:880 [Kernel]/(13748:13751): ## (0:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 20:06:25:090 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:25:090 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:06:25:498 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:06:25:701 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:06:25:701 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:25:701 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:06:26:513 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:06:26:514 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:26:514 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:06:27:135 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:06:27:136 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:27:136 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:06:27:750 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:06:27:750 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:27:751 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:06:28:366 [Kernel]/(13748:13752): ## (0:2) - Desalojado por fin de Quantum
+[DEBUG] 20:06:28:367 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:28:367 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:06:29:175 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:06:29:176 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:29:176 [Kernel]/(13748:13756): ## (0:2) - Estado: EXEC
+[INFO] 20:06:29:582 [Kernel]/(13748:13751): ## (0:2) - Solicitó syscall: THREAD_EXIT
+[INFO] 20:06:29:584 [Kernel]/(13748:13751): ## (0:2) Finaliza el hilo
+[DEBUG] 20:06:29:786 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:29:786 [Kernel]/(13748:13756): ## (0:0) - Estado: EXEC
+[INFO] 20:06:30:191 [Kernel]/(13748:13751): ## (0:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 20:06:30:191 [Kernel]/(13748:13751): ## (0:3) - Bloqueante: PTHREAD_JOIN
+[INFO] 20:06:30:191 [Kernel]/(13748:13751): ## (0:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 20:06:30:394 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:30:394 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:06:30:827 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:06:31:029 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:06:31:030 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:31:030 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:06:31:857 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:06:31:858 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:31:858 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:06:32:466 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:06:32:466 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:32:466 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:06:33:095 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:06:33:096 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:33:096 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:06:33:712 [Kernel]/(13748:13752): ## (0:3) - Desalojado por fin de Quantum
+[DEBUG] 20:06:33:713 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:33:713 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:06:34:526 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:06:34:526 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:34:527 [Kernel]/(13748:13756): ## (0:3) - Estado: EXEC
+[INFO] 20:06:34:930 [Kernel]/(13748:13751): ## (0:3) - Solicitó syscall: THREAD_EXIT
+[INFO] 20:06:34:932 [Kernel]/(13748:13751): ## (0:3) Finaliza el hilo
+[DEBUG] 20:06:35:135 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:35:135 [Kernel]/(13748:13756): ## (0:0) - Estado: EXEC
+[INFO] 20:06:35:538 [Kernel]/(13748:13751): ## (0:0) - Solicitó syscall: THREAD_JOIN
+[DEBUG] 20:06:35:538 [Kernel]/(13748:13751): ## (0:4) - Bloqueante: PTHREAD_JOIN
+[INFO] 20:06:35:538 [Kernel]/(13748:13751): ## (0:0) - Bloqueado por: PTHREAD_JOIN
+[DEBUG] 20:06:35:804 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:35:804 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:06:36:211 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: MUTEX_UNLOCK
+[INFO] 20:06:36:414 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:06:36:416 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:36:416 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:06:37:023 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:06:37:024 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:37:024 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:06:37:632 [Kernel]/(13748:13752): ## (0:4) - Desalojado por fin de Quantum
+[DEBUG] 20:06:37:633 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:37:634 [Kernel]/(13748:13756): ## (0:4) - Estado: EXEC
+[INFO] 20:06:38:038 [Kernel]/(13748:13751): ## (0:4) - Solicitó syscall: THREAD_EXIT
+[INFO] 20:06:38:041 [Kernel]/(13748:13751): ## (0:4) Finaliza el hilo
+[DEBUG] 20:06:38:244 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:38:244 [Kernel]/(13748:13756): ## (0:0) - Estado: EXEC
+[INFO] 20:06:39:066 [Kernel]/(13748:13752): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 20:06:39:067 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:39:067 [Kernel]/(13748:13756): ## (0:0) - Estado: EXEC
+[INFO] 20:06:39:679 [Kernel]/(13748:13752): ## (0:0) - Desalojado por fin de Quantum
+[DEBUG] 20:06:39:680 [Kernel]/(13748:13756): Hilo enviado a CPU para ejecucion
+[DEBUG] 20:06:39:680 [Kernel]/(13748:13756): ## (0:0) - Estado: EXEC
+[INFO] 20:06:40:090 [Kernel]/(13748:13751): ## (0:0) - Solicitó syscall: PROCESS_EXIT
+[INFO] 20:06:40:091 [Kernel]/(13748:13751): ## Finaliza el proceso 0
+[DEBUG] 20:06:40:300 [Kernel]/(13748:13752): ## (0) - Estado: EXIT

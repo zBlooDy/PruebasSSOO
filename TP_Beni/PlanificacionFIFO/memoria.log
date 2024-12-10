@@ -1,0 +1,110 @@
+[DEBUG] 19:39:37:057 Memoria/(4571:4571): Servidor escuchando en el puerto: 8002
+[DEBUG] 19:39:41:629 Memoria/(4571:4877): Se conecto CPU
+[INFO] 19:39:46:276 Memoria/(4571:5179): ## Kernel Conectado - FD del socket: 6
+[DEBUG] 19:39:46:276 Memoria/(4571:5179): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/PLANI_PROC
+[INFO] 19:39:46:276 Memoria/(4571:5179): ## Proceso Creacion -  PID: 0 - Tamaño: 32
+[DEBUG] 19:39:46:276 Memoria/(4571:5179): Particion de tamaño 32 asignada al proceso 0
+[DEBUG] 19:39:46:276 Memoria/(4571:5179): {[32;0][32;-1][32;-1][32;-1][32;-1][32;-1][32;-1][32;-1]}
+[INFO] 19:39:46:276 Memoria/(4571:4877): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:39:46:845 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: SET DX 0
+[INFO] 19:39:47:346 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: SET AX 1
+[INFO] 19:39:47:850 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_CREATE PLANI_THREAD 6
+[INFO] 19:39:48:354 Memoria/(4571:5189): ## Kernel Conectado - FD del socket: 7
+[DEBUG] 19:39:48:354 Memoria/(4571:5189): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/PLANI_THREAD
+[INFO] 19:39:48:354 Memoria/(4571:5189): ## Hilo Creacion - (PID:TID) - (0:1)
+[INFO] 19:39:48:355 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: SUM DX AX
+[INFO] 19:39:48:857 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_CREATE PLANI_THREAD 5
+[INFO] 19:39:49:361 Memoria/(4571:5193): ## Kernel Conectado - FD del socket: 6
+[DEBUG] 19:39:49:362 Memoria/(4571:5193): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/PLANI_THREAD
+[INFO] 19:39:49:364 Memoria/(4571:5193): ## Hilo Creacion - (PID:TID) - (0:2)
+[INFO] 19:39:49:366 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: SUM DX AX
+[INFO] 19:39:49:868 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_CREATE PLANI_THREAD 5
+[INFO] 19:39:50:398 Memoria/(4571:5194): ## Kernel Conectado - FD del socket: 7
+[DEBUG] 19:39:50:398 Memoria/(4571:5194): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/PLANI_THREAD
+[INFO] 19:39:50:399 Memoria/(4571:5194): ## Hilo Creacion - (PID:TID) - (0:3)
+[INFO] 19:39:50:399 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: SUM DX AX
+[INFO] 19:39:50:901 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_CREATE PLANI_THREAD 6
+[INFO] 19:39:51:405 Memoria/(4571:5195): ## Kernel Conectado - FD del socket: 6
+[DEBUG] 19:39:51:405 Memoria/(4571:5195): Leyendo instrucciones de: /home/utnso/tpOperativos/Pruebas_pseudocodigo/PLANI_THREAD
+[INFO] 19:39:51:406 Memoria/(4571:5195): ## Hilo Creacion - (PID:TID) - (0:4)
+[INFO] 19:39:51:409 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: SUM DX AX
+[INFO] 19:39:51:915 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: THREAD_JOIN 4
+[INFO] 19:39:52:419 Memoria/(4571:4877): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:39:52:924 Memoria/(4571:4877): ## Contexto Solicitado - (PID:TID) - (0:1)
+[INFO] 19:39:53:431 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SET CX 5
+[INFO] 19:39:53:939 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SET BX 1
+[INFO] 19:39:54:448 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:39:54:951 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 2
+[INFO] 19:39:55:454 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:39:56:045 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 2
+[INFO] 19:39:56:558 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:39:57:061 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 2
+[INFO] 19:39:57:568 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:39:58:072 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 2
+[INFO] 19:39:58:575 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: SUB CX BX
+[INFO] 19:39:59:081 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: JNZ CX 2
+[INFO] 19:39:59:622 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:1) - Instrucción: THREAD_EXIT
+[INFO] 19:40:00:133 Memoria/(4571:5223): ## Kernel Conectado - FD del socket: 7
+[INFO] 19:40:00:135 Memoria/(4571:4877): ## Contexto Actualizado - (PID:TID) - (0:1)
+[INFO] 19:40:00:135 Memoria/(4571:5223): ## Hilo Destruccion - (PID:TID) - (0:1)
+[INFO] 19:40:00:639 Memoria/(4571:4877): ## Contexto Solicitado - (PID:TID) - (0:2)
+[INFO] 19:40:01:141 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SET CX 5
+[INFO] 19:40:01:643 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SET BX 1
+[INFO] 19:40:02:147 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:40:02:649 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 2
+[INFO] 19:40:03:150 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:40:03:657 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 2
+[INFO] 19:40:04:160 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:40:04:662 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 2
+[INFO] 19:40:05:165 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:40:05:668 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 2
+[INFO] 19:40:06:178 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: SUB CX BX
+[INFO] 19:40:06:683 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: JNZ CX 2
+[INFO] 19:40:07:188 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:2) - Instrucción: THREAD_EXIT
+[INFO] 19:40:07:708 Memoria/(4571:5236): ## Kernel Conectado - FD del socket: 6
+[INFO] 19:40:07:710 Memoria/(4571:5236): ## Hilo Destruccion - (PID:TID) - (0:2)
+[INFO] 19:40:07:711 Memoria/(4571:4877): ## Contexto Actualizado - (PID:TID) - (0:2)
+[INFO] 19:40:08:215 Memoria/(4571:4877): ## Contexto Solicitado - (PID:TID) - (0:3)
+[INFO] 19:40:08:718 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SET CX 5
+[INFO] 19:40:09:220 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SET BX 1
+[INFO] 19:40:09:732 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:40:10:234 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 2
+[INFO] 19:40:10:741 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:40:11:244 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 2
+[INFO] 19:40:11:747 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:40:12:252 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 2
+[INFO] 19:40:12:763 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:40:13:266 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 2
+[INFO] 19:40:13:769 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: SUB CX BX
+[INFO] 19:40:14:271 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: JNZ CX 2
+[INFO] 19:40:14:790 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:3) - Instrucción: THREAD_EXIT
+[INFO] 19:40:15:293 Memoria/(4571:5261): ## Kernel Conectado - FD del socket: 7
+[INFO] 19:40:15:294 Memoria/(4571:5261): ## Hilo Destruccion - (PID:TID) - (0:3)
+[INFO] 19:40:15:295 Memoria/(4571:4877): ## Contexto Actualizado - (PID:TID) - (0:3)
+[INFO] 19:40:15:799 Memoria/(4571:4877): ## Contexto Solicitado - (PID:TID) - (0:4)
+[INFO] 19:40:16:308 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SET CX 5
+[INFO] 19:40:16:813 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SET BX 1
+[INFO] 19:40:17:318 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:40:17:838 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 2
+[INFO] 19:40:18:359 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:40:18:865 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 2
+[INFO] 19:40:19:407 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:40:19:916 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 2
+[INFO] 19:40:20:421 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:40:20:924 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 2
+[INFO] 19:40:21:429 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: SUB CX BX
+[INFO] 19:40:21:968 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: JNZ CX 2
+[INFO] 19:40:22:470 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:4) - Instrucción: THREAD_EXIT
+[INFO] 19:40:22:972 Memoria/(4571:5276): ## Kernel Conectado - FD del socket: 6
+[INFO] 19:40:22:973 Memoria/(4571:5276): ## Hilo Destruccion - (PID:TID) - (0:4)
+[INFO] 19:40:22:975 Memoria/(4571:4877): ## Contexto Actualizado - (PID:TID) - (0:4)
+[INFO] 19:40:23:478 Memoria/(4571:4877): ## Contexto Solicitado - (PID:TID) - (0:0)
+[INFO] 19:40:23:980 Memoria/(4571:4877): ## Obtener instrucción - (PID:TID) - (0:0) - Instrucción: PROCESS_EXIT
+[INFO] 19:40:24:485 Memoria/(4571:4877): ## Contexto Actualizado - (PID:TID) - (0:0)
+[INFO] 19:40:25:002 Memoria/(4571:5289): ## Kernel Conectado - FD del socket: 7
+[INFO] 19:40:25:003 Memoria/(4571:5289): ## Proceso Destruccion -  PID: 0 - Tamaño: 32
+[DEBUG] 19:40:25:003 Memoria/(4571:5289): {[32;-1][32;-1][32;-1][32;-1][32;-1][32;-1][32;-1][32;-1]}
+[WARNING] 19:43:42:518 Memoria/(4571:4877): Operación no manejable en CPU. op_code: 0
+[WARNING] 19:43:42:521 Memoria/(4571:4877): Operación no manejable en CPU. op_code: 0
+[WARNING] 19:43:42:521 Memoria/(4571:4877): Operación no manejable en CPU. op_code: 0
+[WARNING] 19:43:42:521 Memoria/(4571:4877): Es probable que el servidor de CPU se haya cerrado. Se aborta el manejo de cliente
