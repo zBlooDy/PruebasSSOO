@@ -1,0 +1,1184 @@
+2024/12/10 20:44:09 ## Proceso Creado - PID: 1 - Tamaño: 12
+2024/12/10 20:44:09 ## Hilo Creado - (PID:TID) - (1:0)
+2024/12/10 20:44:09 ## (<PID 1>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:09 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:09 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:09 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:09 Instrucción solicitada de PID: 1, TID: 0, PC: 0
+2024/12/10 20:44:09 ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: PROCESS_CREATE MEM_FIJAS 8 0
+2024/12/10 20:44:09 PID: 1 TID: 0 - FETCH - Program Counter: 0
+2024/12/10 20:44:09 Instrucción decodificada: INSTUCCIÓN = PROCESS_CREATE, PARÁMETROS = [MEM_FIJAS 8 0]
+2024/12/10 20:44:09 ## TID: 0 - Ejecutando: PROCESS_CREATE - Parámetros: [MEM_FIJAS 8 0]
+2024/12/10 20:44:10 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:10 ## Se registra la interrupcion
+2024/12/10 20:44:10 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:10 ## (<PID:1>:<TID:0>) - Solicitó syscall: <PROCESS_CREATE> ##
+2024/12/10 20:44:10  ## (<PID>:2) Se crea el proceso - Estado: NEW ##
+2024/12/10 20:44:10 ## Proceso Creado - PID: 2 - Tamaño: 8
+2024/12/10 20:44:10 ## Hilo Creado - (PID:TID) - (2:0)
+2024/12/10 20:44:10 ## (<PID 2>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:10 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:11 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:11 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:11 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:44:11 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:11 ## (<PID:1>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:11 ## (<PID 1>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:11 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:11 FINALIZA EJECUCION POR INTERRUPCION DE PID : 1 y TID : 0 
+2024/12/10 20:44:11 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 1
+2024/12/10 20:44:11 ## (<PID 2>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:11 PCB : 2 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:11 ## Contexto <Solicitado> - (PID:TID) - (2:0)
+2024/12/10 20:44:11 PCB : 2 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:11 Instrucción solicitada de PID: 2, TID: 0, PC: 0
+2024/12/10 20:44:11 ## Obtener instrucción - (PID:TID) - (2:0) - Instrucción: SET DX 0
+2024/12/10 20:44:11 PID: 2 TID: 0 - FETCH - Program Counter: 0
+2024/12/10 20:44:11 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [DX 0]
+2024/12/10 20:44:11 ## TID: 0 - Ejecutando: SET - Parámetros: [DX 0]
+2024/12/10 20:44:11 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 1
+2024/12/10 20:44:11 Instrucción solicitada de PID: 2, TID: 0, PC: 1
+2024/12/10 20:44:11 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:11 ## Se registra la interrupcion
+2024/12/10 20:44:11 ## Obtener instrucción - (PID:TID) - (2:0) - Instrucción: SET AX 64
+2024/12/10 20:44:11 PID: 2 TID: 0 - FETCH - Program Counter: 1
+2024/12/10 20:44:11 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [AX 64]
+2024/12/10 20:44:11 ## TID: 0 - Ejecutando: SET - Parámetros: [AX 64]
+2024/12/10 20:44:11 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 2
+2024/12/10 20:44:12 ## Contexto Actualizado - (PID:TID) - (2:0)
+2024/12/10 20:44:12 ## (<PID:2>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:12 ## (<PID 2>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:12 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:12 FINALIZA EJECUCION POR INTERRUPCION DE PID : 2 y TID : 0 
+2024/12/10 20:44:12 ## (<PID 1>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:12 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:12 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:12 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:12 Instrucción solicitada de PID: 1, TID: 0, PC: 1
+2024/12/10 20:44:12 ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: PROCESS_CREATE MEM_FIJAS 48 0
+2024/12/10 20:44:12 PID: 1 TID: 0 - FETCH - Program Counter: 1
+2024/12/10 20:44:12 Instrucción decodificada: INSTUCCIÓN = PROCESS_CREATE, PARÁMETROS = [MEM_FIJAS 48 0]
+2024/12/10 20:44:12 ## TID: 0 - Ejecutando: PROCESS_CREATE - Parámetros: [MEM_FIJAS 48 0]
+2024/12/10 20:44:12 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:12 ## Se registra la interrupcion
+2024/12/10 20:44:12 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:12 ## (<PID:1>:<TID:0>) - Solicitó syscall: <PROCESS_CREATE> ##
+2024/12/10 20:44:12  ## (<PID>:3) Se crea el proceso - Estado: NEW ##
+2024/12/10 20:44:12 ## Proceso Creado - PID: 3 - Tamaño: 48
+2024/12/10 20:44:13 ## Hilo Creado - (PID:TID) - (3:0)
+2024/12/10 20:44:13 ## (<PID 3>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:13 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:13 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:13 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:13 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:44:13 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:13 ## (<PID:1>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:13 ## (<PID 1>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:13 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:13 FINALIZA EJECUCION POR INTERRUPCION DE PID : 1 y TID : 0 
+2024/12/10 20:44:13 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 2
+2024/12/10 20:44:13 ## (<PID 2>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:13 PCB : 2 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:13 ## Contexto <Solicitado> - (PID:TID) - (2:0)
+2024/12/10 20:44:13 PCB : 2 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:13 Instrucción solicitada de PID: 2, TID: 0, PC: 2
+2024/12/10 20:44:14 ## Obtener instrucción - (PID:TID) - (2:0) - Instrucción: WRITE_MEM DX AX
+2024/12/10 20:44:14 PID: 2 TID: 0 - FETCH - Program Counter: 2
+2024/12/10 20:44:14 Instrucción decodificada: INSTUCCIÓN = WRITE_MEM, PARÁMETROS = [DX AX]
+2024/12/10 20:44:14 ## TID: 0 - Ejecutando: WRITE_MEM - Parámetros: [DX AX]
+2024/12/10 20:44:14 ## TID: <0> - Accion: <ESCRIBIR> - Direccion Fisica: <32>
+2024/12/10 20:44:14 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:14 ## Se registra la interrupcion
+2024/12/10 20:44:14 ## <Escritura> - (<PID:2> : <TID:0>) - Dir. Fisica: <32> - Tamanio <4>
+2024/12/10 20:44:14 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 3
+2024/12/10 20:44:14 ## Contexto Actualizado - (PID:TID) - (2:0)
+2024/12/10 20:44:14 ## (<PID:2>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:14 ## (<PID 2>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:14 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:14 FINALIZA EJECUCION POR INTERRUPCION DE PID : 2 y TID : 0 
+2024/12/10 20:44:14 ## (<PID 3>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:14 PCB : 3 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:14 ## Contexto <Solicitado> - (PID:TID) - (3:0)
+2024/12/10 20:44:14 PCB : 3 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:14 Instrucción solicitada de PID: 3, TID: 0, PC: 0
+2024/12/10 20:44:14 ## Obtener instrucción - (PID:TID) - (3:0) - Instrucción: SET DX 0
+2024/12/10 20:44:14 PID: 3 TID: 0 - FETCH - Program Counter: 0
+2024/12/10 20:44:14 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [DX 0]
+2024/12/10 20:44:14 ## TID: 0 - Ejecutando: SET - Parámetros: [DX 0]
+2024/12/10 20:44:14 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 1
+2024/12/10 20:44:14 Instrucción solicitada de PID: 3, TID: 0, PC: 1
+2024/12/10 20:44:14 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:14 ## Se registra la interrupcion
+2024/12/10 20:44:15 ## Obtener instrucción - (PID:TID) - (3:0) - Instrucción: SET AX 64
+2024/12/10 20:44:15 PID: 3 TID: 0 - FETCH - Program Counter: 1
+2024/12/10 20:44:15 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [AX 64]
+2024/12/10 20:44:15 ## TID: 0 - Ejecutando: SET - Parámetros: [AX 64]
+2024/12/10 20:44:15 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 2
+2024/12/10 20:44:15 ## Contexto Actualizado - (PID:TID) - (3:0)
+2024/12/10 20:44:15 ## (<PID:3>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:15 ## (<PID 3>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:15 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:15 FINALIZA EJECUCION POR INTERRUPCION DE PID : 3 y TID : 0 
+2024/12/10 20:44:15 ## (<PID 1>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:15 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:15 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:15 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:15 Instrucción solicitada de PID: 1, TID: 0, PC: 2
+2024/12/10 20:44:15 ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: PROCESS_CREATE MEM_FIJAS 96 0
+2024/12/10 20:44:15 PID: 1 TID: 0 - FETCH - Program Counter: 2
+2024/12/10 20:44:15 Instrucción decodificada: INSTUCCIÓN = PROCESS_CREATE, PARÁMETROS = [MEM_FIJAS 96 0]
+2024/12/10 20:44:15 ## TID: 0 - Ejecutando: PROCESS_CREATE - Parámetros: [MEM_FIJAS 96 0]
+2024/12/10 20:44:15 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:15 ## Se registra la interrupcion
+2024/12/10 20:44:15 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:15 ## (<PID:1>:<TID:0>) - Solicitó syscall: <PROCESS_CREATE> ##
+2024/12/10 20:44:15  ## (<PID>:4) Se crea el proceso - Estado: NEW ##
+2024/12/10 20:44:16 ## Proceso Creado - PID: 4 - Tamaño: 96
+2024/12/10 20:44:16 ## Hilo Creado - (PID:TID) - (4:0)
+2024/12/10 20:44:16 ## (<PID 4>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:16 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:16 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:16 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:16 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:44:16 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:16 ## (<PID:1>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:16 ## (<PID 1>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:16 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:16 FINALIZA EJECUCION POR INTERRUPCION DE PID : 1 y TID : 0 
+2024/12/10 20:44:16 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 3
+2024/12/10 20:44:16 ## (<PID 2>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:16 PCB : 2 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:17 ## Contexto <Solicitado> - (PID:TID) - (2:0)
+2024/12/10 20:44:17 PCB : 2 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:17 Instrucción solicitada de PID: 2, TID: 0, PC: 3
+2024/12/10 20:44:17 ## Obtener instrucción - (PID:TID) - (2:0) - Instrucción: READ_MEM BX DX
+2024/12/10 20:44:17 PID: 2 TID: 0 - FETCH - Program Counter: 3
+2024/12/10 20:44:17 Instrucción decodificada: INSTUCCIÓN = READ_MEM, PARÁMETROS = [BX DX]
+2024/12/10 20:44:17 ## TID: 0 - Ejecutando: READ_MEM - Parámetros: [BX DX]
+2024/12/10 20:44:17 ## TID: <0> - Accion: <LEER> - Direccion Fisica: <32>
+2024/12/10 20:44:17 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:17 ## Se registra la interrupcion
+2024/12/10 20:44:17 ## <Lectura> - (<PID:2> : <TID:0>) - Dir. Fisica: <32> - Tamanio <4>
+2024/12/10 20:44:17 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 4
+2024/12/10 20:44:17 ## Contexto Actualizado - (PID:TID) - (2:0)
+2024/12/10 20:44:17 ## (<PID:2>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:17 ## (<PID 2>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:17 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:17 FINALIZA EJECUCION POR INTERRUPCION DE PID : 2 y TID : 0 
+2024/12/10 20:44:17 ## (<PID 3>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:17 PCB : 3 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:17 ## Contexto <Solicitado> - (PID:TID) - (3:0)
+2024/12/10 20:44:17 PCB : 3 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:17 Instrucción solicitada de PID: 3, TID: 0, PC: 2
+2024/12/10 20:44:18 ## Obtener instrucción - (PID:TID) - (3:0) - Instrucción: WRITE_MEM DX AX
+2024/12/10 20:44:18 PID: 3 TID: 0 - FETCH - Program Counter: 2
+2024/12/10 20:44:18 Instrucción decodificada: INSTUCCIÓN = WRITE_MEM, PARÁMETROS = [DX AX]
+2024/12/10 20:44:18 ## TID: 0 - Ejecutando: WRITE_MEM - Parámetros: [DX AX]
+2024/12/10 20:44:18 ## TID: <0> - Accion: <ESCRIBIR> - Direccion Fisica: <48>
+2024/12/10 20:44:18 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:18 ## Se registra la interrupcion
+2024/12/10 20:44:18 ## <Escritura> - (<PID:3> : <TID:0>) - Dir. Fisica: <48> - Tamanio <4>
+2024/12/10 20:44:18 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 3
+2024/12/10 20:44:18 ## Contexto Actualizado - (PID:TID) - (3:0)
+2024/12/10 20:44:18 ## (<PID:3>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:18 ## (<PID 3>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:18 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:18 FINALIZA EJECUCION POR INTERRUPCION DE PID : 3 y TID : 0 
+2024/12/10 20:44:18 ## (<PID 4>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:18 PCB : 4 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:18 ## Contexto <Solicitado> - (PID:TID) - (4:0)
+2024/12/10 20:44:18 PCB : 4 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:18 Instrucción solicitada de PID: 4, TID: 0, PC: 0
+2024/12/10 20:44:18 ## Obtener instrucción - (PID:TID) - (4:0) - Instrucción: SET DX 0
+2024/12/10 20:44:18 PID: 4 TID: 0 - FETCH - Program Counter: 0
+2024/12/10 20:44:18 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [DX 0]
+2024/12/10 20:44:18 ## TID: 0 - Ejecutando: SET - Parámetros: [DX 0]
+2024/12/10 20:44:18 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 1
+2024/12/10 20:44:18 Instrucción solicitada de PID: 4, TID: 0, PC: 1
+2024/12/10 20:44:19 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:19 ## Se registra la interrupcion
+2024/12/10 20:44:19 ## Obtener instrucción - (PID:TID) - (4:0) - Instrucción: SET AX 64
+2024/12/10 20:44:19 PID: 4 TID: 0 - FETCH - Program Counter: 1
+2024/12/10 20:44:19 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [AX 64]
+2024/12/10 20:44:19 ## TID: 0 - Ejecutando: SET - Parámetros: [AX 64]
+2024/12/10 20:44:19 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 2
+2024/12/10 20:44:19 ## Contexto Actualizado - (PID:TID) - (4:0)
+2024/12/10 20:44:19 ## (<PID:4>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:19 ## (<PID 4>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:19 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:19 FINALIZA EJECUCION POR INTERRUPCION DE PID : 4 y TID : 0 
+2024/12/10 20:44:19 ## (<PID 1>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:19 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:19 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:19 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:19 Instrucción solicitada de PID: 1, TID: 0, PC: 3
+2024/12/10 20:44:19 ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: PROCESS_CREATE MEM_FIJAS 12 0
+2024/12/10 20:44:19 PID: 1 TID: 0 - FETCH - Program Counter: 3
+2024/12/10 20:44:19 Instrucción decodificada: INSTUCCIÓN = PROCESS_CREATE, PARÁMETROS = [MEM_FIJAS 12 0]
+2024/12/10 20:44:19 ## TID: 0 - Ejecutando: PROCESS_CREATE - Parámetros: [MEM_FIJAS 12 0]
+2024/12/10 20:44:19 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:19 ## Se registra la interrupcion
+2024/12/10 20:44:19 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:19 ## (<PID:1>:<TID:0>) - Solicitó syscall: <PROCESS_CREATE> ##
+2024/12/10 20:44:19  ## (<PID>:5) Se crea el proceso - Estado: NEW ##
+2024/12/10 20:44:20 ## Proceso Creado - PID: 5 - Tamaño: 12
+2024/12/10 20:44:20 ## Hilo Creado - (PID:TID) - (5:0)
+2024/12/10 20:44:20 ## (<PID 5>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:20 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:20 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:20 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:20 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:44:21 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:21 ## (<PID:1>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:21 ## (<PID 1>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:21 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:21 FINALIZA EJECUCION POR INTERRUPCION DE PID : 1 y TID : 0 
+2024/12/10 20:44:21 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 4
+2024/12/10 20:44:21 ## (<PID 2>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:21 PCB : 2 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:21 ## Contexto <Solicitado> - (PID:TID) - (2:0)
+2024/12/10 20:44:21 PCB : 2 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:21 Instrucción solicitada de PID: 2, TID: 0, PC: 4
+2024/12/10 20:44:21 ## Obtener instrucción - (PID:TID) - (2:0) - Instrucción: LOG BX
+2024/12/10 20:44:21 PID: 2 TID: 0 - FETCH - Program Counter: 4
+2024/12/10 20:44:21 Instrucción decodificada: INSTUCCIÓN = LOG, PARÁMETROS = [BX]
+2024/12/10 20:44:21 ## TID: 0 - Ejecutando: LOG - Parámetros: [BX]
+2024/12/10 20:44:21 El valor del registro BX es 64
+2024/12/10 20:44:21 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 5
+2024/12/10 20:44:21 Instrucción solicitada de PID: 2, TID: 0, PC: 5
+2024/12/10 20:44:21 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:21 ## Se registra la interrupcion
+2024/12/10 20:44:21 ## Obtener instrucción - (PID:TID) - (2:0) - Instrucción: IO 120000
+2024/12/10 20:44:21 PID: 2 TID: 0 - FETCH - Program Counter: 5
+2024/12/10 20:44:21 Instrucción decodificada: INSTUCCIÓN = IO, PARÁMETROS = [120000]
+2024/12/10 20:44:21 ## TID: 0 - Ejecutando: IO - Parámetros: [120000]
+2024/12/10 20:44:21 ## Contexto Actualizado - (PID:TID) - (2:0)
+2024/12/10 20:44:21 ## (<PID:2>:<TID:0>) - Solicitó syscall: <IO> ##
+2024/12/10 20:44:21 (<PID: 2 >:<TID: 0 >) - Bloqueado por: IO
+2024/12/10 20:44:21 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 6
+2024/12/10 20:44:21 ## (<PID 3>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:21 PCB : 3 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:22 ## Contexto <Solicitado> - (PID:TID) - (3:0)
+2024/12/10 20:44:22 PCB : 3 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:22 Instrucción solicitada de PID: 3, TID: 0, PC: 3
+2024/12/10 20:44:22 ## Obtener instrucción - (PID:TID) - (3:0) - Instrucción: READ_MEM BX DX
+2024/12/10 20:44:22 PID: 3 TID: 0 - FETCH - Program Counter: 3
+2024/12/10 20:44:22 Instrucción decodificada: INSTUCCIÓN = READ_MEM, PARÁMETROS = [BX DX]
+2024/12/10 20:44:22 ## TID: 0 - Ejecutando: READ_MEM - Parámetros: [BX DX]
+2024/12/10 20:44:22 ## TID: <0> - Accion: <LEER> - Direccion Fisica: <48>
+2024/12/10 20:44:22 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:22 ## Se registra la interrupcion
+2024/12/10 20:44:22 ## <Lectura> - (<PID:3> : <TID:0>) - Dir. Fisica: <48> - Tamanio <4>
+2024/12/10 20:44:22 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 4
+2024/12/10 20:44:22 ## Contexto Actualizado - (PID:TID) - (3:0)
+2024/12/10 20:44:22 ## (<PID:3>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:22 ## (<PID 3>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:22 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:22 FINALIZA EJECUCION POR INTERRUPCION DE PID : 3 y TID : 0 
+2024/12/10 20:44:22 ## (<PID 4>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:22 PCB : 4 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:22 ## Contexto <Solicitado> - (PID:TID) - (4:0)
+2024/12/10 20:44:22 PCB : 4 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:22 Instrucción solicitada de PID: 4, TID: 0, PC: 2
+2024/12/10 20:44:23 ## Obtener instrucción - (PID:TID) - (4:0) - Instrucción: WRITE_MEM DX AX
+2024/12/10 20:44:23 PID: 4 TID: 0 - FETCH - Program Counter: 2
+2024/12/10 20:44:23 Instrucción decodificada: INSTUCCIÓN = WRITE_MEM, PARÁMETROS = [DX AX]
+2024/12/10 20:44:23 ## TID: 0 - Ejecutando: WRITE_MEM - Parámetros: [DX AX]
+2024/12/10 20:44:23 ## TID: <0> - Accion: <ESCRIBIR> - Direccion Fisica: <112>
+2024/12/10 20:44:23 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:23 ## Se registra la interrupcion
+2024/12/10 20:44:23 ## <Escritura> - (<PID:4> : <TID:0>) - Dir. Fisica: <112> - Tamanio <4>
+2024/12/10 20:44:23 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 3
+2024/12/10 20:44:23 ## Contexto Actualizado - (PID:TID) - (4:0)
+2024/12/10 20:44:23 ## (<PID:4>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:23 ## (<PID 4>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:23 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:23 FINALIZA EJECUCION POR INTERRUPCION DE PID : 4 y TID : 0 
+2024/12/10 20:44:23 ## (<PID 5>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:23 PCB : 5 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:23 ## Contexto <Solicitado> - (PID:TID) - (5:0)
+2024/12/10 20:44:23 PCB : 5 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:23 Instrucción solicitada de PID: 5, TID: 0, PC: 0
+2024/12/10 20:44:23 ## Obtener instrucción - (PID:TID) - (5:0) - Instrucción: SET DX 0
+2024/12/10 20:44:23 PID: 5 TID: 0 - FETCH - Program Counter: 0
+2024/12/10 20:44:23 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [DX 0]
+2024/12/10 20:44:23 ## TID: 0 - Ejecutando: SET - Parámetros: [DX 0]
+2024/12/10 20:44:23 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 1
+2024/12/10 20:44:23 Instrucción solicitada de PID: 5, TID: 0, PC: 1
+2024/12/10 20:44:24 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:24 ## Se registra la interrupcion
+2024/12/10 20:44:24 ## Obtener instrucción - (PID:TID) - (5:0) - Instrucción: SET AX 64
+2024/12/10 20:44:24 PID: 5 TID: 0 - FETCH - Program Counter: 1
+2024/12/10 20:44:24 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [AX 64]
+2024/12/10 20:44:24 ## TID: 0 - Ejecutando: SET - Parámetros: [AX 64]
+2024/12/10 20:44:24 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 2
+2024/12/10 20:44:24 ## Contexto Actualizado - (PID:TID) - (5:0)
+2024/12/10 20:44:24 ## (<PID:5>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:24 ## (<PID 5>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:24 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:24 FINALIZA EJECUCION POR INTERRUPCION DE PID : 5 y TID : 0 
+2024/12/10 20:44:24 ## (<PID 1>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:24 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:24 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:24 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:24 Instrucción solicitada de PID: 1, TID: 0, PC: 4
+2024/12/10 20:44:24 ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: PROCESS_CREATE MEM_FIJAS 8 0
+2024/12/10 20:44:24 PID: 1 TID: 0 - FETCH - Program Counter: 4
+2024/12/10 20:44:24 Instrucción decodificada: INSTUCCIÓN = PROCESS_CREATE, PARÁMETROS = [MEM_FIJAS 8 0]
+2024/12/10 20:44:24 ## TID: 0 - Ejecutando: PROCESS_CREATE - Parámetros: [MEM_FIJAS 8 0]
+2024/12/10 20:44:24 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:24 ## Se registra la interrupcion
+2024/12/10 20:44:24 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:24 ## (<PID:1>:<TID:0>) - Solicitó syscall: <PROCESS_CREATE> ##
+2024/12/10 20:44:24  ## (<PID>:6) Se crea el proceso - Estado: NEW ##
+2024/12/10 20:44:25 ## (<PID: 6 >) NO HAY PARTICIONES DISPONIBLES PARA SU TAMANIO
+2024/12/10 20:44:25 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:25 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:25 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:25 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:44:25 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:25 ## (<PID:1>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:25 ## (<PID 1>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:25 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:25 FINALIZA EJECUCION POR INTERRUPCION DE PID : 1 y TID : 0 
+2024/12/10 20:44:25 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 5
+2024/12/10 20:44:25 ## (<PID 3>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:25 PCB : 3 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:25 ## Contexto <Solicitado> - (PID:TID) - (3:0)
+2024/12/10 20:44:25 PCB : 3 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:25 Instrucción solicitada de PID: 3, TID: 0, PC: 4
+2024/12/10 20:44:25 ## Obtener instrucción - (PID:TID) - (3:0) - Instrucción: LOG BX
+2024/12/10 20:44:25 PID: 3 TID: 0 - FETCH - Program Counter: 4
+2024/12/10 20:44:25 Instrucción decodificada: INSTUCCIÓN = LOG, PARÁMETROS = [BX]
+2024/12/10 20:44:25 ## TID: 0 - Ejecutando: LOG - Parámetros: [BX]
+2024/12/10 20:44:25 El valor del registro BX es 64
+2024/12/10 20:44:25 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 5
+2024/12/10 20:44:25 Instrucción solicitada de PID: 3, TID: 0, PC: 5
+2024/12/10 20:44:26 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:26 ## Se registra la interrupcion
+2024/12/10 20:44:26 ## Obtener instrucción - (PID:TID) - (3:0) - Instrucción: IO 120000
+2024/12/10 20:44:26 PID: 3 TID: 0 - FETCH - Program Counter: 5
+2024/12/10 20:44:26 Instrucción decodificada: INSTUCCIÓN = IO, PARÁMETROS = [120000]
+2024/12/10 20:44:26 ## TID: 0 - Ejecutando: IO - Parámetros: [120000]
+2024/12/10 20:44:26 ## Contexto Actualizado - (PID:TID) - (3:0)
+2024/12/10 20:44:26 ## (<PID:3>:<TID:0>) - Solicitó syscall: <IO> ##
+2024/12/10 20:44:26 (<PID: 3 >:<TID: 0 >) - Bloqueado por: IO
+2024/12/10 20:44:26 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 6
+2024/12/10 20:44:26 ## (<PID 4>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:26 PCB : 4 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:26 ## Contexto <Solicitado> - (PID:TID) - (4:0)
+2024/12/10 20:44:26 PCB : 4 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:26 Instrucción solicitada de PID: 4, TID: 0, PC: 3
+2024/12/10 20:44:26 ## Obtener instrucción - (PID:TID) - (4:0) - Instrucción: READ_MEM BX DX
+2024/12/10 20:44:26 PID: 4 TID: 0 - FETCH - Program Counter: 3
+2024/12/10 20:44:26 Instrucción decodificada: INSTUCCIÓN = READ_MEM, PARÁMETROS = [BX DX]
+2024/12/10 20:44:26 ## TID: 0 - Ejecutando: READ_MEM - Parámetros: [BX DX]
+2024/12/10 20:44:26 ## TID: <0> - Accion: <LEER> - Direccion Fisica: <112>
+2024/12/10 20:44:26 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:26 ## Se registra la interrupcion
+2024/12/10 20:44:27 ## <Lectura> - (<PID:4> : <TID:0>) - Dir. Fisica: <112> - Tamanio <4>
+2024/12/10 20:44:27 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 4
+2024/12/10 20:44:27 ## Contexto Actualizado - (PID:TID) - (4:0)
+2024/12/10 20:44:27 ## (<PID:4>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:27 ## (<PID 4>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:27 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:27 FINALIZA EJECUCION POR INTERRUPCION DE PID : 4 y TID : 0 
+2024/12/10 20:44:27 ## (<PID 5>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:27 PCB : 5 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:27 ## Contexto <Solicitado> - (PID:TID) - (5:0)
+2024/12/10 20:44:27 PCB : 5 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:27 Instrucción solicitada de PID: 5, TID: 0, PC: 2
+2024/12/10 20:44:27 ## Obtener instrucción - (PID:TID) - (5:0) - Instrucción: WRITE_MEM DX AX
+2024/12/10 20:44:27 PID: 5 TID: 0 - FETCH - Program Counter: 2
+2024/12/10 20:44:27 Instrucción decodificada: INSTUCCIÓN = WRITE_MEM, PARÁMETROS = [DX AX]
+2024/12/10 20:44:27 ## TID: 0 - Ejecutando: WRITE_MEM - Parámetros: [DX AX]
+2024/12/10 20:44:27 ## TID: <0> - Accion: <ESCRIBIR> - Direccion Fisica: <240>
+2024/12/10 20:44:27 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:27 ## Se registra la interrupcion
+2024/12/10 20:44:27 ## <Escritura> - (<PID:5> : <TID:0>) - Dir. Fisica: <240> - Tamanio <4>
+2024/12/10 20:44:27 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 3
+2024/12/10 20:44:28 ## Contexto Actualizado - (PID:TID) - (5:0)
+2024/12/10 20:44:28 ## (<PID:5>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:28 ## (<PID 5>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:28 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:28 FINALIZA EJECUCION POR INTERRUPCION DE PID : 5 y TID : 0 
+2024/12/10 20:44:28 ## (<PID 1>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:28 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:28 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:28 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:28 Instrucción solicitada de PID: 1, TID: 0, PC: 5
+2024/12/10 20:44:28 ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: PROCESS_CREATE MEM_FIJAS 8 0
+2024/12/10 20:44:28 PID: 1 TID: 0 - FETCH - Program Counter: 5
+2024/12/10 20:44:28 Instrucción decodificada: INSTUCCIÓN = PROCESS_CREATE, PARÁMETROS = [MEM_FIJAS 8 0]
+2024/12/10 20:44:28 ## TID: 0 - Ejecutando: PROCESS_CREATE - Parámetros: [MEM_FIJAS 8 0]
+2024/12/10 20:44:28 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:28 ## Se registra la interrupcion
+2024/12/10 20:44:28 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:28 ## (<PID:1>:<TID:0>) - Solicitó syscall: <PROCESS_CREATE> ##
+2024/12/10 20:44:28  ## (<PID>:7) Se crea el proceso - Estado: NEW ##
+2024/12/10 20:44:28 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:28 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:28 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:28 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:44:29 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:29 ## (<PID:1>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:29 ## (<PID 1>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:29 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:29 FINALIZA EJECUCION POR INTERRUPCION DE PID : 1 y TID : 0 
+2024/12/10 20:44:29 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 6
+2024/12/10 20:44:29 ## (<PID 4>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:29 PCB : 4 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:29 ## Contexto <Solicitado> - (PID:TID) - (4:0)
+2024/12/10 20:44:29 PCB : 4 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:29 Instrucción solicitada de PID: 4, TID: 0, PC: 4
+2024/12/10 20:44:29 ## Obtener instrucción - (PID:TID) - (4:0) - Instrucción: LOG BX
+2024/12/10 20:44:29 PID: 4 TID: 0 - FETCH - Program Counter: 4
+2024/12/10 20:44:29 Instrucción decodificada: INSTUCCIÓN = LOG, PARÁMETROS = [BX]
+2024/12/10 20:44:29 ## TID: 0 - Ejecutando: LOG - Parámetros: [BX]
+2024/12/10 20:44:29 El valor del registro BX es 64
+2024/12/10 20:44:29 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 5
+2024/12/10 20:44:29 Instrucción solicitada de PID: 4, TID: 0, PC: 5
+2024/12/10 20:44:29 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:29 ## Se registra la interrupcion
+2024/12/10 20:44:29 ## Obtener instrucción - (PID:TID) - (4:0) - Instrucción: IO 120000
+2024/12/10 20:44:29 PID: 4 TID: 0 - FETCH - Program Counter: 5
+2024/12/10 20:44:29 Instrucción decodificada: INSTUCCIÓN = IO, PARÁMETROS = [120000]
+2024/12/10 20:44:29 ## TID: 0 - Ejecutando: IO - Parámetros: [120000]
+2024/12/10 20:44:29 ## Contexto Actualizado - (PID:TID) - (4:0)
+2024/12/10 20:44:29 ## (<PID:4>:<TID:0>) - Solicitó syscall: <IO> ##
+2024/12/10 20:44:29 (<PID: 4 >:<TID: 0 >) - Bloqueado por: IO
+2024/12/10 20:44:29 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 6
+2024/12/10 20:44:29 ## (<PID 5>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:29 PCB : 5 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:30 ## Contexto <Solicitado> - (PID:TID) - (5:0)
+2024/12/10 20:44:30 PCB : 5 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:30 Instrucción solicitada de PID: 5, TID: 0, PC: 3
+2024/12/10 20:44:30 ## Obtener instrucción - (PID:TID) - (5:0) - Instrucción: READ_MEM BX DX
+2024/12/10 20:44:30 PID: 5 TID: 0 - FETCH - Program Counter: 3
+2024/12/10 20:44:30 Instrucción decodificada: INSTUCCIÓN = READ_MEM, PARÁMETROS = [BX DX]
+2024/12/10 20:44:30 ## TID: 0 - Ejecutando: READ_MEM - Parámetros: [BX DX]
+2024/12/10 20:44:30 ## TID: <0> - Accion: <LEER> - Direccion Fisica: <240>
+2024/12/10 20:44:30 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:30 ## Se registra la interrupcion
+2024/12/10 20:44:30 ## <Lectura> - (<PID:5> : <TID:0>) - Dir. Fisica: <240> - Tamanio <4>
+2024/12/10 20:44:30 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 4
+2024/12/10 20:44:30 ## Contexto Actualizado - (PID:TID) - (5:0)
+2024/12/10 20:44:30 ## (<PID:5>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:30 ## (<PID 5>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:30 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:30 FINALIZA EJECUCION POR INTERRUPCION DE PID : 5 y TID : 0 
+2024/12/10 20:44:30 ## (<PID 1>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:30 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:30 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:30 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:30 Instrucción solicitada de PID: 1, TID: 0, PC: 6
+2024/12/10 20:44:31 ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: PROCESS_CREATE MEM_FIJAS 8 0
+2024/12/10 20:44:31 PID: 1 TID: 0 - FETCH - Program Counter: 6
+2024/12/10 20:44:31 Instrucción decodificada: INSTUCCIÓN = PROCESS_CREATE, PARÁMETROS = [MEM_FIJAS 8 0]
+2024/12/10 20:44:31 ## TID: 0 - Ejecutando: PROCESS_CREATE - Parámetros: [MEM_FIJAS 8 0]
+2024/12/10 20:44:31 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:31 ## Se registra la interrupcion
+2024/12/10 20:44:31 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:31 ## (<PID:1>:<TID:0>) - Solicitó syscall: <PROCESS_CREATE> ##
+2024/12/10 20:44:31  ## (<PID>:8) Se crea el proceso - Estado: NEW ##
+2024/12/10 20:44:31 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:31 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:31 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:31 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:44:31 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:31 ## (<PID:1>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:31 ## (<PID 1>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:31 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:31 FINALIZA EJECUCION POR INTERRUPCION DE PID : 1 y TID : 0 
+2024/12/10 20:44:31 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 7
+2024/12/10 20:44:31 ## (<PID 5>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:31 PCB : 5 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:31 ## Contexto <Solicitado> - (PID:TID) - (5:0)
+2024/12/10 20:44:31 PCB : 5 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:31 Instrucción solicitada de PID: 5, TID: 0, PC: 4
+2024/12/10 20:44:32 ## Obtener instrucción - (PID:TID) - (5:0) - Instrucción: LOG BX
+2024/12/10 20:44:32 PID: 5 TID: 0 - FETCH - Program Counter: 4
+2024/12/10 20:44:32 Instrucción decodificada: INSTUCCIÓN = LOG, PARÁMETROS = [BX]
+2024/12/10 20:44:32 ## TID: 0 - Ejecutando: LOG - Parámetros: [BX]
+2024/12/10 20:44:32 El valor del registro BX es 64
+2024/12/10 20:44:32 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 5
+2024/12/10 20:44:32 Instrucción solicitada de PID: 5, TID: 0, PC: 5
+2024/12/10 20:44:32 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:32 ## Se registra la interrupcion
+2024/12/10 20:44:32 ## Obtener instrucción - (PID:TID) - (5:0) - Instrucción: IO 120000
+2024/12/10 20:44:32 PID: 5 TID: 0 - FETCH - Program Counter: 5
+2024/12/10 20:44:32 Instrucción decodificada: INSTUCCIÓN = IO, PARÁMETROS = [120000]
+2024/12/10 20:44:32 ## TID: 0 - Ejecutando: IO - Parámetros: [120000]
+2024/12/10 20:44:32 ## Contexto Actualizado - (PID:TID) - (5:0)
+2024/12/10 20:44:32 ## (<PID:5>:<TID:0>) - Solicitó syscall: <IO> ##
+2024/12/10 20:44:32 (<PID: 5 >:<TID: 0 >) - Bloqueado por: IO
+2024/12/10 20:44:32 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 6
+2024/12/10 20:44:32 ## (<PID 1>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:32 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:32 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:32 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:32 Instrucción solicitada de PID: 1, TID: 0, PC: 7
+2024/12/10 20:44:33 ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: PROCESS_CREATE MEM_FIJAS 8 0
+2024/12/10 20:44:33 PID: 1 TID: 0 - FETCH - Program Counter: 7
+2024/12/10 20:44:33 Instrucción decodificada: INSTUCCIÓN = PROCESS_CREATE, PARÁMETROS = [MEM_FIJAS 8 0]
+2024/12/10 20:44:33 ## TID: 0 - Ejecutando: PROCESS_CREATE - Parámetros: [MEM_FIJAS 8 0]
+2024/12/10 20:44:33 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:33 ## Se registra la interrupcion
+2024/12/10 20:44:33 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:33 ## (<PID:1>:<TID:0>) - Solicitó syscall: <PROCESS_CREATE> ##
+2024/12/10 20:44:33  ## (<PID>:9) Se crea el proceso - Estado: NEW ##
+2024/12/10 20:44:33 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:33 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:33 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:33 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:44:33 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:33 ## (<PID:1>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:33 ## (<PID 1>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:33 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:33 FINALIZA EJECUCION POR INTERRUPCION DE PID : 1 y TID : 0 
+2024/12/10 20:44:33 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 8
+2024/12/10 20:44:33 ## (<PID 1>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:33 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:33 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:33 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:33 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:44:33 Instrucción solicitada de PID: 1, TID: 0, PC: 8
+2024/12/10 20:44:34 ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: SET DX 0
+2024/12/10 20:44:34 PID: 1 TID: 0 - FETCH - Program Counter: 8
+2024/12/10 20:44:34 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [DX 0]
+2024/12/10 20:44:34 ## TID: 0 - Ejecutando: SET - Parámetros: [DX 0]
+2024/12/10 20:44:34 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 9
+2024/12/10 20:44:34 Instrucción solicitada de PID: 1, TID: 0, PC: 9
+2024/12/10 20:44:34 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:34 ## Se registra la interrupcion
+2024/12/10 20:44:34 ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: SET AX 64
+2024/12/10 20:44:34 PID: 1 TID: 0 - FETCH - Program Counter: 9
+2024/12/10 20:44:34 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [AX 64]
+2024/12/10 20:44:34 ## TID: 0 - Ejecutando: SET - Parámetros: [AX 64]
+2024/12/10 20:44:34 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 10
+2024/12/10 20:44:34 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:34 ## (<PID:1>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:34 ## (<PID 1>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:34 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:34 FINALIZA EJECUCION POR INTERRUPCION DE PID : 1 y TID : 0 
+2024/12/10 20:44:34 ## (<PID 1>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:34 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:34 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:34 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:34 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:44:34 Instrucción solicitada de PID: 1, TID: 0, PC: 10
+2024/12/10 20:44:34 ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: WRITE_MEM DX AX
+2024/12/10 20:44:34 PID: 1 TID: 0 - FETCH - Program Counter: 10
+2024/12/10 20:44:34 Instrucción decodificada: INSTUCCIÓN = WRITE_MEM, PARÁMETROS = [DX AX]
+2024/12/10 20:44:34 ## TID: 0 - Ejecutando: WRITE_MEM - Parámetros: [DX AX]
+2024/12/10 20:44:34 ## TID: <0> - Accion: <ESCRIBIR> - Direccion Fisica: <0>
+2024/12/10 20:44:34 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:34 ## Se registra la interrupcion
+2024/12/10 20:44:35 ## <Escritura> - (<PID:1> : <TID:0>) - Dir. Fisica: <0> - Tamanio <4>
+2024/12/10 20:44:35 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 11
+2024/12/10 20:44:35 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:35 ## (<PID:1>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:35 ## (<PID 1>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:35 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:35 FINALIZA EJECUCION POR INTERRUPCION DE PID : 1 y TID : 0 
+2024/12/10 20:44:35 ## (<PID 1>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:35 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:35 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:35 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:35 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:44:35 Instrucción solicitada de PID: 1, TID: 0, PC: 11
+2024/12/10 20:44:35 ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: READ_MEM BX DX
+2024/12/10 20:44:35 PID: 1 TID: 0 - FETCH - Program Counter: 11
+2024/12/10 20:44:35 Instrucción decodificada: INSTUCCIÓN = READ_MEM, PARÁMETROS = [BX DX]
+2024/12/10 20:44:35 ## TID: 0 - Ejecutando: READ_MEM - Parámetros: [BX DX]
+2024/12/10 20:44:35 ## TID: <0> - Accion: <LEER> - Direccion Fisica: <0>
+2024/12/10 20:44:35 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:35 ## Se registra la interrupcion
+2024/12/10 20:44:35 ## <Lectura> - (<PID:1> : <TID:0>) - Dir. Fisica: <0> - Tamanio <4>
+2024/12/10 20:44:35 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 12
+2024/12/10 20:44:36 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:36 ## (<PID:1>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:44:36 ## (<PID 1>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:44:36 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:44:36 FINALIZA EJECUCION POR INTERRUPCION DE PID : 1 y TID : 0 
+2024/12/10 20:44:36 ## (<PID 1>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:44:36 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:44:36 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:44:36 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:44:36 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:44:36 Instrucción solicitada de PID: 1, TID: 0, PC: 12
+2024/12/10 20:44:36 ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: LOG BX
+2024/12/10 20:44:36 PID: 1 TID: 0 - FETCH - Program Counter: 12
+2024/12/10 20:44:36 Instrucción decodificada: INSTUCCIÓN = LOG, PARÁMETROS = [BX]
+2024/12/10 20:44:36 ## TID: 0 - Ejecutando: LOG - Parámetros: [BX]
+2024/12/10 20:44:36 El valor del registro BX es 64
+2024/12/10 20:44:36 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 13
+2024/12/10 20:44:36 Instrucción solicitada de PID: 1, TID: 0, PC: 13
+2024/12/10 20:44:36 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:44:36 ## Se registra la interrupcion
+2024/12/10 20:44:36 ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: IO 120000
+2024/12/10 20:44:36 PID: 1 TID: 0 - FETCH - Program Counter: 13
+2024/12/10 20:44:36 Instrucción decodificada: INSTUCCIÓN = IO, PARÁMETROS = [120000]
+2024/12/10 20:44:36 ## TID: 0 - Ejecutando: IO - Parámetros: [120000]
+2024/12/10 20:44:36 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:44:36 ## (<PID:1>:<TID:0>) - Solicitó syscall: <IO> ##
+2024/12/10 20:44:36 (<PID: 1 >:<TID: 0 >) - Bloqueado por: IO
+2024/12/10 20:44:36 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 14
+2024/12/10 20:46:21 ## (<PID 2>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:21 ## (<PID 2>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:21 PCB : 2 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:22 ## Contexto <Solicitado> - (PID:TID) - (2:0)
+2024/12/10 20:46:22 PCB : 2 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:22 Instrucción solicitada de PID: 2, TID: 0, PC: 6
+2024/12/10 20:46:22 ## Obtener instrucción - (PID:TID) - (2:0) - Instrucción: PROCESS_EXIT
+2024/12/10 20:46:22 PID: 2 TID: 0 - FETCH - Program Counter: 6
+2024/12/10 20:46:22 Instrucción decodificada: INSTUCCIÓN = PROCESS_EXIT, PARÁMETROS = []
+2024/12/10 20:46:22 ## TID: 0 - Ejecutando: PROCESS_EXIT - Parámetros: []
+2024/12/10 20:46:22 Finalizando proceso PID: 2
+2024/12/10 20:46:22 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:22 ## Se registra la interrupcion
+2024/12/10 20:46:22 ## Contexto Actualizado - (PID:TID) - (2:0)
+2024/12/10 20:46:22 ## (<PID:2>:<TID:0>) - Solicitó syscall: <PROCESS_EXIT> ##
+2024/12/10 20:46:22  ## (<PID: 2>:<TID: 0>) finaliza el hilo - Estado: EXIT ##
+2024/12/10 20:46:22 ## Hilo Destruido - (PID:TID) - (2:0)
+2024/12/10 20:46:22  ## (<PID: 2>) finaliza el Proceso - Estado: EXIT ##
+2024/12/10 20:46:22 ## Entro a terminate - PID: 2 
+2024/12/10 20:46:22 ## Encuentro particion - PID: 2 - num: 1
+2024/12/10 20:46:22 ## Proceso Destruido - PID: 2 - Tamaño: 16
+2024/12/10 20:46:22  ## (<PID>:6) Se crea el proceso - Estado: NEW ##
+2024/12/10 20:46:22 ## Proceso Creado - PID: 6 - Tamaño: 8
+2024/12/10 20:46:23 ## Hilo Creado - (PID:TID) - (6:0)
+2024/12/10 20:46:23 ## (<PID 6>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:23  ## (<PID>:7) Se crea el proceso - Estado: NEW ##
+2024/12/10 20:46:23 ## (<PID: 7 >) NO HAY PARTICIONES DISPONIBLES PARA SU TAMANIO
+2024/12/10 20:46:23 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 7
+2024/12/10 20:46:23 ## (<PID 6>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:23 PCB : 6 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:23 ## Contexto <Solicitado> - (PID:TID) - (6:0)
+2024/12/10 20:46:23 PCB : 6 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:23 Instrucción solicitada de PID: 6, TID: 0, PC: 0
+2024/12/10 20:46:23 ## Obtener instrucción - (PID:TID) - (6:0) - Instrucción: SET DX 0
+2024/12/10 20:46:23 PID: 6 TID: 0 - FETCH - Program Counter: 0
+2024/12/10 20:46:23 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [DX 0]
+2024/12/10 20:46:23 ## TID: 0 - Ejecutando: SET - Parámetros: [DX 0]
+2024/12/10 20:46:23 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 1
+2024/12/10 20:46:23 Instrucción solicitada de PID: 6, TID: 0, PC: 1
+2024/12/10 20:46:24 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:24 ## Se registra la interrupcion
+2024/12/10 20:46:24 ## Obtener instrucción - (PID:TID) - (6:0) - Instrucción: SET AX 64
+2024/12/10 20:46:24 PID: 6 TID: 0 - FETCH - Program Counter: 1
+2024/12/10 20:46:24 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [AX 64]
+2024/12/10 20:46:24 ## TID: 0 - Ejecutando: SET - Parámetros: [AX 64]
+2024/12/10 20:46:24 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 2
+2024/12/10 20:46:24 ## Contexto Actualizado - (PID:TID) - (6:0)
+2024/12/10 20:46:24 ## (<PID:6>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:46:24 ## (<PID 6>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:24 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:46:24 FINALIZA EJECUCION POR INTERRUPCION DE PID : 6 y TID : 0 
+2024/12/10 20:46:24 ## (<PID 6>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:24 PCB : 6 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:24 ## Contexto <Solicitado> - (PID:TID) - (6:0)
+2024/12/10 20:46:24 PCB : 6 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:24 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:46:24 Instrucción solicitada de PID: 6, TID: 0, PC: 2
+2024/12/10 20:46:24 ## Obtener instrucción - (PID:TID) - (6:0) - Instrucción: WRITE_MEM DX AX
+2024/12/10 20:46:24 PID: 6 TID: 0 - FETCH - Program Counter: 2
+2024/12/10 20:46:24 Instrucción decodificada: INSTUCCIÓN = WRITE_MEM, PARÁMETROS = [DX AX]
+2024/12/10 20:46:24 ## TID: 0 - Ejecutando: WRITE_MEM - Parámetros: [DX AX]
+2024/12/10 20:46:24 ## TID: <0> - Accion: <ESCRIBIR> - Direccion Fisica: <32>
+2024/12/10 20:46:24 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:24 ## Se registra la interrupcion
+2024/12/10 20:46:24 ## <Escritura> - (<PID:6> : <TID:0>) - Dir. Fisica: <32> - Tamanio <4>
+2024/12/10 20:46:24 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 3
+2024/12/10 20:46:25 ## Contexto Actualizado - (PID:TID) - (6:0)
+2024/12/10 20:46:25 ## (<PID:6>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:46:25 ## (<PID 6>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:25 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:46:25 FINALIZA EJECUCION POR INTERRUPCION DE PID : 6 y TID : 0 
+2024/12/10 20:46:25 ## (<PID 6>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:25 PCB : 6 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:25 ## Contexto <Solicitado> - (PID:TID) - (6:0)
+2024/12/10 20:46:25 PCB : 6 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:25 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:46:25 Instrucción solicitada de PID: 6, TID: 0, PC: 3
+2024/12/10 20:46:25 ## Obtener instrucción - (PID:TID) - (6:0) - Instrucción: READ_MEM BX DX
+2024/12/10 20:46:25 PID: 6 TID: 0 - FETCH - Program Counter: 3
+2024/12/10 20:46:25 Instrucción decodificada: INSTUCCIÓN = READ_MEM, PARÁMETROS = [BX DX]
+2024/12/10 20:46:25 ## TID: 0 - Ejecutando: READ_MEM - Parámetros: [BX DX]
+2024/12/10 20:46:25 ## TID: <0> - Accion: <LEER> - Direccion Fisica: <32>
+2024/12/10 20:46:25 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:25 ## Se registra la interrupcion
+2024/12/10 20:46:25 ## <Lectura> - (<PID:6> : <TID:0>) - Dir. Fisica: <32> - Tamanio <4>
+2024/12/10 20:46:25 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 4
+2024/12/10 20:46:25 ## Contexto Actualizado - (PID:TID) - (6:0)
+2024/12/10 20:46:25 ## (<PID:6>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:46:25 ## (<PID 6>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:25 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:46:25 FINALIZA EJECUCION POR INTERRUPCION DE PID : 6 y TID : 0 
+2024/12/10 20:46:25 ## (<PID 6>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:25 PCB : 6 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:26 ## Contexto <Solicitado> - (PID:TID) - (6:0)
+2024/12/10 20:46:26 PCB : 6 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:26 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:46:26 Instrucción solicitada de PID: 6, TID: 0, PC: 4
+2024/12/10 20:46:26 ## Obtener instrucción - (PID:TID) - (6:0) - Instrucción: LOG BX
+2024/12/10 20:46:26 PID: 6 TID: 0 - FETCH - Program Counter: 4
+2024/12/10 20:46:26 Instrucción decodificada: INSTUCCIÓN = LOG, PARÁMETROS = [BX]
+2024/12/10 20:46:26 ## TID: 0 - Ejecutando: LOG - Parámetros: [BX]
+2024/12/10 20:46:26 El valor del registro BX es 64
+2024/12/10 20:46:26 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 5
+2024/12/10 20:46:26 Instrucción solicitada de PID: 6, TID: 0, PC: 5
+2024/12/10 20:46:26 ## (<PID 3>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:26 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:26 ## Se registra la interrupcion
+2024/12/10 20:46:26 ## Obtener instrucción - (PID:TID) - (6:0) - Instrucción: IO 120000
+2024/12/10 20:46:26 PID: 6 TID: 0 - FETCH - Program Counter: 5
+2024/12/10 20:46:26 Instrucción decodificada: INSTUCCIÓN = IO, PARÁMETROS = [120000]
+2024/12/10 20:46:26 ## TID: 0 - Ejecutando: IO - Parámetros: [120000]
+2024/12/10 20:46:26 ## Contexto Actualizado - (PID:TID) - (6:0)
+2024/12/10 20:46:26 ## (<PID:6>:<TID:0>) - Solicitó syscall: <IO> ##
+2024/12/10 20:46:26 (<PID: 6 >:<TID: 0 >) - Bloqueado por: IO
+2024/12/10 20:46:26 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 6
+2024/12/10 20:46:26 ## (<PID 3>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:26 PCB : 3 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:26 ## Contexto <Solicitado> - (PID:TID) - (3:0)
+2024/12/10 20:46:26 PCB : 3 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:26 Instrucción solicitada de PID: 3, TID: 0, PC: 6
+2024/12/10 20:46:27 ## Obtener instrucción - (PID:TID) - (3:0) - Instrucción: PROCESS_EXIT
+2024/12/10 20:46:27 PID: 3 TID: 0 - FETCH - Program Counter: 6
+2024/12/10 20:46:27 Instrucción decodificada: INSTUCCIÓN = PROCESS_EXIT, PARÁMETROS = []
+2024/12/10 20:46:27 ## TID: 0 - Ejecutando: PROCESS_EXIT - Parámetros: []
+2024/12/10 20:46:27 Finalizando proceso PID: 3
+2024/12/10 20:46:27 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:27 ## Se registra la interrupcion
+2024/12/10 20:46:27 ## Contexto Actualizado - (PID:TID) - (3:0)
+2024/12/10 20:46:27 ## (<PID:3>:<TID:0>) - Solicitó syscall: <PROCESS_EXIT> ##
+2024/12/10 20:46:27  ## (<PID: 3>:<TID: 0>) finaliza el hilo - Estado: EXIT ##
+2024/12/10 20:46:27 ## Hilo Destruido - (PID:TID) - (3:0)
+2024/12/10 20:46:27  ## (<PID: 3>) finaliza el Proceso - Estado: EXIT ##
+2024/12/10 20:46:27 ## Entro a terminate - PID: 3 
+2024/12/10 20:46:27 ## Encuentro particion - PID: 3 - num: 2
+2024/12/10 20:46:27 ## Proceso Destruido - PID: 3 - Tamaño: 64
+2024/12/10 20:46:27  ## (<PID>:7) Se crea el proceso - Estado: NEW ##
+2024/12/10 20:46:27 ## Proceso Creado - PID: 7 - Tamaño: 8
+2024/12/10 20:46:28 ## Hilo Creado - (PID:TID) - (7:0)
+2024/12/10 20:46:28 ## (<PID 7>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:28  ## (<PID>:8) Se crea el proceso - Estado: NEW ##
+2024/12/10 20:46:28 ## (<PID: 8 >) NO HAY PARTICIONES DISPONIBLES PARA SU TAMANIO
+2024/12/10 20:46:28 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 7
+2024/12/10 20:46:28 ## (<PID 7>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:28 PCB : 7 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:28 ## Contexto <Solicitado> - (PID:TID) - (7:0)
+2024/12/10 20:46:28 PCB : 7 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:28 Instrucción solicitada de PID: 7, TID: 0, PC: 0
+2024/12/10 20:46:28 ## Obtener instrucción - (PID:TID) - (7:0) - Instrucción: SET DX 0
+2024/12/10 20:46:28 PID: 7 TID: 0 - FETCH - Program Counter: 0
+2024/12/10 20:46:28 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [DX 0]
+2024/12/10 20:46:28 ## TID: 0 - Ejecutando: SET - Parámetros: [DX 0]
+2024/12/10 20:46:28 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 1
+2024/12/10 20:46:28 Instrucción solicitada de PID: 7, TID: 0, PC: 1
+2024/12/10 20:46:28 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:28 ## Se registra la interrupcion
+2024/12/10 20:46:29 ## Obtener instrucción - (PID:TID) - (7:0) - Instrucción: SET AX 64
+2024/12/10 20:46:29 PID: 7 TID: 0 - FETCH - Program Counter: 1
+2024/12/10 20:46:29 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [AX 64]
+2024/12/10 20:46:29 ## TID: 0 - Ejecutando: SET - Parámetros: [AX 64]
+2024/12/10 20:46:29 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 2
+2024/12/10 20:46:29 ## Contexto Actualizado - (PID:TID) - (7:0)
+2024/12/10 20:46:29 ## (<PID:7>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:46:29 ## (<PID 7>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:29 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:46:29 FINALIZA EJECUCION POR INTERRUPCION DE PID : 7 y TID : 0 
+2024/12/10 20:46:29 ## (<PID 7>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:29 PCB : 7 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:29 ## Contexto <Solicitado> - (PID:TID) - (7:0)
+2024/12/10 20:46:29 PCB : 7 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:29 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:46:29 Instrucción solicitada de PID: 7, TID: 0, PC: 2
+2024/12/10 20:46:29 ## Obtener instrucción - (PID:TID) - (7:0) - Instrucción: WRITE_MEM DX AX
+2024/12/10 20:46:29 PID: 7 TID: 0 - FETCH - Program Counter: 2
+2024/12/10 20:46:29 Instrucción decodificada: INSTUCCIÓN = WRITE_MEM, PARÁMETROS = [DX AX]
+2024/12/10 20:46:29 ## TID: 0 - Ejecutando: WRITE_MEM - Parámetros: [DX AX]
+2024/12/10 20:46:29 ## TID: <0> - Accion: <ESCRIBIR> - Direccion Fisica: <48>
+2024/12/10 20:46:29 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:29 ## Se registra la interrupcion
+2024/12/10 20:46:29 ## <Escritura> - (<PID:7> : <TID:0>) - Dir. Fisica: <48> - Tamanio <4>
+2024/12/10 20:46:29 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 3
+2024/12/10 20:46:29 ## (<PID 4>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:30 ## Contexto Actualizado - (PID:TID) - (7:0)
+2024/12/10 20:46:30 ## (<PID:7>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:46:30 ## (<PID 7>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:30 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:46:30 FINALIZA EJECUCION POR INTERRUPCION DE PID : 7 y TID : 0 
+2024/12/10 20:46:30 ## (<PID 4>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:30 PCB : 4 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:30 ## Contexto <Solicitado> - (PID:TID) - (4:0)
+2024/12/10 20:46:30 PCB : 4 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:30 Instrucción solicitada de PID: 4, TID: 0, PC: 6
+2024/12/10 20:46:30 ## Obtener instrucción - (PID:TID) - (4:0) - Instrucción: PROCESS_EXIT
+2024/12/10 20:46:30 PID: 4 TID: 0 - FETCH - Program Counter: 6
+2024/12/10 20:46:30 Instrucción decodificada: INSTUCCIÓN = PROCESS_EXIT, PARÁMETROS = []
+2024/12/10 20:46:30 ## TID: 0 - Ejecutando: PROCESS_EXIT - Parámetros: []
+2024/12/10 20:46:30 Finalizando proceso PID: 4
+2024/12/10 20:46:30 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:30 ## Se registra la interrupcion
+2024/12/10 20:46:30 ## Contexto Actualizado - (PID:TID) - (4:0)
+2024/12/10 20:46:30 ## (<PID:4>:<TID:0>) - Solicitó syscall: <PROCESS_EXIT> ##
+2024/12/10 20:46:30  ## (<PID: 4>:<TID: 0>) finaliza el hilo - Estado: EXIT ##
+2024/12/10 20:46:30 ## Hilo Destruido - (PID:TID) - (4:0)
+2024/12/10 20:46:30  ## (<PID: 4>) finaliza el Proceso - Estado: EXIT ##
+2024/12/10 20:46:30 ## Entro a terminate - PID: 4 
+2024/12/10 20:46:30 ## Encuentro particion - PID: 4 - num: 3
+2024/12/10 20:46:30 ## Proceso Destruido - PID: 4 - Tamaño: 128
+2024/12/10 20:46:30  ## (<PID>:8) Se crea el proceso - Estado: NEW ##
+2024/12/10 20:46:31 ## Proceso Creado - PID: 8 - Tamaño: 8
+2024/12/10 20:46:31 ## Hilo Creado - (PID:TID) - (8:0)
+2024/12/10 20:46:31 ## (<PID 8>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:31  ## (<PID>:9) Se crea el proceso - Estado: NEW ##
+2024/12/10 20:46:31 ## (<PID: 9 >) NO HAY PARTICIONES DISPONIBLES PARA SU TAMANIO
+2024/12/10 20:46:31 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 7
+2024/12/10 20:46:31 ## (<PID 7>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:31 PCB : 7 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:31 ## Contexto <Solicitado> - (PID:TID) - (7:0)
+2024/12/10 20:46:31 PCB : 7 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:31 Instrucción solicitada de PID: 7, TID: 0, PC: 3
+2024/12/10 20:46:32 ## Obtener instrucción - (PID:TID) - (7:0) - Instrucción: READ_MEM BX DX
+2024/12/10 20:46:32 PID: 7 TID: 0 - FETCH - Program Counter: 3
+2024/12/10 20:46:32 Instrucción decodificada: INSTUCCIÓN = READ_MEM, PARÁMETROS = [BX DX]
+2024/12/10 20:46:32 ## TID: 0 - Ejecutando: READ_MEM - Parámetros: [BX DX]
+2024/12/10 20:46:32 ## TID: <0> - Accion: <LEER> - Direccion Fisica: <48>
+2024/12/10 20:46:32 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:32 ## Se registra la interrupcion
+2024/12/10 20:46:32 ## <Lectura> - (<PID:7> : <TID:0>) - Dir. Fisica: <48> - Tamanio <4>
+2024/12/10 20:46:32 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 4
+2024/12/10 20:46:32 ## Contexto Actualizado - (PID:TID) - (7:0)
+2024/12/10 20:46:32 ## (<PID:7>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:46:32 ## (<PID 7>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:32 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:46:32 FINALIZA EJECUCION POR INTERRUPCION DE PID : 7 y TID : 0 
+2024/12/10 20:46:32 ## (<PID 8>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:32 PCB : 8 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:32 ## (<PID 5>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:32 ## Contexto <Solicitado> - (PID:TID) - (8:0)
+2024/12/10 20:46:32 PCB : 8 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:32 Instrucción solicitada de PID: 8, TID: 0, PC: 0
+2024/12/10 20:46:32 ## Obtener instrucción - (PID:TID) - (8:0) - Instrucción: SET DX 0
+2024/12/10 20:46:32 PID: 8 TID: 0 - FETCH - Program Counter: 0
+2024/12/10 20:46:32 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [DX 0]
+2024/12/10 20:46:32 ## TID: 0 - Ejecutando: SET - Parámetros: [DX 0]
+2024/12/10 20:46:32 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 1
+2024/12/10 20:46:32 Instrucción solicitada de PID: 8, TID: 0, PC: 1
+2024/12/10 20:46:32 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:32 ## Se registra la interrupcion
+2024/12/10 20:46:33 ## Obtener instrucción - (PID:TID) - (8:0) - Instrucción: SET AX 64
+2024/12/10 20:46:33 PID: 8 TID: 0 - FETCH - Program Counter: 1
+2024/12/10 20:46:33 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [AX 64]
+2024/12/10 20:46:33 ## TID: 0 - Ejecutando: SET - Parámetros: [AX 64]
+2024/12/10 20:46:33 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 2
+2024/12/10 20:46:33 ## Contexto Actualizado - (PID:TID) - (8:0)
+2024/12/10 20:46:33 ## (<PID:8>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:46:33 ## (<PID 8>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:33 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:46:33 FINALIZA EJECUCION POR INTERRUPCION DE PID : 8 y TID : 0 
+2024/12/10 20:46:33 ## (<PID 7>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:33 PCB : 7 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:33 ## Contexto <Solicitado> - (PID:TID) - (7:0)
+2024/12/10 20:46:33 PCB : 7 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:33 Instrucción solicitada de PID: 7, TID: 0, PC: 4
+2024/12/10 20:46:33 ## Obtener instrucción - (PID:TID) - (7:0) - Instrucción: LOG BX
+2024/12/10 20:46:33 PID: 7 TID: 0 - FETCH - Program Counter: 4
+2024/12/10 20:46:33 Instrucción decodificada: INSTUCCIÓN = LOG, PARÁMETROS = [BX]
+2024/12/10 20:46:33 ## TID: 0 - Ejecutando: LOG - Parámetros: [BX]
+2024/12/10 20:46:33 El valor del registro BX es 64
+2024/12/10 20:46:33 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 5
+2024/12/10 20:46:33 Instrucción solicitada de PID: 7, TID: 0, PC: 5
+2024/12/10 20:46:33 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:33 ## Se registra la interrupcion
+2024/12/10 20:46:33 ## Obtener instrucción - (PID:TID) - (7:0) - Instrucción: IO 120000
+2024/12/10 20:46:33 PID: 7 TID: 0 - FETCH - Program Counter: 5
+2024/12/10 20:46:33 Instrucción decodificada: INSTUCCIÓN = IO, PARÁMETROS = [120000]
+2024/12/10 20:46:33 ## TID: 0 - Ejecutando: IO - Parámetros: [120000]
+2024/12/10 20:46:34 ## Contexto Actualizado - (PID:TID) - (7:0)
+2024/12/10 20:46:34 ## (<PID:7>:<TID:0>) - Solicitó syscall: <IO> ##
+2024/12/10 20:46:34 (<PID: 7 >:<TID: 0 >) - Bloqueado por: IO
+2024/12/10 20:46:34 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 6
+2024/12/10 20:46:34 ## (<PID 5>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:34 PCB : 5 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:34 ## Contexto <Solicitado> - (PID:TID) - (5:0)
+2024/12/10 20:46:34 PCB : 5 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:34 Instrucción solicitada de PID: 5, TID: 0, PC: 6
+2024/12/10 20:46:34 ## Obtener instrucción - (PID:TID) - (5:0) - Instrucción: PROCESS_EXIT
+2024/12/10 20:46:34 PID: 5 TID: 0 - FETCH - Program Counter: 6
+2024/12/10 20:46:34 Instrucción decodificada: INSTUCCIÓN = PROCESS_EXIT, PARÁMETROS = []
+2024/12/10 20:46:34 ## TID: 0 - Ejecutando: PROCESS_EXIT - Parámetros: []
+2024/12/10 20:46:34 Finalizando proceso PID: 5
+2024/12/10 20:46:34 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:34 ## Se registra la interrupcion
+2024/12/10 20:46:34 ## Contexto Actualizado - (PID:TID) - (5:0)
+2024/12/10 20:46:34 ## (<PID:5>:<TID:0>) - Solicitó syscall: <PROCESS_EXIT> ##
+2024/12/10 20:46:34  ## (<PID: 5>:<TID: 0>) finaliza el hilo - Estado: EXIT ##
+2024/12/10 20:46:34 ## Hilo Destruido - (PID:TID) - (5:0)
+2024/12/10 20:46:34  ## (<PID: 5>) finaliza el Proceso - Estado: EXIT ##
+2024/12/10 20:46:34 ## Entro a terminate - PID: 5 
+2024/12/10 20:46:34 ## Encuentro particion - PID: 5 - num: 4
+2024/12/10 20:46:34 ## Proceso Destruido - PID: 5 - Tamaño: 16
+2024/12/10 20:46:34  ## (<PID>:9) Se crea el proceso - Estado: NEW ##
+2024/12/10 20:46:35 ## Proceso Creado - PID: 9 - Tamaño: 8
+2024/12/10 20:46:35 ## Hilo Creado - (PID:TID) - (9:0)
+2024/12/10 20:46:35 ## (<PID 9>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:35 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 7
+2024/12/10 20:46:35 ## (<PID 8>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:35 PCB : 8 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:35 ## Contexto <Solicitado> - (PID:TID) - (8:0)
+2024/12/10 20:46:35 PCB : 8 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:35 Instrucción solicitada de PID: 8, TID: 0, PC: 2
+2024/12/10 20:46:35 ## Obtener instrucción - (PID:TID) - (8:0) - Instrucción: WRITE_MEM DX AX
+2024/12/10 20:46:35 PID: 8 TID: 0 - FETCH - Program Counter: 2
+2024/12/10 20:46:35 Instrucción decodificada: INSTUCCIÓN = WRITE_MEM, PARÁMETROS = [DX AX]
+2024/12/10 20:46:35 ## TID: 0 - Ejecutando: WRITE_MEM - Parámetros: [DX AX]
+2024/12/10 20:46:35 ## TID: <0> - Accion: <ESCRIBIR> - Direccion Fisica: <112>
+2024/12/10 20:46:36 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:36 ## Se registra la interrupcion
+2024/12/10 20:46:36 ## <Escritura> - (<PID:8> : <TID:0>) - Dir. Fisica: <112> - Tamanio <4>
+2024/12/10 20:46:36 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 3
+2024/12/10 20:46:36 ## Contexto Actualizado - (PID:TID) - (8:0)
+2024/12/10 20:46:36 ## (<PID:8>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:46:36 ## (<PID 8>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:36 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:46:36 FINALIZA EJECUCION POR INTERRUPCION DE PID : 8 y TID : 0 
+2024/12/10 20:46:36 ## (<PID 9>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:36 PCB : 9 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:36 ## Contexto <Solicitado> - (PID:TID) - (9:0)
+2024/12/10 20:46:36 PCB : 9 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:36 Instrucción solicitada de PID: 9, TID: 0, PC: 0
+2024/12/10 20:46:36 ## Obtener instrucción - (PID:TID) - (9:0) - Instrucción: SET DX 0
+2024/12/10 20:46:36 PID: 9 TID: 0 - FETCH - Program Counter: 0
+2024/12/10 20:46:36 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [DX 0]
+2024/12/10 20:46:36 ## TID: 0 - Ejecutando: SET - Parámetros: [DX 0]
+2024/12/10 20:46:36 AX: 0, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 1
+2024/12/10 20:46:36 Instrucción solicitada de PID: 9, TID: 0, PC: 1
+2024/12/10 20:46:36 ## (<PID 1>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:36 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:36 ## Se registra la interrupcion
+2024/12/10 20:46:37 ## Obtener instrucción - (PID:TID) - (9:0) - Instrucción: SET AX 64
+2024/12/10 20:46:37 PID: 9 TID: 0 - FETCH - Program Counter: 1
+2024/12/10 20:46:37 Instrucción decodificada: INSTUCCIÓN = SET, PARÁMETROS = [AX 64]
+2024/12/10 20:46:37 ## TID: 0 - Ejecutando: SET - Parámetros: [AX 64]
+2024/12/10 20:46:37 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 2
+2024/12/10 20:46:37 ## Contexto Actualizado - (PID:TID) - (9:0)
+2024/12/10 20:46:37 ## (<PID:9>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:46:37 ## (<PID 9>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:37 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:46:37 FINALIZA EJECUCION POR INTERRUPCION DE PID : 9 y TID : 0 
+2024/12/10 20:46:37 ## (<PID 8>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:37 PCB : 8 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:37 ## Contexto <Solicitado> - (PID:TID) - (8:0)
+2024/12/10 20:46:37 PCB : 8 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:37 Instrucción solicitada de PID: 8, TID: 0, PC: 3
+2024/12/10 20:46:37 ## Obtener instrucción - (PID:TID) - (8:0) - Instrucción: READ_MEM BX DX
+2024/12/10 20:46:37 PID: 8 TID: 0 - FETCH - Program Counter: 3
+2024/12/10 20:46:37 Instrucción decodificada: INSTUCCIÓN = READ_MEM, PARÁMETROS = [BX DX]
+2024/12/10 20:46:37 ## TID: 0 - Ejecutando: READ_MEM - Parámetros: [BX DX]
+2024/12/10 20:46:37 ## TID: <0> - Accion: <LEER> - Direccion Fisica: <112>
+2024/12/10 20:46:37 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:37 ## Se registra la interrupcion
+2024/12/10 20:46:37 ## <Lectura> - (<PID:8> : <TID:0>) - Dir. Fisica: <112> - Tamanio <4>
+2024/12/10 20:46:37 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 4
+2024/12/10 20:46:38 ## Contexto Actualizado - (PID:TID) - (8:0)
+2024/12/10 20:46:38 ## (<PID:8>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:46:38 ## (<PID 8>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:38 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:46:38 FINALIZA EJECUCION POR INTERRUPCION DE PID : 8 y TID : 0 
+2024/12/10 20:46:38 ## (<PID 1>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:38 PCB : 1 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:38 ## Contexto <Solicitado> - (PID:TID) - (1:0)
+2024/12/10 20:46:38 PCB : 1 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:38 Instrucción solicitada de PID: 1, TID: 0, PC: 14
+2024/12/10 20:46:38 ## Obtener instrucción - (PID:TID) - (1:0) - Instrucción: PROCESS_EXIT
+2024/12/10 20:46:38 PID: 1 TID: 0 - FETCH - Program Counter: 14
+2024/12/10 20:46:38 Instrucción decodificada: INSTUCCIÓN = PROCESS_EXIT, PARÁMETROS = []
+2024/12/10 20:46:38 ## TID: 0 - Ejecutando: PROCESS_EXIT - Parámetros: []
+2024/12/10 20:46:38 Finalizando proceso PID: 1
+2024/12/10 20:46:38 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:38 ## Se registra la interrupcion
+2024/12/10 20:46:38 ## Contexto Actualizado - (PID:TID) - (1:0)
+2024/12/10 20:46:38 ## (<PID:1>:<TID:0>) - Solicitó syscall: <PROCESS_EXIT> ##
+2024/12/10 20:46:38  ## (<PID: 1>:<TID: 0>) finaliza el hilo - Estado: EXIT ##
+2024/12/10 20:46:38 ## Hilo Destruido - (PID:TID) - (1:0)
+2024/12/10 20:46:38  ## (<PID: 1>) finaliza el Proceso - Estado: EXIT ##
+2024/12/10 20:46:38 ## Entro a terminate - PID: 1 
+2024/12/10 20:46:38 ## Encuentro particion - PID: 1 - num: 0
+2024/12/10 20:46:38 ## Proceso Destruido - PID: 1 - Tamaño: 32
+2024/12/10 20:46:38 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 15
+2024/12/10 20:46:38 ## (<PID 9>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:38 PCB : 9 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:39 ## Contexto <Solicitado> - (PID:TID) - (9:0)
+2024/12/10 20:46:39 PCB : 9 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:39 Instrucción solicitada de PID: 9, TID: 0, PC: 2
+2024/12/10 20:46:39 ## Obtener instrucción - (PID:TID) - (9:0) - Instrucción: WRITE_MEM DX AX
+2024/12/10 20:46:39 PID: 9 TID: 0 - FETCH - Program Counter: 2
+2024/12/10 20:46:39 Instrucción decodificada: INSTUCCIÓN = WRITE_MEM, PARÁMETROS = [DX AX]
+2024/12/10 20:46:39 ## TID: 0 - Ejecutando: WRITE_MEM - Parámetros: [DX AX]
+2024/12/10 20:46:39 ## TID: <0> - Accion: <ESCRIBIR> - Direccion Fisica: <240>
+2024/12/10 20:46:39 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:39 ## Se registra la interrupcion
+2024/12/10 20:46:39 ## <Escritura> - (<PID:9> : <TID:0>) - Dir. Fisica: <240> - Tamanio <4>
+2024/12/10 20:46:39 AX: 64, BX: 0, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 3
+2024/12/10 20:46:39 ## Contexto Actualizado - (PID:TID) - (9:0)
+2024/12/10 20:46:39 ## (<PID:9>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:46:39 ## (<PID 9>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:39 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:46:39 FINALIZA EJECUCION POR INTERRUPCION DE PID : 9 y TID : 0 
+2024/12/10 20:46:39 ## (<PID 8>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:39 PCB : 8 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:39 ## Contexto <Solicitado> - (PID:TID) - (8:0)
+2024/12/10 20:46:39 PCB : 8 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:39 Instrucción solicitada de PID: 8, TID: 0, PC: 4
+2024/12/10 20:46:40 ## Obtener instrucción - (PID:TID) - (8:0) - Instrucción: LOG BX
+2024/12/10 20:46:40 PID: 8 TID: 0 - FETCH - Program Counter: 4
+2024/12/10 20:46:40 Instrucción decodificada: INSTUCCIÓN = LOG, PARÁMETROS = [BX]
+2024/12/10 20:46:40 ## TID: 0 - Ejecutando: LOG - Parámetros: [BX]
+2024/12/10 20:46:40 El valor del registro BX es 64
+2024/12/10 20:46:40 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 5
+2024/12/10 20:46:40 Instrucción solicitada de PID: 8, TID: 0, PC: 5
+2024/12/10 20:46:40 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:40 ## Se registra la interrupcion
+2024/12/10 20:46:40 ## Obtener instrucción - (PID:TID) - (8:0) - Instrucción: IO 120000
+2024/12/10 20:46:40 PID: 8 TID: 0 - FETCH - Program Counter: 5
+2024/12/10 20:46:40 Instrucción decodificada: INSTUCCIÓN = IO, PARÁMETROS = [120000]
+2024/12/10 20:46:40 ## TID: 0 - Ejecutando: IO - Parámetros: [120000]
+2024/12/10 20:46:40 ## Contexto Actualizado - (PID:TID) - (8:0)
+2024/12/10 20:46:40 ## (<PID:8>:<TID:0>) - Solicitó syscall: <IO> ##
+2024/12/10 20:46:40 (<PID: 8 >:<TID: 0 >) - Bloqueado por: IO
+2024/12/10 20:46:40 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 6
+2024/12/10 20:46:40 ## (<PID 9>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:40 PCB : 9 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:40 ## Contexto <Solicitado> - (PID:TID) - (9:0)
+2024/12/10 20:46:40 PCB : 9 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:40 Instrucción solicitada de PID: 9, TID: 0, PC: 3
+2024/12/10 20:46:40 ## Obtener instrucción - (PID:TID) - (9:0) - Instrucción: READ_MEM BX DX
+2024/12/10 20:46:40 PID: 9 TID: 0 - FETCH - Program Counter: 3
+2024/12/10 20:46:40 Instrucción decodificada: INSTUCCIÓN = READ_MEM, PARÁMETROS = [BX DX]
+2024/12/10 20:46:40 ## TID: 0 - Ejecutando: READ_MEM - Parámetros: [BX DX]
+2024/12/10 20:46:40 ## TID: <0> - Accion: <LEER> - Direccion Fisica: <240>
+2024/12/10 20:46:40 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:40 ## Se registra la interrupcion
+2024/12/10 20:46:41 ## <Lectura> - (<PID:9> : <TID:0>) - Dir. Fisica: <240> - Tamanio <4>
+2024/12/10 20:46:41 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 4
+2024/12/10 20:46:41 ## Contexto Actualizado - (PID:TID) - (9:0)
+2024/12/10 20:46:41 ## (<PID:9>:<TID:0>) - Desalojado por: Quantum ##
+2024/12/10 20:46:41 ## (<PID 9>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:46:41 ## TID: <0> - Actualizo Contexto Ejecución
+2024/12/10 20:46:41 FINALIZA EJECUCION POR INTERRUPCION DE PID : 9 y TID : 0 
+2024/12/10 20:46:41 ## (<PID 9>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:46:41 PCB : 9 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:46:41 ## Contexto <Solicitado> - (PID:TID) - (9:0)
+2024/12/10 20:46:41 PCB : 9 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:46:41 Entra a evaluar HILO ANTERIOR
+2024/12/10 20:46:41 Instrucción solicitada de PID: 9, TID: 0, PC: 4
+2024/12/10 20:46:41 ## Obtener instrucción - (PID:TID) - (9:0) - Instrucción: LOG BX
+2024/12/10 20:46:41 PID: 9 TID: 0 - FETCH - Program Counter: 4
+2024/12/10 20:46:41 Instrucción decodificada: INSTUCCIÓN = LOG, PARÁMETROS = [BX]
+2024/12/10 20:46:41 ## TID: 0 - Ejecutando: LOG - Parámetros: [BX]
+2024/12/10 20:46:41 El valor del registro BX es 64
+2024/12/10 20:46:41 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 5
+2024/12/10 20:46:41 Instrucción solicitada de PID: 9, TID: 0, PC: 5
+2024/12/10 20:46:41 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:46:41 ## Se registra la interrupcion
+2024/12/10 20:46:41 ## Obtener instrucción - (PID:TID) - (9:0) - Instrucción: IO 120000
+2024/12/10 20:46:41 PID: 9 TID: 0 - FETCH - Program Counter: 5
+2024/12/10 20:46:41 Instrucción decodificada: INSTUCCIÓN = IO, PARÁMETROS = [120000]
+2024/12/10 20:46:41 ## TID: 0 - Ejecutando: IO - Parámetros: [120000]
+2024/12/10 20:46:42 ## Contexto Actualizado - (PID:TID) - (9:0)
+2024/12/10 20:46:42 ## (<PID:9>:<TID:0>) - Solicitó syscall: <IO> ##
+2024/12/10 20:46:42 (<PID: 9 >:<TID: 0 >) - Bloqueado por: IO
+2024/12/10 20:46:42 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 6
+2024/12/10 20:48:26 ## (<PID 6>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:48:26 ## (<PID 6>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:48:26 PCB : 6 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:48:26 ## Contexto <Solicitado> - (PID:TID) - (6:0)
+2024/12/10 20:48:26 PCB : 6 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:48:26 Instrucción solicitada de PID: 6, TID: 0, PC: 6
+2024/12/10 20:48:27 ## Obtener instrucción - (PID:TID) - (6:0) - Instrucción: PROCESS_EXIT
+2024/12/10 20:48:27 PID: 6 TID: 0 - FETCH - Program Counter: 6
+2024/12/10 20:48:27 Instrucción decodificada: INSTUCCIÓN = PROCESS_EXIT, PARÁMETROS = []
+2024/12/10 20:48:27 ## TID: 0 - Ejecutando: PROCESS_EXIT - Parámetros: []
+2024/12/10 20:48:27 Finalizando proceso PID: 6
+2024/12/10 20:48:27 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:48:27 ## Se registra la interrupcion
+2024/12/10 20:48:27 ## Contexto Actualizado - (PID:TID) - (6:0)
+2024/12/10 20:48:27 ## (<PID:6>:<TID:0>) - Solicitó syscall: <PROCESS_EXIT> ##
+2024/12/10 20:48:27  ## (<PID: 6>:<TID: 0>) finaliza el hilo - Estado: EXIT ##
+2024/12/10 20:48:27 ## Hilo Destruido - (PID:TID) - (6:0)
+2024/12/10 20:48:27  ## (<PID: 6>) finaliza el Proceso - Estado: EXIT ##
+2024/12/10 20:48:27 ## Entro a terminate - PID: 6 
+2024/12/10 20:48:27 ## Encuentro particion - PID: 6 - num: 1
+2024/12/10 20:48:27 ## Proceso Destruido - PID: 6 - Tamaño: 16
+2024/12/10 20:48:27 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 7
+2024/12/10 20:48:34 ## (<PID 7>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:48:34 ## (<PID 7>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:48:34 PCB : 7 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:48:34 ## Contexto <Solicitado> - (PID:TID) - (7:0)
+2024/12/10 20:48:34 PCB : 7 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:48:34 Instrucción solicitada de PID: 7, TID: 0, PC: 6
+2024/12/10 20:48:34 ## Obtener instrucción - (PID:TID) - (7:0) - Instrucción: PROCESS_EXIT
+2024/12/10 20:48:34 PID: 7 TID: 0 - FETCH - Program Counter: 6
+2024/12/10 20:48:34 Instrucción decodificada: INSTUCCIÓN = PROCESS_EXIT, PARÁMETROS = []
+2024/12/10 20:48:34 ## TID: 0 - Ejecutando: PROCESS_EXIT - Parámetros: []
+2024/12/10 20:48:34 Finalizando proceso PID: 7
+2024/12/10 20:48:34 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:48:34 ## Se registra la interrupcion
+2024/12/10 20:48:34 ## Contexto Actualizado - (PID:TID) - (7:0)
+2024/12/10 20:48:34 ## (<PID:7>:<TID:0>) - Solicitó syscall: <PROCESS_EXIT> ##
+2024/12/10 20:48:34  ## (<PID: 7>:<TID: 0>) finaliza el hilo - Estado: EXIT ##
+2024/12/10 20:48:34 ## Hilo Destruido - (PID:TID) - (7:0)
+2024/12/10 20:48:34  ## (<PID: 7>) finaliza el Proceso - Estado: EXIT ##
+2024/12/10 20:48:34 ## Entro a terminate - PID: 7 
+2024/12/10 20:48:34 ## Encuentro particion - PID: 7 - num: 2
+2024/12/10 20:48:34 ## Proceso Destruido - PID: 7 - Tamaño: 64
+2024/12/10 20:48:34 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 7
+2024/12/10 20:48:40 ## (<PID 8>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:48:40 ## (<PID 8>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:48:40 PCB : 8 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:48:40 ## Contexto <Solicitado> - (PID:TID) - (8:0)
+2024/12/10 20:48:40 PCB : 8 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:48:40 Instrucción solicitada de PID: 8, TID: 0, PC: 6
+2024/12/10 20:48:40 ## Obtener instrucción - (PID:TID) - (8:0) - Instrucción: PROCESS_EXIT
+2024/12/10 20:48:40 PID: 8 TID: 0 - FETCH - Program Counter: 6
+2024/12/10 20:48:40 Instrucción decodificada: INSTUCCIÓN = PROCESS_EXIT, PARÁMETROS = []
+2024/12/10 20:48:40 ## TID: 0 - Ejecutando: PROCESS_EXIT - Parámetros: []
+2024/12/10 20:48:40 Finalizando proceso PID: 8
+2024/12/10 20:48:40 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:48:40 ## Se registra la interrupcion
+2024/12/10 20:48:41 ## Contexto Actualizado - (PID:TID) - (8:0)
+2024/12/10 20:48:41 ## (<PID:8>:<TID:0>) - Solicitó syscall: <PROCESS_EXIT> ##
+2024/12/10 20:48:41  ## (<PID: 8>:<TID: 0>) finaliza el hilo - Estado: EXIT ##
+2024/12/10 20:48:41 ## Hilo Destruido - (PID:TID) - (8:0)
+2024/12/10 20:48:41  ## (<PID: 8>) finaliza el Proceso - Estado: EXIT ##
+2024/12/10 20:48:41 ## Entro a terminate - PID: 8 
+2024/12/10 20:48:41 ## Encuentro particion - PID: 8 - num: 3
+2024/12/10 20:48:41 ## Proceso Destruido - PID: 8 - Tamaño: 128
+2024/12/10 20:48:41 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 7
+2024/12/10 20:48:42 ## (<PID 9>:<TID 0>) Se ejecuta el Hilo - Estado: EXEC
+2024/12/10 20:48:42 ## (<PID 9>:<TID 0>) Se encola el Hilo - Estado: READY
+2024/12/10 20:48:42 PCB : 9 TID : 0 - Solicita Contexto de Ejecucion
+2024/12/10 20:48:42 ## Contexto <Solicitado> - (PID:TID) - (9:0)
+2024/12/10 20:48:42 PCB : 9 TID : 0 - Solicitud Contexto de Ejecucion Exitosa
+2024/12/10 20:48:42 Instrucción solicitada de PID: 9, TID: 0, PC: 6
+2024/12/10 20:48:42 ## Obtener instrucción - (PID:TID) - (9:0) - Instrucción: PROCESS_EXIT
+2024/12/10 20:48:42 PID: 9 TID: 0 - FETCH - Program Counter: 6
+2024/12/10 20:48:42 Instrucción decodificada: INSTUCCIÓN = PROCESS_EXIT, PARÁMETROS = []
+2024/12/10 20:48:42 ## TID: 0 - Ejecutando: PROCESS_EXIT - Parámetros: []
+2024/12/10 20:48:42 Finalizando proceso PID: 9
+2024/12/10 20:48:42 ## Llega interrupcion al puerto Interrupt
+2024/12/10 20:48:42 ## Se registra la interrupcion
+2024/12/10 20:48:42 ## Contexto Actualizado - (PID:TID) - (9:0)
+2024/12/10 20:48:42 ## (<PID:9>:<TID:0>) - Solicitó syscall: <PROCESS_EXIT> ##
+2024/12/10 20:48:42  ## (<PID: 9>:<TID: 0>) finaliza el hilo - Estado: EXIT ##
+2024/12/10 20:48:42 ## Hilo Destruido - (PID:TID) - (9:0)
+2024/12/10 20:48:42  ## (<PID: 9>) finaliza el Proceso - Estado: EXIT ##
+2024/12/10 20:48:42 ## Entro a terminate - PID: 9 
+2024/12/10 20:48:42 ## Encuentro particion - PID: 9 - num: 4
+2024/12/10 20:48:42 ## Proceso Destruido - PID: 9 - Tamaño: 16
+2024/12/10 20:48:42 AX: 64, BX: 64, CX: 0, DX: 0, EX: 0, FX: 0, GX: 0, HX: 0, PC: 7
+2024/12/10 20:48:42 ## No hay mas procesos Inicializados, se pausa la planificacion ##
